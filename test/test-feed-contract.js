@@ -35,7 +35,7 @@ if (!existsSync(join(PUBLIC, 'manifest.json'))) {
 const manifest = JSON.parse(readFileSync(join(PUBLIC, 'manifest.json'), 'utf8'));
 
 /* ---- manifest: every field src/feed.ts reads ---- */
-for (const field of ['version', 'generatedAt', 'region', 'trackingSince', 'imageBase', 'posterSize', 'languages']) {
+for (const field of ['version', 'buildId', 'generatedAt', 'region', 'trackingSince', 'imageBase', 'posterSize', 'languages']) {
   check(`manifest has ${field}`, manifest[field] !== undefined);
 }
 check('manifest version is an ISO date', /^\d{4}-\d{2}-\d{2}$/.test(manifest.version), manifest.version);
@@ -63,10 +63,13 @@ let checkedTitles = 0;
 for (const lang of manifest.languages) {
   const payload = JSON.parse(readFileSync(join(PUBLIC, lang.path), 'utf8'));
 
-  for (const field of ['version', 'language', 'languageName', 'trackingSince', 'providers', 'titles']) {
+  for (const field of ['version', 'buildId', 'language', 'languageName', 'trackingSince', 'providers', 'titles']) {
     check(`${lang.code}.json has ${field}`, payload[field] !== undefined);
   }
   check(`${lang.code} version matches the manifest`, payload.version === manifest.version);
+  // The cache-busting field. If these ever drift, the app downloads a language
+  // file and immediately considers it stale, re-downloading on every launch.
+  check(`${lang.code} buildId matches the manifest`, payload.buildId === manifest.buildId);
   check(`${lang.code} code matches the manifest`, payload.language === lang.code);
   check(`${lang.code} title count matches the manifest`, payload.titles.length === lang.titles);
 

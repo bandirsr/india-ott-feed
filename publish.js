@@ -76,6 +76,9 @@ function main() {
   const latestDate = dates[dates.length - 1];
   const latest = load(latestDate);
 
+  /** One timestamp for the whole publish, so manifest and payloads agree. */
+  const builtAt = new Date().toISOString();
+
   // Arrival dates come from the ledger, which is the only thing that outlives
   // a run. A pair it has never recorded has no knowable date and gets null
   // rather than a guess — the app then shows "on aha" with no date, which is
@@ -189,6 +192,7 @@ function main() {
 
     const payload = {
       version: latestDate,
+      buildId: builtAt,
       language: lang.code,
       languageName: lang.name,
       // How far back arrival dates are actually known. The app uses this to say
@@ -217,10 +221,18 @@ function main() {
   }
 
   const manifest = {
-    // The app compares this to what it cached. Snapshot date doubles as the
-    // version because there is exactly one publish per day.
+    // What the data is AS OF. Human-meaningful, and the same across every
+    // publish made from one day's sweep.
     version: latestDate,
-    generatedAt: new Date().toISOString(),
+    // What the app actually compares against its cache.
+    //
+    // `version` alone was used for this and it was wrong: two publishes on the
+    // same day produce the same date, so the app decided it was already current
+    // and kept serving stale data. That is invisible in normal daily operation
+    // and bites on exactly the occasions that matter -- a manual re-run, or a
+    // fix pushed the same afternoon.
+    buildId: builtAt,
+    generatedAt: builtAt,
     region: 'IN',
     trackingSince: ledger.startedOn,
     snapshots: dates.length,
