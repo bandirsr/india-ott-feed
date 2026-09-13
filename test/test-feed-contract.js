@@ -104,6 +104,15 @@ for (const lang of manifest.languages) {
     // slash would produce a 404 on every poster.
     check(`${lang.code} poster path starts with /`, title.i === null || title.i.startsWith('/'), String(title.i));
 
+    // Set only when the title was surfaced from another language by a
+    // single-language platform. Must never equal the list it appears in, or the
+    // app would print "Telugu" on a Telugu film.
+    check(
+      `${lang.code} origin language is a code and not the list itself`,
+      title.ol === undefined || title.ol === null || (/^[a-z]{2}$/.test(title.ol) && title.ol !== lang.code),
+      String(title.ol)
+    );
+
     check(`${lang.code} platform list is a non-empty array`, Array.isArray(title.p) && title.p.length > 0);
     for (const entry of title.p) {
       check(`${lang.code} platform entry has a numeric id`, typeof entry.id === 'number');

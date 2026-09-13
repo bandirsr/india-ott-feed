@@ -106,9 +106,7 @@ function main() {
   const byLanguage = new Map(LANGUAGES.map((l) => [l.code, []]));
 
   for (const [key, rec] of Object.entries(latest.titles)) {
-    const bucket = byLanguage.get(rec.l);
-    if (!bucket) continue;
-    bucket.push({
+    const entry = {
       id: key,
       t: rec.t,
       d: rec.d, // theatrical / first-air date
@@ -118,7 +116,19 @@ function main() {
       // still from it, so one short string carries both.
       y: trailers[key]?.key ?? null,
       p: rec.p.map((pid) => ({ id: pid, on: arrivalDate(ledger, key, pid) })),
-    });
+    };
+
+    // A title appears under its own language AND under any language a
+    // single-language platform implies. A Tamil film on aha is listed for a
+    // Telugu viewer, tagged `ol: 'ta'` so the app can say where it came from
+    // rather than passing it off as a Telugu original.
+    const buckets = new Set([rec.l, ...(rec.also ?? [])]);
+    for (const code of buckets) {
+      const bucket = byLanguage.get(code);
+      if (!bucket) continue;
+      const ol = rec.ol ?? (code !== rec.l ? rec.l : null);
+      bucket.push(ol ? { ...entry, ol } : entry);
+    }
   }
 
   // --- fold in the platforms TMDB cannot see -----------------------------

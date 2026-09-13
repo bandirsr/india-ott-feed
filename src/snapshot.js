@@ -118,6 +118,34 @@ export async function resolveProviders(region = 'IN') {
   return { providers: [...chosen.values()], missing, liveCount: live.size };
 }
 
+/**
+ * Platforms that exist to serve one language, and which language that is.
+ *
+ * Sweeping only by TMDB's `original_language` hides a third of what these
+ * platforms carry. aha holds 198 films; 126 are Telugu originals and the other
+ * 72 are Tamil, Malayalam and Kannada films sitting on a Telugu service — which
+ * is exactly what aha is for. Filed by original language, none of those 72 ever
+ * appeared when a Telugu viewer tapped "Telugu", even though aha is the most
+ * Telugu thing in the app.
+ *
+ * So for these platforms the question changes from "what was made in Telugu" to
+ * "what can I watch in Telugu", which is the question people are actually
+ * asking. Titles found this way keep their real original language in `ol`, and
+ * the app labels them, so nothing is passed off as something it is not.
+ *
+ * Deliberately NOT Sun NXT, Netflix, Prime or JioHotstar: those are genuinely
+ * multi-language, and a Tamil film on Sun NXT carries no implication that a
+ * Telugu track exists.
+ */
+export const PLATFORM_LANGUAGE = {
+  aha: 'te',
+  'ETV Win': 'te',
+  Hoichoi: 'bn',
+  ManoramaMax: 'ml',
+  'ManoramaMAX Amazon Channel': 'ml',
+  'Hoichoi Amazon Channel': 'bn',
+};
+
 const MAX_PAGES = 60; // 1,200 titles per provider per language per kind
 
 /**
@@ -126,13 +154,17 @@ const MAX_PAGES = 60; // 1,200 titles per provider per language per kind
  * the same two concepts.
  */
 async function sweep(kind, languageCode, providerId) {
+  // A null languageCode means "every language on this platform" -- the pass
+  // that finds dubbed titles. TMDB omits the filter entirely when the param
+  // is undefined.
+
   const out = [];
   let page = 1;
   let totalPages = 1;
 
   while (page <= Math.min(totalPages, MAX_PAGES)) {
     const json = await rawCall(`/discover/${kind}`, {
-      with_original_language: languageCode,
+      with_original_language: languageCode ?? undefined,
       watch_region: 'IN',
       with_watch_providers: providerId,
       sort_by: kind === 'movie' ? 'primary_release_date.desc' : 'first_air_date.desc',
@@ -146,6 +178,7 @@ async function sweep(kind, languageCode, providerId) {
         title: kind === 'movie' ? r.title : r.name,
         date: (kind === 'movie' ? r.release_date : r.first_air_date) || null,
         poster: r.poster_path || null,
+        original: r.original_language || null,
       });
     }
     page += 1;
@@ -185,12 +218,53 @@ export async function take({ languages = LANGUAGES, providers, kinds = ['movie',
     }
   }
 
+  // --- second pass: single-language platforms, every original language -----
+  //
+  // A title already found above keeps its own `l`; this only adds the extra
+  // language it should ALSO appear under, in `also`. Keeping `l` untouched
+  // matters because the ledger is keyed on the title, not the language — a
+  // film must not change identity between runs.
+  let dubbed = 0;
+
+  for (const prov of resolved) {
+    const langCode = PLATFORM_LANGUAGE[prov.name];
+    if (!langCode) continue;
+
+    for (const kind of kinds) {
+      const found = await sweep(kind, null, prov.id);
+      sweeps += 1;
+
+      for (const f of found) {
+        const key = `${kind}:${f.id}`;
+
+        if (!titles[key]) {
+          titles[key] = { t: f.title, l: langCode, d: f.date, i: f.poster, p: [] };
+          if (f.original && f.original !== langCode) {
+            titles[key].ol = f.original;
+            dubbed += 1;
+          }
+        } else if (titles[key].l !== langCode) {
+          const also = titles[key].also ?? [];
+          if (!also.includes(langCode)) {
+            also.push(langCode);
+            titles[key].also = also;
+            dubbed += 1;
+          }
+        }
+
+        if (!titles[key].p.includes(prov.id)) titles[key].p.push(prov.id);
+      }
+
+      onProgress?.({ language: `${langCode} (all originals)`, kind, provider: prov.name, found: found.length });
+    }
+  }
+
   // Names travel WITH the snapshot. Reading them from a module constant at
   // publish time is what let a stale id print the wrong platform name.
   const providerNames = {};
   for (const p of resolved) providerNames[p.id] = p.name;
 
-  return { date: today(), region: 'IN', takenAt: new Date().toISOString(), sweeps, providers: providerNames, titles };
+  return { date: today(), region: 'IN', takenAt: new Date().toISOString(), sweeps, dubbed, providers: providerNames, titles };
 }
 
 export function save(snapshot) {
