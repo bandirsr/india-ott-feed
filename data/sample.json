@@ -1,0 +1,1142 @@
+{
+  "generatedAt": "2026-09-12T19:52:13.257Z",
+  "films": [
+    {
+      "input": "Kalki 2898 AD",
+      "title": "Kalki 2898 AD",
+      "status": "ok",
+      "theatricalDate": "2024-06-27",
+      "availability": [
+        {
+          "platform": "Amazon Prime Video",
+          "language": "Kannada",
+          "date": "2024-08-22",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 3,
+          "conflictingDates": [],
+          "evidence": [
+            "It premiered on Amazon Prime Video on 22 August 2024 in Telugu along with the Tamil, Malayalam and Kannada dubbed versions, while the Hindi dubbed version was released simultaneously on Netflix."
+          ]
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "language": "Malayalam",
+          "date": "2024-08-22",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 3,
+          "conflictingDates": [],
+          "evidence": [
+            "It premiered on Amazon Prime Video on 22 August 2024 in Telugu along with the Tamil, Malayalam and Kannada dubbed versions, while the Hindi dubbed version was released simultaneously on Netflix."
+          ]
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "language": "Tamil",
+          "date": "2024-08-22",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 3,
+          "conflictingDates": [],
+          "evidence": [
+            "It premiered on Amazon Prime Video on 22 August 2024 in Telugu along with the Tamil, Malayalam and Kannada dubbed versions, while the Hindi dubbed version was released simultaneously on Netflix."
+          ]
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "language": "Telugu",
+          "date": "2024-08-22",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 3,
+          "conflictingDates": [],
+          "evidence": [
+            "It premiered on Amazon Prime Video on 22 August 2024 in Telugu along with the Tamil, Malayalam and Kannada dubbed versions, while the Hindi dubbed version was released simultaneously on Netflix."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Hindi",
+          "date": "2024-08-22",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "It premiered on Amazon Prime Video on 22 August 2024 in Telugu along with the Tamil, Malayalam and Kannada dubbed versions, while the Hindi dubbed version was released simultaneously on Netflix."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q112430183",
+        "directors": [
+          "Nag Ashwin"
+        ],
+        "producers": [
+          "Aswani Dutt"
+        ],
+        "cast": [
+          "Amitabh Bachchan",
+          "Deepika Padukone",
+          "Kamal Haasan",
+          "Dulquer Salmaan",
+          "Prabhas",
+          "Shobana",
+          "Brahmanandam",
+          "Rajendra Prasad",
+          "Pasupathy",
+          "Saswata Chatterjee",
+          "Srinivas Avasarala",
+          "Krishnakumar Balasubramanian",
+          "Mrunal Thakur",
+          "Santhosh Narayanan",
+          "Keerthy Suresh",
+          "Malavika Nair",
+          "Vijay Deverakonda",
+          "Disha Patani",
+          "Anna Ben",
+          "Anudeep K. V.",
+          "Faria Abdullah",
+          "Djordje Stojiljkovic"
+        ],
+        "productionCompanies": [
+          "Vyjayanthi Movies"
+        ],
+        "music": [
+          "Santhosh Narayanan"
+        ]
+      },
+      "trailer": {
+        "status": "ok",
+        "videoId": "aninoDcPWo4",
+        "title": "Kalki 2898 AD (HINDI) | Official Trailer | Prabhas, Deepika P, Kamal Haasan, Amitabh Bachchan",
+        "channelTitle": "Netflix India",
+        "channelId": "UCZSNzBgFub_WWil6TOTYwAg",
+        "publishedAt": "2024-08-17T11:30:00Z",
+        "score": 74,
+        "watchUrl": "https://www.youtube.com/watch?v=aninoDcPWo4",
+        "embedUrl": "https://www.youtube.com/embed/aninoDcPWo4",
+        "thumbnail": "https://i.ytimg.com/vi/aninoDcPWo4/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/aninoDcPWo4/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/aninoDcPWo4/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "Kalki 2898 AD Trailer - Telugu | Prabhas | Amitabh Bachchan | Kamal Haasan | Deepika | Nag Ashwin",
+          "score": 46
+        },
+        "via": "api-search"
+      },
+      "citationCount": 347,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)",
+        "youtube.com (Data API v3)"
+      ],
+      "fetchedAt": "2026-09-12T19:51:46.816Z"
+    },
+    {
+      "input": "Devara: Part 1",
+      "title": "Devara: Part 1",
+      "status": "ok",
+      "theatricalDate": "2024-09-27",
+      "availability": [
+        {
+          "platform": "Netflix",
+          "language": "Kannada",
+          "date": "2024-11-08",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film began streaming on Netflix from 8 November 2024 in Telugu and dubbed versions of Tamil, Malayalam and Kannada languages."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Malayalam",
+          "date": "2024-11-08",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film began streaming on Netflix from 8 November 2024 in Telugu and dubbed versions of Tamil, Malayalam and Kannada languages."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Tamil",
+          "date": "2024-11-08",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film began streaming on Netflix from 8 November 2024 in Telugu and dubbed versions of Tamil, Malayalam and Kannada languages."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Telugu",
+          "date": "2024-11-08",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film began streaming on Netflix from 8 November 2024 in Telugu and dubbed versions of Tamil, Malayalam and Kannada languages."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q118502010",
+        "directors": [
+          "Koratala Siva"
+        ],
+        "producers": [],
+        "cast": [
+          "Saif Ali Khan",
+          "Prakash Raj",
+          "N. T. Rama Rao Jr.",
+          "Narain",
+          "Zarina Wahab",
+          "Abhimanyu Singh",
+          "Ajay",
+          "Srikanth",
+          "Murali Sharma",
+          "Shruti Marathe",
+          "Talluri Rameshwari",
+          "Zakir Hussain",
+          "Kalaiyarasan",
+          "Shine Tom Chacko",
+          "Sudev Nair",
+          "Janhvi Kapoor",
+          "Himaja",
+          "Hari Teja",
+          "Shanoor Sana",
+          "Mani Chandana",
+          "Getup Srinu"
+        ],
+        "productionCompanies": [
+          "N.T.R. Arts"
+        ],
+        "music": [
+          "Anirudh Ravichander"
+        ]
+      },
+      "trailer": {
+        "status": "ok",
+        "via": "keyless",
+        "videoId": "HNYA6bqL6bU",
+        "title": "Devara Release Trailer (Telugu) | NTR | Saif Ali Khan | Janhvi | Koratala Siva | Anirudh | Sep 27",
+        "channelTitle": "NTR Arts",
+        "channelUrl": "https://www.youtube.com/@NTRARTSOFFICIAL",
+        "score": 38,
+        "watchUrl": "https://www.youtube.com/watch?v=HNYA6bqL6bU",
+        "embedUrl": "https://www.youtube.com/embed/HNYA6bqL6bU",
+        "thumbnail": "https://i.ytimg.com/vi/HNYA6bqL6bU/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/HNYA6bqL6bU/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/HNYA6bqL6bU/maxresdefault.jpg",
+        "candidatesChecked": 2,
+        "fromCache": true
+      },
+      "citationCount": 300,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)",
+        "youtube.com (Data API v3)"
+      ],
+      "fetchedAt": "2026-09-12T19:51:47.687Z"
+    },
+    {
+      "input": "Pushpa 2: The Rule",
+      "title": "Pushpa 2: The Rule",
+      "status": "ok",
+      "theatricalDate": "2024-12-05",
+      "availability": [
+        {
+          "platform": "Netflix",
+          "language": "Hindi",
+          "date": "2025-01-30",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film's reloaded version, which included over 20 minutes of additional footage, began streaming on Netflix from 30 January 2025 in Telugu and dubbed versions of Hindi, Tamil, Malayalam and Kannada languages."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Kannada",
+          "date": "2025-01-30",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film's reloaded version, which included over 20 minutes of additional footage, began streaming on Netflix from 30 January 2025 in Telugu and dubbed versions of Hindi, Tamil, Malayalam and Kannada languages."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Malayalam",
+          "date": "2025-01-30",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film's reloaded version, which included over 20 minutes of additional footage, began streaming on Netflix from 30 January 2025 in Telugu and dubbed versions of Hindi, Tamil, Malayalam and Kannada languages."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Tamil",
+          "date": "2025-01-30",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film's reloaded version, which included over 20 minutes of additional footage, began streaming on Netflix from 30 January 2025 in Telugu and dubbed versions of Hindi, Tamil, Malayalam and Kannada languages."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Telugu",
+          "date": "2025-01-30",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film's reloaded version, which included over 20 minutes of additional footage, began streaming on Netflix from 30 January 2025 in Telugu and dubbed versions of Hindi, Tamil, Malayalam and Kannada languages."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q112083510",
+        "directors": [
+          "Sukumar"
+        ],
+        "producers": [],
+        "cast": [
+          "Allu Arjun",
+          "Adithya",
+          "Indukuri Sunil Varma",
+          "Aanchal Munjal",
+          "Ajay",
+          "Fahadh Faasil",
+          "Jagapati Babu",
+          "Rao Ramesh",
+          "Brahmaji",
+          "Aadukalam Naren",
+          "Vithaya Pansringarm",
+          "Anasuya",
+          "Dhananjay",
+          "Mime Gopi",
+          "Rashmika Mandanna",
+          "Sritej",
+          "Jagadeesh Prathap Bandhari",
+          "Satya",
+          "Sreeleela",
+          "Saurabh Sachdeva",
+          "Muralidhar Goud",
+          "Kalpa Latha"
+        ],
+        "productionCompanies": [
+          "Mythri Movie Makers"
+        ],
+        "music": []
+      },
+      "trailer": {
+        "status": "ok",
+        "via": "keyless",
+        "videoId": "g3JUbgOHgdw",
+        "title": "Pushpa 2 The Rule Trailer (Telugu) | Allu Arjun | Sukumar | Rashmika Mandanna | Fahadh Faasil | DSP",
+        "channelTitle": "Mythri Movie Makers",
+        "channelUrl": "https://www.youtube.com/@MythriMovieMakers",
+        "score": 54,
+        "watchUrl": "https://www.youtube.com/watch?v=g3JUbgOHgdw",
+        "embedUrl": "https://www.youtube.com/embed/g3JUbgOHgdw",
+        "thumbnail": "https://i.ytimg.com/vi/g3JUbgOHgdw/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/g3JUbgOHgdw/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/g3JUbgOHgdw/maxresdefault.jpg",
+        "candidatesChecked": 4,
+        "fromCache": true
+      },
+      "citationCount": 314,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)",
+        "youtube.com (Data API v3)"
+      ],
+      "fetchedAt": "2026-09-12T19:51:48.528Z"
+    },
+    {
+      "input": "Salaar: Part 1 – Ceasefire",
+      "title": "Salaar: Part 1 – Ceasefire",
+      "status": "ok",
+      "theatricalDate": "2023-12-22",
+      "availability": [
+        {
+          "platform": "Disney+ Hotstar",
+          "language": "Hindi",
+          "date": "2024-02-16",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The Hindi dubbed version premiered on Disney+ Hotstar from 16 February 2024."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Kannada",
+          "date": "2024-01-20",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film was premiered on Netflix from 20 January 2024 in Telugu and dubbed versions of Kannada, Tamil and Malayalam languages."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Malayalam",
+          "date": "2024-01-20",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film was premiered on Netflix from 20 January 2024 in Telugu and dubbed versions of Kannada, Tamil and Malayalam languages."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Tamil",
+          "date": "2024-01-20",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film was premiered on Netflix from 20 January 2024 in Telugu and dubbed versions of Kannada, Tamil and Malayalam languages."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Telugu",
+          "date": "2024-01-20",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film was premiered on Netflix from 20 January 2024 in Telugu and dubbed versions of Kannada, Tamil and Malayalam languages."
+          ]
+        }
+      ],
+      "tvPremieres": [
+        {
+          "channel": "Star Maa",
+          "date": "2024-04-21"
+        },
+        {
+          "channel": "Star Gold",
+          "date": "2024-05-25"
+        }
+      ],
+      "credits": {
+        "qid": "Q106298596",
+        "directors": [
+          "Prashanth Neel"
+        ],
+        "producers": [],
+        "cast": [
+          "Shruti Haasan",
+          "Prabhas",
+          "Prithviraj Sukumaran",
+          "Devaraj",
+          "Easwari Rao",
+          "Jagapati Babu",
+          "John Vijay",
+          "Prithviraj",
+          "Ramana",
+          "Sriya Reddy",
+          "Brahmaji",
+          "Bobby Simha",
+          "Shafi",
+          "Saptagiri",
+          "Jhansi",
+          "Panju",
+          "Mime Gopi",
+          "Jason Shah",
+          "Shamanth Shetty",
+          "Sampath Ram",
+          "Ramachandra Raju",
+          "Saurav Lokesh",
+          "Madhu Guruswamy",
+          "Naveen Shankar",
+          "Kalpa Latha"
+        ],
+        "productionCompanies": [
+          "Hombale Films"
+        ],
+        "music": [
+          "Ravi Basrur"
+        ]
+      },
+      "trailer": {
+        "status": "ok",
+        "videoId": "9Im1q4gvk1M",
+        "title": "Salaar | Official Trailer | Prabhas | Prithviraj | Shruti Haasan | 20th Jan | Netflix India",
+        "channelTitle": "Netflix India",
+        "channelId": "UCZSNzBgFub_WWil6TOTYwAg",
+        "publishedAt": "2024-01-19T04:30:00Z",
+        "score": 66,
+        "watchUrl": "https://www.youtube.com/watch?v=9Im1q4gvk1M",
+        "embedUrl": "https://www.youtube.com/embed/9Im1q4gvk1M",
+        "thumbnail": "https://i.ytimg.com/vi/9Im1q4gvk1M/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/9Im1q4gvk1M/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/9Im1q4gvk1M/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "Salaar Telugu Trailer | Prabhas | Prashanth Neel | Prithviraj|Shruthi|Hombale Films|Vijay Kiragandur",
+          "score": 48
+        },
+        "via": "api-search"
+      },
+      "citationCount": 203,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)",
+        "youtube.com (Data API v3)"
+      ],
+      "fetchedAt": "2026-09-12T19:51:52.368Z"
+    },
+    {
+      "input": "Hanu-Man",
+      "title": "Hanu-Man",
+      "status": "ok",
+      "theatricalDate": "2024-01-12",
+      "availability": [
+        {
+          "platform": "Disney+ Hotstar",
+          "language": "Kannada",
+          "date": "2024-04-05",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The Tamil, Malayalam, and Kannada versions are scheduled to premiere on 5 April 2024 on Disney+ Hotstar."
+          ]
+        },
+        {
+          "platform": "Disney+ Hotstar",
+          "language": "Malayalam",
+          "date": "2024-04-05",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The Tamil, Malayalam, and Kannada versions are scheduled to premiere on 5 April 2024 on Disney+ Hotstar."
+          ]
+        },
+        {
+          "platform": "Disney+ Hotstar",
+          "language": "Tamil",
+          "date": "2024-04-05",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The Tamil, Malayalam, and Kannada versions are scheduled to premiere on 5 April 2024 on Disney+ Hotstar."
+          ]
+        },
+        {
+          "platform": "JioCinema",
+          "language": "Hindi",
+          "date": null,
+          "dateStatus": "unknown",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The Hindi version premiered on JioCinema and Colors Cineplex."
+          ]
+        },
+        {
+          "platform": "ZEE5",
+          "language": "Unknown",
+          "date": "2024-03-16",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "=== Home media ===\nIn February 2022, it was reported that the film's digital rights were acquired by ZEE5 and Zee Network acquired the satellite rights of the film.",
+            "The film premiered on ZEE5 on 16 March 2024."
+          ]
+        }
+      ],
+      "tvPremieres": [
+        {
+          "channel": "Colors Cineplex",
+          "date": null
+        }
+      ],
+      "credits": {
+        "qid": "Q108940313",
+        "directors": [
+          "Prasanth Varma"
+        ],
+        "producers": [],
+        "cast": [
+          "Ganesh Janardhanan",
+          "Ravi Teja",
+          "Samuthirakani",
+          "Thalaivasal Vijay",
+          "Varalaxmi Sarathkumar",
+          "Vennela Kishore",
+          "Vinay Rai",
+          "Teja Sajja",
+          "Amritha Aiyer",
+          "Satya",
+          "Raj Deepak Shetty",
+          "Getup Srinu"
+        ],
+        "productionCompanies": [],
+        "music": [
+          "Anudeep Dev"
+        ]
+      },
+      "trailer": {
+        "status": "ok",
+        "videoId": "Oqvly3MvlXA",
+        "title": "HanuMan Official Trailer - Telugu | Prasanth Varma | Teja Sajja | Primeshow Entertainment",
+        "channelTitle": "PrimeShow Entertainment",
+        "channelId": "UCXRLoewrwy4_10PuoMoUBug",
+        "publishedAt": "2023-12-19T05:37:20Z",
+        "score": 76,
+        "watchUrl": "https://www.youtube.com/watch?v=Oqvly3MvlXA",
+        "embedUrl": "https://www.youtube.com/embed/Oqvly3MvlXA",
+        "thumbnail": "https://i.ytimg.com/vi/Oqvly3MvlXA/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/Oqvly3MvlXA/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/Oqvly3MvlXA/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "Hanuman Ansh | Official Trailer | Shobhinaw Satyaa | Vishal Chaturvedi | In Cinemas 31st July 2026",
+          "score": 76
+        },
+        "via": "api-search"
+      },
+      "citationCount": 268,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)",
+        "youtube.com (Data API v3)"
+      ],
+      "fetchedAt": "2026-09-12T19:51:53.477Z"
+    },
+    {
+      "input": "Guntur Kaaram",
+      "title": "Guntur Kaaram",
+      "status": "ok",
+      "theatricalDate": "2024-01-12",
+      "availability": [
+        {
+          "platform": "Netflix",
+          "language": "Hindi",
+          "date": "2024-02-09",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "=== Home media ===\nThe film digital distribution rights were acquired by Netflix and premiered from 9 February 2024 in Telugu, Tamil, Malayalam, Kannada and Hindi."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Kannada",
+          "date": "2024-02-09",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "=== Home media ===\nThe film digital distribution rights were acquired by Netflix and premiered from 9 February 2024 in Telugu, Tamil, Malayalam, Kannada and Hindi."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Malayalam",
+          "date": "2024-02-09",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "=== Home media ===\nThe film digital distribution rights were acquired by Netflix and premiered from 9 February 2024 in Telugu, Tamil, Malayalam, Kannada and Hindi."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Tamil",
+          "date": "2024-02-09",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "=== Home media ===\nThe film digital distribution rights were acquired by Netflix and premiered from 9 February 2024 in Telugu, Tamil, Malayalam, Kannada and Hindi."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Telugu",
+          "date": "2024-02-09",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "=== Home media ===\nThe film digital distribution rights were acquired by Netflix and premiered from 9 February 2024 in Telugu, Tamil, Malayalam, Kannada and Hindi."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q109701344",
+        "directors": [
+          "Trivikram Srinivas"
+        ],
+        "producers": [],
+        "cast": [
+          "Prakash Raj",
+          "Mahesh Babu",
+          "Ramya Krishnan",
+          "Shamna Kasim",
+          "Jayaram",
+          "Indukuri Sunil Varma",
+          "Ashish Vidyarthi",
+          "Brahmanandam",
+          "Ajay",
+          "Ali Haji",
+          "Easwari Rao",
+          "Jagapati Babu",
+          "Mukesh Rishi",
+          "Murali Sharma",
+          "P. Ravi Shankar",
+          "Raghu Babu",
+          "Rahul Ravindran",
+          "Rao Ramesh",
+          "Vennela Kishore",
+          "Brahmaji",
+          "Madhusudhan Rao",
+          "Meenakshi Chaudhary",
+          "Chammak Chandra",
+          "Syed Badr-ul Hasan Khan Bahadur",
+          "Ajay Ghosh",
+          "Sreeleela"
+        ],
+        "productionCompanies": [],
+        "music": [
+          "S. Thaman"
+        ]
+      },
+      "trailer": {
+        "status": "ok",
+        "videoId": "q8M6Ybjr2Wc",
+        "title": "Guntur Kaaram | Official trailer | Mahesh Babu, Sreeleela, Ramya Krishnan, Prakash Raj, Jayaram",
+        "channelTitle": "Netflix India",
+        "channelId": "UCZSNzBgFub_WWil6TOTYwAg",
+        "publishedAt": "2024-02-04T08:30:00Z",
+        "score": 74,
+        "watchUrl": "https://www.youtube.com/watch?v=q8M6Ybjr2Wc",
+        "embedUrl": "https://www.youtube.com/embed/q8M6Ybjr2Wc",
+        "thumbnail": "https://i.ytimg.com/vi/q8M6Ybjr2Wc/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/q8M6Ybjr2Wc/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/q8M6Ybjr2Wc/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "Guntur Kaaram (Hindi) Official Trailer | Mahesh Babu | 26th Jan Sun 8 PM | Tv Par Pehli Baar",
+          "score": 74
+        },
+        "via": "api-search"
+      },
+      "citationCount": 77,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)",
+        "youtube.com (Data API v3)"
+      ],
+      "fetchedAt": "2026-09-12T19:51:55.680Z"
+    },
+    {
+      "input": "RRR",
+      "title": "RRR",
+      "status": "ok",
+      "theatricalDate": "2022-03-25",
+      "availability": [
+        {
+          "platform": "Netflix",
+          "language": "Hindi",
+          "date": "2022-05-20",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 3,
+          "conflictingDates": [],
+          "evidence": [
+            "The film started streaming on ZEE5 from 20 May 2022 in Telugu, Tamil, Malayalam and Kannada languages while the Hindi version was released on the same day on Netflix."
+          ]
+        },
+        {
+          "platform": "ZEE5",
+          "language": "Kannada",
+          "date": "2022-05-20",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 3,
+          "conflictingDates": [],
+          "evidence": [
+            "The film started streaming on ZEE5 from 20 May 2022 in Telugu, Tamil, Malayalam and Kannada languages while the Hindi version was released on the same day on Netflix."
+          ]
+        },
+        {
+          "platform": "ZEE5",
+          "language": "Malayalam",
+          "date": "2022-05-20",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 3,
+          "conflictingDates": [],
+          "evidence": [
+            "The film started streaming on ZEE5 from 20 May 2022 in Telugu, Tamil, Malayalam and Kannada languages while the Hindi version was released on the same day on Netflix."
+          ]
+        },
+        {
+          "platform": "ZEE5",
+          "language": "Tamil",
+          "date": "2022-05-20",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 3,
+          "conflictingDates": [],
+          "evidence": [
+            "The film started streaming on ZEE5 from 20 May 2022 in Telugu, Tamil, Malayalam and Kannada languages while the Hindi version was released on the same day on Netflix."
+          ]
+        },
+        {
+          "platform": "ZEE5",
+          "language": "Telugu",
+          "date": "2022-05-20",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 3,
+          "conflictingDates": [],
+          "evidence": [
+            "The film started streaming on ZEE5 from 20 May 2022 in Telugu, Tamil, Malayalam and Kannada languages while the Hindi version was released on the same day on Netflix."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q60424165",
+        "directors": [
+          "S. S. Rajamouli"
+        ],
+        "producers": [
+          "DVV Danayya"
+        ],
+        "cast": [
+          "Ajay Devgn",
+          "Alison Doody",
+          "Shriya Saran",
+          "Ray Stevenson",
+          "N. T. Rama Rao Jr.",
+          "Ram Charan",
+          "Alia Bhatt",
+          "Makarand Deshpande",
+          "Rajiv Kanakala",
+          "Samuthirakani",
+          "Spandan Chaturvedi",
+          "Rahul Ramakrishna",
+          "Edward Sonnenblick",
+          "Chatrapathi Sekhar",
+          "Olivia Morris",
+          "Nabin Luhagun"
+        ],
+        "productionCompanies": [],
+        "music": [
+          "M. M. Keeravani"
+        ]
+      },
+      "trailer": {
+        "status": "ok",
+        "via": "keyless",
+        "videoId": "NgBoMJy386M",
+        "title": "RRR Trailer (Telugu) - NTR, Ram Charan, Ajay Devgn, Alia Bhatt | SS Rajamouli | 25th March 2022",
+        "channelTitle": "DVV Entertainment",
+        "channelUrl": "https://www.youtube.com/@DVVMovies",
+        "score": 48,
+        "watchUrl": "https://www.youtube.com/watch?v=NgBoMJy386M",
+        "embedUrl": "https://www.youtube.com/embed/NgBoMJy386M",
+        "thumbnail": "https://i.ytimg.com/vi/NgBoMJy386M/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/NgBoMJy386M/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/NgBoMJy386M/maxresdefault.jpg",
+        "candidatesChecked": 2,
+        "fromCache": true
+      },
+      "citationCount": 664,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)",
+        "youtube.com (Data API v3)"
+      ],
+      "fetchedAt": "2026-09-12T19:52:09.803Z"
+    },
+    {
+      "input": "Sita Ramam",
+      "title": "Sita Ramam",
+      "status": "ok",
+      "theatricalDate": "2022-08-05",
+      "availability": [
+        {
+          "platform": "Amazon Prime Video",
+          "language": "Malayalam",
+          "date": "2022-09-09",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film premiered on Amazon Prime Video on 9 September 2022 in Telugu and dubbed versions of Tamil and Malayalam languages."
+          ]
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "language": "Tamil",
+          "date": "2022-09-09",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film premiered on Amazon Prime Video on 9 September 2022 in Telugu and dubbed versions of Tamil and Malayalam languages."
+          ]
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "language": "Telugu",
+          "date": "2022-09-09",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film premiered on Amazon Prime Video on 9 September 2022 in Telugu and dubbed versions of Tamil and Malayalam languages."
+          ]
+        },
+        {
+          "platform": "Disney+ Hotstar",
+          "language": "Hindi",
+          "date": "2022-11-18",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film premiered on Disney+ Hotstar in Hindi on 18 November 2022."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q113455828",
+        "directors": [
+          "Hanu Raghavapudi"
+        ],
+        "producers": [
+          "Aswani Dutt"
+        ],
+        "cast": [
+          "Rohini",
+          "Dulquer Salmaan",
+          "Prakash Raj",
+          "Bhumika Chawla",
+          "Gautham Vasudev Menon",
+          "Indukuri Sunil Varma",
+          "Abhinaya",
+          "Jisshu Sengupta",
+          "Murali Sharma",
+          "Rahul Ravindran",
+          "Rukmini Vijayakumar",
+          "Sachin Khedekar",
+          "Sumanth",
+          "Tinnu Anand",
+          "Vennela Kishore",
+          "Mrunal Thakur",
+          "Tharun Bhascker Dhaassyam",
+          "Priyadarshi Pulikonda",
+          "Rashmika Mandanna",
+          "Shatru"
+        ],
+        "productionCompanies": [
+          "Vyjayanthi Movies"
+        ],
+        "music": [
+          "Vishal Chandrasekhar"
+        ]
+      },
+      "trailer": {
+        "status": "ok",
+        "videoId": "Ut-5fcY145o",
+        "title": "Sita Ramam - Official Telugu Trailer | Dulquer Salmaan, Mrunal Thakur, Rashmika Mandanna | Sep 9",
+        "channelTitle": "Prime Video India",
+        "channelId": "UC4zWG9LccdWGUlF77LZ8toA",
+        "publishedAt": "2022-09-06T04:31:03Z",
+        "score": 74,
+        "watchUrl": "https://www.youtube.com/watch?v=Ut-5fcY145o",
+        "embedUrl": "https://www.youtube.com/embed/Ut-5fcY145o",
+        "thumbnail": "https://i.ytimg.com/vi/Ut-5fcY145o/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/Ut-5fcY145o/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/Ut-5fcY145o/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "Sita Ramam Official Trailer | In Hindi | 18th November | DisneyPlus Hotstar",
+          "score": 66
+        },
+        "via": "api-search"
+      },
+      "citationCount": 115,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)",
+        "youtube.com (Data API v3)"
+      ],
+      "fetchedAt": "2026-09-12T19:52:11.266Z"
+    },
+    {
+      "input": "Tillu Square",
+      "title": "Tillu Square",
+      "status": "no-ott-found",
+      "theatricalDate": "2024-03-29",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q120922057",
+        "directors": [],
+        "producers": [],
+        "cast": [
+          "Fish Venkat",
+          "Murali Sharma",
+          "Brahmaji",
+          "Prince Cecil",
+          "Anupama Parameswaran",
+          "Anish Kuruvilla",
+          "Kireeti Damaraju",
+          "Siddu Jonnalagadda",
+          "Priyanka Jawalkar",
+          "Neha Shetty",
+          "C. V. L. Narasimha Rao",
+          "Muralidhar Goud"
+        ],
+        "productionCompanies": [],
+        "music": []
+      },
+      "trailer": {
+        "status": "ok",
+        "videoId": "YNVU8fjJj4U",
+        "title": "Tillu Square - Theatrical Trailer | Siddu, Anupama Parameswaran | Mallik Ram | Ram Miriyala",
+        "channelTitle": "Aditya Music",
+        "channelId": "UCNApqoVYJbYSrni4YsbXzyQ",
+        "publishedAt": "2024-02-24T12:00:18Z",
+        "score": 64,
+        "watchUrl": "https://www.youtube.com/watch?v=YNVU8fjJj4U",
+        "embedUrl": "https://www.youtube.com/embed/YNVU8fjJj4U",
+        "thumbnail": "https://i.ytimg.com/vi/YNVU8fjJj4U/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/YNVU8fjJj4U/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/YNVU8fjJj4U/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "Tillu Square - Release Trailer | Siddu, AnupamaParameswaran | MallikRam | March 29th Release",
+          "score": 46
+        },
+        "via": "api-search"
+      },
+      "citationCount": 35,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)",
+        "youtube.com (Data API v3)"
+      ],
+      "fetchedAt": "2026-09-12T19:52:12.408Z"
+    },
+    {
+      "input": "Baahubali 2: The Conclusion",
+      "title": "Baahubali 2: The Conclusion",
+      "status": "no-ott-found",
+      "theatricalDate": "2017-04-28",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q21001674",
+        "directors": [
+          "S. S. Rajamouli"
+        ],
+        "producers": [
+          "Shobu Yarlagadda",
+          "Prasad Devineni"
+        ],
+        "cast": [
+          "Tamannaah Bhatia",
+          "Anushka Shetty",
+          "Prabhas",
+          "Rana Daggubati",
+          "Ramya Krishnan",
+          "Nassar"
+        ],
+        "productionCompanies": [
+          "Arka Media Works"
+        ],
+        "music": [
+          "M. M. Keeravani"
+        ]
+      },
+      "trailer": {
+        "status": "ok",
+        "videoId": "G62HrubdD6o",
+        "title": "Baahubali 2 - The Conclusion | Official Trailer (Hindi) | S.S. Rajamouli | Prabhas | Rana Daggubati",
+        "channelTitle": "Dharma Productions",
+        "channelId": "UCKQKIY2YlI4L5QVg7hhfjrQ",
+        "publishedAt": "2017-03-16T03:33:37Z",
+        "score": 84,
+        "watchUrl": "https://www.youtube.com/watch?v=G62HrubdD6o",
+        "embedUrl": "https://www.youtube.com/embed/G62HrubdD6o",
+        "thumbnail": "https://i.ytimg.com/vi/G62HrubdD6o/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/G62HrubdD6o/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/G62HrubdD6o/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "Baahubali - The Beginning | Official Trailer | Prabhas, Rana Daggubati, SS Rajamouli",
+          "score": 66
+        },
+        "via": "api-search"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)",
+        "youtube.com (Data API v3)"
+      ],
+      "fetchedAt": "2026-09-12T19:52:13.257Z"
+    }
+  ]
+}

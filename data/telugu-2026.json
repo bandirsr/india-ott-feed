@@ -1,0 +1,4514 @@
+{
+  "generatedAt": "2026-09-12T20:18:38.220Z",
+  "films": [
+    {
+      "input": "Telugu-language",
+      "status": "not-found"
+    },
+    {
+      "input": "box office",
+      "title": "Kantara (2022 film)",
+      "status": "no-ott-found",
+      "theatricalDate": "2022-09-30",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q114322727",
+        "directors": [
+          "Rishab Shetty"
+        ],
+        "producers": [],
+        "cast": [
+          "Kishore Kumar",
+          "Achyuth",
+          "Achyuth Kumar",
+          "Naveen D Padil",
+          "Rishab Shetty",
+          "Pramod Shetty",
+          "Shine Shetty",
+          "Prakash Thuminad",
+          "Saptami Gowda"
+        ],
+        "productionCompanies": [],
+        "music": []
+      },
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:14:53.445Z"
+    },
+    {
+      "input": "gross revenue",
+      "status": "not-found"
+    },
+    {
+      "input": "WP:RSP",
+      "title": "Wikipedia:WikiProject Film/Indian cinema task force",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:14:54.243Z"
+    },
+    {
+      "input": "WP:ICTFSOURCES",
+      "title": "Wikipedia:Good article reassessment/Temper (film)/1",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:14:55.557Z"
+    },
+    {
+      "input": "WP:RSPSS",
+      "title": "Wikipedia:Articles for deletion/Log/2024 July 3",
+      "status": "no-article"
+    },
+    {
+      "input": "WP:FRUIT",
+      "title": "Wikipedia:WikiProject Film/Indian cinema task force",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:14:56.397Z"
+    },
+    {
+      "input": "Peddi",
+      "title": "Peddi",
+      "status": "ok",
+      "theatricalDate": "2026-06-04",
+      "availability": [
+        {
+          "platform": "Netflix",
+          "language": "Unknown",
+          "date": "2026-07-09",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film began streaming on Netflix from 9 July 2026."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q133573186",
+        "directors": [
+          "Buchi Babu Sana"
+        ],
+        "producers": [
+          "Venkata Satish Kilaru"
+        ],
+        "cast": [
+          "Ram Charan",
+          "Divyenndu",
+          "Jagapati Babu",
+          "Shiva Rajkumar",
+          "Janhvi Kapoor"
+        ],
+        "productionCompanies": [
+          "Vriddhi Cinemas"
+        ],
+        "music": [
+          "A. R. Rahman"
+        ]
+      },
+      "trailer": {
+        "status": "ok",
+        "videoId": "sF2dj7ycZvA",
+        "title": "Peddi Official Trailer (Telugu) | Ram Charan | Janhvi Kapoor | A R Rahman | Buchi Babu Sana",
+        "channelTitle": "Vriddhi Cinemas",
+        "channelId": "UC6lsO963dMizsl_EC5qAfJQ",
+        "publishedAt": "2026-05-18T10:35:05Z",
+        "score": 68,
+        "watchUrl": "https://www.youtube.com/watch?v=sF2dj7ycZvA",
+        "embedUrl": "https://www.youtube.com/embed/sF2dj7ycZvA",
+        "thumbnail": "https://i.ytimg.com/vi/sF2dj7ycZvA/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/sF2dj7ycZvA/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/sF2dj7ycZvA/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "PEDDI - Official Trailer | Ram Charan | Janhvi Kapoor | AR Rahman | New Movie Trailer 2026",
+          "score": 68
+        },
+        "via": "api-search",
+        "verification": {
+          "verified": true,
+          "trustedChannel": false,
+          "lengthOk": true,
+          "saysTrailer": true,
+          "looksLikeFullFilm": false,
+          "durationSec": 187,
+          "channelTitle": "Vriddhi Cinemas",
+          "verifiedTitle": "Peddi Official Trailer (Telugu) | Ram Charan | Janhvi Kapoor | A R Rahman | Buchi Babu Sana",
+          "views": 59040666,
+          "reasons": [
+            "channel-not-in-trusted-list"
+          ],
+          "confidence": "medium"
+        }
+      },
+      "citationCount": 111,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:14:57.749Z"
+    },
+    {
+      "input": "Deccan Herald",
+      "title": "Junior (2025 film)",
+      "status": "ok",
+      "theatricalDate": "2025-07-18",
+      "availability": [
+        {
+          "platform": "aha",
+          "language": "Kannada",
+          "date": "2025-09-30",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "Telugu version was later released on Aha and Amazon Prime Video on 30 September 2025, and Kannada version was released on Namma Flix."
+          ]
+        },
+        {
+          "platform": "aha",
+          "language": "Telugu",
+          "date": "2025-09-30",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "Telugu version was later released on Aha and Amazon Prime Video on 30 September 2025, and Kannada version was released on Namma Flix."
+          ]
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "language": "Kannada",
+          "date": "2025-09-30",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "Telugu version was later released on Aha and Amazon Prime Video on 30 September 2025, and Kannada version was released on Namma Flix."
+          ]
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "language": "Telugu",
+          "date": "2025-09-30",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "Telugu version was later released on Aha and Amazon Prime Video on 30 September 2025, and Kannada version was released on Namma Flix."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q135333846",
+        "directors": [],
+        "producers": [
+          "Korrapati Ranganatha Sai"
+        ],
+        "cast": [
+          "Genelia D'Souza",
+          "Brahmanandam",
+          "Rao Ramesh",
+          "Sudha Rani",
+          "Suman Setty",
+          "V. Ravichandran",
+          "Vaijanath Biradar",
+          "Achyuth Kumar",
+          "Kiran Srinivas",
+          "Sivannarayana Naripeddi",
+          "Girija Lokesh",
+          "Viva Harsha",
+          "Satya",
+          "Sreeleela",
+          "Kireeti Reddy"
+        ],
+        "productionCompanies": [
+          "Vaaraahi Chalana Chitram"
+        ],
+        "music": [
+          "Devi Sri Prasad"
+        ]
+      },
+      "trailer": {
+        "status": "ok",
+        "videoId": "MT8EHjw07Ek",
+        "title": "Junior Trailer | Kireeti, Sreeleela | Genelia | Radha Krishna | Rajani Korrapati | Devi Sri Prasad",
+        "channelTitle": "Aditya Music",
+        "channelId": "UCNApqoVYJbYSrni4YsbXzyQ",
+        "publishedAt": "2025-07-14T10:28:52Z",
+        "score": 56,
+        "watchUrl": "https://www.youtube.com/watch?v=MT8EHjw07Ek",
+        "embedUrl": "https://www.youtube.com/embed/MT8EHjw07Ek",
+        "thumbnail": "https://i.ytimg.com/vi/MT8EHjw07Ek/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/MT8EHjw07Ek/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/MT8EHjw07Ek/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "Junior Trailer - Telugu | Kireeti | Ravi Chandran | Genelia | Sreeleela | Radha Krishna | DSP",
+          "score": 38
+        },
+        "via": "api-search",
+        "verification": {
+          "verified": true,
+          "trustedChannel": true,
+          "lengthOk": true,
+          "saysTrailer": true,
+          "looksLikeFullFilm": false,
+          "durationSec": 161,
+          "channelTitle": "Aditya Music",
+          "verifiedTitle": "Junior Trailer | Kireeti, Sreeleela | Genelia | Radha Krishna | Rajani Korrapati | Devi Sri Prasad",
+          "views": 1149236,
+          "reasons": [],
+          "confidence": "high"
+        }
+      },
+      "citationCount": 13,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:14:58.765Z"
+    },
+    {
+      "input": "Cinema Express",
+      "title": "Cinema of India",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:14:59.577Z"
+    },
+    {
+      "input": "Outlook India",
+      "title": "The Ghost (2022 film)",
+      "status": "no-ott-found",
+      "theatricalDate": "2022-10-05",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q113678083",
+        "directors": [
+          "Praveen Sattaru"
+        ],
+        "producers": [],
+        "cast": [],
+        "productionCompanies": [],
+        "music": []
+      },
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:01.927Z"
+    },
+    {
+      "input": "Mana Shankara Vara Prasad Garu",
+      "title": "Mana Shankara Vara Prasad Garu",
+      "status": "ok",
+      "theatricalDate": "2026-01-12",
+      "availability": [
+        {
+          "platform": "ZEE5",
+          "language": "Unknown",
+          "date": "2026-02-11",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 3,
+          "conflictingDates": [],
+          "evidence": [
+            "=== Home media ===\nThe film's digital streaming rights were acquired by ZEE5, and it premiered on the platform on 11 February 2026."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q135647565",
+        "directors": [
+          "Anil Ravipudi"
+        ],
+        "producers": [
+          "Sushmita Konidela",
+          "Sahu Garapati"
+        ],
+        "cast": [
+          "Chiranjeevi",
+          "Nayanthara"
+        ],
+        "productionCompanies": [],
+        "music": [
+          "Bheems Ceciroleo"
+        ]
+      },
+      "trailer": {
+        "status": "ok",
+        "videoId": "A4CbAkPb468",
+        "title": "Mana ShankaraVaraPrasad Garu Official Trailer | Chiranjeevi | Venkatesh | Nayanthara | Anil Ravipudi",
+        "channelTitle": "T-Series Telugu",
+        "channelId": "UCnJjcn5FrgrOEp5_N45ZLEQ",
+        "publishedAt": "2026-01-06T07:30:05Z",
+        "score": 83,
+        "watchUrl": "https://www.youtube.com/watch?v=A4CbAkPb468",
+        "embedUrl": "https://www.youtube.com/embed/A4CbAkPb468",
+        "thumbnail": "https://i.ytimg.com/vi/A4CbAkPb468/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/A4CbAkPb468/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/A4CbAkPb468/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "Mana ShankaraVaraPrasad Garu Official Trailer | Chiranjeevi, Venkatesh, Nayanthara | Watch On ZEE5",
+          "score": 83
+        },
+        "via": "api-search",
+        "verification": {
+          "verified": true,
+          "trustedChannel": true,
+          "lengthOk": true,
+          "saysTrailer": true,
+          "looksLikeFullFilm": false,
+          "durationSec": 151,
+          "channelTitle": "T-Series Telugu",
+          "verifiedTitle": "Mana ShankaraVaraPrasad Garu Official Trailer | Chiranjeevi | Venkatesh | Nayanthara | Anil Ravipudi",
+          "views": 3371618,
+          "reasons": [],
+          "confidence": "high"
+        }
+      },
+      "citationCount": 32,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:02.631Z"
+    },
+    {
+      "input": "Filmfare",
+      "title": "Filmfare Award for Best Actor – Telugu",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:03.726Z"
+    },
+    {
+      "input": "The Week (Indian magazine)",
+      "title": "Chiranjeevi filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Deccan Chronicle",
+      "title": "Kavya Kalyanram",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Irumudi",
+      "title": "Irumudi",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-08-21",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:05.617Z"
+    },
+    {
+      "input": "Mythri Movie Makers",
+      "title": "Mythri Movie Makers",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:06.294Z"
+    },
+    {
+      "input": "Oneindia",
+      "title": "Power (2014 Telugu film)",
+      "status": "no-ott-found",
+      "theatricalDate": "2014-09-12",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q17073246",
+        "directors": [
+          "K. S. Ravindra"
+        ],
+        "producers": [
+          "Rockline Venkatesh"
+        ],
+        "cast": [
+          "Hansika Motwani",
+          "Brahmanandam",
+          "Kota Srinivasa Rao",
+          "Ravi Teja",
+          "Regina Cassandra"
+        ],
+        "productionCompanies": [],
+        "music": [
+          "S. Thaman"
+        ]
+      },
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:07.266Z"
+    },
+    {
+      "input": "The RajaSaab",
+      "title": "The RajaSaab",
+      "status": "ok",
+      "theatricalDate": "2026-01-09",
+      "availability": [
+        {
+          "platform": "JioHotstar",
+          "language": "Kannada",
+          "date": "2026-02-06",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film began streaming on JioHotstar from 6 February 2026 in Telugu and dubbed versions of Tamil, Kannada and Malayalam languages."
+          ]
+        },
+        {
+          "platform": "JioHotstar",
+          "language": "Malayalam",
+          "date": "2026-02-06",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film began streaming on JioHotstar from 6 February 2026 in Telugu and dubbed versions of Tamil, Kannada and Malayalam languages."
+          ]
+        },
+        {
+          "platform": "JioHotstar",
+          "language": "Tamil",
+          "date": "2026-02-06",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film began streaming on JioHotstar from 6 February 2026 in Telugu and dubbed versions of Tamil, Kannada and Malayalam languages."
+          ]
+        },
+        {
+          "platform": "JioHotstar",
+          "language": "Telugu",
+          "date": "2026-02-06",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film began streaming on JioHotstar from 6 February 2026 in Telugu and dubbed versions of Tamil, Kannada and Malayalam languages."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q124301053",
+        "directors": [
+          "Maruthi Dasari"
+        ],
+        "producers": [],
+        "cast": [
+          "Sanjay Dutt",
+          "Prabhas",
+          "Malavika Mohanan",
+          "Nidhhi Agerwal",
+          "Riddhi Kumar"
+        ],
+        "productionCompanies": [],
+        "music": [
+          "S. Thaman"
+        ]
+      },
+      "trailer": {
+        "status": "ok",
+        "videoId": "wT4HcYAeV5U",
+        "title": "The RajaSaab (Official Trailer) Hindi | Prabhas | Maruthi | Thaman| TG Vishwa Prasad| Krithi Prasad",
+        "channelTitle": "T-Series",
+        "channelId": "UCq-Fj5jknLsUf-MWSy4_brA",
+        "publishedAt": "2025-09-29T12:30:45Z",
+        "score": 74,
+        "watchUrl": "https://www.youtube.com/watch?v=wT4HcYAeV5U",
+        "embedUrl": "https://www.youtube.com/embed/wT4HcYAeV5U",
+        "thumbnail": "https://i.ytimg.com/vi/wT4HcYAeV5U/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/wT4HcYAeV5U/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/wT4HcYAeV5U/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "The RajaSaab Trailer 2.0 (Telugu) | Prabhas | Maruthi | Thaman S | TG Vishwa Prasad | Jan 9 2026",
+          "score": 54
+        },
+        "via": "api-search",
+        "verification": {
+          "verified": true,
+          "trustedChannel": true,
+          "lengthOk": true,
+          "saysTrailer": true,
+          "looksLikeFullFilm": false,
+          "durationSec": 211,
+          "channelTitle": "T-Series",
+          "verifiedTitle": "The RajaSaab (Official Trailer) Hindi | Prabhas | Maruthi | Thaman| TG Vishwa Prasad| Krithi Prasad",
+          "views": 24884749,
+          "reasons": [],
+          "confidence": "high"
+        }
+      },
+      "citationCount": 78,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:10.178Z"
+    },
+    {
+      "input": "Anaganaga Oka Raju",
+      "title": "Anaganaga Oka Raju",
+      "status": "ok",
+      "theatricalDate": "2026-01-14",
+      "availability": [
+        {
+          "platform": "Netflix",
+          "language": "Unknown",
+          "date": "2026-02-11",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "=== Home Media ===\nThe digital streaming rights were acquired by Netflix, and it started streaming on 11 February 2026."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "ok",
+        "videoId": "q1nthwsIxwM",
+        "title": "Anaganaga Oka Raju | Official Trailer | Naveen Polishetty, Meenakshi Chaudhary | Netflix India",
+        "channelTitle": "Netflix India",
+        "channelId": "UCZSNzBgFub_WWil6TOTYwAg",
+        "publishedAt": "2026-02-09T11:30:00Z",
+        "score": 82,
+        "watchUrl": "https://www.youtube.com/watch?v=q1nthwsIxwM",
+        "embedUrl": "https://www.youtube.com/embed/q1nthwsIxwM",
+        "thumbnail": "https://i.ytimg.com/vi/q1nthwsIxwM/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/q1nthwsIxwM/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/q1nthwsIxwM/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "Anaganaga Oka Raju Trailer | Naveen Polishetty | Meenakshi Chaudhary | Maari | Mickey J Meyer",
+          "score": 72
+        },
+        "via": "api-search",
+        "verification": {
+          "verified": true,
+          "trustedChannel": true,
+          "lengthOk": true,
+          "saysTrailer": true,
+          "looksLikeFullFilm": false,
+          "durationSec": 185,
+          "channelTitle": "Netflix India",
+          "verifiedTitle": "Anaganaga Oka Raju | Official Trailer | Naveen Polishetty, Meenakshi Chaudhary | Netflix India",
+          "views": 378314,
+          "reasons": [],
+          "confidence": "high"
+        }
+      },
+      "citationCount": 54,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:10.986Z"
+    },
+    {
+      "input": "Maa Inti Bangaaram",
+      "title": "Maa Inti Bangaaram",
+      "status": "ok",
+      "theatricalDate": "2026-06-19",
+      "availability": [
+        {
+          "platform": "JioHotstar",
+          "language": "Kannada",
+          "date": "2026-07-17",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "=== Home media ===\nThe post-theatrical digital streaming rights were acquired by JioHotstar and began streaming from 17 July 2026 in Telugu with dubbed version of Tamil, Malayalam, Kannada."
+          ]
+        },
+        {
+          "platform": "JioHotstar",
+          "language": "Malayalam",
+          "date": "2026-07-17",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "=== Home media ===\nThe post-theatrical digital streaming rights were acquired by JioHotstar and began streaming from 17 July 2026 in Telugu with dubbed version of Tamil, Malayalam, Kannada."
+          ]
+        },
+        {
+          "platform": "JioHotstar",
+          "language": "Tamil",
+          "date": "2026-07-17",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "=== Home media ===\nThe post-theatrical digital streaming rights were acquired by JioHotstar and began streaming from 17 July 2026 in Telugu with dubbed version of Tamil, Malayalam, Kannada."
+          ]
+        },
+        {
+          "platform": "JioHotstar",
+          "language": "Telugu",
+          "date": "2026-07-17",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "=== Home media ===\nThe post-theatrical digital streaming rights were acquired by JioHotstar and began streaming from 17 July 2026 in Telugu with dubbed version of Tamil, Malayalam, Kannada."
+          ]
+        },
+        {
+          "platform": "SonyLIV",
+          "language": "Hindi",
+          "date": null,
+          "dateStatus": "unknown",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The Hindi version is streaming on Sony LIV."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "ok",
+        "videoId": "YcOHrzmde5s",
+        "title": "Maa Inti Bangaaram - Official Teaser Trailer | Samantha | Raj Nidimoru | Nandini |Santhosh Narayanan",
+        "channelTitle": "Think Music Telugu",
+        "channelId": "UCWO7fKdX8VDcVjacgMUfI0g",
+        "publishedAt": "2026-04-24T11:57:45Z",
+        "score": 92,
+        "watchUrl": "https://www.youtube.com/watch?v=YcOHrzmde5s",
+        "embedUrl": "https://www.youtube.com/embed/YcOHrzmde5s",
+        "thumbnail": "https://i.ytimg.com/vi/YcOHrzmde5s/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/YcOHrzmde5s/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/YcOHrzmde5s/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "Maa Inti Bangaaram - Official Trailer | Samantha | Raj Nidimoru | Nandini Reddy | Santhosh Narayanan",
+          "score": 84
+        },
+        "via": "api-search",
+        "verification": {
+          "verified": true,
+          "trustedChannel": true,
+          "lengthOk": true,
+          "saysTrailer": true,
+          "looksLikeFullFilm": false,
+          "durationSec": 122,
+          "channelTitle": "Think Music Telugu",
+          "verifiedTitle": "Maa Inti Bangaaram - Official Teaser Trailer | Samantha | Raj Nidimoru | Nandini |Santhosh Narayanan",
+          "views": 1015549,
+          "reasons": [],
+          "confidence": "high"
+        }
+      },
+      "citationCount": 25,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:11.979Z"
+    },
+    {
+      "input": "Ustaad Bhagat Singh",
+      "title": "Ustaad Bhagat Singh",
+      "status": "ok",
+      "theatricalDate": "2026-03-19",
+      "availability": [
+        {
+          "platform": "Netflix",
+          "language": "Hindi",
+          "date": "2026-04-16",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film began streaming on Netflix from 16 April 2026 in Telugu along with dubbed versions of Hindi, Tamil, Kannada, and Malayalam languages."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Kannada",
+          "date": "2026-04-16",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film began streaming on Netflix from 16 April 2026 in Telugu along with dubbed versions of Hindi, Tamil, Kannada, and Malayalam languages."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Malayalam",
+          "date": "2026-04-16",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film began streaming on Netflix from 16 April 2026 in Telugu along with dubbed versions of Hindi, Tamil, Kannada, and Malayalam languages."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Tamil",
+          "date": "2026-04-16",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film began streaming on Netflix from 16 April 2026 in Telugu along with dubbed versions of Hindi, Tamil, Kannada, and Malayalam languages."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Telugu",
+          "date": "2026-04-16",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film began streaming on Netflix from 16 April 2026 in Telugu along with dubbed versions of Hindi, Tamil, Kannada, and Malayalam languages."
+          ]
+        }
+      ],
+      "tvPremieres": [
+        {
+          "channel": "Zee Telugu",
+          "date": null
+        }
+      ],
+      "credits": null,
+      "trailer": {
+        "status": "ok",
+        "videoId": "6eVc1tUUA3A",
+        "title": "Ustaad Bhagat Singh | Official Trailer | Pawan Kalyan | Sreeleela | Raashi Khanna",
+        "channelTitle": "Netflix India",
+        "channelId": "UCZSNzBgFub_WWil6TOTYwAg",
+        "publishedAt": "2026-04-15T10:30:01Z",
+        "score": 82,
+        "watchUrl": "https://www.youtube.com/watch?v=6eVc1tUUA3A",
+        "embedUrl": "https://www.youtube.com/embed/6eVc1tUUA3A",
+        "thumbnail": "https://i.ytimg.com/vi/6eVc1tUUA3A/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/6eVc1tUUA3A/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/6eVc1tUUA3A/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "Ustaad Bhagat Singh | Hindi Trailer | Pawan Kalyan | Harish Shankar | Sreeleela | Raashi Khanna",
+          "score": 62
+        },
+        "via": "api-search",
+        "verification": {
+          "verified": true,
+          "trustedChannel": true,
+          "lengthOk": true,
+          "saysTrailer": true,
+          "looksLikeFullFilm": false,
+          "durationSec": 111,
+          "channelTitle": "Netflix India",
+          "verifiedTitle": "Ustaad Bhagat Singh | Official Trailer | Pawan Kalyan | Sreeleela | Raashi Khanna",
+          "views": 465630,
+          "reasons": [],
+          "confidence": "high"
+        }
+      },
+      "citationCount": 52,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:12.910Z"
+    },
+    {
+      "input": "Lenin (film)",
+      "title": "Lenin (film)",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-07-10",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:14.131Z"
+    },
+    {
+      "input": "Esquire (magazine)",
+      "title": "Magadheera",
+      "status": "no-ott-found",
+      "theatricalDate": "2009-07-31",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q1134677",
+        "directors": [
+          "S. S. Rajamouli"
+        ],
+        "producers": [
+          "Allu Aravind",
+          "B. V. S. N. Prasad"
+        ],
+        "cast": [
+          "Dev Gill",
+          "Kajal Aggarwal",
+          "Chiranjeevi",
+          "Saloni Aswani",
+          "Indukuri Sunil Varma",
+          "Sarath Babu",
+          "Brahmanandam",
+          "Ram Charan",
+          "Hema",
+          "Rao Ramesh",
+          "Srihari",
+          "Subbaraya Sharma"
+        ],
+        "productionCompanies": [
+          "Geetha Arts"
+        ],
+        "music": [
+          "M. M. Keeravani"
+        ]
+      },
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:14.944Z"
+    },
+    {
+      "input": "Asianet News",
+      "title": "Asianet News",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Chennai Love Story",
+      "title": "Chennai Love Story",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-07-24",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:16.012Z"
+    },
+    {
+      "input": "Sai Rajesh",
+      "title": "Sai Rajesh",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Samayam Telugu",
+      "title": "Krishna (Telugu actor)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Dacoit: A Love Story",
+      "title": "Dacoit: A Love Story",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-04-10",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q123987197",
+        "directors": [
+          "Shaneil Deo"
+        ],
+        "producers": [],
+        "cast": [
+          "Shruti Haasan",
+          "Adivi Sesh"
+        ],
+        "productionCompanies": [],
+        "music": []
+      },
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 35,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:17.739Z"
+    },
+    {
+      "input": "Psych Siddhartha",
+      "title": "Psych Siddhartha",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-01-01",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:18.811Z"
+    },
+    {
+      "input": "Nandu (Telugu actor)",
+      "title": "Nandu (Telugu actor)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Sahakutumbaanaam",
+      "title": "Sahakutumbaanaam",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-01-01",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:19.776Z"
+    },
+    {
+      "input": "Megha Akash",
+      "title": "Megha Akash",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Vanaveera",
+      "title": "Vanaveera",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-01-01",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:20.875Z"
+    },
+    {
+      "input": "Simran Choudhary",
+      "title": "Simran Choudhary",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Suman (actor)",
+      "title": "Suman (actor)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Nilakanta (film)",
+      "title": "Nilakanta (film)",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-01-02",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:22.627Z"
+    },
+    {
+      "input": "Master Mahendran",
+      "title": "Nilakanta (film)",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-01-02",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:23.348Z"
+    },
+    {
+      "input": "Maruthi",
+      "title": "Maruthi",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Prabhas",
+      "title": "Prabhas filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Nidhhi Agerwal",
+      "title": "Nidhhi Agerwal",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Sanjay Dutt",
+      "title": "Sanjay Dutt filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Shruti Haasan",
+      "title": "Shruti Haasan filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Anil Ravipudi",
+      "title": "Anil Ravipudi",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Chiranjeevi",
+      "title": "Chiranjeevi filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Nayanthara",
+      "title": "Nayanthara filmography",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:31.323Z"
+    },
+    {
+      "input": "Venkatesh",
+      "title": "Venkatesh filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Bhartha Mahasayulaku Wignyapthi",
+      "title": "Bhartha Mahasayulaku Wignyapthi",
+      "status": "ok",
+      "theatricalDate": "2026-01-13",
+      "availability": [
+        {
+          "platform": "ZEE5",
+          "language": "Kannada",
+          "date": "2026-03-13",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 3,
+          "conflictingDates": [],
+          "evidence": [
+            "The film premiered digitally on ZEE5 on 13 March 2026, streaming in Telugu, Tamil, Kannada, and Malayalam."
+          ]
+        },
+        {
+          "platform": "ZEE5",
+          "language": "Malayalam",
+          "date": "2026-03-13",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 3,
+          "conflictingDates": [],
+          "evidence": [
+            "The film premiered digitally on ZEE5 on 13 March 2026, streaming in Telugu, Tamil, Kannada, and Malayalam."
+          ]
+        },
+        {
+          "platform": "ZEE5",
+          "language": "Tamil",
+          "date": "2026-03-13",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 3,
+          "conflictingDates": [],
+          "evidence": [
+            "The film premiered digitally on ZEE5 on 13 March 2026, streaming in Telugu, Tamil, Kannada, and Malayalam."
+          ]
+        },
+        {
+          "platform": "ZEE5",
+          "language": "Telugu",
+          "date": "2026-03-13",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 3,
+          "conflictingDates": [],
+          "evidence": [
+            "The film premiered digitally on ZEE5 on 13 March 2026, streaming in Telugu, Tamil, Kannada, and Malayalam."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "ok",
+        "videoId": "KhjCoQAx4Ms",
+        "title": "Bhartha Mahasayulaku Wignyapthi Official ZEE5 Trailer (Telugu) | Ravi Teja | Ashika | 13th March",
+        "channelTitle": "Zee Telugu",
+        "channelId": "UC3PYGKK29qJ0zu-eEthHK4g",
+        "publishedAt": "2026-03-07T09:01:01Z",
+        "score": 82,
+        "watchUrl": "https://www.youtube.com/watch?v=KhjCoQAx4Ms",
+        "embedUrl": "https://www.youtube.com/embed/KhjCoQAx4Ms",
+        "thumbnail": "https://i.ytimg.com/vi/KhjCoQAx4Ms/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/KhjCoQAx4Ms/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/KhjCoQAx4Ms/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "Bhartha Mahasayulaku Wignyapthi Official ZEE5 Trailer (Telugu) | Ravi Teja | Ashika | 13th March",
+          "score": 82
+        },
+        "via": "api-search",
+        "verification": {
+          "verified": true,
+          "trustedChannel": false,
+          "lengthOk": true,
+          "saysTrailer": true,
+          "looksLikeFullFilm": false,
+          "durationSec": 77,
+          "channelTitle": "Zee Telugu",
+          "verifiedTitle": "Bhartha Mahasayulaku Wignyapthi Official ZEE5 Trailer (Telugu) | Ravi Teja | Ashika | 13th March",
+          "views": 1077,
+          "reasons": [
+            "channel-not-in-trusted-list"
+          ],
+          "confidence": "medium"
+        }
+      },
+      "citationCount": 47,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:32.736Z"
+    },
+    {
+      "input": "Kishore Tirumala",
+      "title": "Kishore Tirumala",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Ravi Teja",
+      "title": "Ravi Teja filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Ashika Ranganath",
+      "title": "Ashika Ranganath",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Dimple Hayathi",
+      "title": "Dimple Hayathi",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Naveen Polishetty",
+      "title": "Naveen Polishetty",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Meenakshi Chaudhary",
+      "title": "Meenakshi Chaudhary",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Nari Nari Naduma Murari (2026 film)",
+      "title": "Nari Nari Naduma Murari (2026 film)",
+      "status": "ok",
+      "theatricalDate": "2026-01-14",
+      "availability": [
+        {
+          "platform": "Amazon Prime Video",
+          "language": "Unknown",
+          "date": "2026-02-04",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film was released on Amazon Prime Video on 4 February 2026."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q137783835",
+        "directors": [],
+        "producers": [
+          "Anil Sunkara"
+        ],
+        "cast": [
+          "Sharwanand",
+          "Samyuktha",
+          "Sakshi Vaidya"
+        ],
+        "productionCompanies": [],
+        "music": [
+          "Vishal Chandrasekhar"
+        ]
+      },
+      "trailer": {
+        "status": "ok",
+        "videoId": "4Em-HyIPmCQ",
+        "title": "Nari Nari Naduma Murari Official Trailer | Sharwanand, Samyuktha Menon, Sakshi Vaidya",
+        "channelTitle": "Mana Stars",
+        "channelId": "UCLxyhRCoJnRxyGan3YBHm6A",
+        "publishedAt": "2026-01-11T13:23:45Z",
+        "score": 75,
+        "watchUrl": "https://www.youtube.com/watch?v=4Em-HyIPmCQ",
+        "embedUrl": "https://www.youtube.com/embed/4Em-HyIPmCQ",
+        "thumbnail": "https://i.ytimg.com/vi/4Em-HyIPmCQ/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/4Em-HyIPmCQ/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/4Em-HyIPmCQ/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "Nari Nari Naduma Murari Trailer | Sharwanand | Samyuktha | Sakshi Vaidya",
+          "score": 55
+        },
+        "via": "api-search",
+        "verification": {
+          "verified": true,
+          "trustedChannel": false,
+          "lengthOk": true,
+          "saysTrailer": true,
+          "looksLikeFullFilm": false,
+          "durationSec": 153,
+          "channelTitle": "Mana Stars",
+          "verifiedTitle": "Nari Nari Naduma Murari Official Trailer | Sharwanand, Samyuktha Menon, Sakshi Vaidya",
+          "views": 188018,
+          "reasons": [
+            "channel-not-in-trusted-list"
+          ],
+          "confidence": "medium"
+        }
+      },
+      "citationCount": 46,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:36.590Z"
+    },
+    {
+      "input": "Sharwanand",
+      "title": "Sharwanand",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Samyuktha (actress)",
+      "title": "Samyuktha (actress)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Sakshi Vaidya",
+      "title": "Sakshi Vaidya",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Cheekatilo",
+      "title": "Cheekatilo",
+      "status": "ok",
+      "theatricalDate": null,
+      "availability": [
+        {
+          "platform": "Amazon Prime Video",
+          "language": "Unknown",
+          "date": "2026-01-23",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film was released on 23 January 2026 on Amazon Prime Video."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "ok",
+        "videoId": "JICVtGTDQqI",
+        "title": "Cheekatilo - Official Trailer | Sobhita Dhulipala | Prime Video India",
+        "channelTitle": "Prime Video India",
+        "channelId": "UC4zWG9LccdWGUlF77LZ8toA",
+        "publishedAt": "2026-01-12T06:30:12Z",
+        "score": 66,
+        "watchUrl": "https://www.youtube.com/watch?v=JICVtGTDQqI",
+        "embedUrl": "https://www.youtube.com/embed/JICVtGTDQqI",
+        "thumbnail": "https://i.ytimg.com/vi/JICVtGTDQqI/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/JICVtGTDQqI/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/JICVtGTDQqI/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "Cheekatilo - Official Trailer | Sobhita Dhulipala | Prime Video India",
+          "score": 58
+        },
+        "via": "api-search",
+        "verification": {
+          "verified": true,
+          "trustedChannel": true,
+          "lengthOk": true,
+          "saysTrailer": true,
+          "looksLikeFullFilm": false,
+          "durationSec": 150,
+          "channelTitle": "Prime Video India",
+          "verifiedTitle": "Cheekatilo - Official Trailer | Sobhita Dhulipala | Prime Video India",
+          "views": 15766408,
+          "reasons": [],
+          "confidence": "high"
+        }
+      },
+      "citationCount": 13,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:39.083Z"
+    },
+    {
+      "input": "Sobhita Dhulipala",
+      "title": "Sobhita Dhulipala",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Vishwadev Rachakonda",
+      "title": "Vishwadev Rachakonda",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Suresh Productions",
+      "title": "Suresh Productions",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:40.694Z"
+    },
+    {
+      "input": "Raghu Kunche",
+      "title": "Raghu Kunche",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Dhanraj Koranani",
+      "title": "Dhanraj Koranani",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Om Shanti Shanti Shantihi",
+      "title": "Om Shanti Shanti Shantihi",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-01-30",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:42.200Z"
+    },
+    {
+      "input": "Tharun Bhascker",
+      "title": "Tharun Bhascker",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Eesha Rebba",
+      "title": "Eesha Rebba",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Trimukha",
+      "title": "Trimukha",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-01-30",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:43.786Z"
+    },
+    {
+      "input": "Sunny Leone",
+      "title": "Sunny Leone",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Zamana (2026 film)",
+      "title": "Zamana (2026 film)",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-01-30",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:45.023Z"
+    },
+    {
+      "input": "Surya Srinivas",
+      "title": "Surya Srinivas",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Blood Roses (film)",
+      "title": "Blood Roses (film)",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-02-06",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:52.463Z"
+    },
+    {
+      "input": "Dharma Keerthiraj",
+      "title": "Dharma Keerthiraj",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Apsara Rani",
+      "title": "Apsara Rani",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Archana Shastry",
+      "title": "Archana Shastry",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Srikanth (actor, born 1979)",
+      "title": "Srikanth (actor, born 1979)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Ajay (actor)",
+      "title": "Ajay (actor)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Euphoria (2026 film)",
+      "title": "Euphoria (2026 film)",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-02-06",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:55.572Z"
+    },
+    {
+      "input": "Gunasekhar",
+      "title": "Gunasekhar",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Bhumika Chawla",
+      "title": "Bhumika Chawla",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Sara Arjun",
+      "title": "Sara Arjun",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Honey (2026 film)",
+      "title": "Honey (2026 film)",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-02-06",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:57.689Z"
+    },
+    {
+      "input": "Karuna Kumar",
+      "title": "Karuna Kumar",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Naveen Chandra",
+      "title": "Naveen Chandra",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Divya Pillai",
+      "title": "Divya Pillai",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Laggam Time",
+      "title": "Laggam Time",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-02-06",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:15:59.766Z"
+    },
+    {
+      "input": "Sudharshan",
+      "title": "Sudharshan",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Operation Padma",
+      "title": "Operation Padma",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-02-06",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:00.764Z"
+    },
+    {
+      "input": "Sri Chidambaram Garu",
+      "title": "Sri Chidambaram Garu",
+      "status": "ok",
+      "theatricalDate": "2026-02-06",
+      "availability": [
+        {
+          "platform": "ETV Win",
+          "language": "Unknown",
+          "date": "2026-02-26",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "It was later released on ETV Win on 26 February 2026."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "ok",
+        "videoId": "kMA96unlS_Y",
+        "title": "Sri Chidambaram Garu - Trailer | Vamsi Tummala, Sandhya Vasishta | Vinay Ratnam | Chandu | Ravi",
+        "channelTitle": "Saregama Telugu",
+        "channelId": "UC68nKdrLbLL0Vj7ilVkLmmg",
+        "publishedAt": "2026-01-28T11:34:01Z",
+        "score": 62,
+        "watchUrl": "https://www.youtube.com/watch?v=kMA96unlS_Y",
+        "embedUrl": "https://www.youtube.com/embed/kMA96unlS_Y",
+        "thumbnail": "https://i.ytimg.com/vi/kMA96unlS_Y/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/kMA96unlS_Y/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/kMA96unlS_Y/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "Sri Chidambaram Garu Trailer | Vamsi Tummala | Sandhya Vasishta | Premieres Feb 26 | #ETVWIN",
+          "score": 54
+        },
+        "via": "api-search",
+        "verification": {
+          "verified": true,
+          "trustedChannel": true,
+          "lengthOk": true,
+          "saysTrailer": true,
+          "looksLikeFullFilm": false,
+          "durationSec": 136,
+          "channelTitle": "Saregama Telugu",
+          "verifiedTitle": "Sri Chidambaram Garu - Trailer | Vamsi Tummala, Sandhya Vasishta | Vinay Ratnam | Chandu | Ravi",
+          "views": 2394905,
+          "reasons": [],
+          "confidence": "high"
+        }
+      },
+      "citationCount": 16,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:01.874Z"
+    },
+    {
+      "input": "Kalpa Latha",
+      "title": "Kalpa Latha",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Ester Noronha",
+      "title": "Ester Noronha",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Dhanya Balakrishna",
+      "title": "Dhanya Balakrishna",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Funky (film)",
+      "title": "Funky (film)",
+      "status": "ok",
+      "theatricalDate": "2026-02-13",
+      "availability": [
+        {
+          "platform": "Netflix",
+          "language": "Hindi",
+          "date": "2026-03-13",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "Funky was released on Netflix on 13 March 2026 with its original Telugu version, along with dubbed versions in Tamil, Kannada, Malayalam, and the Hindi version, titled Mazzaq."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Kannada",
+          "date": "2026-03-13",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "Funky was released on Netflix on 13 March 2026 with its original Telugu version, along with dubbed versions in Tamil, Kannada, Malayalam, and the Hindi version, titled Mazzaq."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Malayalam",
+          "date": "2026-03-13",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "Funky was released on Netflix on 13 March 2026 with its original Telugu version, along with dubbed versions in Tamil, Kannada, Malayalam, and the Hindi version, titled Mazzaq."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Tamil",
+          "date": "2026-03-13",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "Funky was released on Netflix on 13 March 2026 with its original Telugu version, along with dubbed versions in Tamil, Kannada, Malayalam, and the Hindi version, titled Mazzaq."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Telugu",
+          "date": "2026-03-13",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "Funky was released on Netflix on 13 March 2026 with its original Telugu version, along with dubbed versions in Tamil, Kannada, Malayalam, and the Hindi version, titled Mazzaq."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "ok",
+        "videoId": "RohTk7Zm34Q",
+        "title": "Funky | Official Trailer | Anudeep K.V., Vishwak Sen &amp; Kayadu Lohar | Netflix India",
+        "channelTitle": "Netflix India",
+        "channelId": "UCZSNzBgFub_WWil6TOTYwAg",
+        "publishedAt": "2026-03-11T14:30:01Z",
+        "score": 66,
+        "watchUrl": "https://www.youtube.com/watch?v=RohTk7Zm34Q",
+        "embedUrl": "https://www.youtube.com/embed/RohTk7Zm34Q",
+        "thumbnail": "https://i.ytimg.com/vi/RohTk7Zm34Q/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/RohTk7Zm34Q/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/RohTk7Zm34Q/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "EPIC Movie Official Trailer || Anand Deverakonda || Vaishnavi Chaitanya || Aditya Hasan || HC",
+          "score": 60
+        },
+        "via": "api-search",
+        "verification": {
+          "verified": true,
+          "trustedChannel": true,
+          "lengthOk": true,
+          "saysTrailer": true,
+          "looksLikeFullFilm": false,
+          "durationSec": 165,
+          "channelTitle": "Netflix India",
+          "verifiedTitle": "Funky | Official Trailer | Anudeep K.V., Vishwak Sen & Kayadu Lohar | Netflix India",
+          "views": 369520,
+          "reasons": [],
+          "confidence": "high"
+        }
+      },
+      "citationCount": 60,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:04.303Z"
+    },
+    {
+      "input": "K. V. Anudeep",
+      "title": "K. V. Anudeep",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Vishwak Sen",
+      "title": "Vishwak Sen",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Kayadu Lohar",
+      "title": "Kayadu Lohar",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Harsha Chemudu",
+      "title": "Harsha Chemudu",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Sky (2026 film)",
+      "title": "Sky (2026 film)",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-02-13",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:06.802Z"
+    },
+    {
+      "input": "Anand (actor)",
+      "title": "Anand (actor)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Couple Friendly",
+      "title": "Couple Friendly",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-02-14",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:07.872Z"
+    },
+    {
+      "input": "Santosh Sobhan",
+      "title": "Santosh Sobhan",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Manasa Varanasi",
+      "title": "Manasa Varanasi",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Seetha Payanam",
+      "title": "Seetha Payanam",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-02-14",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:09.594Z"
+    },
+    {
+      "input": "Arjun Sarja",
+      "title": "Arjun Sarja filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Niranjan Sudhindra",
+      "title": "Niranjan Sudhindra",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Aishwarya Arjun",
+      "title": "Aishwarya Arjun",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Sree Raam Films International",
+      "title": "Sree Raam Films International",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:12.431Z"
+    },
+    {
+      "input": "Hey Balwanth",
+      "title": "Hey Balwanth",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-02-20",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:12.877Z"
+    },
+    {
+      "input": "Suhas (Telugu actor)",
+      "title": "Suhas (Telugu actor)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Naresh (actor)",
+      "title": "Naresh (actor)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Nawab Cafe",
+      "title": "Nawab Cafe",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-02-20",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:14.537Z"
+    },
+    {
+      "input": "Shiva Kandukuri",
+      "title": "Shiva Kandukuri",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Rajeev Kanakala",
+      "title": "Rajeev Kanakala",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Prachi Tehlan",
+      "title": "Prachi Tehlan",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Rashmi Gautam",
+      "title": "Rashmi Gautam",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Son Of",
+      "title": "Son Of",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-02-27",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:17.270Z"
+    },
+    {
+      "input": "Vinod Kumar Alva",
+      "title": "Vinod Kumar Alva",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Vasu Inturi",
+      "title": "Vasu Inturi",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Uttutta Herolu",
+      "title": "Uttutta Herolu",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-02-27",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:18.756Z"
+    },
+    {
+      "input": "Vishnu Vinyasam",
+      "title": "Vishnu Vinyasam",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-02-27",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:19.910Z"
+    },
+    {
+      "input": "Sree Vishnu",
+      "title": "Sree Vishnu",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Nayan Sarika",
+      "title": "Nayan Sarika",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Kamakshi Bhaskarla",
+      "title": "Kamakshi Bhaskarla",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Mrithyunjay",
+      "title": "Mrithyunjay",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-03-06",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q138842732",
+        "directors": [],
+        "producers": [],
+        "cast": [
+          "Sree Vishnu",
+          "Reba Monica John"
+        ],
+        "productionCompanies": [],
+        "music": []
+      },
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:21.988Z"
+    },
+    {
+      "input": "Reba Monica John",
+      "title": "Reba Monica John",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Sampradayini Suppini Suddapoosani",
+      "title": "Sampradayini Suppini Suddapoosani",
+      "status": "ok",
+      "theatricalDate": "2026-03-06",
+      "availability": [
+        {
+          "platform": "ETV Win",
+          "language": "Unknown",
+          "date": "2026-02-12",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "== Release ==\nSampradayini Suppini Suddapoosani was initially scheduled to release directly on ETV Win on 12 February 2026 but was released first in movie theaters on 6 March 2026."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Unknown",
+          "date": "2026-04-03",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "It was later released on Netflix on 3 April 2026."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "ok",
+        "videoId": "8DAQX91vvG8",
+        "title": "Sampradayini Suppini Suddapoosani Movie Official Trailer | Shivaji | Laya | Roshan | News Buzz",
+        "channelTitle": "News Buzz",
+        "channelId": "UCO-pJ3z0_iJg7ixG1lVihMg",
+        "publishedAt": "2026-02-07T11:50:55Z",
+        "score": 74,
+        "watchUrl": "https://www.youtube.com/watch?v=8DAQX91vvG8",
+        "embedUrl": "https://www.youtube.com/embed/8DAQX91vvG8",
+        "thumbnail": "https://i.ytimg.com/vi/8DAQX91vvG8/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/8DAQX91vvG8/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/8DAQX91vvG8/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "Sampradayini Suppini Suddapoosani Trailer | #SSS  | Shivaji, Laya | Premieres Feb 12 | WIN Original",
+          "score": 54
+        },
+        "via": "api-search",
+        "verification": {
+          "verified": true,
+          "trustedChannel": false,
+          "lengthOk": true,
+          "saysTrailer": true,
+          "looksLikeFullFilm": false,
+          "durationSec": 132,
+          "channelTitle": "News Buzz",
+          "verifiedTitle": "Sampradayini Suppini Suddapoosani Movie Official Trailer | Shivaji | Laya | Roshan | News Buzz",
+          "views": 22839,
+          "reasons": [
+            "channel-not-in-trusted-list"
+          ],
+          "confidence": "medium"
+        }
+      },
+      "citationCount": 12,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:23.202Z"
+    },
+    {
+      "input": "Sivaji (Telugu actor)",
+      "title": "Sivaji (Telugu actor)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Laya (actress)",
+      "title": "Laya (actress)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "S Saraswathi",
+      "title": "S Saraswathi",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:25.009Z"
+    },
+    {
+      "input": "Varalaxmi Sarathkumar",
+      "title": "Varalaxmi Sarathkumar",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Prakash Raj",
+      "title": "Prakash Raj filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Priyamani",
+      "title": "Priyamani",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Abhinav Gomatam",
+      "title": "Abhinav Gomatam",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Hebah Patel",
+      "title": "Hebah Patel",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Chaitanya Rao Madadi",
+      "title": "Chaitanya Rao Madadi",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Harish Shankar",
+      "title": "Harish Shankar",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Pawan Kalyan",
+      "title": "Pawan Kalyan filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Sreeleela",
+      "title": "Sreeleela",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Raashii Khanna",
+      "title": "Raashii Khanna",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Band Melam",
+      "title": "Band Melam",
+      "status": "ok",
+      "theatricalDate": "2026-03-26",
+      "availability": [
+        {
+          "platform": "ZEE5",
+          "language": "Unknown",
+          "date": "2026-04-24",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "It was released on ZEE5 on 24 April 2026."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "ok",
+        "videoId": "QSUR9YDUEWA",
+        "title": "Bandmelam | Official Trailer (Telugu) | Roshan | Sridevi | Kona Venkat | Watch Now on ZEE5",
+        "channelTitle": "Zee 5",
+        "channelId": "UCXOgAl4w-FQero1ERbGHpXQ",
+        "publishedAt": "2026-04-17T09:18:42Z",
+        "score": 74,
+        "watchUrl": "https://www.youtube.com/watch?v=QSUR9YDUEWA",
+        "embedUrl": "https://www.youtube.com/embed/QSUR9YDUEWA",
+        "thumbnail": "https://i.ytimg.com/vi/QSUR9YDUEWA/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/QSUR9YDUEWA/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/QSUR9YDUEWA/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "Band Melam Official Trailer | Harsh Roshan | Sridevi | Sai Kumar | Kona Venkat | Sathish Javvaji",
+          "score": 66
+        },
+        "via": "api-search",
+        "verification": {
+          "verified": true,
+          "trustedChannel": false,
+          "lengthOk": true,
+          "saysTrailer": true,
+          "looksLikeFullFilm": false,
+          "durationSec": 162,
+          "channelTitle": "Zee 5",
+          "verifiedTitle": "Bandmelam | Official Trailer (Telugu) | Roshan | Sridevi | Kona Venkat | Watch Now on ZEE5",
+          "views": 9834421,
+          "reasons": [
+            "channel-not-in-trusted-list"
+          ],
+          "confidence": "medium"
+        }
+      },
+      "citationCount": 14,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:31.650Z"
+    },
+    {
+      "input": "Kona Film Corporation",
+      "title": "Kona Venkat",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Lakshmi Manchu",
+      "title": "Lakshmi Manchu",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Sreerama Chandra",
+      "title": "Sreerama Chandra",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Ananya Nagalla",
+      "title": "Ananya Nagalla",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Priyadarshi Pulikonda",
+      "title": "Priyadarshi Pulikonda",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Biker (film)",
+      "title": "Biker (film)",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-04-03",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 25,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:35.009Z"
+    },
+    {
+      "input": "Rajasekhar (actor)",
+      "title": "Rajasekhar (actor)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Malvika Nair",
+      "title": "Malvika Nair",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Raakaasa",
+      "title": "Raakaasa",
+      "status": "ok",
+      "theatricalDate": "2026-04-03",
+      "availability": [
+        {
+          "platform": "Netflix",
+          "language": "Telugu",
+          "date": null,
+          "dateStatus": "unknown",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The Telugu horror film was premiered on Netflix on May 1 2026."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "ok",
+        "videoId": "TJ5dpuZ1cAk",
+        "title": "Raakaasa | Official Trailer | Sangeeth Shobhan | Getup Srinu | Netflix India",
+        "channelTitle": "Netflix India",
+        "channelId": "UCZSNzBgFub_WWil6TOTYwAg",
+        "publishedAt": "2026-04-30T08:30:00Z",
+        "score": 66,
+        "watchUrl": "https://www.youtube.com/watch?v=TJ5dpuZ1cAk",
+        "embedUrl": "https://www.youtube.com/embed/TJ5dpuZ1cAk",
+        "thumbnail": "https://i.ytimg.com/vi/TJ5dpuZ1cAk/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/TJ5dpuZ1cAk/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/TJ5dpuZ1cAk/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "#RĀKĀSĀ Official Trailer | Sangeeth Shobhan, Nayan Sarika | Manasa | Niharika Konidela | Zee Studios",
+          "score": 50
+        },
+        "via": "api-search",
+        "verification": {
+          "verified": true,
+          "trustedChannel": true,
+          "lengthOk": true,
+          "saysTrailer": true,
+          "looksLikeFullFilm": false,
+          "durationSec": 124,
+          "channelTitle": "Netflix India",
+          "verifiedTitle": "Raakaasa | Official Trailer | Sangeeth Shobhan | Getup Srinu | Netflix India",
+          "views": 860289,
+          "reasons": [],
+          "confidence": "high"
+        }
+      },
+      "citationCount": 14,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:36.811Z"
+    },
+    {
+      "input": "Sangeeth Sobhan",
+      "title": "Sangeeth Sobhan",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Zee Studios",
+      "title": "Zee Studios",
+      "status": "no-ott-found",
+      "theatricalDate": "2018-04-20",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 232,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:38.127Z"
+    },
+    {
+      "input": "Suvarna",
+      "title": "Suvarna Sundari (2023 film)",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:39.119Z"
+    },
+    {
+      "input": "Shakalaka Shankar",
+      "title": "Shakalaka Shankar",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Adivi Sesh",
+      "title": "Adivi Sesh",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Mrunal Thakur",
+      "title": "Mrunal Thakur",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Anurag Kashyap",
+      "title": "Anurag Kashyap filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Bad Boy Karthik",
+      "title": "Bad Boy Karthik",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-04-17",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:41.736Z"
+    },
+    {
+      "input": "Naga Shaurya",
+      "title": "Naga Shaurya",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Sridevi Vijaykumar",
+      "title": "Sridevi Vijaykumar",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Papam Prathap",
+      "title": "Papam Prathap",
+      "status": "ok",
+      "theatricalDate": "2026-04-17",
+      "availability": [
+        {
+          "platform": "ETV Win",
+          "language": "Unknown",
+          "date": "2026-05-07",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "The film was released on 7 May 2026 on ETV Win."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "rejected-by-verification",
+        "rejected": {
+          "videoId": "PmNaIdWr8l8",
+          "title": "Papam Prathap Official Trailer | Thiruveer |Ajay Ghosh | A Win Original Production |‎| Maatv films",
+          "channelTitle": "Maa Tv Films"
+        },
+        "verification": {
+          "verified": false,
+          "trustedChannel": false,
+          "lengthOk": false,
+          "saysTrailer": true,
+          "looksLikeFullFilm": false,
+          "durationSec": 11,
+          "channelTitle": "Maa Tv Films",
+          "verifiedTitle": "Papam Prathap Official Trailer | Thiruveer |Ajay Ghosh | A Win Original Production |‎| Maatv films",
+          "views": 51836,
+          "reasons": [
+            "channel-not-in-trusted-list",
+            "length-11s"
+          ],
+          "confidence": "low"
+        }
+      },
+      "citationCount": 11,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:43.580Z"
+    },
+    {
+      "input": "Thiruveer",
+      "title": "Thiruveer",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Thimmarajupalli TV",
+      "title": "Thimmarajupalli TV",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q136266306",
+        "directors": [],
+        "producers": [
+          "Kiran Abbavaram",
+          "Tejeswar Reddy Velpucharla"
+        ],
+        "cast": [],
+        "productionCompanies": [
+          "Sumaira studios"
+        ],
+        "music": []
+      },
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:44.577Z"
+    },
+    {
+      "input": "Rich Kid (film)",
+      "title": "Rich Kid (film)",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-04-23",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:45.629Z"
+    },
+    {
+      "input": "Gedela Raju Kakinada Taluka",
+      "title": "Gedela Raju Kakinada Taluka",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-04-24",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:51.192Z"
+    },
+    {
+      "input": "Sugriva (film)",
+      "title": "Sugriva (film)",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-04-24",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:52.927Z"
+    },
+    {
+      "input": "Suman Setty",
+      "title": "Suman Setty",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Gaayapadda Simham",
+      "title": "Gaayapadda Simham",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-05-01",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:54.002Z"
+    },
+    {
+      "input": "Faria Abdullah",
+      "title": "Faria Abdullah",
+      "status": "not-a-film"
+    },
+    {
+      "input": "J. D. Chakravarthy",
+      "title": "J. D. Chakravarthy",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Jetlee",
+      "title": "Jetlee",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-05-01",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:56.463Z"
+    },
+    {
+      "input": "Ritesh Rana",
+      "title": "Ritesh Rana",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Satya (Telugu actor)",
+      "title": "Satya (Telugu actor)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Rhea Singha",
+      "title": "Rhea Singha",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Vennela Kishore",
+      "title": "Vennela Kishore filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Jagapathi Babu",
+      "title": "Jagapathi Babu filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Subhalekha Sudhakar",
+      "title": "Subhalekha Sudhakar filmography",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:16:59.939Z"
+    },
+    {
+      "input": "Satya Krishnan",
+      "title": "Satya Krishnan",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Ravi Babu",
+      "title": "Ravi Babu",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Flying Frogs",
+      "title": "Flying Frogs",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:17:01.595Z"
+    },
+    {
+      "input": "Sathi Leelavathi (2026 film)",
+      "title": "Sathi Leelavathi (2026 film)",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-05-08",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:17:02.499Z"
+    },
+    {
+      "input": "Tatineni Satya",
+      "title": "Tatineni Satya",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:17:03.563Z"
+    },
+    {
+      "input": "Lavanya Tripathi",
+      "title": "Lavanya Tripathi",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Dev Mohan",
+      "title": "Dev Mohan",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Venkat (actor)",
+      "title": "Venkat (actor)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Saloni Aswani",
+      "title": "Saloni Aswani",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Mr. Work from Home",
+      "title": "Mr. Work from Home",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:17:06.216Z"
+    },
+    {
+      "input": "Thrigun",
+      "title": "Thrigun",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Saptagiri (actor)",
+      "title": "Saptagiri (actor)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Rajkumar Kasireddy",
+      "title": "Rajkumar Kasireddy",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Ugly Story",
+      "title": "Ugly Story",
+      "status": "ok",
+      "theatricalDate": "2026-05-22",
+      "availability": [
+        {
+          "platform": "aha",
+          "language": "Unknown",
+          "date": "2026-06-05",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "On 5 June 2026, the film was digitally released on Amazon Prime Video, JioHotstar and Aha."
+          ]
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "language": "Unknown",
+          "date": "2026-06-05",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "On 5 June 2026, the film was digitally released on Amazon Prime Video, JioHotstar and Aha."
+          ]
+        },
+        {
+          "platform": "JioHotstar",
+          "language": "Unknown",
+          "date": "2026-06-05",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "On 5 June 2026, the film was digitally released on Amazon Prime Video, JioHotstar and Aha."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "ok",
+        "videoId": "7hLQtxlhmeM",
+        "title": "Ugly Story - Official Trailer | Nandu, Avikagor | Pranava Swaroop | Shravan Bharadwaj",
+        "channelTitle": "Saregama Telugu",
+        "channelId": "UC68nKdrLbLL0Vj7ilVkLmmg",
+        "publishedAt": "2026-05-06T06:25:00Z",
+        "score": 74,
+        "watchUrl": "https://www.youtube.com/watch?v=7hLQtxlhmeM",
+        "embedUrl": "https://www.youtube.com/embed/7hLQtxlhmeM",
+        "thumbnail": "https://i.ytimg.com/vi/7hLQtxlhmeM/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/7hLQtxlhmeM/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/7hLQtxlhmeM/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "UGLY STORY Movie Official Teaser || Nandu || Avikagor || 2023 Telugu Trailers || FR",
+          "score": 74
+        },
+        "via": "api-search",
+        "verification": {
+          "verified": true,
+          "trustedChannel": true,
+          "lengthOk": true,
+          "saysTrailer": true,
+          "looksLikeFullFilm": false,
+          "durationSec": 148,
+          "channelTitle": "Saregama Telugu",
+          "verifiedTitle": "Ugly Story - Official Trailer | Nandu, Avikagor | Pranava Swaroop | Shravan Bharadwaj",
+          "views": 2514295,
+          "reasons": [],
+          "confidence": "high"
+        }
+      },
+      "citationCount": 7,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:17:11.207Z"
+    },
+    {
+      "input": "Avika Gor",
+      "title": "Avika Gor",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Shraddha Das",
+      "title": "Shraddha Das",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Mahendran (actor)",
+      "title": "Mahendran (actor)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Tanikella Bharani",
+      "title": "Tanikella Bharani filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Aamani",
+      "title": "Aamani",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Mareechika",
+      "title": "Mareechika",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-05-29",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:17:14.910Z"
+    },
+    {
+      "input": "Satish Kasetty",
+      "title": "Satish Kasetty",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Viraj Ashwin",
+      "title": "Viraj Ashwin",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Regena Cassandrra",
+      "title": "Regena Cassandrra",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Anupama Parameswaran",
+      "title": "Anupama Parameswaran",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Jeeva (Telugu actor)",
+      "title": "Jeeva (Telugu actor)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Buchi Babu Sana",
+      "title": "Buchi Babu Sana",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Ram Charan",
+      "title": "Ram Charan filmography and awards",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Janhvi Kapoor",
+      "title": "Janhvi Kapoor",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Shiva Rajkumar",
+      "title": "Shiva Rajkumar filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Police Complaint",
+      "title": "Police Complaint",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-06-12",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:17:20.819Z"
+    },
+    {
+      "input": "Ragini Dwivedi",
+      "title": "Ragini Dwivedi",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Sing Geetham",
+      "title": "Sing Geetham",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-06-12",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:17:22.343Z"
+    },
+    {
+      "input": "Singeetam Srinivasa Rao",
+      "title": "Singeetham Srinivasa Rao filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Vyjayanthi Movies",
+      "title": "Vyjayanthi Movies",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 18,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:17:26.400Z"
+    },
+    {
+      "input": "L. B. Sriram",
+      "title": "L. B. Sriram",
+      "status": "not-a-film"
+    },
+    {
+      "input": "B. V. Nandini Reddy",
+      "title": "B. V. Nandini Reddy",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Samantha Ruth Prabhu",
+      "title": "Samantha Ruth Prabhu filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Gulshan Devaiah",
+      "title": "Gulshan Devaiah",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Sreemukhi",
+      "title": "Sreemukhi",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Vadde Naveen",
+      "title": "Vadde Naveen",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Rashi Singh",
+      "title": "Rashi Singh",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Gossip (2026 film)",
+      "title": "Gossip (2026 film)",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-06-26",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:17:30.419Z"
+    },
+    {
+      "input": "Ravi Varma (East Godavari actor)",
+      "title": "Ravi Varma (East Godavari actor)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Nagabandham: The Secret Treasure",
+      "title": "Nagabandham: The Secret Treasure",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-07-03",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:17:31.587Z"
+    },
+    {
+      "input": "Nabha Natesh",
+      "title": "Nabha Natesh",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Iswarya Menon",
+      "title": "Iswarya Menon",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Rao Bahadur (film)",
+      "title": "Rao Bahadur (film)",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-07-03",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:17:34.074Z"
+    },
+    {
+      "input": "Venkatesh Maha",
+      "title": "Venkatesh Maha",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Satyadev (actor)",
+      "title": "Satyadev (actor)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Akhil Akkineni",
+      "title": "Akhil Akkineni",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Bhagyashri Borse",
+      "title": "Bhagyashri Borse",
+      "status": "not-a-film"
+    },
+    {
+      "input": "John Vijay",
+      "title": "John Vijay",
+      "status": "not-a-film"
+    },
+    {
+      "input": "G. Nageswara Reddy",
+      "title": "G. Nageswara Reddy",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Srikanth (actor, born 1968)",
+      "title": "Srikanth (actor, born 1968)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Rajendra Prasad (actor)",
+      "title": "Rajendra Prasad (actor)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Oh..! Sukumari",
+      "title": "Oh..! Sukumari",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:17:38.939Z"
+    },
+    {
+      "input": "Aishwarya Rajesh",
+      "title": "Aishwarya Rajesh",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Oka Court Case",
+      "title": "Oka Court Case",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-07-17",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:17:40.089Z"
+    },
+    {
+      "input": "Prudhvi Raj",
+      "title": "Prudhvi Raj",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Posani Krishna Murali",
+      "title": "Posani Krishna Murali",
+      "status": "not-a-film"
+    },
+    {
+      "input": "P. Sai Kumar",
+      "title": "P. Sai Kumar",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Sudha (actress)",
+      "title": "Sudha (actress)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Muralidhar Goud",
+      "title": "Muralidhar Goud",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Kiran Abbavaram",
+      "title": "Kiran Abbavaram",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Srinivasa Mangapuram (film)",
+      "title": "Srinivasa Mangapuram (film)",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-07-30",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 13,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:17:44.024Z"
+    },
+    {
+      "input": "Ajay Bhupathi",
+      "title": "Ajay Bhupathi",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Abhinaya Krishna",
+      "title": "Abhinaya Krishna",
+      "status": "not-a-film"
+    },
+    {
+      "input": "P. Samuthirakani",
+      "title": "P. Samuthirakani",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Abhirami (actress, born 1983)",
+      "title": "Abhirami (actress, born 1983)",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:17:46.002Z"
+    },
+    {
+      "input": "Sharanya Pradeep",
+      "title": "Sharanya Pradeep",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Newton's 3rd Law (film)",
+      "title": "Newton's 3rd Law (film)",
+      "status": "ok",
+      "theatricalDate": "2026-07-31",
+      "availability": [
+        {
+          "platform": "Netflix",
+          "language": "Unknown",
+          "date": "2026-08-28",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "=== Home Media ===\nThe film started streaming on Netflix on 28 August 2026."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "ok",
+        "videoId": "u2Q9sHAjK4Q",
+        "title": "Newton&#39;s 3rd Law Official Trailer | Sumanth | Jagapathi Babu | Rajesh Karna | In Theatres July 31",
+        "channelTitle": "Aditya Music",
+        "channelId": "UCNApqoVYJbYSrni4YsbXzyQ",
+        "publishedAt": "2026-07-26T05:41:07Z",
+        "score": 92,
+        "watchUrl": "https://www.youtube.com/watch?v=u2Q9sHAjK4Q",
+        "embedUrl": "https://www.youtube.com/embed/u2Q9sHAjK4Q",
+        "thumbnail": "https://i.ytimg.com/vi/u2Q9sHAjK4Q/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/u2Q9sHAjK4Q/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/u2Q9sHAjK4Q/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "Newton&#39;s 3rd Law Official Trailer | Sumanth | Jagapathi Babu | Rajesh Karna | In Theatres July 31",
+          "score": 84
+        },
+        "fromCache": true,
+        "via": "api-search",
+        "verification": {
+          "verified": true,
+          "trustedChannel": true,
+          "lengthOk": true,
+          "saysTrailer": true,
+          "looksLikeFullFilm": false,
+          "durationSec": 169,
+          "channelTitle": "Aditya Music",
+          "verifiedTitle": "Newton's 3rd Law Official Trailer | Sumanth | Jagapathi Babu | Rajesh Karna | In Theatres July 31",
+          "views": 455968,
+          "reasons": [],
+          "confidence": "high"
+        }
+      },
+      "citationCount": 10,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:17:47.772Z"
+    },
+    {
+      "input": "Sumanth",
+      "title": "Sumanth",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Amma Naaku Aa Abbayi Kaavali",
+      "title": "Amma Naaku Aa Abbayi Kaavali",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-07-31",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:17:49.048Z"
+    },
+    {
+      "input": "Korean Kanakaraju",
+      "title": "Korean Kanakaraju",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-08-07",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:17:50.566Z"
+    },
+    {
+      "input": "Merlapaka Gandhi",
+      "title": "Merlapaka Gandhi",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Varun Tej",
+      "title": "Varun Tej",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Ritika Nayak",
+      "title": "Ritika Nayak",
+      "status": "not-a-film"
+    },
+    {
+      "input": "First Frame Entertainments",
+      "title": "First Frame Entertainments",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:17:52.781Z"
+    },
+    {
+      "input": "KJQ: King Jackie Queen",
+      "title": "KJQ: King Jackie Queen",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-08-07",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:17:53.717Z"
+    },
+    {
+      "input": "Dheekshith Shetty",
+      "title": "Dheekshith Shetty",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Yukti Thareja",
+      "title": "Yukti Thareja",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Agadha",
+      "title": "Agadha",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-08-14",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:17:55.584Z"
+    },
+    {
+      "input": "M. S. Raju",
+      "title": "M. S. Raju",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Shravan Reddy",
+      "title": "Shravan Reddy",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Ulka Gupta",
+      "title": "Ulka Gupta",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Annapurna Studios",
+      "title": "Annapurna Studios",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:17:58.227Z"
+    },
+    {
+      "input": "Roll Rida",
+      "title": "Roll Rida",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Shiva Nirvana",
+      "title": "Shiva Nirvana",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Priya Bhavani Shankar",
+      "title": "Priya Bhavani Shankar",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Upendra Limaye",
+      "title": "Upendra Limaye",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Ali (actor)",
+      "title": "Ali (actor)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Raghu Babu",
+      "title": "Raghu Babu",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Gundu Sudarshan",
+      "title": "Gundu Sudarshan",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Allari Naresh",
+      "title": "Allari Naresh",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Surbhi",
+      "title": "Surbhi",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Srinivasa Reddy",
+      "title": "Srinivasa Reddy",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Vithika Sheru",
+      "title": "Vithika Sheru",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Kasthuri Shankar Actress",
+      "title": "Kasthuri Shankar",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Rajiv Kanakala",
+      "title": "Black & White (2008 Telugu film)",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:18:05.205Z"
+    },
+    {
+      "input": "Anand Deverakonda",
+      "title": "Anand Deverakonda",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Vaishnavi Chaitanya",
+      "title": "Vaishnavi Chaitanya",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Chaithra J Achar",
+      "title": "Blink (2024 Indian film)",
+      "status": "no-ott-found",
+      "theatricalDate": "2024-03-08",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 28,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:18:06.918Z"
+    },
+    {
+      "input": "Srikanth Odela",
+      "title": "Srikanth Odela",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Nani (actor)",
+      "title": "Nani (actor)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Mohan Babu",
+      "title": "Mohan Babu",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Raghav Juyal",
+      "title": "Raghav Juyal",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Trivikram Srinivas",
+      "title": "Trivikram Srinivas",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Venkatesh (actor)",
+      "title": "Venkatesh (actor)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Srinidhi Shetty",
+      "title": "Srinidhi Shetty",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Yuvina Parthavi",
+      "title": "Yuvina Parthavi",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Nivetha Pethuraj",
+      "title": "Nivetha Pethuraj",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Fahadh Faasil",
+      "title": "Fahadh Faasil filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Saurabh Sachdeva",
+      "title": "Saurabh Sachdeva",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Arka Media Works",
+      "title": "Arka Media Works",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:18:13.559Z"
+    },
+    {
+      "input": "George Maryan",
+      "title": "George Maryan",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Tinnu Anand",
+      "title": "Tinnu Anand",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Mahima Nambiar",
+      "title": "RDX (film)",
+      "status": "ok",
+      "theatricalDate": "2023-08-25",
+      "availability": [
+        {
+          "platform": "Netflix",
+          "language": "Hindi",
+          "date": "2023-09-24",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "=== Home media ===\nThe satellite rights of the film were sold to Asianet, while Netflix has acquired the post-theatrical digital rights and began streaming it on 24 September 2023 in Malayalam and in dubbed versions of Hindi, Kannada, Tamil and Telugu languages."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Kannada",
+          "date": "2023-09-24",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "=== Home media ===\nThe satellite rights of the film were sold to Asianet, while Netflix has acquired the post-theatrical digital rights and began streaming it on 24 September 2023 in Malayalam and in dubbed versions of Hindi, Kannada, Tamil and Telugu languages."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Malayalam",
+          "date": "2023-09-24",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "=== Home media ===\nThe satellite rights of the film were sold to Asianet, while Netflix has acquired the post-theatrical digital rights and began streaming it on 24 September 2023 in Malayalam and in dubbed versions of Hindi, Kannada, Tamil and Telugu languages."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Tamil",
+          "date": "2023-09-24",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "=== Home media ===\nThe satellite rights of the film were sold to Asianet, while Netflix has acquired the post-theatrical digital rights and began streaming it on 24 September 2023 in Malayalam and in dubbed versions of Hindi, Kannada, Tamil and Telugu languages."
+          ]
+        },
+        {
+          "platform": "Netflix",
+          "language": "Telugu",
+          "date": "2023-09-24",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "=== Home media ===\nThe satellite rights of the film were sold to Asianet, while Netflix has acquired the post-theatrical digital rights and began streaming it on 24 September 2023 in Malayalam and in dubbed versions of Hindi, Kannada, Tamil and Telugu languages."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q120356717",
+        "directors": [
+          "Nahas Hidhayath"
+        ],
+        "producers": [],
+        "cast": [
+          "Babu Antony",
+          "Lal",
+          "Nishanth Sagar",
+          "Baiju",
+          "Mahima Nambiar",
+          "Neeraj Madhav",
+          "Aima Sebastian",
+          "Shane Nigam",
+          "Parvathi T",
+          "Antony Varghese.",
+          "Sandeep Raj",
+          "Arya Salim"
+        ],
+        "productionCompanies": [],
+        "music": [
+          "Sam C. S."
+        ]
+      },
+      "trailer": {
+        "status": "ok",
+        "videoId": "NJjDRnE-5_4",
+        "title": "RDX - Official Trailer | Shane Nigam, Antony Varghese, Neeraj Madhav | Nahas Hidhayath | Sam C S",
+        "channelTitle": "Saregama Malayalam",
+        "channelId": "UCoRF8GByEjmM_yHwUGIDGyQ",
+        "publishedAt": "2023-08-13T11:30:10Z",
+        "score": 66,
+        "watchUrl": "https://www.youtube.com/watch?v=NJjDRnE-5_4",
+        "embedUrl": "https://www.youtube.com/embed/NJjDRnE-5_4",
+        "thumbnail": "https://i.ytimg.com/vi/NJjDRnE-5_4/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/NJjDRnE-5_4/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/NJjDRnE-5_4/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "RDX Love Official Trailer | Payal Rajput | Latest Telugu Movies | TVNXT Telugu",
+          "score": 58
+        },
+        "via": "api-search",
+        "verification": {
+          "verified": true,
+          "trustedChannel": true,
+          "lengthOk": true,
+          "saysTrailer": true,
+          "looksLikeFullFilm": false,
+          "durationSec": 160,
+          "channelTitle": "Saregama Malayalam",
+          "verifiedTitle": "RDX - Official Trailer | Shane Nigam, Antony Varghese, Neeraj Madhav | Nahas Hidhayath | Sam C S",
+          "views": 8630682,
+          "reasons": [],
+          "confidence": "high"
+        }
+      },
+      "citationCount": 85,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:18:15.306Z"
+    },
+    {
+      "input": "Radikaa Sarathkumar",
+      "title": "Radikaa Sarathkumar filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Shine Tom Chacko",
+      "title": "Shine Tom Chacko",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Vijay Deverakonda",
+      "title": "Vijay Deverakonda",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Rashmika Mandanna",
+      "title": "Rashmika Mandanna",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Arnold Vosloo",
+      "title": "Arnold Vosloo",
+      "status": "not-a-film"
+    },
+    {
+      "input": "T-Series Films",
+      "status": "not-found"
+    },
+    {
+      "input": "NDTV",
+      "title": "Toxic (2026 film)",
+      "status": "no-ott-found",
+      "theatricalDate": "2026-08-26",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q123740702",
+        "directors": [
+          "Geetu Mohandas"
+        ],
+        "producers": [],
+        "cast": [],
+        "productionCompanies": [],
+        "music": []
+      },
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:18:18.775Z"
+    },
+    {
+      "input": "Sri Gouri Priya",
+      "title": "Sri Gouri Priya",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Rahul Vijay",
+      "title": "Rahul Vijay",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Shivathmika Rajashekar",
+      "title": "Shivathmika Rajashekar",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Guru Somasundaram",
+      "title": "Guru Somasundaram",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Easwari Rao",
+      "title": "Easwari Rao",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Rahul Ravindran",
+      "title": "Rahul Ravindran",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Hanu Raghavapudi",
+      "title": "Hanu Raghavapudi",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Anupam Kher",
+      "title": "Anupam Kher filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Mithun Chakraborty",
+      "title": "Mithun Chakraborty filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "T-Series (company)",
+      "title": "T-Series (company)",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:18:24.327Z"
+    },
+    {
+      "input": "Kushee Ravi",
+      "title": "Kushee Ravi",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Kay Kay Menon",
+      "title": "Kay Kay Menon",
+      "status": "not-a-film"
+    },
+    {
+      "input": "New Indian Express",
+      "title": "Godfather (2022 film)",
+      "status": "no-ott-found",
+      "theatricalDate": "2022-10-05",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q108470995",
+        "directors": [
+          "M. Raja"
+        ],
+        "producers": [],
+        "cast": [
+          "Salman Khan",
+          "Chiranjeevi",
+          "Prabhu Deva",
+          "Nayanthara",
+          "Indukuri Sunil Varma",
+          "Harsha Vardhan",
+          "Kasthuri",
+          "Murali Mohan born 1945",
+          "Murali Sharma",
+          "Nawab Shah",
+          "Pragathi",
+          "Puri Jagannadh",
+          "Samuthirakani",
+          "Sarvadaman D. Banerjee",
+          "Sayaji Shinde",
+          "Brahmaji",
+          "Bharath Reddy",
+          "Shafi",
+          "Anasuya",
+          "Satyadev Kancharana",
+          "Tanya Ravichandran",
+          "Gangavva"
+        ],
+        "productionCompanies": [],
+        "music": []
+      },
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 92,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:18:26.423Z"
+    },
+    {
+      "input": "Naga Chaitanya",
+      "title": "Naga Chaitanya",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Sparsh Shrivastava",
+      "title": "Laapataa Ladies",
+      "status": "ok",
+      "theatricalDate": "2023-09-08",
+      "availability": [
+        {
+          "platform": "Netflix",
+          "language": "Unknown",
+          "date": "2024-04-26",
+          "dateStatus": "reported",
+          "platformConfidence": "confirmed",
+          "sourceCount": 2,
+          "conflictingDates": [],
+          "evidence": [
+            "=== Home media ===\nLaapataa Ladies premiered on Netflix on 26 April 2024."
+          ]
+        }
+      ],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q124714626",
+        "directors": [
+          "Kiran Rao"
+        ],
+        "producers": [
+          "Aamir Khan",
+          "Kiran Rao",
+          "Jyoti Deshpande"
+        ],
+        "cast": [
+          "Ravi Kishan",
+          "Sparsh Shrivastav",
+          "Nitanshi Goel",
+          "Chhaya Kadam",
+          "Durgesh Kumar",
+          "Pratibha Ranta"
+        ],
+        "productionCompanies": [
+          "Aamir Khan Productions",
+          "Jio Studios"
+        ],
+        "music": [
+          "Ram Sampath"
+        ]
+      },
+      "trailer": {
+        "status": "ok",
+        "videoId": "tF1JN2pT_sM",
+        "title": "Laapataa Ladies(Official Trailer) Aamir Khan Productions Kindling Pictures Jio Studios |1st Mar 2024",
+        "channelTitle": "T-Series",
+        "channelId": "UCq-Fj5jknLsUf-MWSy4_brA",
+        "publishedAt": "2024-01-24T09:37:01Z",
+        "score": 74,
+        "watchUrl": "https://www.youtube.com/watch?v=tF1JN2pT_sM",
+        "embedUrl": "https://www.youtube.com/embed/tF1JN2pT_sM",
+        "thumbnail": "https://i.ytimg.com/vi/tF1JN2pT_sM/hqdefault.jpg",
+        "thumbnailHigh": "https://i.ytimg.com/vi/tF1JN2pT_sM/hqdefault.jpg",
+        "thumbnailMax": "https://i.ytimg.com/vi/tF1JN2pT_sM/maxresdefault.jpg",
+        "runnerUp": {
+          "title": "Laapataa Ladies | Official Trailer | Ravi Kishan, Sparsh Srivastava, Pratibha Ranta, Nitanshi Goel",
+          "score": 74
+        },
+        "via": "api-search",
+        "verification": {
+          "verified": true,
+          "trustedChannel": true,
+          "lengthOk": true,
+          "saysTrailer": true,
+          "looksLikeFullFilm": false,
+          "durationSec": 146,
+          "channelTitle": "T-Series",
+          "verifiedTitle": "Laapataa Ladies(Official Trailer) Aamir Khan Productions Kindling Pictures Jio Studios |1st Mar 2024",
+          "views": 5789352,
+          "reasons": [],
+          "confidence": "high"
+        }
+      },
+      "citationCount": 74,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:18:27.811Z"
+    },
+    {
+      "input": "Jayaram",
+      "title": "Jayaram filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Sri Venkateswara Cine Chitra",
+      "title": "Sri Venkateswara Cine Chitra",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": null,
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:18:28.925Z"
+    },
+    {
+      "input": "Sukumar Writings",
+      "title": "Sukumar filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Indo-Asian News Service",
+      "title": "Shiva (1989 Telugu film)",
+      "status": "no-ott-found",
+      "theatricalDate": "1989-10-05",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q7532265",
+        "directors": [
+          "Ram Gopal Varma"
+        ],
+        "producers": [],
+        "cast": [
+          "Akkineni Nagarjuna",
+          "Raghuvaran",
+          "Amala Akkineni",
+          "Chinna",
+          "Kota Srinivasa Rao",
+          "Uttej"
+        ],
+        "productionCompanies": [
+          "Annapurna Studios"
+        ],
+        "music": [
+          "Ilaiyaraaja"
+        ]
+      },
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:18:30.869Z"
+    },
+    {
+      "input": "Gopichand Malineni",
+      "title": "Gopichand Malineni",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Nandamuri Balakrishna",
+      "title": "Nandamuri Balakrishna filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Kajal Aggarwal",
+      "title": "Kajal Aggarwal filmography",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Manchu Manoj",
+      "title": "Manchu Manoj",
+      "status": "not-a-film"
+    },
+    {
+      "input": "123telugu.com",
+      "title": "Power (2014 Telugu film)",
+      "status": "no-ott-found",
+      "theatricalDate": "2014-09-12",
+      "availability": [],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q17073246",
+        "directors": [
+          "K. S. Ravindra"
+        ],
+        "producers": [
+          "Rockline Venkatesh"
+        ],
+        "cast": [
+          "Hansika Motwani",
+          "Brahmanandam",
+          "Kota Srinivasa Rao",
+          "Ravi Teja",
+          "Regina Cassandra"
+        ],
+        "productionCompanies": [],
+        "music": [
+          "S. Thaman"
+        ]
+      },
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:18:33.390Z"
+    },
+    {
+      "input": "Nagarjuna (actor)",
+      "title": "Nagarjuna (actor)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Tabu (actress)",
+      "title": "Tabu (actress)",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Sushmitha Bhat",
+      "title": "Sushmitha Bhat",
+      "status": "not-a-film"
+    },
+    {
+      "input": "Ravindra Vijay",
+      "title": "Ravindra Vijay",
+      "status": "not-a-film"
+    },
+    {
+      "input": "The Indian Express",
+      "title": "Venkatadri Express (film)",
+      "status": "no-ott-found",
+      "theatricalDate": null,
+      "availability": [],
+      "tvPremieres": [],
+      "credits": {
+        "qid": "Q16346585",
+        "directors": [
+          "Merlapaka Gandhi"
+        ],
+        "producers": [],
+        "cast": [
+          "Sundeep Kishan"
+        ],
+        "productionCompanies": [
+          "Anandi Art Creations"
+        ],
+        "music": [
+          "Ramana Gogula"
+        ]
+      },
+      "trailer": {
+        "status": "pending"
+      },
+      "citationCount": 0,
+      "sources": [
+        "en.wikipedia.org (Action API)",
+        "query.wikidata.org (SPARQL, CC0)"
+      ],
+      "fetchedAt": "2026-09-12T20:18:36.011Z"
+    },
+    {
+      "input": "Lists of Telugu-language films",
+      "status": "not-found"
+    }
+  ]
+}

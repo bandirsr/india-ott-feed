@@ -1,0 +1,99 @@
+# The whole update mechanism, once a day, for free.
+#
+# This runs on GitHub's machines, not Raja's PC. That matters more than it
+# sounds: the ledger only knows a title arrived if a sweep happened that day,
+# so a laptop that was asleep on Tuesday leaves a permanent hole in the record.
+#
+#   sweep TMDB  ->  fold into the ledger  ->  publish static JSON  ->  Pages
+#
+# The app reads the published JSON. Nothing here is a server, nothing stays
+# running, and the TMDB key never leaves Actions.
+#
+# Setup, once:
+#   1. Settings > Secrets and variables > Actions > New repository secret
+#      Name: TMDB_API_KEY
+#   2. Settings > Pages > Source: GitHub Actions
+#
+# Free-tier note: public repositories get unlimited Actions minutes. A run is
+# about two minutes, so even a private repo costs ~60 of the 2,000 free
+# minutes a month.
+
+name: Daily OTT sweep
+
+on:
+  schedule:
+    # 02:30 UTC = 08:00 IST. Platforms tend to publish overnight IST, so this
+    # catches a day's launches in one pass rather than splitting them across two.
+    - cron: '30 2 * * *'
+  workflow_dispatch: # so a run can be forced from the Actions tab
+
+permissions:
+  contents: write # to commit the updated ledger
+  pages: write
+  id-token: write
+
+# A sweep half-written by two concurrent runs would corrupt the ledger.
+concurrency:
+  group: daily-sweep
+  cancel-in-progress: false
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # A failure here is deliberate and load-bearing: src/health.js rejects a
+      # sweep that looks broken rather than letting it record thousands of false
+      # departures. GitHub emails the account owner on a failed run, which is
+      # the whole alerting mechanism -- no monitoring service needed.
+      - name: Sweep TMDB and update the ledger
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: node snapshot.js take
+
+      # Budgeted, not exhaustive. Backfills a few hundred a day, newest first,
+      # and caches "this one has none" so a run never re-asks.
+      - name: Backfill trailers
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: node snapshot.js trailers 400
+
+      # The second robot: ETV Win, which neither TMDB nor Watchmode carries.
+      # Wikipedia's own search finds the pages naming it, so this costs ~100
+      # requests rather than the 600 that walking the film lists would.
+      - name: Fill the ETV Win gap from Wikipedia
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: node gapfill.js 300
+
+      - name: Build the files the app downloads
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: node publish.js
+
+      # The ledger is the asset. Snapshots are disposable working files and are
+      # gitignored -- committing 1.3 MB a day would put ~170 MB a year into git
+      # history that deleting the files later would not reclaim.
+      - name: Commit the ledger
+        run: |
+          git config user.name "ott-bot"
+          git config user.email "ott-bot@users.noreply.github.com"
+          git add data/arrivals.json data/trailers.json data/gapfill.json
+          git diff --staged --quiet || git commit -m "Ledger: $(date -u +%Y-%m-%d)"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}

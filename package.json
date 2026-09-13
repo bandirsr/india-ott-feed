@@ -1,0 +1,18 @@
+{
+  "name": "telugu-ott-catalog",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Automated, scraper-free OTT availability catalogue built from official public APIs.",
+  "scripts": {
+    "build": "node run.js",
+    "build:year": "node run.js --year",
+    "test": "node test/test-extract.js && node test/test-clauses.js && node test/test-snapshot.js && node test/test-ledger.js && node test/test-health.js && node test/test-feed-contract.js",
+    "snapshot": "node snapshot.js take",
+    "publish": "node publish.js",
+    "daily": "node snapshot.js take && node snapshot.js trailers 400 && node gapfill.js 300 && node publish.js",
+    "serve": "node serve-public.cjs",
+    "trailers": "node snapshot.js trailers",
+    "gapfill": "node gapfill.js"
+  }
+}
