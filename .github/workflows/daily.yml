@@ -63,6 +63,15 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: node snapshot.js trailers 400
 
+      # Dubbed releases on multi-language platforms. A Tamil film on Netflix
+      # with a Telugu-tagged Indian title is a Telugu release; TMDB files it
+      # under Tamil, so a per-title check is the only way to see it. Budgeted
+      # and cached -- most films are not dubbed and that answer is cached too.
+      - name: Find dubbed releases
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: node dubs.js 300
+
       # The second robot: ETV Win, which neither TMDB nor Watchmode carries.
       # Wikipedia's own search finds the pages naming it, so this costs ~100
       # requests rather than the 600 that walking the film lists would.
@@ -83,7 +92,7 @@ jobs:
         run: |
           git config user.name "ott-bot"
           git config user.email "ott-bot@users.noreply.github.com"
-          git add data/arrivals.json data/trailers.json data/gapfill.json
+          git add data/arrivals.json data/trailers.json data/gapfill.json data/dubs.json
           git diff --staged --quiet || git commit -m "Ledger: $(date -u +%Y-%m-%d)"
           git push
 

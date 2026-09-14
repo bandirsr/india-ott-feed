@@ -96,6 +96,11 @@ function main() {
     ? toFeedEntries(JSON.parse(readFileSync(gapPath, 'utf8')))
     : { attach: [], standalone: [] };
 
+  // Dubs found on multi-language platforms. Optional like everything else here:
+  // if the finder has never run, the feed is simply what the sweep saw.
+  const dubPath = resolve(HERE, 'data', 'dubs.json');
+  const dubs = existsSync(dubPath) ? JSON.parse(readFileSync(dubPath, 'utf8')) : {};
+
   // Trailers are optional. They backfill over days on their own budget, so a
   // publish must never wait for them or fail without them.
   const trailerPath = resolve(HERE, 'data', 'trailers.json');
@@ -122,7 +127,11 @@ function main() {
     // single-language platform implies. A Tamil film on aha is listed for a
     // Telugu viewer, tagged `ol: 'ta'` so the app can say where it came from
     // rather than passing it off as a Telugu original.
-    const buckets = new Set([rec.l, ...(rec.also ?? [])]);
+    // Three ways a title reaches a language list: it was made in it; a
+    // single-language platform implies it (aha); or TMDB records a
+    // language-tagged Indian title for it, which is how a Tamil film on
+    // Netflix reaches a Telugu viewer.
+    const buckets = new Set([rec.l, ...(rec.also ?? []), ...(dubs[key] ?? [])]);
     for (const code of buckets) {
       const bucket = byLanguage.get(code);
       if (!bucket) continue;
