@@ -10,11 +10,12 @@
     "test": "node test/test-extract.js && node test/test-clauses.js && node test/test-snapshot.js && node test/test-ledger.js && node test/test-health.js && node test/test-feed-contract.js",
     "snapshot": "node snapshot.js take",
     "publish": "node publish.js",
-    "daily": "node snapshot.js take && node snapshot.js trailers 400 && node series.js 400 && node dubs.js 300 && node gapfill.js 300 && node publish.js",
+    "daily": "node snapshot.js take && node snapshot.js trailers 400 && node details.js 600 && node series.js 400 && node dubs.js 300 && node gapfill.js 300 && node publish.js",
     "serve": "node serve-public.cjs",
     "trailers": "node snapshot.js trailers",
     "gapfill": "node gapfill.js",
     "dubs": "node dubs.js",
-    "series": "node series.js"
+    "series": "node series.js",
+    "details": "node details.js"
   }
 }

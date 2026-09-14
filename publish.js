@@ -69,6 +69,24 @@ const COLORS = {
  * stops a reassigned id from inheriting the wrong brand.
  */
 
+/**
+ * Detail fields, omitted entirely when empty.
+ *
+ * Spelling them out rather than spreading the cached object keeps nulls out of
+ * the payload: `"dir": null` on ten thousand titles is dead weight in a file
+ * that ships to phones over mobile data.
+ */
+function detailFields(d) {
+  if (!d) return {};
+  const out = {};
+  if (d.d) out.dir = d.d;
+  if (d.c?.length) out.cast = d.c;
+  if (d.o) out.syn = d.o;
+  if (d.r) out.run = d.r;
+  if (d.v) out.rate = d.v;
+  return out;
+}
+
 function main() {
   const dates = listSnapshots();
   if (dates.length === 0) {
@@ -110,6 +128,11 @@ function main() {
   const seriesPath = resolve(HERE, 'data', 'series.json');
   const series = existsSync(seriesPath) ? JSON.parse(readFileSync(seriesPath, 'utf8')) : {};
 
+  // Director, cast, synopsis, runtime, rating. Optional like the rest; a title
+  // not yet detailed simply ships without them.
+  const detailsPath = resolve(HERE, 'data', 'details.json');
+  const details = existsSync(detailsPath) ? JSON.parse(readFileSync(detailsPath, 'utf8')) : {};
+
   // Trailers are optional. They backfill over days on their own budget, so a
   // publish must never wait for them or fail without them.
   const trailerPath = resolve(HERE, 'data', 'trailers.json');
@@ -130,6 +153,7 @@ function main() {
       // still from it, so one short string carries both.
       y: trailers[key]?.key ?? null,
       p: rec.p.map((pid) => ({ id: pid, on: arrivalDate(ledger, key, pid) })),
+      ...detailFields(details[key]),
     };
 
     // A title appears under its own language AND under any language a
