@@ -28,6 +28,7 @@ import { gzipSync } from 'node:zlib';
 import { listSnapshots, load, LANGUAGES } from './src/snapshot.js';
 import { loadLedger, arrivalDate } from './src/ledger.js';
 import { toFeedEntries } from './src/gapfill.js';
+import { trailerKeyFor } from './src/trailers.js';
 
 /**
  * Platforms with no TMDB id get a synthetic negative one.
@@ -151,7 +152,9 @@ function main() {
       k: key.startsWith('tv:') ? 'tv' : 'movie',
       // YouTube video key, or absent. The app builds both the watch URL and the
       // still from it, so one short string carries both.
-      y: trailers[key]?.key ?? null,
+      // Filled in per language below -- a Tamil viewer and a Telugu viewer
+      // looking at the same film get different trailers.
+      y: null,
       p: rec.p.map((pid) => ({ id: pid, on: arrivalDate(ledger, key, pid) })),
       ...detailFields(details[key]),
     };
@@ -169,7 +172,9 @@ function main() {
       const bucket = byLanguage.get(code);
       if (!bucket) continue;
       const ol = rec.ol ?? (code !== rec.l ? rec.l : null);
-      bucket.push(ol ? { ...entry, ol } : entry);
+      const y = trailerKeyFor(trailers[key], code);
+      const forLanguage = { ...entry, ...(y ? { y } : {}), ...(ol ? { ol } : {}) };
+      bucket.push(forLanguage);
     }
   }
 
@@ -264,7 +269,7 @@ function main() {
       d: rec.date,
       i: rec.poster,
       k: 'tv',
-      y: trailers[key]?.key ?? null,
+      y: trailerKeyFor(trailers[key], rec.language),
       p: [{ id: pid, on: null, src: 'network' }],
     });
     seriesAdded += 1;
