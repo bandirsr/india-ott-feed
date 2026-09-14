@@ -114,6 +114,13 @@ jobs:
           git diff --staged --quiet || git commit -m "Ledger: $(date -u +%Y-%m-%d)"
           git push
 
+      # The last gate. src/health.js protects the ledger; this protects the
+      # OUTPUT -- a run can pass every earlier check and still publish a file
+      # the app cannot use. A failure here fails the job, and a failed job is
+      # what emails the account owner. That is the whole alerting mechanism.
+      - name: Verify the published output
+        run: node verify-published.js
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
