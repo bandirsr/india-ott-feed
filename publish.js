@@ -201,12 +201,25 @@ function main() {
   for (const lang of LANGUAGES) {
     const titles = byLanguage.get(lang.code) ?? [];
 
-    // Newest first, so a truncated read still shows the useful end.
+    /**
+     * Newest first, on ONE date axis.
+     *
+     * This used to sort by arrival date and only fall back to release date as a
+     * tiebreak, which quietly put every arrival-dated title above every
+     * release-dated one regardless of age: a film that reached ETV Win in
+     * October 2025 sat above one released in September 2026. The app judges
+     * periods on whichever date it has, so the feed has to order by the same
+     * thing or the list reads as shuffled.
+     */
+    const effective = (t) => {
+      const arrived = t.p.reduce((m, x) => (x.on && x.on > m ? x.on : m), '');
+      return arrived || t.d || '';
+    };
     titles.sort((a, b) => {
-      const an = a.p.reduce((m, x) => (x.on && x.on > m ? x.on : m), '');
-      const bn = b.p.reduce((m, x) => (x.on && x.on > m ? x.on : m), '');
-      if (an !== bn) return an < bn ? 1 : -1;
-      return (b.d ?? '') < (a.d ?? '') ? -1 : 1;
+      const ae = effective(a);
+      const be = effective(b);
+      if (ae !== be) return ae < be ? 1 : -1;
+      return String(a.t).localeCompare(String(b.t));
     });
 
     const payload = {
