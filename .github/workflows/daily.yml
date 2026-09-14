@@ -63,6 +63,16 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: node snapshot.js trailers 400
 
+      # Web series, placed by the network that made them. JustWatch tags
+      # providers for almost no Indian series (2 of 10 sampled) while TMDB
+      # records a network for 8 of 10 -- and for a streaming original the
+      # network is where you watch it. This is the only path by which Telugu
+      # web series, and most ETV Win titles, reach the app at all.
+      - name: Place web series by network
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: node series.js 400
+
       # Dubbed releases on multi-language platforms. A Tamil film on Netflix
       # with a Telugu-tagged Indian title is a Telugu release; TMDB files it
       # under Tamil, so a per-title check is the only way to see it. Budgeted
@@ -92,7 +102,7 @@ jobs:
         run: |
           git config user.name "ott-bot"
           git config user.email "ott-bot@users.noreply.github.com"
-          git add data/arrivals.json data/trailers.json data/gapfill.json data/dubs.json
+          git add data/arrivals.json data/trailers.json data/gapfill.json data/dubs.json data/series.json
           git diff --staged --quiet || git commit -m "Ledger: $(date -u +%Y-%m-%d)"
           git push
 

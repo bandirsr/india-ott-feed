@@ -38,6 +38,9 @@ import { toFeedEntries } from './src/gapfill.js';
  */
 const SYNTHETIC_PROVIDERS = {
   'ETV Win': { id: -1, color: '#E4572E' },
+  // Not a TMDB provider either, but it turns up as a `networks` entry on
+  // series, which is the only reason we can see it at all.
+  Ullu: { id: -2, color: '#B5179E' },
 };
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -100,6 +103,12 @@ function main() {
   // if the finder has never run, the feed is simply what the sweep saw.
   const dubPath = resolve(HERE, 'data', 'dubs.json');
   const dubs = existsSync(dubPath) ? JSON.parse(readFileSync(dubPath, 'utf8')) : {};
+
+  // Web series placed by their network. JustWatch tags providers for almost no
+  // Indian series -- 2 of 10 sampled -- while TMDB records a network for 8 of
+  // 10, and for a streaming original the network IS where you watch it.
+  const seriesPath = resolve(HERE, 'data', 'series.json');
+  const series = existsSync(seriesPath) ? JSON.parse(readFileSync(seriesPath, 'utf8')) : {};
 
   // Trailers are optional. They backfill over days on their own budget, so a
   // publish must never wait for them or fail without them.
@@ -194,6 +203,47 @@ function main() {
   }
   for (const [name, synth] of Object.entries(SYNTHETIC_PROVIDERS)) {
     providers[synth.id] = { name, color: synth.color };
+  }
+
+  // --- web series, placed by their network -------------------------------
+  //
+  // Most of these are not in the sweep at all, because the sweep finds titles
+  // through providers and these have none. So they are added rather than
+  // amended, and they are the reason the app can show a Telugu web series at
+  // all — Panchanama, Aakali Rajyam and everything on ETV Win reach the app
+  // only through this path.
+  const idByName = new Map(Object.entries(providers).map(([id, p]) => [p.name, Number(id)]));
+
+  let seriesAdded = 0;
+  let seriesAmended = 0;
+
+  for (const [key, rec] of Object.entries(series)) {
+    if (!rec?.platform) continue;
+    const pid = idByName.get(rec.platform);
+    if (pid === undefined) continue;
+
+    const bucket = byLanguage.get(rec.language);
+    if (!bucket) continue;
+
+    const existing = byKey.get(key);
+    if (existing) {
+      if (!existing.p.some((x) => x.id === pid)) {
+        existing.p.push({ id: pid, on: null, src: 'network' });
+        seriesAmended += 1;
+      }
+      continue;
+    }
+
+    bucket.push({
+      id: key,
+      t: rec.title,
+      d: rec.date,
+      i: rec.poster,
+      k: 'tv',
+      y: trailers[key]?.key ?? null,
+      p: [{ id: pid, on: null, src: 'network' }],
+    });
+    seriesAdded += 1;
   }
 
   const languages = [];

@@ -135,7 +135,7 @@ for (const lang of manifest.languages) {
       );
       check(
         `${lang.code} a sourced arrival names its source`,
-        entry.src === undefined || entry.src === 'wikipedia',
+        entry.src === undefined || ['wikipedia', 'network'].includes(entry.src),
         String(entry.src)
       );
     }
