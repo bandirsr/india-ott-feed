@@ -1,0 +1,63 @@
+Copyright (c) 2026 RAJ CREATIONS LLC (USA Raja Creator Tools)
+
+All rights reserved.
+
+This repository is published so its workings can be inspected. Publishing it
+is not a grant of permission to use it.
+
+You MAY:
+
+  - read this source code
+  - fork the repository on GitHub for the purpose of reading it
+  - quote short excerpts with attribution, for discussion or review
+
+You MAY NOT, without prior written permission:
+
+  - run this software, or any modified version of it, as a service
+  - redistribute this source code, in whole or in substantial part
+  - use the data files in data/ or the published feed at
+    bandirsr.github.io/india-ott-feed in any product or service
+  - create a derivative work of this software
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+-------------------------------------------------------------------------------
+THIRD-PARTY DATA
+-------------------------------------------------------------------------------
+
+The copyright above covers this software and the derived data this project
+produces — principally data/arrivals.json, the record of when each title
+reached each platform, which is computed here and exists nowhere else.
+
+It does NOT cover the upstream data this project reads, which carries its own
+terms and is not ours to license:
+
+  TMDB
+    Title metadata, posters and trailer keys come from the TMDB API.
+    This product uses the TMDB API but is not endorsed or certified by TMDB.
+    The key used here is a non-commercial Developer Plan key. See
+    https://www.themoviedb.org/api-terms-of-use
+
+  JustWatch
+    Streaming availability data is provided by JustWatch through TMDB.
+    It may be displayed, but not deep-linked, under that agreement.
+
+  Wikipedia
+    Article text is CC BY-SA 4.0. Only facts are extracted here — dates and
+    platform names — and facts are not copyrightable. Any reproduction of
+    Wikipedia prose would carry the CC BY-SA obligations.
+
+  Wikidata
+    CC0. No attribution owed.
+
+Anyone reusing this project is responsible for their own compliance with those
+terms, and a licence from us would not grant any rights over them.
+
+For permission beyond what is set out above, contact bandirsr@gmail.com.
