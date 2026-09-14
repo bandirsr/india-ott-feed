@@ -1,27 +1,25 @@
 /**
  * Trailers, one per language.
  *
- * The first version of this asked TMDB for /movie/{id}/videos with no language
- * parameter, which quietly means "en-US". For an Indian catalogue that is the
- * wrong question twice over:
+ * Two things were wrong with the first version, and the second was invisible.
  *
- *   - Coverage collapsed. Only English-tagged videos came back, so a film with
- *     a perfectly good Telugu trailer and no English one looked like it had
- *     none. Measured on ten popular Telugu titles: 6/10 had a trailer the old
- *     way, 7/10 the new way, and the ones that had any got two to four times
- *     as many candidates.
+ * It asked /videos with no language parameter, which quietly means en-US. For
+ * an Indian catalogue that returns the wrong trailer: Kalki 2898 AD carries
+ * five separate release trailers -- Telugu, Tamil, Hindi, Malayalam, Kannada --
+ * and a Tamil viewer was getting an English-subtitled cut.
  *
- *   - The language was wrong. Kalki 2898 AD carries five separate release
- *     trailers — Telugu, Tamil, Hindi, Malayalam, Kannada. Asking without a
- *     language returned an English-subtitled cut, so a Tamil viewer tapping
- *     "trailer" on the Tamil list got the wrong one.
+ * The fix looked like `include_video_language`, which promises every language
+ * in one request. It does not deliver reliably. With the list ordered one way
+ * TMDB returned zero videos and no error; ordered another way it returned only
+ * English. Nothing in the response says a request was ignored, so coverage
+ * quietly collapsed -- 11 of 12 sampled "this title has no trailer" records
+ * turned out to have one sitting there.
  *
- * `include_video_language` fixes both in a single request: pass every language
- * the app supports and TMDB returns the lot, each tagged with its own
- * iso_639_1. The result is stored per language, and publish.js hands each
- * language file the trailer that belongs to it.
- *
- * Still one call per title, so the cost is unchanged.
+ * So this makes plain requests instead: one for TMDB's default (English in
+ * practice), plus one `language=xx-IN` per language the title is actually
+ * listed under. A title in one language costs two calls, the handful in four
+ * cost five, and every call either works or throws. Predictable beats clever,
+ * especially when the clever version fails silently.
  */
 
 import { rawCall } from './tmdb.js';
@@ -31,7 +29,6 @@ const TYPE_RANK = ['Clip', 'Featurette', 'Behind the Scenes', 'Teaser', 'Trailer
 
 /** The languages the app has lists for, plus English and untagged as fallback. */
 export const VIDEO_LANGUAGES = ['te', 'hi', 'ta', 'ml', 'kn', 'bn', 'mr', 'pa', 'gu'];
-const REQUEST_LANGUAGES = [...VIDEO_LANGUAGES, 'en', 'null'].join(',');
 
 /** Best of a set of candidates: official first, then type, then most recent. */
 function pickBest(videos) {
@@ -59,23 +56,37 @@ function pickBest(videos) {
  * key is only set when a trailer genuinely exists in that language, so the app
  * can tell the difference if it ever needs to.
  */
-export async function trailersFor(kind, tmdbId) {
-  const json = await rawCall(`/${kind}/${tmdbId}`, {
-    append_to_response: 'videos',
-    include_video_language: REQUEST_LANGUAGES,
-  });
-
-  const all = json.videos?.results ?? [];
-  if (all.length === 0) return null;
-
+export async function trailersFor(kind, tmdbId, languages = []) {
+  /*
+   * Two kinds of request, because `include_video_language` cannot be trusted.
+   *
+   * Passing every language in one call looked elegant and behaved erratically:
+   * with the list ordered one way TMDB returned zero videos and no error, the
+   * other way it returned only English. It silently cost coverage on titles
+   * that plainly had trailers -- 11 of 12 sampled "no trailer" records turned
+   * out to have one.
+   *
+   * So: one plain request for whatever TMDB considers default (English, in
+   * practice), plus one `language=xx-IN` request per language the title is
+   * actually listed under. A title in one language costs two calls; the
+   * handful in four cost five. Predictable beats clever.
+   */
   const out = {};
-  for (const lang of VIDEO_LANGUAGES) {
-    const key = pickBest(all.filter((v) => v.iso_639_1 === lang));
-    if (key) out[lang] = key;
-  }
 
-  const fallback = pickBest(all.filter((v) => !VIDEO_LANGUAGES.includes(v.iso_639_1)));
+  const base = await rawCall(`/${kind}/${tmdbId}/videos`);
+  const fallback = pickBest(base.results ?? []);
   if (fallback) out._ = fallback;
+
+  for (const lang of languages) {
+    if (!VIDEO_LANGUAGES.includes(lang)) continue;
+    try {
+      const j = await rawCall(`/${kind}/${tmdbId}/videos`, { language: `${lang}-IN` });
+      const key = pickBest((j.results ?? []).filter((v) => v.iso_639_1 === lang));
+      if (key) out[lang] = key;
+    } catch {
+      // One language failing must not lose the others, or the fallback.
+    }
+  }
 
   return Object.keys(out).length > 0 ? out : null;
 }
@@ -96,10 +107,11 @@ export function trailerKeyFor(entry, languageCode) {
  * the back catalogue fills in over subsequent days. Results — including "this
  * one has none" — are cached so a run never re-asks.
  */
-export async function enrichTrailers(titles, { budget = 400, have = {}, onProgress } = {}) {
+export async function enrichTrailers(titles, { budget = 400, have = {}, onProgress, onSave, saveEvery = 100 } = {}) {
   const found = { ...have };
   let spent = 0;
   let added = 0;
+  let sinceSave = 0;
 
   const queue = [...titles]
     .filter((t) => !(t.key in found))
@@ -111,7 +123,7 @@ export async function enrichTrailers(titles, { budget = 400, have = {}, onProgre
     if (kind !== 'movie' && kind !== 'tv') continue;
 
     try {
-      const entry = await trailersFor(kind, id);
+      const entry = await trailersFor(kind, id, title.languages ?? []);
       spent += 1;
       // A null result is cached too. Without that, every run would re-ask about
       // the same thousands of titles that will never have one.
@@ -122,8 +134,29 @@ export async function enrichTrailers(titles, { budget = 400, have = {}, onProgre
       // not permanently mark a title as having no trailer.
       spent += 1;
     }
+
+    /*
+     * Save as we go, not at the end.
+     *
+     * A full pass is ~27,000 requests over forty minutes. Writing only on
+     * completion meant a crash, a network drop or a Ctrl-C at minute
+     * thirty-nine threw away every one of them -- and this runs unattended in
+     * CI, where nobody is watching to restart it.
+     *
+     * Every hundred titles costs one file write and caps the loss at a hundred
+     * requests. The cache is keyed by title, so a half-finished run simply
+     * resumes where it stopped.
+     */
+    sinceSave += 1;
+    if (onSave && sinceSave >= saveEvery) {
+      onSave(found);
+      sinceSave = 0;
+    }
+
     onProgress?.({ spent, budget, added });
   }
+
+  if (onSave && sinceSave > 0) onSave(found);
 
   return { trailers: found, spent, added, remaining: Math.max(0, queue.length - spent) };
 }

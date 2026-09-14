@@ -14,7 +14,7 @@ import { take, save, diff, load, listSnapshots, arrivalsWithin, LANGUAGES, resol
 import { loadLedger, saveLedger, update as updateLedger } from './src/ledger.js';
 import { enrichTrailers } from './src/trailers.js';
 import { sanityCheck, freshness } from './src/health.js';
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, renameSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -143,15 +143,42 @@ async function cmdTrailers() {
 
   const snapshot = load(dates[dates.length - 1]);
   const have = loadTrailers();
-  const titles = Object.entries(snapshot.titles).map(([key, rec]) => ({ key, date: rec.d }));
+  // Each title carries the languages it is listed under, so the trailer
+  // fetcher asks for exactly those and no more.
+  const titles = Object.entries(snapshot.titles).map(([key, rec]) => ({
+    key,
+    date: rec.d,
+    languages: [...new Set([rec.l, ...(rec.also ?? [])])],
+  }));
   const budget = Number(nums[0] ?? 400);
 
   console.log(`${titles.length} titles, ${Object.keys(have).length} already checked, budget ${budget}\n`);
 
-  const { trailers, spent, added, remaining } = await enrichTrailers(titles, { budget, have });
-
   mkdirSync(dirname(TRAILERS_PATH), { recursive: true });
-  writeFileSync(TRAILERS_PATH, JSON.stringify(trailers));
+
+  // Written to a temp file and renamed, so an interrupted write cannot leave a
+  // truncated cache behind -- losing the file entirely would be worse than
+  // losing the run.
+  const save = (data) => {
+    const tmp = `${TRAILERS_PATH}.tmp`;
+    writeFileSync(tmp, JSON.stringify(data));
+    renameSync(tmp, TRAILERS_PATH);
+  };
+
+  let lastReport = 0;
+  const { trailers, spent, added, remaining } = await enrichTrailers(titles, {
+    budget,
+    have,
+    onSave: save,
+    onProgress: ({ spent: n, added: a }) => {
+      if (n - lastReport >= 500) {
+        lastReport = n;
+        console.log(`  ${n} checked, ${a} found — saved`);
+      }
+    },
+  });
+
+  save(trailers);
 
   const withTrailer = Object.values(trailers).filter(Boolean).length;
   console.log(`Checked ${spent}, found ${added} new`);
