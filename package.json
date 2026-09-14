@@ -17,6 +17,7 @@
     "dubs": "node dubs.js",
     "series": "node series.js",
     "details": "node details.js",
-    "verify": "node verify-published.js"
+    "verify": "node verify-published.js",
+    "seed": "node build-seed.js"
   }
 }
