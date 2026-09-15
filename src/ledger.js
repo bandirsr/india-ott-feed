@@ -96,14 +96,40 @@ export function update(ledger, snapshot) {
   const arrivals = [];
   const departures = [];
 
+  /*
+   * Providers this ledger has watched before.
+   *
+   * A pair is only an arrival if we were ALREADY watching the platform it is
+   * on. The day the sweep widened from 46 providers to 72, every title on the
+   * 26 new ones looked new -- and 3,540 pairs were stamped with that day's
+   * date. Aarya (2004) and 96 (2018) were recorded as arriving in September
+   * 2026. They had been on those platforms for years; we had simply not been
+   * looking.
+   *
+   * That is the same situation as the very first run, and it takes the same
+   * answer: undated. "We do not know when this arrived" is true and useful.
+   * "It arrived today" is false, and false on the one field the whole app is
+   * built to report.
+   */
+  const knownProviders = new Set(
+    bootstrap ? [] : (ledger.providers ?? Object.keys(ledger.seen).map((k) => k.split('|').pop()))
+  );
+  const sweptProviders = new Set([...todayPairs].map((k) => k.split('|').pop()));
+
   for (const pair of todayPairs) {
     if (Object.prototype.hasOwnProperty.call(next.seen, pair)) continue;
-    // On the very first run nothing can be dated; afterwards, a pair we have
-    // never recorded appeared since the last sweep.
-    const on = bootstrap ? null : snapshot.date;
+    const providerId = pair.split('|').pop();
+    // Undated on the first run, and undated the first time we see a platform.
+    const firstSightOfProvider = !bootstrap && !knownProviders.has(providerId);
+    const on = bootstrap || firstSightOfProvider ? null : snapshot.date;
     next.seen[pair] = on;
-    if (!bootstrap) arrivals.push(describe(pair, snapshot, on));
+    if (on) arrivals.push(describe(pair, snapshot, on));
   }
+
+  // Recorded explicitly so the next run knows what was watched, rather than
+  // inferring it from surviving pairs -- a platform whose last title left
+  // would otherwise look new again the day it gets one back.
+  next.providers = [...new Set([...knownProviders, ...sweptProviders])];
 
   for (const pair of Object.keys(next.seen)) {
     if (todayPairs.has(pair)) continue;
