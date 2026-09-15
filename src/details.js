@@ -68,10 +68,11 @@ export async function detailsFor(kind, tmdbId) {
  * Newest first because those are the titles someone is about to look at, and
  * because the back catalogue will get there on its own given a fortnight.
  */
-export async function enrichDetails(titles, { budget = 400, have = {}, onProgress } = {}) {
+export async function enrichDetails(titles, { budget = 400, have = {}, onProgress, onSave, saveEvery = 100 } = {}) {
   const cache = { ...have };
   let spent = 0;
   let added = 0;
+  let sinceSave = 0;
 
   const queue = [...titles]
     .filter((t) => !(t.key in cache))
@@ -92,8 +93,22 @@ export async function enrichDetails(titles, { budget = 400, have = {}, onProgres
       // permanent "this film has no director".
       spent += 1;
     }
+    /*
+      Save as we go. This pass had the same defect the trailer pass did: one
+      write after the loop, so an interruption at minute fifty threw away every
+      request. With 11,000 titles outstanding that is an hour of work and
+      11,000 API calls riding on nothing going wrong.
+    */
+    sinceSave += 1;
+    if (onSave && sinceSave >= saveEvery) {
+      onSave(cache);
+      sinceSave = 0;
+    }
+
     onProgress?.({ spent, budget, added, title: title.title });
   }
+
+  if (onSave && sinceSave > 0) onSave(cache);
 
   return { cache, spent, added, remaining: Math.max(0, queue.length - spent) };
 }

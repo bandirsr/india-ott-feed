@@ -9,7 +9,7 @@
  * change, so a title is never re-checked once answered.
  */
 
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, renameSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { loadTmdbKey } from './src/tmdb.js';
@@ -47,10 +47,30 @@ const have = loadCache();
 
 console.log(`${titles.length} titles, ${Object.keys(have).length} already detailed, budget ${budget}\n`);
 
-const { cache, spent, added, remaining } = await enrichDetails(titles, { budget, have });
-
 mkdirSync(dirname(CACHE_PATH), { recursive: true });
-writeFileSync(CACHE_PATH, JSON.stringify(cache));
+
+// Temp file and rename, so an interrupted write cannot leave a truncated
+// cache -- losing the file would be worse than losing the run.
+const save = (data) => {
+  const tmp = `${CACHE_PATH}.tmp`;
+  writeFileSync(tmp, JSON.stringify(data));
+  renameSync(tmp, CACHE_PATH);
+};
+
+let lastReport = 0;
+const { cache, spent, added, remaining } = await enrichDetails(titles, {
+  budget,
+  have,
+  onSave: save,
+  onProgress: ({ spent: n, added: a }) => {
+    if (n - lastReport >= 500) {
+      lastReport = n;
+      console.log(`  ${n} checked, ${a} with details — saved`);
+    }
+  },
+});
+
+save(cache);
 
 const entries = Object.values(cache).filter(Boolean);
 const withDirector = entries.filter((e) => e.d).length;
