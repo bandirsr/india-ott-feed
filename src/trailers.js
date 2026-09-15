@@ -91,13 +91,38 @@ export async function trailersFor(kind, tmdbId, languages = []) {
   return Object.keys(out).length > 0 ? out : null;
 }
 
-/** The right key for a language: its own, else the fallback. */
-export function trailerKeyFor(entry, languageCode) {
+/**
+ * The right key for a language, in order of preference.
+ *
+ * The first version stopped at `entry._` and returned null after that, which
+ * threw away trailers we had already fetched and cached. It cost 52 published
+ * rows: every one a dubbed title whose only trailer is tagged with its ORIGINAL
+ * language. "Vishwanath & Sons" is Tamil, listed under Telugu, and TMDB has one
+ * trailer for it -- in Tamil. We had the key in the cache and published null.
+ *
+ * Preference order, and why:
+ *   1. the reader's own language      -- obviously best
+ *   2. the film's original language   -- for a Tamil film dubbed into Telugu, a
+ *                                        Tamil trailer beats an English one
+ *   3. `_`, TMDB's default            -- English or untagged
+ *   4. anything at all                -- a trailer in the wrong language still
+ *                                        shows you the film; nothing shows you
+ *                                        nothing. Sorted, so the choice is
+ *                                        stable between builds rather than
+ *                                        depending on key insertion order.
+ */
+export function trailerKeyFor(entry, languageCode, originLanguage) {
   if (!entry) return null;
   // Tolerates the old shape, where an entry was a single { key } object, so a
   // half-migrated cache degrades rather than throwing.
   if (typeof entry.key === 'string') return entry.key;
-  return entry[languageCode] ?? entry._ ?? null;
+
+  if (entry[languageCode]) return entry[languageCode];
+  if (originLanguage && entry[originLanguage]) return entry[originLanguage];
+  if (entry._) return entry._;
+
+  const rest = Object.keys(entry).filter((k) => k !== '_').sort();
+  return rest.length > 0 ? entry[rest[0]] : null;
 }
 
 /**

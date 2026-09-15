@@ -172,7 +172,9 @@ function main() {
       const bucket = byLanguage.get(code);
       if (!bucket) continue;
       const ol = rec.ol ?? (code !== rec.l ? rec.l : null);
-      const y = trailerKeyFor(trailers[key], code);
+      // `ol` is passed so a dubbed title can fall back to a trailer in the
+      // language it was actually made in, rather than to nothing.
+      const y = trailerKeyFor(trailers[key], code, ol ?? undefined);
       const forLanguage = { ...entry, ...(y ? { y } : {}), ...(ol ? { ol } : {}) };
       bucket.push(forLanguage);
     }
