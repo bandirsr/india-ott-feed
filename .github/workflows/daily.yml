@@ -127,8 +127,11 @@ jobs:
         run: |
           git config user.name "ott-bot"
           git config user.email "ott-bot@users.noreply.github.com"
-          git add data/arrivals.json data/trailers.json data/gapfill.json data/dubs.json data/series.json data/details.json
+          git add data/arrivals.json data/trailers.json data/gapfill.json data/dubs.json data/series.json data/details.json data/youtube-trailers.json
           git diff --staged --quiet || git commit -m "Ledger: $(date -u +%Y-%m-%d)"
+          # Rebase before pushing. A plain push failed whenever someone pushed to
+          # main while the sweep was running, and the whole day went unpublished.
+          git pull --rebase --autostash origin main || (git fetch --unshallow origin && git pull --rebase --autostash origin main)
           git push
 
       # The last gate. src/health.js protects the ledger; this protects the
