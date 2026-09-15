@@ -72,6 +72,14 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: node top-trailers.mjs --fill --n 20
 
+      # Trailers TMDB has no record of at all, searched on YouTube. Quota allows
+      # roughly a hundred searches a day, so this works through the gap over
+      # weeks, newest films first. Skips cleanly until the secret exists.
+      - name: Find missing trailers on YouTube
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node youtube-trailers.mjs 90
+
       # Director, cast, synopsis, runtime, rating. The cheapest pass here:
       # details never change, so a title checked once is never checked again
       # and the whole catalogue fills in over a couple of weeks of daily runs.

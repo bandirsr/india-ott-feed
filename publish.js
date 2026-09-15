@@ -138,6 +138,12 @@ function main() {
   // publish must never wait for them or fail without them.
   const trailerPath = resolve(HERE, 'data', 'trailers.json');
   const trailers = existsSync(trailerPath) ? JSON.parse(readFileSync(trailerPath, 'utf8')) : {};
+  // Second source, for films TMDB has no video for at all. Only ever a
+  // fallback: a TMDB trailer is linked to the film by id, a YouTube one by a
+  // title match, so TMDB wins whenever it has anything.
+  const ytPath = resolve(HERE, 'data', 'youtube-trailers.json');
+  const youtube = existsSync(ytPath) ? JSON.parse(readFileSync(ytPath, 'utf8')) : {};
+  const trailerFor = (key, code, ol) => trailerKeyFor(trailers[key], code, ol) ?? youtube[key]?.key ?? null;
 
   mkdirSync(join(OUT, 'v1'), { recursive: true });
 
@@ -174,7 +180,7 @@ function main() {
       const ol = rec.ol ?? (code !== rec.l ? rec.l : null);
       // `ol` is passed so a dubbed title can fall back to a trailer in the
       // language it was actually made in, rather than to nothing.
-      const y = trailerKeyFor(trailers[key], code, ol ?? undefined);
+      const y = trailerFor(key, code, ol ?? undefined);
       const forLanguage = { ...entry, ...(y ? { y } : {}), ...(ol ? { ol } : {}) };
       bucket.push(forLanguage);
     }
@@ -271,7 +277,7 @@ function main() {
       d: rec.date,
       i: rec.poster,
       k: 'tv',
-      y: trailerKeyFor(trailers[key], rec.language),
+      y: trailerFor(key, rec.language),
       p: [{ id: pid, on: null, src: 'network' }],
     });
     seriesAdded += 1;
