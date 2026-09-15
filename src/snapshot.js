@@ -86,7 +86,29 @@ export const TRACKED_NAMES = [
  * named above. It is how a platform that launches next year, or one this list
  * forgot, gets picked up without anybody editing code.
  */
-const AUTO_TRACK_PRIORITY = 25;
+const AUTO_TRACK_PRIORITY = 95;
+
+/**
+ * "Lionsgate Play Amazon Channel" is Lionsgate Play. So is "Lionsgate Play
+ * Apple TV Channel".
+ *
+ * TMDB lists a channel sold through Amazon or Apple as its own provider, which
+ * is right for billing and wrong for a reader: the same film shows up as three
+ * services, or -- worse -- as none, because the brand we track is the plain
+ * name and the film is only indexed under a variant. "Aakhri Sawal" is on
+ * Lionsgate Play Apple TV Channel and Lionsgate Play Amazon Channel, and not on
+ * plain Lionsgate Play, so tracking the plain name alone missed it entirely.
+ *
+ * Thirty of the 46 India providers we were not sweeping are variants like this.
+ * Folding the suffix off is what turns them from noise into coverage.
+ */
+export function canonicalProvider(name) {
+  return name
+    .replace(/\s+(Amazon|Apple TV)\s+Channels?$/i, '')
+    .replace(/\s+Amazon Channels?$/i, '')
+    .replace(/\s+Channel$/i, '')
+    .trim();
+}
 
 /**
  * Resolve the tracked set against the live provider list.
@@ -115,7 +137,11 @@ export async function resolveProviders(region = 'IN') {
 
   const missing = TRACKED_NAMES.filter((n) => !byName.has(n.toLowerCase()));
 
-  return { providers: [...chosen.values()], missing, liveCount: live.size };
+  // Each provider keeps its own id -- TMDB indexes titles by the variant id, so
+  // we must still sweep each one -- but carries the brand name a reader knows.
+  const named = [...chosen.values()].map((p) => ({ ...p, name: canonicalProvider(p.name) }));
+
+  return { providers: named, missing, liveCount: live.size };
 }
 
 /**
@@ -139,16 +165,25 @@ export async function resolveProviders(region = 'IN') {
  */
 export const PLATFORM_LANGUAGE = {
   aha: 'te',
-  'ETV Win': 'te',
-  Hoichoi: 'bn',
-  ManoramaMax: 'ml',
-  'ManoramaMAX Amazon Channel': 'ml',
-  'Hoichoi Amazon Channel': 'bn',
+  'etv win': 'te',
+  hoichoi: 'bn',
+  manoramamax: 'ml',
   // Punjabi. The only other tracked platform that serves one language; Sun Nxt,
   // Zee5 and ShemarooMe all carry several, so sweeping them without a language
   // filter would file Hindi and English titles under whichever language asked.
-  'Chaupal Amazon Channel': 'pa',
+  chaupal: 'pa',
 };
+
+/**
+ * Keys are lowercased and the Amazon/Apple suffix is already gone, because
+ * provider names reach this map canonicalised and TMDB is not consistent about
+ * case -- it lists both "ManoramaMax" and "ManoramaMAX Amazon Channel". Looking
+ * up the raw name silently returned undefined for Malayalam, which would have
+ * turned the dub sweep off for a whole language without erroring.
+ */
+export function languageOfPlatform(name) {
+  return PLATFORM_LANGUAGE[canonicalProvider(name).toLowerCase()];
+}
 
 const MAX_PAGES = 60; // 1,200 titles per provider per language per kind
 
@@ -231,7 +266,7 @@ export async function take({ languages = LANGUAGES, providers, kinds = ['movie',
   let dubbed = 0;
 
   for (const prov of resolved) {
-    const langCode = PLATFORM_LANGUAGE[prov.name];
+    const langCode = languageOfPlatform(prov.name);
     if (!langCode) continue;
 
     for (const kind of kinds) {
