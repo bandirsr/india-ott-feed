@@ -144,6 +144,10 @@ export const PLATFORM_LANGUAGE = {
   ManoramaMax: 'ml',
   'ManoramaMAX Amazon Channel': 'ml',
   'Hoichoi Amazon Channel': 'bn',
+  // Punjabi. The only other tracked platform that serves one language; Sun Nxt,
+  // Zee5 and ShemarooMe all carry several, so sweeping them without a language
+  // filter would file Hindi and English titles under whichever language asked.
+  'Chaupal Amazon Channel': 'pa',
 };
 
 const MAX_PAGES = 60; // 1,200 titles per provider per language per kind
