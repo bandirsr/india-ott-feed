@@ -63,6 +63,15 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: node snapshot.js trailers 400
 
+      # The pass above caches "no trailer" forever, which is wrong for new
+      # releases: TMDB often gets the video a few days after a film lands on a
+      # platform. So the newest 20 films in every language are re-asked each
+      # day, across all Indian languages, whatever the cache says.
+      - name: Recheck trailers for the newest films
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: node top-trailers.mjs --fill --n 20
+
       # Director, cast, synopsis, runtime, rating. The cheapest pass here:
       # details never change, so a title checked once is never checked again
       # and the whole catalogue fills in over a couple of weeks of daily runs.

@@ -31,7 +31,7 @@ const TYPE_RANK = ['Clip', 'Featurette', 'Behind the Scenes', 'Teaser', 'Trailer
 export const VIDEO_LANGUAGES = ['te', 'hi', 'ta', 'ml', 'kn', 'bn', 'mr', 'pa', 'gu'];
 
 /** Best of a set of candidates: official first, then type, then most recent. */
-function pickBest(videos) {
+export function pickBest(videos) {
   const pool = videos.filter((v) => v.site === 'YouTube' && v.key && TYPE_RANK.includes(v.type));
   if (pool.length === 0) return null;
 
