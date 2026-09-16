@@ -1,18 +1,24 @@
 /**
  * CLI for the dub finder.
  *
- *   node dubs.js          check recent films on multi-language platforms
+ *   node dubs.js          check candidates from today's snapshot
  *   node dubs.js 150      same, capped at 150 TMDB detail calls
  *
- * Safe to re-run: every film checked is cached, including the ones with no dub,
- * so a second run only pays for titles it has never seen.
+ * Safe to re-run: every film checked is cached, including the ones with no
+ * dub, so a second run only pays for titles it has never seen. Saves as it
+ * goes, every 100 checks, so an interrupted run keeps its work.
+ *
+ * Candidates come from the LATEST LOCAL SNAPSHOT, not a fresh TMDB search --
+ * see src/dubs.js for why: the old search found 50 candidates, ever; the
+ * snapshot already holds thousands. Run this after `snapshot.js take` on the
+ * same day, same as details.js and series.js.
  */
 
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, renameSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { loadTmdbKey } from './src/tmdb.js';
-import { resolveProviders, PLATFORM_LANGUAGE, LANGUAGES } from './src/snapshot.js';
+import { resolveProviders, PLATFORM_LANGUAGE, LANGUAGES, listSnapshots, load } from './src/snapshot.js';
 import { findDubs, DUB_SOURCE_LANGUAGES } from './src/dubs.js';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -35,6 +41,13 @@ function loadCache() {
   }
 }
 
+const dates = listSnapshots();
+if (dates.length === 0) {
+  console.log('No snapshot yet. Run "node snapshot.js take" first.');
+  process.exit(1);
+}
+const snapshot = load(dates[dates.length - 1]);
+
 const { providers } = await resolveProviders();
 
 /**
@@ -44,24 +57,41 @@ const { providers } = await resolveProviders();
  * already have.
  */
 const multi = providers.filter((p) => !PLATFORM_LANGUAGE[p.name]);
+const multiLangProviderIds = new Set(multi.map((p) => p.id));
 
-console.log(`${multi.length} multi-language platforms x ${DUB_SOURCE_LANGUAGES.length} source languages`);
+console.log(`Snapshot ${dates[dates.length - 1]}: ${Object.keys(snapshot.titles).length} titles`);
+console.log(`${multi.length} multi-language platforms tracked`);
 console.log(`Budget ${budget} detail calls\n`);
 
 const known = loadCache();
-const { cache, candidates, sweeps, spent, dubbed, unchecked } = await findDubs({
-  providers: multi,
+
+// Temp file and rename, so an interrupted write cannot leave a truncated
+// cache -- losing the file would be worse than losing the run.
+const save = (data) => {
+  const tmp = `${CACHE_PATH}.tmp`;
+  mkdirSync(dirname(CACHE_PATH), { recursive: true });
+  writeFileSync(tmp, JSON.stringify(data));
+  renameSync(tmp, CACHE_PATH);
+};
+
+let lastReport = 0;
+const { cache, candidates, spent, dubbed, unchecked } = await findDubs({
+  snapshot,
+  multiLangProviderIds,
   known,
   budget,
-  onProgress: ({ spent: s, dubbed: d, title }) => {
-    if (s % 25 === 0) console.log(`  ${s} checked, ${d} dubbed — at "${title}"`);
+  onSave: save,
+  onProgress: ({ spent: s, dubbed: d }) => {
+    if (s - lastReport >= 100) {
+      lastReport = s;
+      console.log(`  ${s} checked, ${d} dubbed — saved`);
+    }
   },
 });
 
-mkdirSync(dirname(CACHE_PATH), { recursive: true });
-writeFileSync(CACHE_PATH, JSON.stringify(cache));
+save(cache);
 
-console.log(`\n${sweeps} sweeps found ${candidates.size} recent non-native films on these platforms`);
+console.log(`\n${candidates.size} Tamil/Malayalam/Kannada/Hindi films already on a multi-language platform`);
 console.log(`${spent} newly checked, ${unchecked} still unchecked`);
 
 const hits = Object.entries(cache).filter(([, v]) => v?.length);

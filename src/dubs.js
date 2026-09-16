@@ -91,72 +91,79 @@ export async function dubLanguagesFor(movieId) {
 }
 
 /**
- * Recent films on one platform in one source language.
+ * Candidates from the pipeline's OWN sweep, not a fresh TMDB search.
  *
- * Scoped to recent releases because a dub follows its original within months,
- * and checking the whole back catalogue would cost thousands of calls to find
- * films nobody is asking about this week.
+ * The first version ran `/discover/movie` per platform per source language,
+ * scoped to films released in the last 120 days. Measured against a live
+ * catalogue: 71 multi-language platforms x 4 source languages ever produced
+ * 50 unique candidates, total, in the entire time this ran. Ten turned out to
+ * be dubbed -- which is why "This month" for Telugu showed one title. The
+ * question was never whether the check was accurate; it barely ever ran.
+ *
+ * The main sweep in snapshot.js already discovers every Tamil, Malayalam,
+ * Kannada and Hindi film on every tracked platform, because that is what
+ * building the Tamil/Malayalam/Kannada/Hindi lists requires. Checked against
+ * that same data: the Tamil feed alone holds 1,830 Tamil-original films
+ * already sitting on a multi-language platform. The candidates were never
+ * missing. A second, narrower search was going looking for them instead of
+ * reading the pipeline's own snapshot.
+ *
+ * `rec.l` is reliable as "this film's original language" for exactly the
+ * films this needs: anything the main sweep found via `with_original_language`
+ * carries that language in `l`, and a title only reaches `also`/`ol` when it
+ * was found under a DIFFERENT language than its own -- so `l` unfiltered by
+ * either of those is the original.
+ *
+ * Movies only, matching dubLanguagesFor below, which calls `/movie/{id}`. Web
+ * series would need the equivalent `/tv/{id}` call and are left for later
+ * rather than guessed at.
  */
-export async function recentOn(providerId, languageCode, sinceISO) {
-  const out = [];
-  let page = 1;
-  let totalPages = 1;
-
-  while (page <= Math.min(totalPages, 5)) {
-    const json = await rawCall('/discover/movie', {
-      with_original_language: languageCode,
-      watch_region: 'IN',
-      with_watch_providers: providerId,
-      'primary_release_date.gte': sinceISO,
-      sort_by: 'primary_release_date.desc',
-      include_adult: false,
-      page,
+export function candidatesFromSnapshot(snapshot, multiLangProviderIds) {
+  const candidates = new Map();
+  for (const [key, rec] of Object.entries(snapshot.titles)) {
+    if (!key.startsWith('movie:')) continue;
+    if (!DUB_SOURCE_LANGUAGES.includes(rec.l)) continue;
+    if (!rec.p.some((id) => multiLangProviderIds.has(id))) continue;
+    candidates.set(key, {
+      id: Number(key.slice('movie:'.length)),
+      title: rec.t,
+      date: rec.d,
+      original: rec.l,
     });
-    totalPages = json.total_pages ?? 1;
-    for (const r of json.results ?? []) {
-      out.push({ id: r.id, title: r.title, date: r.release_date || null, poster: r.poster_path || null, original: r.original_language });
-    }
-    page += 1;
   }
-  return out;
+  return candidates;
 }
 
 /**
  * Find dubbed releases across multi-language platforms.
  *
  * `known` is the cache of previous answers, keyed "movie:123". Pass it back in
- * and a run only pays for titles it has never seen.
+ * and a run only pays for titles it has never seen. Newest releases first, the
+ * same ordering every other pass in this pipeline uses -- a fresh release is
+ * what someone is looking for today, and the back catalogue fills in over
+ * subsequent runs.
  */
 export async function findDubs({
-  providers,
-  days = 120,
+  snapshot,
+  multiLangProviderIds,
   budget = 300,
   known = {},
   onProgress,
+  onSave,
+  saveEvery = 100,
 } = {}) {
-  const since = new Date(Date.now() - days * 86_400_000).toISOString().slice(0, 10);
   const cache = { ...known };
+  const candidates = candidatesFromSnapshot(snapshot, multiLangProviderIds);
 
-  // Gather candidates first, deduplicated: the same Tamil film sits on three
-  // platforms and must only be asked about once.
-  const candidates = new Map();
-  let sweeps = 0;
-
-  for (const prov of providers) {
-    for (const lang of DUB_SOURCE_LANGUAGES) {
-      const films = await recentOn(prov.id, lang, since);
-      sweeps += 1;
-      for (const f of films) {
-        const key = `movie:${f.id}`;
-        if (!candidates.has(key)) candidates.set(key, f);
-      }
-    }
-  }
+  const ordered = [...candidates.entries()].sort(
+    (a, b) => String(b[1].date ?? '').localeCompare(String(a[1].date ?? ''))
+  );
 
   let spent = 0;
   let dubbed = 0;
+  let sinceSave = 0;
 
-  for (const [key, film] of candidates) {
+  for (const [key, film] of ordered) {
     if (key in cache) {
       if (cache[key]?.length) dubbed += 1;
       continue;
@@ -172,8 +179,21 @@ export async function findDubs({
       // permanently record a film as having no dub.
       spent += 1;
     }
+
+    // Save as we go. The candidate pool went from 50 to several thousand with
+    // this change, so a run can now be long enough that losing it all to an
+    // interruption is a real cost rather than a theoretical one -- the same
+    // lesson the trailer and details passes already paid for today.
+    sinceSave += 1;
+    if (onSave && sinceSave >= saveEvery) {
+      onSave(cache);
+      sinceSave = 0;
+    }
+
     onProgress?.({ spent, budget, dubbed, title: film.title });
   }
 
-  return { cache, candidates, sweeps, spent, dubbed, unchecked: Math.max(0, candidates.size - Object.keys(cache).length) };
+  if (onSave && sinceSave > 0) onSave(cache);
+
+  return { cache, candidates, spent, dubbed, unchecked: Math.max(0, candidates.size - Object.keys(cache).length) };
 }
