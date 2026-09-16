@@ -141,12 +141,13 @@ export async function findPagesMentioning(platform, { limit = 200 } = {}) {
  * `budget` caps Wikipedia requests. Results are cached by the caller, including
  * the misses, so a second run resumes rather than restarting.
  */
-export async function sweepTitles(titles, { budget = 400, seen = {}, onProgress, year = null } = {}) {
+export async function sweepTitles(titles, { budget = 400, seen = {}, onProgress, onSave, saveEvery = 50, year = null } = {}) {
 
   const found = { ...seen };
   let spent = 0;
   let hits = 0;
   let errors = 0;
+  let sinceSave = 0;
   const firstErrors = [];
 
   for (const wikiTitle of titles) {
@@ -210,8 +211,21 @@ export async function sweepTitles(titles, { budget = 400, seen = {}, onProgress,
       if (errors <= 3) firstErrors.push(`${wikiTitle}: ${err.message}`);
     }
 
+    // Save as we go. This universe is small -- a few hundred pages -- so the
+    // risk here was always smaller than the trailer, details and dub passes.
+    // Fixed anyway, for the same reason and to the same standard: a call this
+    // reliant on an external service (Wikipedia, not TMDB) should not lose a
+    // run to a mid-sweep network drop any more than the others should.
+    sinceSave += 1;
+    if (onSave && sinceSave >= saveEvery) {
+      onSave(found);
+      sinceSave = 0;
+    }
+
     onProgress?.({ spent, budget, hits, title: wikiTitle });
   }
+
+  if (onSave && sinceSave > 0) onSave(found);
 
   return { found, spent, hits, errors, firstErrors, total: titles.length };
 }

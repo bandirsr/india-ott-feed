@@ -14,7 +14,7 @@
  * asking it directly turns hundreds of requests into a few dozen.
  */
 
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, renameSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { loadTmdbKey } from './src/tmdb.js';
@@ -45,6 +45,16 @@ console.log(`Budget ${budget} Wikipedia requests\n`);
 let cache = loadCache();
 let totalSpent = 0;
 
+mkdirSync(dirname(CACHE_PATH), { recursive: true });
+
+// Temp file and rename, so an interrupted write cannot leave a truncated
+// cache -- losing the file would be worse than losing the run.
+const save = (data) => {
+  const tmp = `${CACHE_PATH}.tmp`;
+  writeFileSync(tmp, JSON.stringify(data));
+  renameSync(tmp, CACHE_PATH);
+};
+
 for (const platform of UNCOVERED_PLATFORMS) {
   if (totalSpent >= budget) break;
 
@@ -55,6 +65,7 @@ for (const platform of UNCOVERED_PLATFORMS) {
     budget: budget - totalSpent,
     seen: cache,
     year: platform,
+    onSave: save,
     onProgress: ({ spent: s, hits: h, title }) => {
       if (s % 20 === 0) console.log(`  ${s} checked, ${h} found — at "${title}"`);
     },
@@ -62,6 +73,7 @@ for (const platform of UNCOVERED_PLATFORMS) {
 
   cache = found;
   totalSpent += spent;
+  save(cache);
   console.log(`  ${spent} pages checked, ${hits} with a release to record`);
 
   if (errors > 0) {
@@ -71,9 +83,6 @@ for (const platform of UNCOVERED_PLATFORMS) {
     for (const e of firstErrors) console.log(`    ${e}`);
   }
 }
-
-mkdirSync(dirname(CACHE_PATH), { recursive: true });
-writeFileSync(CACHE_PATH, JSON.stringify(cache));
 
 const { attach, standalone } = toFeedEntries(cache);
 const checked = Object.keys(cache).length;
