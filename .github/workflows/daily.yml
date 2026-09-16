@@ -151,3 +151,70 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
+  # Rebuilds the nine per-language SEO pages from today's freshly published
+  # feed and redeploys the site, so /telugu/ etc. never fall a day behind what
+  # the app already knows. A separate job, not another step in `sweep`, so a
+  # Cloudflare hiccup here can never mark today's data sweep as failed -- the
+  # ledger commit above already landed regardless of what happens below.
+  #
+  # Runs after sweep, because these pages are built by fetching the LIVE feed;
+  # building from anything else would just republish today's numbers under
+  # yesterday's date. By the time this job starts, actions/deploy-pages@v4 has
+  # already waited for that deployment to go live, so no artificial delay is
+  # needed here.
+  #
+  # The site lives in a SEPARATE private repo (bandirsr/ottwala-website), which
+  # the default GITHUB_TOKEN cannot reach -- it is scoped to this repo only.
+  # OTTWALA_WEBSITE_PAT is a fine-grained PAT scoped to just that one repo,
+  # Contents: read and write. Skips cleanly, the same way the YouTube trailer
+  # pass does, until that secret exists.
+  deploy-language-pages:
+    needs: sweep
+    if: needs.sweep.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check the site repo token exists
+        id: gate
+        run: |
+          if [ -z "${{ secrets.OTTWALA_WEBSITE_PAT }}" ]; then
+            echo "OTTWALA_WEBSITE_PAT not set -- skipping the language-page deploy."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.skip == 'false'
+        with:
+          repository: bandirsr/ottwala-website
+          token: ${{ secrets.OTTWALA_WEBSITE_PAT }}
+
+      - uses: actions/setup-node@v4
+        if: steps.gate.outputs.skip == 'false'
+        with:
+          node-version: '22'
+
+      - name: Rebuild the language pages from the live feed
+        if: steps.gate.outputs.skip == 'false'
+        run: node build-seo-pages.mjs
+
+      - name: Deploy to Cloudflare Pages
+        if: steps.gate.outputs.skip == 'false'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx wrangler pages deploy . --project-name=usa-raja-ottwala --commit-dirty=true
+
+      # Same race this project already hit once in the feed repo: a push
+      # rejected because something else landed on main first. Rebase before
+      # pushing rather than just failing the run.
+      - name: Commit the regenerated pages
+        if: steps.gate.outputs.skip == 'false'
+        run: |
+          git config user.name "ott-bot"
+          git config user.email "ott-bot@users.noreply.github.com"
+          git add telugu hindi tamil malayalam kannada bengali marathi punjabi gujarati sitemap.xml
+          git diff --staged --quiet || git commit -m "Language pages: $(date -u +%Y-%m-%d)"
+          git pull --rebase --autostash origin main || (git fetch --unshallow origin && git pull --rebase --autostash origin main)
+          git push
