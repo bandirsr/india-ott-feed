@@ -33,32 +33,52 @@ import { providerIdForPlatformName } from './src/platforms.js';
 import { trailerKeyFor } from './src/trailers.js';
 
 /**
- * A platform's own Original cannot "arrive" there after the fact -- it was
- * always there. Caught live: Bāhubali: The Torchbearer, a Netflix Original
- * documentary that first aired 2026-06-26, showed up in the ledger as
- * "arrived" on the day TMDB finally added a watch-provider entry for it at
- * all -- three months later. TMDB's `networks` field (who made it) and its
- * JustWatch-sourced watch-providers field (where it streams) are separate
- * data that do not update on the same schedule, and the gap between them
- * silently became a fake recent arrival.
+ * Two guards against the same root cause, at two different confidence levels.
  *
- * Guarded narrowly: only `tv` (a movie's production-company list is too
- * noisy to trust the same way -- see details.js), only when the arrival is
- * well past the title's own first-air date (a same-day or next-day sighting
- * is just normal bootstrap timing, not this bug), and only for the specific
- * provider that IS the title's own network -- a genuinely later licence to a
- * different platform keeps its real date.
+ * TMDB's own metadata (release date, a series' `networks`) and its
+ * JustWatch-sourced watch-providers data do not update on the same schedule.
+ * When our sweep sees a provider for the first time, the ledger records that
+ * moment as the arrival -- which is right the overwhelming majority of the
+ * time (that IS what "arrival" means here), and wrong whenever TMDB simply
+ * took years to index a listing that was never new.
+ *
+ * 1. OWN_ORIGINAL_GAP_DAYS (tv only, tight threshold): a platform's own
+ *    Original cannot arrive there after the fact -- it was always there.
+ *    Caught live: Bāhubali: The Torchbearer, a Netflix Original documentary
+ *    that first aired 2026-06-26, "arrived" in the ledger three months later,
+ *    the day TMDB finally tagged Netflix as a watch provider for it at all.
+ *    This has zero legitimate exceptions, so 14 days is enough margin for
+ *    ordinary bootstrap timing without risking a false suppression.
+ *
+ * 2. LEGACY_CATALOG_GAP_DAYS (any kind, any platform, generous threshold): a
+ *    catalogue title surfacing on a genuinely new platform, long after its
+ *    own release, is the entire premise of this app and completely ordinary
+ *    -- TMDB_FIELD_TEST in src/sources.js measured that window topping out
+ *    around 6-12 months even on the slowest platforms. But a multi-YEAR gap
+ *    is a different thing entirely. Caught live: 3 Monkeys, released to OTT
+ *    2020-02-07, "arrived" on Prime Video in the ledger on 2026-09-17 -- six
+ *    and a half years later, the day TMDB finally tagged it at all. Set well
+ *    above the normal windowing range specifically so a real, if unusually
+ *    slow, licensing deal never gets silently hidden.
  */
-const SUSPICIOUS_ORIGINAL_GAP_DAYS = 14;
+const OWN_ORIGINAL_GAP_DAYS = 14;
+const LEGACY_CATALOG_GAP_DAYS = 400;
 
 function arrivalOn(kind, rec, pid, on, detail) {
-  if (!on || kind !== 'tv' || !rec.d || !detail?.nw?.length) return on;
-
+  if (!on || !rec.d) return on;
   const gapDays = (Date.parse(on) - Date.parse(rec.d)) / 86_400_000;
-  if (!(gapDays > SUSPICIOUS_ORIGINAL_GAP_DAYS)) return on;
 
-  const isOwnNetwork = detail.nw.some((name) => providerIdForPlatformName(name) === pid);
-  return isOwnNetwork ? null : on;
+  if (
+    kind === 'tv' &&
+    gapDays > OWN_ORIGINAL_GAP_DAYS &&
+    detail?.nw?.some((name) => providerIdForPlatformName(name) === pid)
+  ) {
+    return null;
+  }
+
+  if (gapDays > LEGACY_CATALOG_GAP_DAYS) return null;
+
+  return on;
 }
 
 /**
