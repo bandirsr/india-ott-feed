@@ -56,7 +56,21 @@ async function main() {
   }
 
   const previous = loadPrevious();
-  const merged = mergeReleases([...(previous.releases ?? []), ...rawRecords]);
+  const combined = mergeReleases([...(previous.releases ?? []), ...rawRecords]);
+
+  // Dropped rather than kept forever. A dated report more than 60 days past
+  // its date has either been confirmed by TMDB/Wikipedia by now (in which
+  // case publish.js's own dedupe already stops using it) or was simply wrong
+  // -- either way it is not worth a permanent line in this file. An undated
+  // lead gets less patience: nothing here ever corrects its date, so one that
+  // has sat 21 days without a source adding one is going nowhere.
+  const DAY = 86_400_000;
+  const now = Date.now();
+  const merged = combined.filter((r) => {
+    if (r.date) return now - Date.parse(r.date) < 60 * DAY;
+    const seenAt = r.firstSeenAt ? Date.parse(r.firstSeenAt) : now;
+    return now - seenAt < 21 * DAY;
+  });
 
   // Newest first, undated last — an undated lead is still worth keeping but
   // should never sit above a confirmed date.
@@ -87,7 +101,7 @@ async function main() {
   );
 
   console.log(`\n--- Fresh layer ---`);
-  console.log(`release records      ${merged.length}`);
+  console.log(`release records      ${merged.length}  (${combined.length - merged.length} pruned as stale)`);
   console.log(`  two or more sources ${merged.filter((r) => r.sourceCount >= 2).length}`);
   console.log(`  with a date         ${merged.filter((r) => r.date).length}`);
   console.log(`round-up posts       ${seenRoundups.size}  (list several titles each; not parsed yet)`);

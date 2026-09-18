@@ -99,6 +99,42 @@ export const PLATFORMS = [
   { name: 'FanCode', tmdbId: null, status: 'absent', reach: 'national', note: 'Sports only — out of scope for a film and series app.', priority: 'none' },
 ];
 
+/**
+ * A platform TMDB has no id for at all — ETV Win and Ullu, which reach the
+ * app only through their own robots (gapfill.js, series.js), never through
+ * TMDB's provider list. Publish.js assigns each a negative synthetic id so it
+ * can be carried through the feed the same way a real provider is.
+ */
+export const SYNTHETIC_PROVIDER_IDS = { 'ETV Win': -1, Ullu: -2 };
+
+/**
+ * The fast news layer names platforms the way extract.js's PLATFORMS list
+ * spells them (ZEE5, Sony Liv as "SonyLIV", Apple TV+), which is not always
+ * how this registry spells the same service. Resolved here once rather than
+ * wherever a report needs a provider id.
+ */
+const NAME_ALIASES = {
+  ZEE5: 'Zee5',
+  SonyLIV: 'Sony Liv',
+  'Apple TV+': 'Apple TV',
+  Hotstar: 'JioHotstar',
+  JioCinema: 'JioHotstar',
+};
+
+/**
+ * A canonical platform name (however the caller spells it) to the id it
+ * should carry on the wire — a real TMDB provider id, or the synthetic one
+ * for the handful of platforms TMDB does not list. Null means genuinely
+ * untracked: a real platform, but not one this app renders availability for.
+ */
+export function providerIdForPlatformName(name) {
+  if (name in SYNTHETIC_PROVIDER_IDS) return SYNTHETIC_PROVIDER_IDS[name];
+  const lookup = NAME_ALIASES[name] ?? name;
+  const p = PLATFORMS.find((p) => p.name === lookup);
+  if (p?.tmdbId != null) return p.tmdbId;
+  return SYNTHETIC_PROVIDER_IDS[lookup] ?? null;
+}
+
 export const COVERAGE = {
   checkedOn: '2026-09-13',
   tmdbProvidersForIndia: 92,

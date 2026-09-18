@@ -15,6 +15,8 @@
  */
 
 import { PLATFORMS } from './extract.js';
+import { rawCall } from './tmdb.js';
+import { providerIdForPlatformName } from './platforms.js';
 
 const MONTHS = {
   january: 1, february: 2, march: 3, april: 4, may: 5, june: 6,
@@ -110,12 +112,37 @@ const NOT_A_RELEASE =
   /\b(trailer|teaser|first look|song|lyrical|poster|review|box office|collection|rumou?r|may |could |expected to|likely|shooting|wrapped|announcement of|audio launch)\b/i;
 
 /**
+ * A title set off in quotes somewhere inside the headline -- "OTT Alert: Ravi
+ * Teja's Blockbuster 'Irumudi' Lands on Netflix in 5 Languages". Entertainment
+ * headlines quote the film name constantly, in front of arbitrary framing text
+ * (an outlet name, "Alert:", an actor credit) that the verb-stripping approach
+ * below cannot anticipate every shape of. A quoted span is unambiguous where
+ * guessing the sentence structure is not, so it is tried first.
+ */
+function quotedTitle(headline) {
+  const m = /['‘’"“”]([A-Z][^'‘’"“”]{1,45}?)['‘’"“”]/.exec(headline);
+  if (!m) return null;
+  const candidate = m[1].trim();
+  // A whole clause in quotes ("... says the film 'will release on Netflix'")
+  // is a quotation, not a title -- five-plus words is treated as prose.
+  if (candidate.split(/\s+/).length > 4) return null;
+  return candidate;
+}
+
+/**
  * Pulls a title out of a headline.
  *
  * Deliberately conservative: these become provisional records that Wikipedia
  * later confirms or corrects, so a missed title is cheap and a wrong one is not.
+ * Wrong is still guarded against even when a title is guessed here -- see
+ * matchFreshTitle, which only ever accepts an exact match against a real TMDB
+ * title, so a bad guess simply fails to match rather than attaching to the
+ * wrong film.
  */
 function guessTitle(headline) {
+  const quoted = quotedTitle(headline);
+  if (quoted) return quoted;
+
   let t = headline;
 
   // "Panchanama OTT Release: ZEE5 – September 11, 2026" -> "Panchanama"
@@ -193,6 +220,7 @@ export function extractFromItem(item, source) {
  */
 export function mergeReleases(records) {
   const byKey = new Map();
+  const now = new Date().toISOString();
 
   for (const r of records) {
     if (r.kind !== 'release') continue;
@@ -200,10 +228,20 @@ export function mergeReleases(records) {
     const existing = byKey.get(key);
 
     if (!existing) {
-      byKey.set(key, { ...r, sources: [r.source], dates: r.date ? [r.date] : [] });
+      // Set once, from whichever record created the entry -- carried forward
+      // untouched on every later update, so it always answers "when did we
+      // first hear about this" rather than "when did we last see it repeated".
+      byKey.set(key, {
+        ...r,
+        sources: [r.source],
+        dates: r.date ? [r.date] : [],
+        firstSeenAt: r.firstSeenAt ?? r.publishedAt ?? now,
+        lastSeenAt: now,
+      });
       continue;
     }
 
+    existing.lastSeenAt = now;
     if (!existing.sources.includes(r.source)) existing.sources.push(r.source);
     if (r.date && !existing.dates.includes(r.date)) existing.dates.push(r.date);
     for (const l of r.languages) if (!existing.languages.includes(l)) existing.languages.push(l);
@@ -221,6 +259,84 @@ export function mergeReleases(records) {
       confidence: r.sources.length >= 2 ? (agreed ? 'high' : 'platform-only') : 'single-source',
     };
   });
+}
+
+const LANGUAGE_CODES = {
+  Telugu: 'te', Tamil: 'ta', Malayalam: 'ml', Kannada: 'kn', Hindi: 'hi',
+  Bengali: 'bn', Marathi: 'mr', English: 'en',
+};
+
+const norm = (s) => String(s).toLowerCase().replace(/[^a-z0-9]/g, '');
+
+/**
+ * A headline's guessed title to a real TMDB film, the same way gapfill.js
+ * confirms a Wikipedia title: an exact normalised match on title OR
+ * original_title, never a fuzzy one.
+ *
+ * This is the safety valve for the whole fast layer. guessTitle() regularly
+ * produces junk from a headline it could not fully parse -- "#Love on OTT:
+ * Netflix Reveals Release Date and" is not a film title -- and junk simply
+ * fails to match anything on TMDB and is dropped here. A wrong match would be
+ * far worse than a missed one: it would attach someone else's platform to
+ * this film's page.
+ */
+export async function matchFreshTitle(title, languages = []) {
+  const clean = String(title ?? '').trim();
+  if (clean.length < 2) return null;
+
+  const json = await rawCall('/search/movie', { query: clean, include_adult: false });
+  const results = json.results ?? [];
+  const target = norm(clean);
+  const candidates = results.filter((r) => norm(r.title) === target || norm(r.original_title) === target);
+  if (candidates.length === 0) return null;
+
+  const codes = languages.map((l) => LANGUAGE_CODES[l]).filter(Boolean);
+  const byLanguage = codes.length > 0 ? candidates.find((r) => codes.includes(r.original_language)) : null;
+  const hit = byLanguage ?? [...candidates].sort((a, b) => (b.popularity ?? 0) - (a.popularity ?? 0))[0];
+
+  return {
+    key: `movie:${hit.id}`,
+    title: hit.title,
+    date: hit.release_date || null,
+    poster: hit.poster_path || null,
+    language: hit.original_language,
+  };
+}
+
+/**
+ * News reports to rows publish.js can fold into the catalogue.
+ *
+ * Deliberately does not assert an arrival date. "Premieres on aha on August
+ * 19" and "now streaming on Netflix" both produce a date here, but neither
+ * is the confirmed day the ledger records for everything else -- one is an
+ * announcement of a future date, the other just means "when this was
+ * written". Claiming either as an arrival date risks a wrong one sitting
+ * next to the ledger's exact ones with no visible difference. This layer's
+ * job is to say "reported, not yet confirmed" a few days before TMDB agrees;
+ * the date always lands from the source of record.
+ */
+export async function resolveFreshReports(releases) {
+  const out = [];
+  for (const r of releases ?? []) {
+    if (!r.title || !r.platform) continue;
+    const providerId = providerIdForPlatformName(r.platform);
+    if (providerId == null) continue;
+
+    const match = await matchFreshTitle(r.title, r.languages ?? []);
+    if (!match) continue;
+
+    out.push({
+      key: match.key,
+      title: match.title,
+      date: match.date,
+      poster: match.poster,
+      language: match.language,
+      platform: r.platform,
+      providerId,
+      sourceName: r.sourceCount >= 2 ? `${r.sourceCount} sources` : (r.sourceName ?? r.source),
+    });
+  }
+  return out;
 }
 
 export { guessTitle, findDates, findPlatform };

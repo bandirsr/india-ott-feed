@@ -1,8 +1,41 @@
 {
-  "generatedAt": "2026-09-12T23:24:17.465Z",
+  "generatedAt": "2026-09-18T03:13:36.623Z",
   "note": "Provisional. Reported by news sources; Wikipedia corrects these later.",
-  "releases": [],
+  "releases": [
+    {
+      "kind": "release",
+      "title": "Irumudi",
+      "platform": "Netflix",
+      "languages": [
+        "Telugu"
+      ],
+      "date": null,
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "123telugu",
+      "sourceName": "123telugu",
+      "headline": "OTT Alert: Ravi Teja’s Blockbuster 'Irumudi' Lands on Netflix in 5 Languages",
+      "link": "https://www.123telugu.com/mnews/ott-alert-ravi-tejas-blockbuster-irumudi-lands-on-netflix-in-5-languages-hk.html",
+      "publishedAt": "Fri, 18 Sep 2026 01:31:03 +0000",
+      "sources": [
+        "123telugu"
+      ],
+      "dates": [],
+      "firstSeenAt": "Fri, 18 Sep 2026 01:31:03 +0000",
+      "lastSeenAt": "2026-09-18T03:13:36.623Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    }
+  ],
   "roundups": [
+    {
+      "kind": "roundup",
+      "source": "binged",
+      "headline": "Netflix is Super Crowded This Weekend With Three Major Releases",
+      "link": "https://www.binged.com/ott-analysis/netflix-is-super-crowded-this-weekend-with-three-major-releases/",
+      "publishedAt": "Tue, 15 Sep 2026 08:40:11 +0000"
+    },
     {
       "kind": "roundup",
       "source": "binged",
@@ -23,13 +56,6 @@
       "headline": "Top OTT Titles Streaming This Week (Aug 24 – Aug 30, 2026)",
       "link": "https://www.binged.com/ott-analysis/top-ott-titles-streaming-this-week-aug-24-aug-30-2026/",
       "publishedAt": "Mon, 24 Aug 2026 01:00:57 +0000"
-    },
-    {
-      "kind": "roundup",
-      "source": "binged",
-      "headline": "Top OTT Releases This Week (Aug 17 – Aug 23, 2026)",
-      "link": "https://www.binged.com/ott-analysis/top-ott-releases-aug-3rd-2026-week/",
-      "publishedAt": "Mon, 17 Aug 2026 07:57:09 +0000"
     }
   ]
 }

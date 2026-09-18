@@ -28,6 +28,7 @@ import { gzipSync } from 'node:zlib';
 import { listSnapshots, load, LANGUAGES } from './src/snapshot.js';
 import { loadLedger, arrivalDate } from './src/ledger.js';
 import { toFeedEntries } from './src/gapfill.js';
+import { resolveFreshReports } from './src/fresh.js';
 import { trailerKeyFor } from './src/trailers.js';
 
 /**
@@ -88,7 +89,7 @@ function detailFields(d) {
   return out;
 }
 
-function main() {
+function main(freshReports) {
   const dates = listSnapshots();
   if (dates.length === 0) {
     console.error('No snapshots yet. Run "node snapshot.js take" first.');
@@ -229,6 +230,50 @@ function main() {
       p: [{ id: synth.id, on: row.arrived, src: 'wikipedia' }],
     });
     added += 1;
+  }
+
+  // --- fold in same-day news reports, ahead of TMDB's own catch-up --------
+  //
+  // TMDB's watch-provider data lags the platforms themselves by anywhere from
+  // hours to several days -- a title can be "Recently Added" in the Netflix
+  // app while TMDB still shows no provider for it at all. Trade press posts
+  // "X lands on Netflix" the same day. Matched here to a real TMDB id (never
+  // invented -- see matchFreshTitle), and tagged `src: 'reported'` rather than
+  // folded in as though JustWatch had confirmed it, because it has not.
+  //
+  // Self-healing by construction: the row is keyed by the real TMDB id, so
+  // the day the main sweep or JustWatch itself catches up and adds the same
+  // provider id, the dedupe check below simply stops adding this one -- no
+  // separate cleanup pass is needed.
+  let reportedAttached = 0;
+  let reportedAdded = 0;
+  for (const row of freshReports ?? []) {
+    const existingTarget = byKey.get(row.key);
+    if (existingTarget) {
+      if (existingTarget.p.some((x) => x.id === row.providerId)) continue;
+      existingTarget.p.push({ id: row.providerId, on: null, src: 'reported', by: row.sourceName });
+      reportedAttached += 1;
+      continue;
+    }
+
+    // Genuinely new to today's dataset: TMDB knows the film (that is how the
+    // match happened) but no sweep has ever seen a provider for it, so it
+    // never reached byLanguage through the main loop above.
+    const bucket = byLanguage.get(row.language);
+    if (!bucket) continue; // an untracked language -- dropped, not guessed at
+
+    const created = {
+      id: row.key,
+      t: row.title,
+      d: row.date,
+      i: row.poster,
+      k: 'movie',
+      y: null,
+      p: [{ id: row.providerId, on: null, src: 'reported', by: row.sourceName }],
+    };
+    bucket.push(created);
+    byKey.set(row.key, created);
+    reportedAdded += 1;
   }
 
   // Names come from the snapshot that produced this data, never from a
@@ -377,7 +422,18 @@ function main() {
   const totalGz = languages.reduce((s, l) => s + l.gzipBytes, 0);
   console.log(`\n  manifest ${statSync(join(OUT, 'manifest.json')).size} bytes`);
   console.log(`  all languages ${Math.round(totalGz / 1024)} KB gzipped`);
+  if (reportedAttached || reportedAdded) {
+    console.log(`  news layer: ${reportedAttached} attached, ${reportedAdded} new titles (unconfirmed, pending TMDB)`);
+  }
   console.log(`\nOutput: ${OUT}`);
 }
 
-main();
+// Same optional-file pattern as gapfill/dubs/series/trailers above: if the
+// fast layer has never run, freshPath simply does not exist yet and the feed
+// is exactly what it was before this layer existed.
+const freshPath = resolve(HERE, 'data', 'fresh.json');
+const freshReports = existsSync(freshPath)
+  ? await resolveFreshReports(JSON.parse(readFileSync(freshPath, 'utf8')).releases)
+  : [];
+
+main(freshReports);

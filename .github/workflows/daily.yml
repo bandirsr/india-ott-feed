@@ -115,6 +115,15 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: node gapfill.js 300
 
+      # The fast layer: trade-press RSS (Binged, Telugu360, 123telugu), same
+      # day. TMDB's own provider data lags a platform by anywhere from hours
+      # to several days -- this catches "X lands on Netflix" from the news the
+      # morning it happens, matched to a real TMDB id and tagged `reported`
+      # rather than passed off as JustWatch-confirmed. No key, no quota; skips
+      # a feed that is down rather than failing the run.
+      - name: Poll trade-press RSS for same-day releases
+        run: node fetch-fresh.js
+
       - name: Build the files the app downloads
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
@@ -127,7 +136,7 @@ jobs:
         run: |
           git config user.name "ott-bot"
           git config user.email "ott-bot@users.noreply.github.com"
-          git add data/arrivals.json data/trailers.json data/gapfill.json data/dubs.json data/series.json data/details.json data/youtube-trailers.json
+          git add data/arrivals.json data/trailers.json data/gapfill.json data/dubs.json data/series.json data/details.json data/youtube-trailers.json data/fresh.json
           git diff --staged --quiet || git commit -m "Ledger: $(date -u +%Y-%m-%d)"
           # Rebase before pushing. A plain push failed whenever someone pushed to
           # main while the sweep was running, and the whole day went unpublished.
