@@ -59,6 +59,14 @@ export async function detailsFor(kind, tmdbId) {
     // votes: "10.0 from one vote" is noise wearing the costume of information.
     v: (full.vote_count ?? 0) >= 5 ? Math.round((full.vote_average ?? 0) * 10) / 10 : null,
     n: full.vote_count ?? 0,
+    // Who made it, for a series -- already sitting in the same TMDB response
+    // this call already pays for, so free to carry along. publish.js uses it
+    // to catch a specific, otherwise-invisible mistake: a platform's own
+    // Original cannot "arrive" there after the fact, so if the ledger's first
+    // sighting of e.g. Netflix lands weeks after a Netflix Original's own
+    // first-air date, that gap is TMDB's provider data catching up, not a
+    // real later launch. Never shipped to the app -- publish-time-only.
+    nw: kind === 'tv' ? (full.networks ?? []).map((n) => n.name).filter(Boolean) : undefined,
   };
 }
 

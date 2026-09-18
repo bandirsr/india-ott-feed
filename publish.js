@@ -29,7 +29,37 @@ import { listSnapshots, load, LANGUAGES } from './src/snapshot.js';
 import { loadLedger, arrivalDate } from './src/ledger.js';
 import { toFeedEntries } from './src/gapfill.js';
 import { resolveFreshReports } from './src/fresh.js';
+import { providerIdForPlatformName } from './src/platforms.js';
 import { trailerKeyFor } from './src/trailers.js';
+
+/**
+ * A platform's own Original cannot "arrive" there after the fact -- it was
+ * always there. Caught live: Bāhubali: The Torchbearer, a Netflix Original
+ * documentary that first aired 2026-06-26, showed up in the ledger as
+ * "arrived" on the day TMDB finally added a watch-provider entry for it at
+ * all -- three months later. TMDB's `networks` field (who made it) and its
+ * JustWatch-sourced watch-providers field (where it streams) are separate
+ * data that do not update on the same schedule, and the gap between them
+ * silently became a fake recent arrival.
+ *
+ * Guarded narrowly: only `tv` (a movie's production-company list is too
+ * noisy to trust the same way -- see details.js), only when the arrival is
+ * well past the title's own first-air date (a same-day or next-day sighting
+ * is just normal bootstrap timing, not this bug), and only for the specific
+ * provider that IS the title's own network -- a genuinely later licence to a
+ * different platform keeps its real date.
+ */
+const SUSPICIOUS_ORIGINAL_GAP_DAYS = 14;
+
+function arrivalOn(kind, rec, pid, on, detail) {
+  if (!on || kind !== 'tv' || !rec.d || !detail?.nw?.length) return on;
+
+  const gapDays = (Date.parse(on) - Date.parse(rec.d)) / 86_400_000;
+  if (!(gapDays > SUSPICIOUS_ORIGINAL_GAP_DAYS)) return on;
+
+  const isOwnNetwork = detail.nw.some((name) => providerIdForPlatformName(name) === pid);
+  return isOwnNetwork ? null : on;
+}
 
 /**
  * Platforms with no TMDB id get a synthetic negative one.
@@ -151,18 +181,19 @@ function main(freshReports) {
   const byLanguage = new Map(LANGUAGES.map((l) => [l.code, []]));
 
   for (const [key, rec] of Object.entries(latest.titles)) {
+    const kind = key.startsWith('tv:') ? 'tv' : 'movie';
     const entry = {
       id: key,
       t: rec.t,
       d: rec.d, // theatrical / first-air date
       i: rec.i, // poster path, relative to imageBase
-      k: key.startsWith('tv:') ? 'tv' : 'movie',
+      k: kind,
       // YouTube video key, or absent. The app builds both the watch URL and the
       // still from it, so one short string carries both.
       // Filled in per language below -- a Tamil viewer and a Telugu viewer
       // looking at the same film get different trailers.
       y: null,
-      p: rec.p.map((pid) => ({ id: pid, on: arrivalDate(ledger, key, pid) })),
+      p: rec.p.map((pid) => ({ id: pid, on: arrivalOn(kind, rec, pid, arrivalDate(ledger, key, pid), details[key]) })),
       ...detailFields(details[key]),
     };
 
