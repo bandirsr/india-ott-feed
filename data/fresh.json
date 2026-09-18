@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T03:13:36.623Z",
+  "generatedAt": "2026-09-18T07:38:31.564Z",
   "note": "Provisional. Reported by news sources; Wikipedia corrects these later.",
   "releases": [
     {
@@ -22,7 +22,32 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 18 Sep 2026 01:31:03 +0000",
-      "lastSeenAt": "2026-09-18T03:13:36.623Z",
+      "lastSeenAt": "2026-09-18T07:38:31.563Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Lust Stories 3",
+      "platform": "Netflix",
+      "languages": [
+        "Telugu"
+      ],
+      "date": null,
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "123telugu",
+      "sourceName": "123telugu",
+      "headline": "Lust Stories 3 OTT Release: Here’s When Netflix Will Stream the Anthology",
+      "link": "https://www.123telugu.com/mnews/lust-stories-3-ott-release-heres-when-netflix-will-stream-the-anthology-hk.html",
+      "publishedAt": "Fri, 18 Sep 2026 04:30:04 +0000",
+      "sources": [
+        "123telugu"
+      ],
+      "dates": [],
+      "firstSeenAt": "Fri, 18 Sep 2026 04:30:04 +0000",
+      "lastSeenAt": "2026-09-18T07:38:31.563Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
