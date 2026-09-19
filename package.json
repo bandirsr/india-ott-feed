@@ -10,7 +10,7 @@
     "test": "node test/test-extract.js && node test/test-clauses.js && node test/test-snapshot.js && node test/test-ledger.js && node test/test-health.js && node test/test-feed-contract.js",
     "snapshot": "node snapshot.js take",
     "publish": "node publish.js",
-    "daily": "node snapshot.js take && node snapshot.js trailers 400 && node details.js 600 && node series.js 400 && node dubs.js 300 && node gapfill.js 300 && node fetch-fresh.js && node publish.js && node verify-published.js",
+    "daily": "node snapshot.js take && node snapshot.js trailers 400 && node details.js 600 && node series.js 400 && node dubs.js 300 && node gapfill.js 300 && node fetch-fresh.js && node publish.js && node notify.js && node verify-published.js",
     "serve": "node serve-public.cjs",
     "trailers": "node snapshot.js trailers",
     "gapfill": "node gapfill.js",
@@ -18,6 +18,7 @@
     "series": "node series.js",
     "details": "node details.js",
     "fresh": "node fetch-fresh.js",
+    "notify": "node notify.js",
     "verify": "node verify-published.js",
     "seed": "node build-seed.js"
   }

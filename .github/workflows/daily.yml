@@ -129,6 +129,18 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: node publish.js
 
+      # Notify anyone who saved a title that just arrived. Reads the files
+      # just published above -- an `on` date already corrected by
+      # arrivalOn()'s legacy-title guard -- and asks the small Cloudflare
+      # Pages Function registry (OTTwalaWebsite/functions/api/) who has that
+      # title saved. Skips cleanly, like the YouTube trailer step, until
+      # PUSH_ADMIN_KEY exists.
+      - name: Notify saved-title arrivals
+        env:
+          PUSH_ADMIN_KEY: ${{ secrets.PUSH_ADMIN_KEY }}
+        run: node notify.js
+        continue-on-error: true
+
       # The ledger is the asset. Snapshots are disposable working files and are
       # gitignored -- committing 1.3 MB a day would put ~170 MB a year into git
       # history that deleting the files later would not reclaim.
