@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T00:00:07.601Z",
+  "generatedAt": "2026-09-19T07:32:37.244Z",
   "note": "Provisional. Reported by news sources; Wikipedia corrects these later.",
   "releases": [
     {
@@ -22,7 +22,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 18 Sep 2026 01:31:03 +0000",
-      "lastSeenAt": "2026-09-19T00:00:07.600Z",
+      "lastSeenAt": "2026-09-19T07:32:37.244Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -47,7 +47,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 18 Sep 2026 04:30:04 +0000",
-      "lastSeenAt": "2026-09-19T00:00:07.600Z",
+      "lastSeenAt": "2026-09-19T07:32:37.244Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -72,7 +72,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 18 Sep 2026 20:30:25 +0000",
-      "lastSeenAt": "2026-09-19T00:00:07.600Z",
+      "lastSeenAt": "2026-09-19T07:32:37.244Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
