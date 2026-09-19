@@ -31,20 +31,24 @@ const t = (name, lang, providers) => ({ t: name, l: lang, d: '2026-01-01', i: nu
 const day1 = snap('2026-09-13', {
   'movie:1': t('Peddi', 'te', [8]),
   'movie:2': t('Lenin', 'te', [119, 232]),
+  'movie:3': t('Baseline', 'te', [532]),
 });
 const r1 = update(null, day1);
 
 check('bootstrap is flagged', r1.bootstrap, true);
-check('bootstrap records every pair', Object.keys(r1.ledger.seen).length, 3);
+check('bootstrap records every pair', Object.keys(r1.ledger.seen).length, 4);
 check('bootstrap reports no arrivals', r1.arrivals.length, 0);
 check('bootstrap dates are null', arrivalDate(r1.ledger, 'movie:1', 8), null);
 check('bootstrap sets the start date', r1.ledger.startedOn, '2026-09-13');
 check('bootstrap counts as run 1', r1.ledger.runs, 1);
 
-/* Day two: one title gains a platform, one brand-new title appears. */
+/* Day two: one title gains a platform, one brand-new title appears. aha is
+   already being watched (movie:3 sat on it on day one) -- a platform the ledger
+   has never seen would be undated, per 913a523. */
 const day2 = snap('2026-09-14', {
   'movie:1': t('Peddi', 'te', [8, 532]),
   'movie:2': t('Lenin', 'te', [119, 232]),
+  'movie:3': t('Baseline', 'te', [532]),
   'tv:9': t('Panchanama', 'te', [532]),
 });
 const r2 = update(r1.ledger, day2);
@@ -61,6 +65,7 @@ check('nothing departed', r2.departures.length, 0);
 const day3 = snap('2026-09-15', {
   'movie:1': t('Peddi', 'te', [8, 532]),
   'movie:2': t('Lenin', 'te', [119]),
+  'movie:3': t('Baseline', 'te', [532]),
   'tv:9': t('Panchanama', 'te', [532]),
 });
 const r3 = update(r2.ledger, day3);
@@ -75,6 +80,7 @@ check('the surviving platform is untouched', Object.keys(r3.ledger.seen).include
 const r4 = update(r3.ledger, snap('2026-09-16', {
   'movie:1': t('Peddi', 'te', [8, 532]),
   'movie:2': t('Lenin', 'te', [119, 232]),
+  'movie:3': t('Baseline', 'te', [532]),
   'tv:9': t('Panchanama', 'te', [532]),
 }));
 
@@ -101,6 +107,7 @@ check('only watched arrivals surface, never bootstrap pairs', all.length, 3);
 const r5 = update(r4.ledger, snap('2026-09-17', {
   'movie:1': t('Peddi', 'te', [8, 532]),
   'movie:2': t('Lenin', 'te', [119, 232]),
+  'movie:3': t('Baseline', 'te', [532]),
   'tv:9': t('Panchanama', 'te', [532]),
   'movie:77': t('Not streaming yet', 'te', []),
 }));
