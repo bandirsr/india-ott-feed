@@ -33,7 +33,7 @@ const BASE = 'https://api.themoviedb.org/3';
 
 /** Shown wherever availability appears. Not optional under the licence. */
 export const ATTRIBUTION = {
-  data: 'This product uses the TMDB API but is not endorsed or certified by TMDB.',
+  data: 'This application uses TMDB and the TMDB APIs but is not endorsed, certified, or otherwise approved by TMDB.',
   providers: 'Streaming availability data provided by JustWatch.',
 };
 

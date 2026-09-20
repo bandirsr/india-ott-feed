@@ -454,7 +454,7 @@ function main(freshReports) {
     imageBase: 'https://image.tmdb.org/t/p/',
     posterSize: 'w342',
     attribution: {
-      tmdb: 'This product uses the TMDB API but is not endorsed or certified by TMDB.',
+      tmdb: 'This application uses TMDB and the TMDB APIs but is not endorsed, certified, or otherwise approved by TMDB.',
       justwatch: 'Streaming availability data provided by JustWatch.',
     },
     languages,
