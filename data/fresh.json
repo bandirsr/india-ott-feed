@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T08:12:42.775Z",
+  "generatedAt": "2026-09-22T07:59:44.328Z",
   "note": "Provisional. Reported by news sources; Wikipedia corrects these later.",
   "releases": [
     {
@@ -22,7 +22,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 18 Sep 2026 01:31:03 +0000",
-      "lastSeenAt": "2026-09-21T08:12:42.775Z",
+      "lastSeenAt": "2026-09-22T07:59:44.327Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -47,7 +47,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 18 Sep 2026 04:30:04 +0000",
-      "lastSeenAt": "2026-09-21T08:12:42.775Z",
+      "lastSeenAt": "2026-09-22T07:59:44.327Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -72,7 +72,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 18 Sep 2026 20:30:25 +0000",
-      "lastSeenAt": "2026-09-21T08:12:42.775Z",
+      "lastSeenAt": "2026-09-22T07:59:44.327Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -95,7 +95,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Sun, 20 Sep 2026 05:53:20 +0000",
-      "lastSeenAt": "2026-09-21T08:12:42.775Z",
+      "lastSeenAt": "2026-09-22T07:59:44.327Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
