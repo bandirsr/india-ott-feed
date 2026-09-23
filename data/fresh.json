@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T07:59:44.328Z",
+  "generatedAt": "2026-09-23T07:58:56.063Z",
   "note": "Provisional. Reported by news sources; Wikipedia corrects these later.",
   "releases": [
     {
@@ -22,7 +22,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 18 Sep 2026 01:31:03 +0000",
-      "lastSeenAt": "2026-09-22T07:59:44.327Z",
+      "lastSeenAt": "2026-09-23T07:58:56.062Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -47,7 +47,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 18 Sep 2026 04:30:04 +0000",
-      "lastSeenAt": "2026-09-22T07:59:44.327Z",
+      "lastSeenAt": "2026-09-23T07:58:56.062Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -72,7 +72,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 18 Sep 2026 20:30:25 +0000",
-      "lastSeenAt": "2026-09-22T07:59:44.327Z",
+      "lastSeenAt": "2026-09-23T07:58:56.062Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -95,7 +95,57 @@
       ],
       "dates": [],
       "firstSeenAt": "Sun, 20 Sep 2026 05:53:20 +0000",
-      "lastSeenAt": "2026-09-22T07:59:44.327Z",
+      "lastSeenAt": "2026-09-23T07:58:56.062Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "OTT: Huma Qureshi’s Baby Do Die Do",
+      "platform": "Netflix",
+      "languages": [
+        "Telugu"
+      ],
+      "date": null,
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "123telugu",
+      "sourceName": "123telugu",
+      "headline": "OTT: Huma Qureshi’s Baby Do Die Do Now Streaming on Netflix",
+      "link": "https://www.123telugu.com/mnews/ott-huma-qureshis-baby-do-die-do-now-streaming-on-netflix-hk.html",
+      "publishedAt": "Wed, 23 Sep 2026 03:31:26 +0000",
+      "sources": [
+        "123telugu"
+      ],
+      "dates": [],
+      "firstSeenAt": "Wed, 23 Sep 2026 03:31:26 +0000",
+      "lastSeenAt": "2026-09-23T07:58:56.062Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Toy Story 5",
+      "platform": "JioHotstar",
+      "languages": [
+        "Telugu"
+      ],
+      "date": null,
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "123telugu",
+      "sourceName": "123telugu",
+      "headline": "Toy Story 5 OTT Release: JioHotstar Reveals the Streaming Date for the $1 Billion-Plus Grosser",
+      "link": "https://www.123telugu.com/mnews/toy-story-5-ott-release-jiohotstar-reveals-the-streaming-date-for-the-1-billion-plus-grosser-hk.html",
+      "publishedAt": "Tue, 22 Sep 2026 19:31:44 +0000",
+      "sources": [
+        "123telugu"
+      ],
+      "dates": [],
+      "firstSeenAt": "Tue, 22 Sep 2026 19:31:44 +0000",
+      "lastSeenAt": "2026-09-23T07:58:56.062Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
