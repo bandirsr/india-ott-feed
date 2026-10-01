@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-09-30T09:00:33.576Z",
+  "generatedAt": "2026-10-01T09:22:07.017Z",
   "note": "Provisional. Reported by news sources; Wikipedia corrects these later.",
   "releases": [
+    {
+      "kind": "release",
+      "title": "Mahendragiri Varahi Locks",
+      "platform": "Amazon Prime Video",
+      "languages": [
+        "Telugu"
+      ],
+      "date": "2026-09-11",
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "123telugu",
+      "sourceName": "123telugu",
+      "headline": "Mahendragiri Varahi Locks OTT Release Date – Here's When and Where to Steam It",
+      "link": "https://www.123telugu.com/mnews/mahendragiri-varahi-locks-ott-release-date-heres-when-and-where-to-steam-it-hk.html",
+      "publishedAt": "Thu, 01 Oct 2026 08:30:50 +0000",
+      "sources": [
+        "123telugu"
+      ],
+      "dates": [
+        "2026-09-11"
+      ],
+      "firstSeenAt": "Thu, 01 Oct 2026 08:30:50 +0000",
+      "lastSeenAt": "2026-10-01T09:22:07.017Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
     {
       "kind": "release",
       "title": "Irumudi",
@@ -22,7 +49,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 18 Sep 2026 01:31:03 +0000",
-      "lastSeenAt": "2026-09-30T09:00:33.575Z",
+      "lastSeenAt": "2026-10-01T09:22:07.017Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -47,7 +74,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 18 Sep 2026 04:30:04 +0000",
-      "lastSeenAt": "2026-09-30T09:00:33.575Z",
+      "lastSeenAt": "2026-10-01T09:22:07.017Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -72,7 +99,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 18 Sep 2026 20:30:25 +0000",
-      "lastSeenAt": "2026-09-30T09:00:33.575Z",
+      "lastSeenAt": "2026-10-01T09:22:07.017Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -95,7 +122,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Sun, 20 Sep 2026 05:53:20 +0000",
-      "lastSeenAt": "2026-09-30T09:00:33.575Z",
+      "lastSeenAt": "2026-10-01T09:22:07.017Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -120,7 +147,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Wed, 23 Sep 2026 03:31:26 +0000",
-      "lastSeenAt": "2026-09-30T09:00:33.575Z",
+      "lastSeenAt": "2026-10-01T09:22:07.017Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -145,7 +172,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Tue, 22 Sep 2026 19:31:44 +0000",
-      "lastSeenAt": "2026-09-30T09:00:33.575Z",
+      "lastSeenAt": "2026-10-01T09:22:07.017Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -170,7 +197,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 25 Sep 2026 04:30:15 +0000",
-      "lastSeenAt": "2026-09-30T09:00:33.575Z",
+      "lastSeenAt": "2026-10-01T09:22:07.017Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -195,7 +222,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 25 Sep 2026 01:30:10 +0000",
-      "lastSeenAt": "2026-09-30T09:00:33.575Z",
+      "lastSeenAt": "2026-10-01T09:22:07.017Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -220,7 +247,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Mon, 28 Sep 2026 08:07:05 +0000",
-      "lastSeenAt": "2026-09-30T09:00:33.575Z",
+      "lastSeenAt": "2026-10-01T09:22:07.017Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -245,7 +272,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Mon, 28 Sep 2026 04:09:27 +0000",
-      "lastSeenAt": "2026-09-30T09:00:33.575Z",
+      "lastSeenAt": "2026-10-01T09:22:07.017Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -268,7 +295,57 @@
       ],
       "dates": [],
       "firstSeenAt": "Mon, 28 Sep 2026 13:03:35 +0000",
-      "lastSeenAt": "2026-09-30T09:00:33.575Z",
+      "lastSeenAt": "2026-10-01T09:22:07.017Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "OTT: Sandeep Reddy-Backed Romanchakam",
+      "platform": "Netflix",
+      "languages": [
+        "Telugu"
+      ],
+      "date": null,
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "123telugu",
+      "sourceName": "123telugu",
+      "headline": "OTT: Sandeep Reddy-Backed Romanchakam Now Streaming on Netflix",
+      "link": "https://www.123telugu.com/mnews/sandeep-reddy-backed-romanchakam-arrives-on-ott-hk.html",
+      "publishedAt": "Thu, 01 Oct 2026 02:30:26 +0000",
+      "sources": [
+        "123telugu"
+      ],
+      "dates": [],
+      "firstSeenAt": "Thu, 01 Oct 2026 02:30:26 +0000",
+      "lastSeenAt": "2026-10-01T09:22:07.017Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "From Theatres to OTT in 3 Weeks: Karthi’s Sardar 2",
+      "platform": "Amazon Prime Video",
+      "languages": [
+        "Telugu"
+      ],
+      "date": null,
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "123telugu",
+      "sourceName": "123telugu",
+      "headline": "From Theatres to OTT in 3 Weeks: Karthi’s Sardar 2 Now Streaming on Amazon Prime Video",
+      "link": "https://www.123telugu.com/mnews/from-theatres-to-ott-in-3-weeks-karthis-sardar-2-now-streaming-on-amazon-prime-video-hk.html",
+      "publishedAt": "Thu, 01 Oct 2026 01:30:04 +0000",
+      "sources": [
+        "123telugu"
+      ],
+      "dates": [],
+      "firstSeenAt": "Thu, 01 Oct 2026 01:30:04 +0000",
+      "lastSeenAt": "2026-10-01T09:22:07.017Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -302,6 +379,13 @@
       "headline": "Top OTT Titles Streaming This Week (Aug 24 – Aug 30, 2026)",
       "link": "https://www.binged.com/ott-analysis/top-ott-titles-streaming-this-week-aug-24-aug-30-2026/",
       "publishedAt": "Mon, 24 Aug 2026 01:00:57 +0000"
+    },
+    {
+      "kind": "roundup",
+      "source": "binged",
+      "headline": "Top OTT Releases in October 2026",
+      "link": "https://www.binged.com/ott-analysis/top-ott-releases-in-october-2026/",
+      "publishedAt": "Wed, 30 Sep 2026 14:15:28 +0000"
     }
   ]
 }
