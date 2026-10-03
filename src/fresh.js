@@ -304,6 +304,16 @@ export async function matchFreshTitle(title, languages = []) {
 }
 
 /**
+ * The day a news report puts a film on a platform. A date the article names
+ * only counts if it is not earlier than the article itself; an earlier one is
+ * the cinema release being mentioned in passing.
+ */
+export function reportedDay(r) {
+  const publishedDay = String(r.firstSeenAt ?? r.publishedAt ?? new Date().toISOString()).slice(0, 10);
+  return r.date && r.date >= publishedDay ? r.date : publishedDay;
+}
+
+/**
  * News reports to rows publish.js can fold into the catalogue.
  *
  * Deliberately does not assert an arrival date. "Premieres on aha on August
@@ -325,10 +335,18 @@ export async function resolveFreshReports(releases) {
     const match = await matchFreshTitle(r.title, r.languages ?? []);
     if (!match) continue;
 
+    // The day it was reported on the platform -- NOT match.date, which is the
+    // film's cinema release. A date the article names only counts if it is not
+    // earlier than the article itself: "in cinemas 2 Sept, now on Netflix"
+    // published 1 Oct names the theatrical day, and that is the exact mistake
+    // this field exists to avoid. A later date is an announced premiere.
+    const reportedOn = reportedDay(r);
+
     out.push({
       key: match.key,
       title: match.title,
       date: match.date,
+      reportedOn,
       poster: match.poster,
       language: match.language,
       platform: r.platform,

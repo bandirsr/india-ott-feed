@@ -88,6 +88,15 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: node details.js 600
 
+      # The day each film reached OTT in India, from TMDB's digital release
+      # record. Fills the dates the ledger cannot know for films that were
+      # already streaming before tracking began. Recent films still without a
+      # date are asked again weekly; see src/digital.js.
+      - name: Fill in India digital release dates
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: node digital.js 800
+
       # Web series, placed by the network that made them. JustWatch tags
       # providers for almost no Indian series (2 of 10 sampled) while TMDB
       # records a network for 8 of 10 -- and for a streaming original the
@@ -148,7 +157,7 @@ jobs:
         run: |
           git config user.name "ott-bot"
           git config user.email "ott-bot@users.noreply.github.com"
-          git add data/arrivals.json data/trailers.json data/gapfill.json data/dubs.json data/series.json data/details.json data/youtube-trailers.json data/fresh.json
+          git add data/arrivals.json data/trailers.json data/gapfill.json data/dubs.json data/series.json data/details.json data/digital.json data/youtube-trailers.json data/fresh.json
           git diff --staged --quiet || git commit -m "Ledger: $(date -u +%Y-%m-%d)"
           # Rebase before pushing. A plain push failed whenever someone pushed to
           # main while the sweep was running, and the whole day went unpublished.

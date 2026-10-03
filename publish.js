@@ -185,6 +185,11 @@ function main(freshReports) {
   const detailsPath = resolve(HERE, 'data', 'details.json');
   const details = existsSync(detailsPath) ? JSON.parse(readFileSync(detailsPath, 'utf8')) : {};
 
+  // India digital release date per movie (src/digital.js). Optional: a title not
+  // yet checked ships without one and the app simply shows no date for it.
+  const digitalPath = resolve(HERE, 'data', 'digital.json');
+  const digital = existsSync(digitalPath) ? JSON.parse(readFileSync(digitalPath, 'utf8')) : {};
+
   // Trailers are optional. They backfill over days on their own budget, so a
   // publish must never wait for them or fail without them.
   const trailerPath = resolve(HERE, 'data', 'trailers.json');
@@ -215,6 +220,8 @@ function main(freshReports) {
       y: null,
       p: rec.p.map((pid) => ({ id: pid, on: arrivalOn(kind, rec, pid, arrivalDate(ledger, key, pid), details[key]) })),
       ...detailFields(details[key]),
+      // First India digital release, when TMDB has one. Not the cinema date.
+      ...(digital[key]?.g ? { dg: digital[key].g } : {}),
     };
 
     // A title appears under its own language AND under any language a
@@ -302,7 +309,7 @@ function main(freshReports) {
     const existingTarget = byKey.get(row.key);
     if (existingTarget) {
       if (existingTarget.p.some((x) => x.id === row.providerId)) continue;
-      existingTarget.p.push({ id: row.providerId, on: null, src: 'reported', by: row.sourceName });
+      existingTarget.p.push({ id: row.providerId, on: null, src: 'reported', by: row.sourceName, rep: row.reportedOn ?? null });
       reportedAttached += 1;
       continue;
     }
@@ -320,7 +327,7 @@ function main(freshReports) {
       i: row.poster,
       k: 'movie',
       y: null,
-      p: [{ id: row.providerId, on: null, src: 'reported', by: row.sourceName }],
+      p: [{ id: row.providerId, on: null, src: 'reported', by: row.sourceName, rep: row.reportedOn ?? null }],
     };
     bucket.push(created);
     byKey.set(row.key, created);

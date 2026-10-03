@@ -100,6 +100,18 @@ for (const lang of manifest.languages) {
     );
     check(`${lang.code} date is an ISO date or null`, title.d === null || /^\d{4}-\d{2}-\d{2}$/.test(title.d), String(title.d));
 
+    check(
+      `${lang.code} digital date is an ISO date when present`,
+      title.dg === undefined || /^\d{4}-\d{2}-\d{2}$/.test(title.dg),
+      String(title.dg)
+    );
+    // A news-reported platform may carry the day it was reported.
+    check(
+      `${lang.code} reported date is an ISO date or null when present`,
+      title.p.every((r) => r.rep === undefined || r.rep === null || /^\d{4}-\d{2}-\d{2}$/.test(r.rep)),
+      title.id
+    );
+
     // The app builds a URL as imageBase + posterSize + i, so a missing leading
     // slash would produce a 404 on every poster.
     check(`${lang.code} poster path starts with /`, title.i === null || title.i.startsWith('/'), String(title.i));
