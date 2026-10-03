@@ -31,6 +31,7 @@ import { toFeedEntries } from './src/gapfill.js';
 import { resolveFreshReports } from './src/fresh.js';
 import { providerIdForPlatformName } from './src/platforms.js';
 import { trailerKeyFor } from './src/trailers.js';
+import { mergeTwins } from './src/twins.js';
 
 /**
  * Two guards against the same root cause, at two different confidence levels.
@@ -385,6 +386,20 @@ function main(freshReports) {
     });
     seriesAdded += 1;
   }
+
+  // --- one film, one row ------------------------------------------------
+  //
+  // A Wikipedia-sourced title spelled a little differently from its TMDB twin
+  // is folded into it (src/twins.js), so the film keeps its poster, trailer and
+  // dates and gains the Wikipedia platform instead of appearing twice.
+  let twinsMerged = 0;
+  for (const [code, bucket] of byLanguage) {
+    const result = mergeTwins(bucket);
+    byLanguage.set(code, result.titles);
+    twinsMerged += result.merged;
+    for (const [from, into] of result.pairs) console.log(`  merged "${from}" into "${into}" (${code})`);
+  }
+  if (twinsMerged) console.log(`  duplicates merged: ${twinsMerged}`);
 
   const languages = [];
 

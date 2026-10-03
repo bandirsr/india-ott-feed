@@ -53,7 +53,7 @@ const LANGUAGE_MARKERS = {
 };
 
 /** Source languages worth checking for dubs into other Indian languages. */
-export const DUB_SOURCE_LANGUAGES = ['ta', 'ml', 'kn', 'hi'];
+export const DUB_SOURCE_LANGUAGES = ['te', 'ta', 'ml', 'kn', 'hi', 'bn', 'mr', 'pa', 'gu'];
 
 /**
  * Which Indian languages a film appears to be available in, beyond its own.

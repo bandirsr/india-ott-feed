@@ -61,7 +61,7 @@ jobs:
       - name: Backfill trailers
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-        run: node snapshot.js trailers 400
+        run: node snapshot.js trailers 800
 
       # The pass above caches "no trailer" forever, which is wrong for new
       # releases: TMDB often gets the video a few days after a film lands on a
@@ -86,7 +86,7 @@ jobs:
       - name: Fill in title details
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-        run: node details.js 600
+        run: node details.js 1000
 
       # The day each film reached OTT in India, from TMDB's digital release
       # record. Fills the dates the ledger cannot know for films that were
@@ -114,7 +114,7 @@ jobs:
       - name: Find dubbed releases
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-        run: node dubs.js 300
+        run: node dubs.js 800
 
       # The second robot: ETV Win, which neither TMDB nor Watchmode carries.
       # Wikipedia's own search finds the pages naming it, so this costs ~100

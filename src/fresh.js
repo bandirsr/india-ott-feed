@@ -24,7 +24,7 @@ const MONTHS = {
   jan: 1, feb: 2, mar: 3, apr: 4, jun: 6, jul: 7, aug: 8, sep: 9, sept: 9, oct: 10, nov: 11, dec: 12,
 };
 
-const LANGUAGES = ['Telugu', 'Tamil', 'Malayalam', 'Kannada', 'Hindi', 'English', 'Bengali', 'Marathi'];
+const LANGUAGES = ['Telugu', 'Tamil', 'Malayalam', 'Kannada', 'Hindi', 'English', 'Bengali', 'Marathi', 'Punjabi', 'Gujarati'];
 
 /** Only the streaming services — a TV channel premiere is not availability. */
 const OTT_PLATFORMS = PLATFORMS.filter((p) => p.kind === 'ott');
@@ -263,7 +263,7 @@ export function mergeReleases(records) {
 
 const LANGUAGE_CODES = {
   Telugu: 'te', Tamil: 'ta', Malayalam: 'ml', Kannada: 'kn', Hindi: 'hi',
-  Bengali: 'bn', Marathi: 'mr', English: 'en',
+  Bengali: 'bn', Marathi: 'mr', Punjabi: 'pa', Gujarati: 'gu', English: 'en',
 };
 
 const norm = (s) => String(s).toLowerCase().replace(/[^a-z0-9]/g, '');
