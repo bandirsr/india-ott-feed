@@ -1,7 +1,201 @@
 {
-  "generatedAt": "2026-10-03T20:36:10.146Z",
+  "generatedAt": "2026-10-03T20:47:14.641Z",
   "note": "Provisional. Reported by news sources; Wikipedia corrects these later.",
   "releases": [
+    {
+      "kind": "release",
+      "title": "Eyes",
+      "platform": "SonyLIV",
+      "languages": [
+        "Malayalam",
+        "Telugu",
+        "Tamil",
+        "Kannada",
+        "Hindi"
+      ],
+      "date": "2026-10-09",
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "keralatv-ott",
+      "sourceName": "KeralaTV OTT",
+      "headline": "Eyes OTT Release Date Announced – Malayalam Thriller Series Streaming on SonyLIV from October 9",
+      "link": "https://www.keralatv.in/eyes-ott-release-date-announced/",
+      "publishedAt": "Fri, 02 Oct 2026 13:46:36 +0000",
+      "sources": [
+        "keralatv-ott",
+        "ottrelease"
+      ],
+      "dates": [
+        "2026-10-09"
+      ],
+      "firstSeenAt": "Fri, 02 Oct 2026 13:46:36 +0000",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
+      "conflictingDates": [],
+      "sourceCount": 2,
+      "confidence": "high"
+    },
+    {
+      "kind": "release",
+      "title": "Pradhama Drishtiya Kuttakkar",
+      "platform": "Netflix",
+      "languages": [],
+      "date": "2026-10-09",
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "keralatv-ott",
+      "sourceName": "KeralaTV OTT",
+      "headline": "Pradhama Drishtiya Kuttakkar OTT Release Date and Platform : Netflix Streaming Date Awaited, October 9 Expected",
+      "link": "https://www.keralatv.in/pradhama-drishtiya-kuttakkar-on-netflix/",
+      "publishedAt": "Thu, 01 Oct 2026 03:00:19 +0000",
+      "sources": [
+        "keralatv-ott"
+      ],
+      "dates": [
+        "2026-10-09"
+      ],
+      "firstSeenAt": "Thu, 01 Oct 2026 03:00:19 +0000",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "What to Expect from Parineeti Chopra’s Upcoming Movie Reporting Live on Netflix",
+      "platform": "Netflix",
+      "languages": [],
+      "date": "2026-10-09",
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "ottrelease",
+      "sourceName": "OTT Release",
+      "headline": "Here’s What to Expect from Parineeti Chopra’s Upcoming Movie Reporting Live on Netflix",
+      "link": "https://www.ottrelease.com/news/heres-what-to-expect-from-parineeti-chopras-upcoming-movie-reporting-live-on-netflix.html",
+      "publishedAt": "Sat, 03 Oct 2026 10:18:03 +0000",
+      "sources": [
+        "ottrelease"
+      ],
+      "dates": [
+        "2026-10-09"
+      ],
+      "firstSeenAt": "Sat, 03 Oct 2026 10:18:03 +0000",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Spider-Man: Brand New Day Coming to Prime Video India — Rental Starts October 6!",
+      "platform": "Amazon Prime Video",
+      "languages": [
+        "Telugu",
+        "Tamil",
+        "Hindi",
+        "English"
+      ],
+      "date": "2026-10-06",
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "ottrelease",
+      "sourceName": "OTT Release",
+      "headline": "Spider-Man: Brand New Day Coming to Prime Video India — Rental Starts October 6!",
+      "link": "https://www.ottrelease.com/news/spider-man-brand-new-day-coming-to-prime-video-india-rental-starts-october-6.html",
+      "publishedAt": "Sat, 03 Oct 2026 10:50:12 +0000",
+      "sources": [
+        "ottrelease"
+      ],
+      "dates": [
+        "2026-10-06"
+      ],
+      "firstSeenAt": "Sat, 03 Oct 2026 10:50:12 +0000",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Jailer Rave",
+      "platform": "Sun NXT",
+      "languages": [],
+      "date": "2026-10-03",
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "keralatv-ott",
+      "sourceName": "KeralaTV OTT",
+      "headline": "Jailer Rave Streaming on Sun NXT From October 3 Ahead of Jailer 2 Release, Rajinikanth as Tiger Muthuvel Pandian",
+      "link": "https://www.keralatv.in/jailer-rave-sun-nxt-jailer-2-updates/",
+      "publishedAt": "Wed, 30 Sep 2026 14:16:59 +0000",
+      "sources": [
+        "keralatv-ott"
+      ],
+      "dates": [
+        "2026-10-03"
+      ],
+      "firstSeenAt": "Wed, 30 Sep 2026 14:16:59 +0000",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Mother Promise",
+      "platform": "ZEE5",
+      "languages": [
+        "Kannada"
+      ],
+      "date": "2026-10-02",
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "keralatv-ott",
+      "sourceName": "KeralaTV OTT",
+      "headline": "Mother Promise OTT Release Date: Kannada Dark-Comedy Gangster Drama Streaming on ZEE5 From October 2",
+      "link": "https://www.keralatv.in/mother-promise-kannada-movie-ott-release-date-zee5/",
+      "publishedAt": "Wed, 30 Sep 2026 06:38:09 +0000",
+      "sources": [
+        "keralatv-ott"
+      ],
+      "dates": [
+        "2026-10-02"
+      ],
+      "firstSeenAt": "Wed, 30 Sep 2026 06:38:09 +0000",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Sardar 2",
+      "platform": "Amazon Prime Video",
+      "languages": [
+        "Telugu",
+        "Tamil"
+      ],
+      "date": "2026-10-01",
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "123telugu",
+      "sourceName": "123telugu",
+      "headline": "Karthi's Sardar 2 OTT Release Date Revealed",
+      "link": "https://www.123telugu.com/mnews/karthis-sardar-2-ott-release-date-revealed-hk.html",
+      "publishedAt": "Mon, 28 Sep 2026 08:07:05 +0000",
+      "sources": [
+        "123telugu",
+        "keralatv-ott",
+        "ottrelease"
+      ],
+      "dates": [
+        "2026-10-01"
+      ],
+      "firstSeenAt": "Mon, 28 Sep 2026 08:07:05 +0000",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
+      "conflictingDates": [],
+      "sourceCount": 3,
+      "confidence": "high"
+    },
     {
       "kind": "release",
       "title": "Mahendragiri Varahi Locks",
@@ -24,7 +218,7 @@
         "2026-09-11"
       ],
       "firstSeenAt": "Thu, 01 Oct 2026 08:30:50 +0000",
-      "lastSeenAt": "2026-10-03T20:36:10.146Z",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -49,7 +243,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 18 Sep 2026 01:31:03 +0000",
-      "lastSeenAt": "2026-10-03T20:36:10.146Z",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -74,7 +268,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 18 Sep 2026 04:30:04 +0000",
-      "lastSeenAt": "2026-10-03T20:36:10.146Z",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -99,7 +293,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 18 Sep 2026 20:30:25 +0000",
-      "lastSeenAt": "2026-10-03T20:36:10.146Z",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -122,7 +316,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Sun, 20 Sep 2026 05:53:20 +0000",
-      "lastSeenAt": "2026-10-03T20:36:10.146Z",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -147,7 +341,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Wed, 23 Sep 2026 03:31:26 +0000",
-      "lastSeenAt": "2026-10-03T20:36:10.146Z",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -172,7 +366,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Tue, 22 Sep 2026 19:31:44 +0000",
-      "lastSeenAt": "2026-10-03T20:36:10.146Z",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -197,7 +391,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 25 Sep 2026 04:30:15 +0000",
-      "lastSeenAt": "2026-10-03T20:36:10.146Z",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -222,32 +416,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 25 Sep 2026 01:30:10 +0000",
-      "lastSeenAt": "2026-10-03T20:36:10.146Z",
-      "conflictingDates": [],
-      "sourceCount": 1,
-      "confidence": "single-source"
-    },
-    {
-      "kind": "release",
-      "title": "Sardar 2",
-      "platform": "Amazon Prime Video",
-      "languages": [
-        "Telugu"
-      ],
-      "date": null,
-      "dateStatus": "reported",
-      "provisional": true,
-      "source": "123telugu",
-      "sourceName": "123telugu",
-      "headline": "Karthi's Sardar 2 OTT Release Date Revealed",
-      "link": "https://www.123telugu.com/mnews/karthis-sardar-2-ott-release-date-revealed-hk.html",
-      "publishedAt": "Mon, 28 Sep 2026 08:07:05 +0000",
-      "sources": [
-        "123telugu"
-      ],
-      "dates": [],
-      "firstSeenAt": "Mon, 28 Sep 2026 08:07:05 +0000",
-      "lastSeenAt": "2026-10-03T20:36:10.146Z",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -272,7 +441,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Mon, 28 Sep 2026 04:09:27 +0000",
-      "lastSeenAt": "2026-10-03T20:36:10.146Z",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -291,14 +460,15 @@
       "link": "https://www.binged.com/hindi-ott/hunkkaar-controversy-viewers-accuse-show-of-hinduphobia/",
       "publishedAt": "Mon, 28 Sep 2026 13:03:35 +0000",
       "sources": [
-        "binged"
+        "binged",
+        "binged-hindi"
       ],
       "dates": [],
       "firstSeenAt": "Mon, 28 Sep 2026 13:03:35 +0000",
-      "lastSeenAt": "2026-10-03T20:36:10.146Z",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
       "conflictingDates": [],
-      "sourceCount": 1,
-      "confidence": "single-source"
+      "sourceCount": 2,
+      "confidence": "platform-only"
     },
     {
       "kind": "release",
@@ -320,7 +490,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Thu, 01 Oct 2026 02:30:26 +0000",
-      "lastSeenAt": "2026-10-03T20:36:10.146Z",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -345,7 +515,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Thu, 01 Oct 2026 01:30:04 +0000",
-      "lastSeenAt": "2026-10-03T20:36:10.146Z",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -370,7 +540,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 02 Oct 2026 02:30:09 +0000",
-      "lastSeenAt": "2026-10-03T20:36:10.146Z",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -396,7 +566,178 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 02 Oct 2026 01:30:42 +0000",
-      "lastSeenAt": "2026-10-03T20:36:10.146Z",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Malayalam Web Series",
+      "platform": "Amazon Prime Video",
+      "languages": [
+        "Malayalam"
+      ],
+      "date": null,
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "keralatv-ott",
+      "sourceName": "KeralaTV OTT",
+      "headline": "Malayalam Web Series OTT Release Dates (2026 Updated) – Upcoming & Streaming Series on JioHotstar, SonyLIV, ZEE5, Netflix, Prime Video and More",
+      "link": "https://www.keralatv.in/malayalam-web-series-releases/",
+      "publishedAt": "Fri, 02 Oct 2026 13:37:09 +0000",
+      "sources": [
+        "keralatv-ott"
+      ],
+      "dates": [],
+      "firstSeenAt": "Fri, 02 Oct 2026 13:37:09 +0000",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Malayalam Web Series",
+      "platform": "JioHotstar",
+      "languages": [
+        "Malayalam"
+      ],
+      "date": null,
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "keralatv-ott",
+      "sourceName": "KeralaTV OTT",
+      "headline": "Malayalam Web Series OTT Release Dates (2026 Updated) – Upcoming & Streaming Series on JioHotstar, SonyLIV, ZEE5, Netflix, Prime Video and More",
+      "link": "https://www.keralatv.in/malayalam-web-series-releases/",
+      "publishedAt": "Fri, 02 Oct 2026 13:37:09 +0000",
+      "sources": [
+        "keralatv-ott"
+      ],
+      "dates": [],
+      "firstSeenAt": "Fri, 02 Oct 2026 13:37:09 +0000",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Malayalam Web Series",
+      "platform": "Netflix",
+      "languages": [
+        "Malayalam"
+      ],
+      "date": null,
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "keralatv-ott",
+      "sourceName": "KeralaTV OTT",
+      "headline": "Malayalam Web Series OTT Release Dates (2026 Updated) – Upcoming & Streaming Series on JioHotstar, SonyLIV, ZEE5, Netflix, Prime Video and More",
+      "link": "https://www.keralatv.in/malayalam-web-series-releases/",
+      "publishedAt": "Fri, 02 Oct 2026 13:37:09 +0000",
+      "sources": [
+        "keralatv-ott"
+      ],
+      "dates": [],
+      "firstSeenAt": "Fri, 02 Oct 2026 13:37:09 +0000",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Malayalam Web Series",
+      "platform": "ZEE5",
+      "languages": [
+        "Malayalam"
+      ],
+      "date": null,
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "keralatv-ott",
+      "sourceName": "KeralaTV OTT",
+      "headline": "Malayalam Web Series OTT Release Dates (2026 Updated) – Upcoming & Streaming Series on JioHotstar, SonyLIV, ZEE5, Netflix, Prime Video and More",
+      "link": "https://www.keralatv.in/malayalam-web-series-releases/",
+      "publishedAt": "Fri, 02 Oct 2026 13:37:09 +0000",
+      "sources": [
+        "keralatv-ott"
+      ],
+      "dates": [],
+      "firstSeenAt": "Fri, 02 Oct 2026 13:37:09 +0000",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Malayalam Web Series",
+      "platform": "SonyLIV",
+      "languages": [
+        "Malayalam"
+      ],
+      "date": null,
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "keralatv-ott",
+      "sourceName": "KeralaTV OTT",
+      "headline": "Malayalam Web Series OTT Release Dates (2026 Updated) – Upcoming & Streaming Series on JioHotstar, SonyLIV, ZEE5, Netflix, Prime Video and More",
+      "link": "https://www.keralatv.in/malayalam-web-series-releases/",
+      "publishedAt": "Fri, 02 Oct 2026 13:37:09 +0000",
+      "sources": [
+        "keralatv-ott"
+      ],
+      "dates": [],
+      "firstSeenAt": "Fri, 02 Oct 2026 13:37:09 +0000",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Dhee 21 – Double Impact Ep 5 Is Here, and the Stage Is Seriously on Fire!",
+      "platform": "ETV Win",
+      "languages": [],
+      "date": null,
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "ottrelease",
+      "sourceName": "OTT Release",
+      "headline": "Dhee 21 – Double Impact Ep 5 Is Here, and the Stage Is Seriously on Fire!",
+      "link": "https://www.ottrelease.com/news/dhee-21-double-impact-ep-5-is-here-and-the-stage-is-seriously-on-fire.html",
+      "publishedAt": "Sat, 03 Oct 2026 16:19:06 +0000",
+      "sources": [
+        "ottrelease"
+      ],
+      "dates": [],
+      "firstSeenAt": "Sat, 03 Oct 2026 16:19:06 +0000",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Vishwanath And Sons Surges to No. 2 on Netflix, Leaving Recent Releases Behind",
+      "platform": "Netflix",
+      "languages": [],
+      "date": null,
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "ottrelease",
+      "sourceName": "OTT Release",
+      "headline": "Vishwanath And Sons Surges to No. 2 on Netflix, Leaving Recent Releases Behind",
+      "link": "https://www.ottrelease.com/news/vishwanath-and-sons-surges-to-no-2-on-netflix-leaving-recent-releases-behind.html",
+      "publishedAt": "Sat, 03 Oct 2026 14:00:08 +0000",
+      "sources": [
+        "ottrelease"
+      ],
+      "dates": [],
+      "firstSeenAt": "Sat, 03 Oct 2026 14:00:08 +0000",
+      "lastSeenAt": "2026-10-03T20:47:14.633Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -437,6 +778,13 @@
       "headline": "Top OTT Releases in October 2026",
       "link": "https://www.binged.com/ott-analysis/top-ott-releases-in-october-2026/",
       "publishedAt": "Wed, 30 Sep 2026 14:15:28 +0000"
+    },
+    {
+      "kind": "roundup",
+      "source": "binged-malayalam",
+      "headline": "Watch This Amazing Thriller For Free On Hotstar This Weekend!",
+      "link": "https://www.binged.com/malayalam-ott/watch-this-amazing-thriller-for-free-on-hotstar-this-weekend/",
+      "publishedAt": "Sun, 24 Nov 2024 09:30:18 +0000"
     }
   ]
 }
