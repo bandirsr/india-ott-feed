@@ -67,10 +67,20 @@ function arrivedToday() {
 }
 
 async function fetchDevices() {
-  const res = await fetch(DEVICES_URL, { headers: { authorization: `Bearer ${ADMIN_KEY}` } });
-  if (!res.ok) throw new Error(`devices fetch failed: ${res.status} ${await res.text()}`);
-  const { devices } = await res.json();
-  return devices ?? [];
+  // The registry hands out one small page at a time (a Pages Function can only
+  // make so many KV reads per request) and says where the next one starts.
+  const all = [];
+  let cursor = null;
+  for (let page = 0; page < 1000; page += 1) {
+    const url = cursor ? `${DEVICES_URL}?cursor=${encodeURIComponent(cursor)}` : DEVICES_URL;
+    const res = await fetch(url, { headers: { authorization: `Bearer ${ADMIN_KEY}` } });
+    if (!res.ok) throw new Error(`devices fetch failed: ${res.status} ${await res.text()}`);
+    const body = await res.json();
+    all.push(...(body.devices ?? []));
+    cursor = body.cursor ?? null;
+    if (!cursor) break;
+  }
+  return all;
 }
 
 /** One notification per device, naming up to three titles by name and summarising the rest. */

@@ -35,8 +35,11 @@ const have = existsSync(CACHE_PATH)
   ? (() => {
       try {
         return JSON.parse(readFileSync(CACHE_PATH, 'utf8'));
-      } catch {
-        return {};
+      } catch (e) {
+        // Not an empty cache: carrying on would rebuild from nothing and then
+        // overwrite thousands of good records with the partial result.
+        console.error(`${CACHE_PATH} exists but cannot be parsed (${e.message}). Fix or restore it; not overwriting.`);
+        process.exit(1);
       }
     })()
   : {};
