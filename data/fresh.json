@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T08:47:30.500Z",
+  "generatedAt": "2026-10-05T09:35:24.503Z",
   "note": "Provisional. Reported by news sources; Wikipedia corrects these later.",
   "releases": [
     {
@@ -22,17 +22,16 @@
       "link": "https://www.keralatv.in/eyes-ott-release-date-announced/",
       "publishedAt": "Fri, 02 Oct 2026 13:46:36 +0000",
       "sources": [
-        "keralatv-ott",
-        "ottrelease"
+        "keralatv-ott"
       ],
       "dates": [
         "2026-10-09"
       ],
       "firstSeenAt": "Fri, 02 Oct 2026 13:46:36 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
-      "sourceCount": 2,
-      "confidence": "high"
+      "sourceCount": 1,
+      "confidence": "single-source"
     },
     {
       "kind": "release",
@@ -54,7 +53,7 @@
         "2026-10-09"
       ],
       "firstSeenAt": "Thu, 01 Oct 2026 03:00:19 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -79,7 +78,61 @@
         "2026-10-09"
       ],
       "firstSeenAt": "Sat, 03 Oct 2026 10:18:03 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Pradhama Drishtya Kuttakkar",
+      "platform": "Netflix",
+      "languages": [
+        "Malayalam"
+      ],
+      "date": "2026-10-09",
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "ottrelease",
+      "sourceName": "OTT Release",
+      "headline": "Pradhama Drishtya Kuttakkar OTT Release: Netflix Brings This Gripping Police Thriller in 5 Languages",
+      "link": "https://www.ottrelease.com/news/pradhama-drishtiya-kuttakkar-ott-release-netflix-brings-this-gripping-police-thriller-in-5-languages.html",
+      "publishedAt": "Sun, 04 Oct 2026 16:57:52 +0000",
+      "sources": [
+        "ottrelease"
+      ],
+      "dates": [
+        "2026-10-09"
+      ],
+      "firstSeenAt": "Sun, 04 Oct 2026 16:57:52 +0000",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Mandadi",
+      "platform": "Netflix",
+      "languages": [
+        "Tamil"
+      ],
+      "date": "2026-10-08",
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "ottrelease",
+      "sourceName": "OTT Release",
+      "headline": "Mandadi OTT Release: Suri-Suhas Starrer to Stream on Netflix From October 8",
+      "link": "https://www.ottrelease.com/news/mandadi-ott-release-suri-suhas-starrer-to-stream-on-netflix-from-october-8.html",
+      "publishedAt": "Mon, 05 Oct 2026 09:06:07 +0000",
+      "sources": [
+        "ottrelease"
+      ],
+      "dates": [
+        "2026-10-08"
+      ],
+      "firstSeenAt": "Mon, 05 Oct 2026 09:06:07 +0000",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -109,7 +162,7 @@
         "2026-10-06"
       ],
       "firstSeenAt": "Sat, 03 Oct 2026 10:50:12 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -134,7 +187,7 @@
         "2026-10-03"
       ],
       "firstSeenAt": "Wed, 30 Sep 2026 14:16:59 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -161,7 +214,7 @@
         "2026-10-02"
       ],
       "firstSeenAt": "Wed, 30 Sep 2026 06:38:09 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -184,7 +237,6 @@
       "publishedAt": "Mon, 28 Sep 2026 08:07:05 +0000",
       "sources": [
         "123telugu",
-        "keralatv-ott",
         "ottrelease",
         "ottreleasesthisweek-news"
       ],
@@ -192,9 +244,9 @@
         "2026-10-01"
       ],
       "firstSeenAt": "Mon, 28 Sep 2026 08:07:05 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
-      "sourceCount": 4,
+      "sourceCount": 3,
       "confidence": "high"
     },
     {
@@ -220,7 +272,7 @@
         "2026-10-01"
       ],
       "firstSeenAt": "Mon, 28 Sep 2026 04:09:27 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 2,
       "confidence": "high"
@@ -247,7 +299,7 @@
         "2026-09-25"
       ],
       "firstSeenAt": "Sun, 20 Sep 2026 16:02:08 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -274,7 +326,7 @@
         "2026-09-11"
       ],
       "firstSeenAt": "Thu, 01 Oct 2026 08:30:50 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -299,7 +351,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 18 Sep 2026 01:31:03 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -324,7 +376,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 18 Sep 2026 04:30:04 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -349,7 +401,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 18 Sep 2026 20:30:25 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -372,7 +424,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Sun, 20 Sep 2026 05:53:20 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -397,7 +449,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Wed, 23 Sep 2026 03:31:26 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -422,7 +474,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Tue, 22 Sep 2026 19:31:44 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -447,7 +499,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 25 Sep 2026 04:30:15 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -472,7 +524,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 25 Sep 2026 01:30:10 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -496,7 +548,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Mon, 28 Sep 2026 13:03:35 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 2,
       "confidence": "platform-only"
@@ -521,7 +573,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Thu, 01 Oct 2026 02:30:26 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -546,7 +598,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Thu, 01 Oct 2026 01:30:04 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -571,7 +623,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 02 Oct 2026 02:30:09 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -597,7 +649,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 02 Oct 2026 01:30:42 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -622,7 +674,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 02 Oct 2026 13:37:09 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -647,7 +699,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 02 Oct 2026 13:37:09 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -672,7 +724,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 02 Oct 2026 13:37:09 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -697,7 +749,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 02 Oct 2026 13:37:09 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -722,7 +774,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 02 Oct 2026 13:37:09 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -745,7 +797,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Sat, 03 Oct 2026 16:19:06 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -768,7 +820,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Sat, 03 Oct 2026 14:00:08 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -791,7 +843,78 @@
       ],
       "dates": [],
       "firstSeenAt": "Sun, 04 Oct 2026 02:49:01 +0000",
-      "lastSeenAt": "2026-10-04T08:47:30.493Z",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Dhoomakethu",
+      "platform": "Netflix",
+      "languages": [],
+      "date": null,
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "keralatv-ott",
+      "sourceName": "KeralaTV OTT",
+      "headline": "Dhoomakethu OTT Release Date – Netflix Secures Streaming Rights of Sajin Gopu and Nikhila Vimal Movie",
+      "link": "https://www.keralatv.in/dhoomakethu-movie-ott-release-date-netflix/",
+      "publishedAt": "Mon, 05 Oct 2026 08:44:39 +0000",
+      "sources": [
+        "keralatv-ott"
+      ],
+      "dates": [],
+      "firstSeenAt": "Mon, 05 Oct 2026 08:44:39 +0000",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Drishyam: The Conclusion",
+      "platform": "Netflix",
+      "languages": [
+        "Hindi"
+      ],
+      "date": null,
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "keralatv-ott",
+      "sourceName": "KeralaTV OTT",
+      "headline": "Drishyam: The Conclusion OTT Release Date – Netflix Secures Streaming Rights of Ajay Devgn’s Drishyam 3 Hindi",
+      "link": "https://www.keralatv.in/drishyam-the-conclusion-ott-release-date-netflix/",
+      "publishedAt": "Mon, 05 Oct 2026 03:22:00 +0000",
+      "sources": [
+        "keralatv-ott"
+      ],
+      "dates": [],
+      "firstSeenAt": "Mon, 05 Oct 2026 03:22:00 +0000",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Netflix Bags Irandu Vaanam Digital Rights for a Whopping ₹26 Crore!",
+      "platform": "Netflix",
+      "languages": [],
+      "date": null,
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "ottrelease",
+      "sourceName": "OTT Release",
+      "headline": "Netflix Bags Irandu Vaanam Digital Rights for a Whopping ₹26 Crore!",
+      "link": "https://www.ottrelease.com/news/netflix-bags-irandu-vaanam-digital-rights-for-a-whopping-%e2%82%b926-crore.html",
+      "publishedAt": "Mon, 05 Oct 2026 09:29:26 +0000",
+      "sources": [
+        "ottrelease"
+      ],
+      "dates": [],
+      "firstSeenAt": "Mon, 05 Oct 2026 09:29:26 +0000",
+      "lastSeenAt": "2026-10-05T09:35:24.495Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
