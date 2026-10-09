@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-10-08T09:27:08.642Z",
+  "generatedAt": "2026-10-09T09:34:16.395Z",
   "note": "Provisional. Reported by news sources; Wikipedia corrects these later.",
   "releases": [
+    {
+      "kind": "release",
+      "title": "Mirzapur The Movie",
+      "platform": "Amazon Prime Video",
+      "languages": [],
+      "date": "2026-10-30",
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "ottreleasesthisweek-news",
+      "sourceName": "OTT Releases This Week news",
+      "headline": "Mirzapur The Movie OTT Release: October 30 Streaming Date, Prime Video, Cast and Languages",
+      "link": "https://ottreleasesthisweek.com/mirzapur-the-movie-ott-release-date/",
+      "publishedAt": "Tue, 06 Oct 2026 13:55:36 +0000",
+      "sources": [
+        "ottreleasesthisweek-news"
+      ],
+      "dates": [
+        "2026-10-30"
+      ],
+      "firstSeenAt": "Tue, 06 Oct 2026 13:55:36 +0000",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
     {
       "kind": "release",
       "title": "Sattamum Needhiyum Season 2",
@@ -22,7 +47,7 @@
         "2026-10-23"
       ],
       "firstSeenAt": "Thu, 08 Oct 2026 03:14:46 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -47,7 +72,7 @@
         "2026-10-16"
       ],
       "firstSeenAt": "Wed, 07 Oct 2026 14:04:38 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -78,7 +103,7 @@
         "2026-10-09"
       ],
       "firstSeenAt": "Fri, 02 Oct 2026 13:46:36 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -103,7 +128,7 @@
         "2026-10-09"
       ],
       "firstSeenAt": "Thu, 01 Oct 2026 03:00:19 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -128,7 +153,7 @@
         "2026-10-09"
       ],
       "firstSeenAt": "Sat, 03 Oct 2026 10:18:03 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -155,7 +180,7 @@
         "2026-10-09"
       ],
       "firstSeenAt": "Sun, 04 Oct 2026 16:57:52 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -186,7 +211,7 @@
         "2026-10-09"
       ],
       "firstSeenAt": "Tue, 06 Oct 2026 08:32:39 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -213,7 +238,7 @@
         "2026-10-09"
       ],
       "firstSeenAt": "Tue, 06 Oct 2026 14:00:16 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -240,7 +265,7 @@
         "2026-10-09"
       ],
       "firstSeenAt": "Tue, 06 Oct 2026 14:00:16 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -271,7 +296,62 @@
         "2026-10-09"
       ],
       "firstSeenAt": "Tue, 06 Oct 2026 09:50:49 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Life Today Movie",
+      "platform": "Sun NXT",
+      "languages": [
+        "Tamil",
+        "Kannada"
+      ],
+      "date": "2026-10-09",
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "keralatv-ott",
+      "sourceName": "KeralaTV OTT",
+      "headline": "Life Today Movie OTT Release Date: Kannada and Tamil Versions Now Streaming on Sun NXT from October 9, 2026",
+      "link": "https://www.keralatv.in/life-today-movie-ott-release-date-sun-nxt/",
+      "publishedAt": "Fri, 09 Oct 2026 03:05:43 +0000",
+      "sources": [
+        "keralatv-ott"
+      ],
+      "dates": [
+        "2026-10-09"
+      ],
+      "firstSeenAt": "Fri, 09 Oct 2026 03:05:43 +0000",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Keu Bole Biplobi Keu Bole Dakat",
+      "platform": "ZEE5",
+      "languages": [
+        "Bengali"
+      ],
+      "date": "2026-10-09",
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "keralatv-ott",
+      "sourceName": "KeralaTV OTT",
+      "headline": "Keu Bole Biplobi Keu Bole Dakat OTT Release Date – Jeet's Bengali Historical Action Drama Premieres October 9 on ZEE5",
+      "link": "https://www.keralatv.in/keu-bole-biplobi-keu-bole-dakat-ott-release-date-zee5/",
+      "publishedAt": "Thu, 08 Oct 2026 13:42:11 +0000",
+      "sources": [
+        "keralatv-ott"
+      ],
+      "dates": [
+        "2026-10-09"
+      ],
+      "firstSeenAt": "Thu, 08 Oct 2026 13:42:11 +0000",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -298,7 +378,7 @@
         "2026-10-08"
       ],
       "firstSeenAt": "Mon, 05 Oct 2026 09:06:07 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -320,17 +400,16 @@
       "link": "https://www.keralatv.in/mandaadi-ott-release-date-netflix-revealed/",
       "publishedAt": "Tue, 06 Oct 2026 02:51:54 +0000",
       "sources": [
-        "keralatv-ott",
-        "123telugu"
+        "keralatv-ott"
       ],
       "dates": [
         "2026-10-08"
       ],
       "firstSeenAt": "Tue, 06 Oct 2026 02:51:54 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
-      "sourceCount": 2,
-      "confidence": "high"
+      "sourceCount": 1,
+      "confidence": "single-source"
     },
     {
       "kind": "release",
@@ -356,7 +435,7 @@
         "2026-10-08"
       ],
       "firstSeenAt": "Mon, 05 Oct 2026 10:10:35 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -386,7 +465,7 @@
         "2026-10-06"
       ],
       "firstSeenAt": "Sat, 03 Oct 2026 10:50:12 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -411,7 +490,7 @@
         "2026-10-03"
       ],
       "firstSeenAt": "Wed, 30 Sep 2026 14:16:59 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -438,7 +517,7 @@
         "2026-10-02"
       ],
       "firstSeenAt": "Wed, 30 Sep 2026 06:38:09 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -460,16 +539,17 @@
       "link": "https://www.123telugu.com/mnews/karthis-sardar-2-ott-release-date-revealed-hk.html",
       "publishedAt": "Mon, 28 Sep 2026 08:07:05 +0000",
       "sources": [
-        "123telugu"
+        "123telugu",
+        "ottreleasesthisweek-news"
       ],
       "dates": [
         "2026-10-01"
       ],
       "firstSeenAt": "Mon, 28 Sep 2026 08:07:05 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
-      "sourceCount": 1,
-      "confidence": "single-source"
+      "sourceCount": 2,
+      "confidence": "high"
     },
     {
       "kind": "release",
@@ -487,16 +567,17 @@
       "link": "https://www.123telugu.com/mnews/romanchakam-ott-release-sandeep-reddy-vanga-backed-film-gets-netflix-premiere-date-hk.html",
       "publishedAt": "Mon, 28 Sep 2026 04:09:27 +0000",
       "sources": [
-        "123telugu"
+        "123telugu",
+        "ottreleasesthisweek-news"
       ],
       "dates": [
         "2026-10-01"
       ],
       "firstSeenAt": "Mon, 28 Sep 2026 04:09:27 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
-      "sourceCount": 1,
-      "confidence": "single-source"
+      "sourceCount": 2,
+      "confidence": "high"
     },
     {
       "kind": "release",
@@ -520,7 +601,7 @@
         "2026-09-25"
       ],
       "firstSeenAt": "Sun, 20 Sep 2026 16:02:08 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -547,57 +628,7 @@
         "2026-09-11"
       ],
       "firstSeenAt": "Thu, 01 Oct 2026 08:30:50 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
-      "conflictingDates": [],
-      "sourceCount": 1,
-      "confidence": "single-source"
-    },
-    {
-      "kind": "release",
-      "title": "Irumudi",
-      "platform": "Netflix",
-      "languages": [
-        "Telugu"
-      ],
-      "date": null,
-      "dateStatus": "reported",
-      "provisional": true,
-      "source": "123telugu",
-      "sourceName": "123telugu",
-      "headline": "OTT Alert: Ravi Teja’s Blockbuster 'Irumudi' Lands on Netflix in 5 Languages",
-      "link": "https://www.123telugu.com/mnews/ott-alert-ravi-tejas-blockbuster-irumudi-lands-on-netflix-in-5-languages-hk.html",
-      "publishedAt": "Fri, 18 Sep 2026 01:31:03 +0000",
-      "sources": [
-        "123telugu"
-      ],
-      "dates": [],
-      "firstSeenAt": "Fri, 18 Sep 2026 01:31:03 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
-      "conflictingDates": [],
-      "sourceCount": 1,
-      "confidence": "single-source"
-    },
-    {
-      "kind": "release",
-      "title": "Lust Stories 3",
-      "platform": "Netflix",
-      "languages": [
-        "Telugu"
-      ],
-      "date": null,
-      "dateStatus": "reported",
-      "provisional": true,
-      "source": "123telugu",
-      "sourceName": "123telugu",
-      "headline": "Lust Stories 3 OTT Release: Here’s When Netflix Will Stream the Anthology",
-      "link": "https://www.123telugu.com/mnews/lust-stories-3-ott-release-heres-when-netflix-will-stream-the-anthology-hk.html",
-      "publishedAt": "Fri, 18 Sep 2026 04:30:04 +0000",
-      "sources": [
-        "123telugu"
-      ],
-      "dates": [],
-      "firstSeenAt": "Fri, 18 Sep 2026 04:30:04 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -622,7 +653,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 18 Sep 2026 20:30:25 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -645,7 +676,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Sun, 20 Sep 2026 05:53:20 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -670,7 +701,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Wed, 23 Sep 2026 03:31:26 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -695,7 +726,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Tue, 22 Sep 2026 19:31:44 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -720,7 +751,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 25 Sep 2026 04:30:15 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -745,7 +776,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 25 Sep 2026 01:30:10 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -769,7 +800,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Mon, 28 Sep 2026 13:03:35 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 2,
       "confidence": "platform-only"
@@ -794,7 +825,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Thu, 01 Oct 2026 02:30:26 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -819,7 +850,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Thu, 01 Oct 2026 01:30:04 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -844,7 +875,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 02 Oct 2026 02:30:09 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -870,7 +901,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 02 Oct 2026 01:30:42 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -895,7 +926,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 02 Oct 2026 13:37:09 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -920,7 +951,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 02 Oct 2026 13:37:09 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -945,7 +976,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 02 Oct 2026 13:37:09 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -970,7 +1001,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 02 Oct 2026 13:37:09 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -995,7 +1026,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 02 Oct 2026 13:37:09 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1018,7 +1049,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Sat, 03 Oct 2026 16:19:06 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1041,7 +1072,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Sat, 03 Oct 2026 14:00:08 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1064,7 +1095,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Sun, 04 Oct 2026 02:49:01 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1087,7 +1118,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Mon, 05 Oct 2026 08:44:39 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1112,7 +1143,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Mon, 05 Oct 2026 03:22:00 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1135,7 +1166,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Mon, 05 Oct 2026 09:29:26 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1160,7 +1191,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Tue, 06 Oct 2026 09:03:14 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1170,7 +1201,11 @@
       "title": "Epic",
       "platform": "Netflix",
       "languages": [
-        "Telugu"
+        "Telugu",
+        "Tamil",
+        "Malayalam",
+        "Kannada",
+        "Hindi"
       ],
       "date": null,
       "dateStatus": "reported",
@@ -1185,7 +1220,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Tue, 06 Oct 2026 04:30:31 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1210,7 +1245,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Tue, 06 Oct 2026 05:55:54 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1233,7 +1268,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Tue, 06 Oct 2026 11:06:48 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1256,7 +1291,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Tue, 06 Oct 2026 11:06:48 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1281,7 +1316,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Tue, 06 Oct 2026 10:35:15 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1306,7 +1341,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Tue, 06 Oct 2026 10:35:15 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1331,7 +1366,130 @@
       ],
       "dates": [],
       "firstSeenAt": "Tue, 06 Oct 2026 10:35:15 +0000",
-      "lastSeenAt": "2026-10-08T09:27:08.636Z",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "This Week",
+      "platform": "SonyLIV",
+      "languages": [
+        "Malayalam"
+      ],
+      "date": null,
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "ottrelease",
+      "sourceName": "OTT Release",
+      "headline": "This Week OTT Releases: Khalifa, Mandaadi, Paris Cafe, Least Eligible Bachelor & More Movies to Watch!",
+      "link": "https://www.ottrelease.com/news/this-week-ott-releases-khalifa-mandaadi-paris-cafe-least-eligible-bachelor-more-movies-to-watch.html",
+      "publishedAt": "Fri, 09 Oct 2026 05:05:00 +0000",
+      "sources": [
+        "ottrelease"
+      ],
+      "dates": [],
+      "firstSeenAt": "Fri, 09 Oct 2026 05:05:00 +0000",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "This Week",
+      "platform": "aha",
+      "languages": [
+        "Malayalam"
+      ],
+      "date": null,
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "ottrelease",
+      "sourceName": "OTT Release",
+      "headline": "This Week OTT Releases: Khalifa, Mandaadi, Paris Cafe, Least Eligible Bachelor & More Movies to Watch!",
+      "link": "https://www.ottrelease.com/news/this-week-ott-releases-khalifa-mandaadi-paris-cafe-least-eligible-bachelor-more-movies-to-watch.html",
+      "publishedAt": "Fri, 09 Oct 2026 05:05:00 +0000",
+      "sources": [
+        "ottrelease"
+      ],
+      "dates": [],
+      "firstSeenAt": "Fri, 09 Oct 2026 05:05:00 +0000",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Carrie Is Back — And Mike Flanagan Has Given the Horror Classic a Very Different Twist",
+      "platform": "Amazon Prime Video",
+      "languages": [],
+      "date": null,
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "ottrelease",
+      "sourceName": "OTT Release",
+      "headline": "Carrie Is Back — And Mike Flanagan Has Given the Horror Classic a Very Different Twist",
+      "link": "https://www.ottrelease.com/reviews/carrie-is-back-and-mike-flanagan-has-given-the-horror-classic-a-very-different-twist.html",
+      "publishedAt": "Thu, 08 Oct 2026 13:19:25 +0000",
+      "sources": [
+        "ottrelease"
+      ],
+      "dates": [],
+      "firstSeenAt": "Thu, 08 Oct 2026 13:19:25 +0000",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Eyes Is Here: This Malayalam Thriller Looks Straight Into the Dark Side of Love and Obsession",
+      "platform": "SonyLIV",
+      "languages": [
+        "Malayalam"
+      ],
+      "date": null,
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "ottrelease",
+      "sourceName": "OTT Release",
+      "headline": "Eyes Is Here: This Malayalam Thriller Looks Straight Into the Dark Side of Love and Obsession",
+      "link": "https://www.ottrelease.com/news/eyes-is-here-this-malayalam-thriller-looks-straight-into-the-dark-side-of-love-and-obsession.html",
+      "publishedAt": "Thu, 08 Oct 2026 10:09:19 +0000",
+      "sources": [
+        "ottrelease"
+      ],
+      "dates": [],
+      "firstSeenAt": "Thu, 08 Oct 2026 10:09:19 +0000",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Tamil Film Mandaadi",
+      "platform": "Netflix",
+      "languages": [
+        "Tamil"
+      ],
+      "date": null,
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "ottrelease",
+      "sourceName": "OTT Release",
+      "headline": "Tamil Film Mandaadi Is Now Streaming on Netflix — But There’s One Problem",
+      "link": "https://www.ottrelease.com/news/tamil-film-mandaadi-is-now-streaming-on-netflix-but-theres-one-problem.html",
+      "publishedAt": "Thu, 08 Oct 2026 09:42:43 +0000",
+      "sources": [
+        "ottrelease"
+      ],
+      "dates": [],
+      "firstSeenAt": "Thu, 08 Oct 2026 09:42:43 +0000",
+      "lastSeenAt": "2026-10-09T09:34:16.387Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
