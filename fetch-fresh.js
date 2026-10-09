@@ -21,6 +21,34 @@ import { extractFromItem, mergeReleases } from './src/fresh.js';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const OUT = resolve(HERE, 'data', 'fresh.json');
+const MANUAL = resolve(HERE, 'data', 'manual-releases.json');
+
+/**
+ * Releases a person has checked against a real source and added by hand.
+ *
+ * For the gaps nothing automatic can close: TMDB knows the film but has no
+ * India streaming data for it yet, and no news feed covers its language
+ * (Marathi, Gujarati and Punjabi have none). Each entry is merged exactly like
+ * a news-reported release -- matched to a real TMDB id, shown as "reported" --
+ * and ages out after 60 days like the rest. See data/manual-releases.json for
+ * the entry shape; every entry must name its source link.
+ */
+function loadManual() {
+  if (!existsSync(MANUAL)) return [];
+  try {
+    const list = JSON.parse(readFileSync(MANUAL, 'utf8'));
+    return (Array.isArray(list) ? list : (list.releases ?? []))
+      .filter((r) => r && r.title && r.platform && r.date && Array.isArray(r.languages) && r.link)
+      .map((r) => ({
+        kind: 'release', dateStatus: 'reported', provisional: true, confidence: 'checked-by-hand',
+        source: 'manual', sourceName: r.sourceName ?? 'Checked by hand', headline: r.headline ?? r.title,
+        publishedAt: `${r.date}T00:00:00.000Z`, ...r,
+      }));
+  } catch (e) {
+    console.log(`manual-releases.json unreadable (${e.message}) -- ignored`);
+    return [];
+  }
+}
 
 /** Keeps history across runs so a release seen last week is not forgotten. */
 function loadPrevious() {
@@ -56,7 +84,9 @@ async function main() {
   }
 
   const previous = loadPrevious();
-  const combined = mergeReleases([...(previous.releases ?? []), ...rawRecords]);
+  const manual = loadManual();
+  if (manual.length) console.log(`  Checked-by-hand entries: ${manual.length}`);
+  const combined = mergeReleases([...(previous.releases ?? []), ...rawRecords, ...manual]);
 
   // Dropped rather than kept forever. A dated report more than 60 days past
   // its date has either been confirmed by TMDB/Wikipedia by now (in which
