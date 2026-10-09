@@ -22,6 +22,24 @@ import { extractFromItem, mergeReleases } from './src/fresh.js';
 const HERE = dirname(fileURLToPath(import.meta.url));
 const OUT = resolve(HERE, 'data', 'fresh.json');
 const MANUAL = resolve(HERE, 'data', 'manual-releases.json');
+const WIKI = resolve(HERE, 'data', 'wiki-releases.json');
+
+/**
+ * Dated streaming lines from Wikipedia for Kannada, Marathi, Gujarati and
+ * Punjabi (wikilang.js writes this file each day). Same record shape as a news
+ * item. Regenerated from its own cache every run, so unlike a news item it is
+ * not aged out here.
+ */
+function loadWiki() {
+  if (!existsSync(WIKI)) return [];
+  try {
+    const list = JSON.parse(readFileSync(WIKI, 'utf8'));
+    return (Array.isArray(list) ? list : []).filter((r) => r && r.kind === 'release' && r.title && r.platform && r.date && Array.isArray(r.languages));
+  } catch (e) {
+    console.log(`wiki-releases.json unreadable (${e.message}) -- ignored`);
+    return [];
+  }
+}
 
 /**
  * Releases a person has checked against a real source and added by hand.
@@ -86,7 +104,9 @@ async function main() {
   const previous = loadPrevious();
   const manual = loadManual();
   if (manual.length) console.log(`  Checked-by-hand entries: ${manual.length}`);
-  const combined = mergeReleases([...(previous.releases ?? []), ...rawRecords, ...manual]);
+  const wiki = loadWiki();
+  if (wiki.length) console.log(`  Wikipedia streaming lines (kn/mr/gu/pa): ${wiki.length}`);
+  const combined = mergeReleases([...(previous.releases ?? []), ...rawRecords, ...manual, ...wiki]);
 
   // Dropped rather than kept forever. A dated report more than 60 days past
   // its date has either been confirmed by TMDB/Wikipedia by now (in which
@@ -97,6 +117,9 @@ async function main() {
   const DAY = 86_400_000;
   const now = Date.now();
   const merged = combined.filter((r) => {
+    // Wikipedia-sourced lines are rebuilt every run from wikilang.js's cache, so
+    // they are kept for the year rather than aged out like a news item.
+    if (r.sources?.includes('wikipedia')) return now - Date.parse(r.date) < 400 * DAY;
     if (r.date) return now - Date.parse(r.date) < 60 * DAY;
     const seenAt = r.firstSeenAt ? Date.parse(r.firstSeenAt) : now;
     return now - seenAt < 21 * DAY;

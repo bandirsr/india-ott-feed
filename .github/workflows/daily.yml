@@ -124,6 +124,17 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: node gapfill.js 300
 
+      # The third robot: Kannada, Marathi, Gujarati and Punjabi. TMDB's India
+      # streaming data lags badly for these and no news feed covers them, so
+      # Wikipedia's dated "began streaming on X from <date>" lines are matched to
+      # real TMDB films and handed to the news step below. Budgeted and cached;
+      # a Wikipedia outage must never fail the sweep, hence continue-on-error.
+      - name: Fill Kannada, Marathi, Gujarati and Punjabi gaps from Wikipedia
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: node wikilang.js 300
+        continue-on-error: true
+
       # The fast layer: trade-press RSS (Binged, Telugu360, 123telugu), same
       # day. TMDB's own provider data lags a platform by anywhere from hours
       # to several days -- this catches "X lands on Netflix" from the news the
@@ -157,7 +168,7 @@ jobs:
         run: |
           git config user.name "ott-bot"
           git config user.email "ott-bot@users.noreply.github.com"
-          git add data/arrivals.json data/trailers.json data/gapfill.json data/dubs.json data/series.json data/details.json data/digital.json data/youtube-trailers.json data/fresh.json
+          git add data/arrivals.json data/trailers.json data/gapfill.json data/dubs.json data/series.json data/details.json data/digital.json data/youtube-trailers.json data/fresh.json data/wikilang.json data/wiki-releases.json data/manual-releases.json
           git diff --staged --quiet || git commit -m "Ledger: $(date -u +%Y-%m-%d)"
           # Rebase before pushing. A plain push failed whenever someone pushed to
           # main while the sweep was running, and the whole day went unpublished.
