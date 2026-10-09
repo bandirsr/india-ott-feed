@@ -309,8 +309,24 @@ export async function matchFreshTitle(title, languages = []) {
  * the cinema release being mentioned in passing.
  */
 export function reportedDay(r) {
-  const publishedDay = String(r.firstSeenAt ?? r.publishedAt ?? new Date().toISOString()).slice(0, 10);
+  const publishedDay = isoDay(r.firstSeenAt ?? r.publishedAt) ?? new Date().toISOString().slice(0, 10);
   return r.date && r.date >= publishedDay ? r.date : publishedDay;
+}
+
+/**
+ * A timestamp as a YYYY-MM-DD day, or null.
+ *
+ * RSS gives publication times as "Tue, 06 Oct 2026 13:46:36 +0000", not ISO.
+ * Cutting the first ten characters of that produced "Tue, 06 Oc" -- which the
+ * app cannot read, so those rows lost their date. Anything that already starts
+ * with an ISO day is used as written; everything else is parsed.
+ */
+export function isoDay(value) {
+  if (value == null) return null;
+  const text = String(value).trim();
+  if (/^\d{4}-\d{2}-\d{2}/.test(text)) return text.slice(0, 10);
+  const parsed = Date.parse(text);
+  return Number.isNaN(parsed) ? null : new Date(parsed).toISOString().slice(0, 10);
 }
 
 /**
