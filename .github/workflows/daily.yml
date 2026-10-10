@@ -14,6 +14,10 @@
 #      Name: TMDB_API_KEY
 #   2. Settings > Pages > Source: GitHub Actions
 #
+# Several sweeps a day are safe: the ledger only needs one sweep to know a day
+# happened, a second only sharpens arrival times, and notify.js remembers what
+# it has already pushed (data/notified.json) so nobody is told twice.
+#
 # Free-tier note: public repositories get unlimited Actions minutes. A run is
 # about two minutes, so even a private repo costs ~60 of the 2,000 free
 # minutes a month.
@@ -25,6 +29,17 @@ on:
     # 02:30 UTC = 08:00 IST. Platforms tend to publish overnight IST, so this
     # catches a day's launches in one pass rather than splitting them across two.
     - cron: '30 2 * * *'
+    # 12:47 UTC = 18:17 IST. Afternoon-IST drops, and the evening before US readers.
+    - cron: '47 12 * * *'
+    # Weekends are when people open the app. Indian platforms release at midnight
+    # IST going into Friday (Thursday 18:30 UTC), so Friday gets four extra looks,
+    # then Saturday and Sunday run every four hours.
+    - cron: '41 18 * * 4'   # Fri 00:11 IST, just after the midnight drops
+    - cron: '17 0 * * 5'    # Fri 05:47 IST
+    - cron: '23 6 * * 5'    # Fri 11:53 IST
+    - cron: '9 14 * * 5'    # Fri 19:39 IST / 10:09 am US Eastern
+    - cron: '13 0,4,8,16,20 * * 0,6'  # Sat + Sun, every ~4 h (the 02:30 and 12:47 runs fill the gaps)
+    # Odd minutes on purpose: GitHub delays scheduled runs most at :00 and :30.
   workflow_dispatch: # so a run can be forced from the Actions tab
 
 permissions:
@@ -168,7 +183,7 @@ jobs:
         run: |
           git config user.name "ott-bot"
           git config user.email "ott-bot@users.noreply.github.com"
-          git add data/arrivals.json data/trailers.json data/gapfill.json data/dubs.json data/series.json data/details.json data/digital.json data/youtube-trailers.json data/fresh.json data/wikilang.json data/wiki-releases.json data/manual-releases.json
+          git add data/arrivals.json data/trailers.json data/gapfill.json data/dubs.json data/series.json data/details.json data/digital.json data/youtube-trailers.json data/fresh.json data/wikilang.json data/wiki-releases.json data/manual-releases.json data/notified.json
           git diff --staged --quiet || git commit -m "Ledger: $(date -u +%Y-%m-%d)"
           # Rebase before pushing. A plain push failed whenever someone pushed to
           # main while the sweep was running, and the whole day went unpublished.

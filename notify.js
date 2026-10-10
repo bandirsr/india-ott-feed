@@ -2,7 +2,7 @@
  * The last mile of the saved-title feature: tell someone when something
  * they saved actually arrives.
  *
- * Runs once a day, right after publish.js, and asks a much narrower question
+ * Runs after every sweep (several a day at weekends), right after publish.js, and asks a much narrower question
  * than "what changed today" -- it reads the files the app itself downloads
  * and looks for `on` dates equal to today, which is exactly what arrivalOn()
  * in publish.js already decided counts as a genuine arrival. A legacy
@@ -23,13 +23,16 @@
  *   node notify.js
  */
 
-import { readdirSync, readFileSync, existsSync } from 'node:fs';
+import { readdirSync, readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { resolve, dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+
+import { prune, unsentMatches, markSent } from './src/notified.js';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const PUBLIC_DIR = resolve(HERE, 'public', 'v1');
 const DEVICES_URL = 'https://ottwala.usarajacreatortools.com/api/devices';
+const STATE_FILE = resolve(HERE, 'data', 'notified.json');
 const EXPO_PUSH_URL = 'https://exp.host/--/api/v2/push/send';
 
 const ADMIN_KEY = process.env.PUSH_ADMIN_KEY;
@@ -101,9 +104,10 @@ function messageFor(token, matches) {
   };
 }
 
+/** Returns the messages whose batch Expo accepted, so only those are remembered as sent. */
 async function sendPush(messages) {
   // Expo accepts up to 100 messages per request.
-  let sent = 0;
+  const delivered = [];
   for (let i = 0; i < messages.length; i += 100) {
     const batch = messages.slice(i, i + 100);
     const res = await fetch(EXPO_PUSH_URL, {
@@ -115,9 +119,9 @@ async function sendPush(messages) {
       console.error(`  Expo push batch failed: ${res.status} ${await res.text()}`);
       continue;
     }
-    sent += batch.length;
+    delivered.push(...batch);
   }
-  return sent;
+  return delivered;
 }
 
 /*
@@ -138,20 +142,39 @@ try {
   const devices = await fetchDevices();
   console.log(`${devices.length} registered device(s).`);
 
+  // What was already pushed today (or recently). Several sweeps a day would
+  // otherwise announce the same arrival at every run.
+  let state = {};
+  try {
+    if (existsSync(STATE_FILE)) state = JSON.parse(readFileSync(STATE_FILE, 'utf8'));
+  } catch {
+    state = {};
+  }
+  state = prune(state, today);
+
   const messages = [];
+  const matchesByToken = new Map();
   for (const { token, savedIds } of devices) {
-    const matches = (savedIds ?? [])
-      .filter((id) => arrivals.has(id))
-      .map((id) => ({ id, ...arrivals.get(id) }));
-    if (matches.length > 0) messages.push(messageFor(token, matches));
+    const matches = unsentMatches(
+      state,
+      token,
+      (savedIds ?? []).filter((id) => arrivals.has(id)).map((id) => ({ id, ...arrivals.get(id) })),
+    );
+    if (matches.length > 0) {
+      messages.push(messageFor(token, matches));
+      matchesByToken.set(token, matches);
+    }
   }
 
-  console.log(`${messages.length} device(s) have a saved title in today's arrivals.`);
+  console.log(`${messages.length} device(s) have a saved title in today's arrivals not yet announced.`);
 
   if (messages.length > 0) {
-    const sent = await sendPush(messages);
-    console.log(`Sent ${sent} push notification(s).`);
+    const delivered = await sendPush(messages);
+    console.log(`Sent ${delivered.length} push notification(s).`);
+    for (const msg of delivered) markSent(state, msg.to, matchesByToken.get(msg.to), today);
   }
+  mkdirSync(dirname(STATE_FILE), { recursive: true });
+  writeFileSync(STATE_FILE, JSON.stringify(state));
 } catch (err) {
   console.error(`Notify step failed, continuing anyway: ${err.message}`);
 }
