@@ -45,6 +45,38 @@ export function unsentMatches(state, token, matches) {
   return out;
 }
 
+/**
+ * Expo answers HTTP 200 for a whole batch even when single messages in it are
+ * rejected: each message gets a "ticket", in the same order, and only
+ * status "ok" means it was accepted for delivery. Anything else must NOT be
+ * remembered as sent, or that arrival is suppressed for the next 10 days (KEEP_DAYS)
+ * although nobody was told.
+ *
+ * deadTokens are devices Expo says no longer exist (DeviceNotRegistered), which
+ * the registry should forget.
+ *
+ * (A ticket "ok" is not yet a delivered notification -- Apple can still reject
+ * it later, which only Expo's receipts endpoint reports. Not checked here.)
+ */
+export function splitTickets(batch, body) {
+  const data = body?.data;
+  const tickets = Array.isArray(data) ? data : data ? [data] : [];
+  const accepted = [];
+  const rejected = [];
+  const deadTokens = [];
+  batch.forEach((msg, i) => {
+    const t = tickets[i];
+    if (t && t.status === 'ok') {
+      accepted.push(msg);
+      return;
+    }
+    const reason = t?.details?.error ?? t?.message ?? 'no ticket returned';
+    rejected.push({ msg, reason });
+    if (t?.details?.error === 'DeviceNotRegistered') deadTokens.push(msg.to);
+  });
+  return { accepted, rejected, deadTokens };
+}
+
 /** Record that `matches` were pushed to `token` on `today`. Mutates and returns `state`. */
 export function markSent(state, token, matches, today) {
   const hash = deviceHash(token);

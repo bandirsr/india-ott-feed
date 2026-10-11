@@ -27,11 +27,12 @@ import { readdirSync, readFileSync, writeFileSync, existsSync, mkdirSync } from 
 import { resolve, dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { prune, unsentMatches, markSent } from './src/notified.js';
+import { prune, unsentMatches, markSent, splitTickets } from './src/notified.js';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const PUBLIC_DIR = resolve(HERE, 'public', 'v1');
 const DEVICES_URL = 'https://ottwala.usarajacreatortools.com/api/devices';
+const UNREGISTER_URL = 'https://ottwala.usarajacreatortools.com/api/unregister';
 const STATE_FILE = resolve(HERE, 'data', 'notified.json');
 const EXPO_PUSH_URL = 'https://exp.host/--/api/v2/push/send';
 
@@ -104,10 +105,15 @@ function messageFor(token, matches) {
   };
 }
 
-/** Returns the messages whose batch Expo accepted, so only those are remembered as sent. */
+/**
+ * Returns the messages Expo accepted (ticket status "ok"), so only those are remembered
+ * as sent, plus the tokens Expo says are gone. HTTP 200 alone proves nothing: rejected
+ * messages come back inside a 200.
+ */
 async function sendPush(messages) {
   // Expo accepts up to 100 messages per request.
   const delivered = [];
+  const deadTokens = [];
   for (let i = 0; i < messages.length; i += 100) {
     const batch = messages.slice(i, i + 100);
     const res = await fetch(EXPO_PUSH_URL, {
@@ -119,9 +125,20 @@ async function sendPush(messages) {
       console.error(`  Expo push batch failed: ${res.status} ${await res.text()}`);
       continue;
     }
-    delivered.push(...batch);
+    let body;
+    try {
+      body = await res.json();
+    } catch {
+      console.error('  Expo push batch returned a body that is not JSON; treating the batch as not sent.');
+      continue;
+    }
+    const { accepted, rejected, deadTokens: dead } = splitTickets(batch, body);
+    delivered.push(...accepted);
+    deadTokens.push(...dead);
+    for (const r of rejected.slice(0, 5)) console.error(`  Expo rejected a message: ${r.reason}`);
+    if (rejected.length > 5) console.error(`  ...and ${rejected.length - 5} more rejected.`);
   }
-  return delivered;
+  return { delivered, deadTokens };
 }
 
 /*
@@ -169,9 +186,21 @@ try {
   console.log(`${messages.length} device(s) have a saved title in today's arrivals not yet announced.`);
 
   if (messages.length > 0) {
-    const delivered = await sendPush(messages);
-    console.log(`Sent ${delivered.length} push notification(s).`);
+    const { delivered, deadTokens } = await sendPush(messages);
+    console.log(`Sent ${delivered.length} of ${messages.length} push notification(s).`);
     for (const msg of delivered) markSent(state, msg.to, matchesByToken.get(msg.to), today);
+    // Expo says these devices no longer exist: drop them from the registry (best effort).
+    for (const token of [...new Set(deadTokens)].slice(0, 50)) {
+      try {
+        await fetch(UNREGISTER_URL, {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({ token }),
+        });
+      } catch {
+        // The registry's own 120-day expiry is the backstop.
+      }
+    }
   }
   mkdirSync(dirname(STATE_FILE), { recursive: true });
   writeFileSync(STATE_FILE, JSON.stringify(state));

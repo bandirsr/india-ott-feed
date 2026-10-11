@@ -164,6 +164,14 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: node publish.js
 
+      # Notifications go out only for a feed that passes the same gate the job fails
+      # on at the end. Not fatal here: the ledger commit below must still land, and the
+      # final "Verify the published output" step is what fails the job.
+      - name: Check the feed before notifying
+        id: precheck
+        run: node verify-published.js
+        continue-on-error: true
+
       # Notify anyone who saved a title that just arrived. Reads the files
       # just published above -- an `on` date already corrected by
       # arrivalOn()'s legacy-title guard -- and asks the small Cloudflare
@@ -171,6 +179,7 @@ jobs:
       # title saved. Skips cleanly, like the YouTube trailer step, until
       # PUSH_ADMIN_KEY exists.
       - name: Notify saved-title arrivals
+        if: steps.precheck.outcome == 'success'
         env:
           PUSH_ADMIN_KEY: ${{ secrets.PUSH_ADMIN_KEY }}
         run: node notify.js

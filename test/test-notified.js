@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { deviceHash, prune, unsentMatches, markSent } from '../src/notified.js';
+import { deviceHash, prune, unsentMatches, markSent, splitTickets } from '../src/notified.js';
 
 const TOKEN = 'ExponentPushToken[abc123]';
 const m = (id, platforms) => ({ id, title: id, platforms });
@@ -30,5 +30,26 @@ assert.equal(unsentMatches(state, 'ExponentPushToken[other]', [m('movie:1', ['Ne
 // pruning keeps recent entries and drops old ones
 const pruned = prune({ a: '2026-09-01', b: '2026-10-08' }, '2026-10-10');
 assert.deepEqual(Object.keys(pruned), ['b']);
+
+// Expo tickets: only status "ok" counts as sent, even inside an HTTP 200
+{
+  const batch = [{ to: 'ExponentPushToken[a]' }, { to: 'ExponentPushToken[b]' }, { to: 'ExponentPushToken[c]' }, { to: 'ExponentPushToken[d]' }];
+  const body = {
+    data: [
+      { status: 'ok', id: '1' },
+      { status: 'error', message: 'not registered', details: { error: 'DeviceNotRegistered' } },
+      { status: 'error', message: 'too big', details: { error: 'MessageTooBig' } },
+      // fourth ticket missing entirely
+    ],
+  };
+  const r = splitTickets(batch, body);
+  assert.deepEqual(r.accepted.map((m) => m.to), ['ExponentPushToken[a]']);
+  assert.equal(r.rejected.length, 3);
+  assert.deepEqual(r.deadTokens, ['ExponentPushToken[b]']);
+  assert.equal(r.rejected[2].reason, 'no ticket returned');
+  // a single-object answer and an unreadable one
+  assert.equal(splitTickets([batch[0]], { data: { status: 'ok' } }).accepted.length, 1);
+  assert.equal(splitTickets([batch[0]], null).accepted.length, 0);
+}
 
 console.log('test-notified: ok');
