@@ -17,6 +17,7 @@
 import { readFileSync, existsSync } from 'node:fs';
 import { resolve, dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { DIGITAL_GAP_DAYS } from './src/arrival.js';
 
 const PUBLIC = resolve(dirname(fileURLToPath(import.meta.url)), 'public');
 
@@ -71,6 +72,22 @@ for (const lang of manifest.languages ?? []) {
   // A title with no platform is a row the app cannot answer anything about.
   const orphans = payload.titles.filter((t) => !t.p || t.p.length === 0).length;
   check(`${lang.code} has no platformless titles`, orphans === 0, `${orphans} titles carry no platform`);
+
+  // A watched "arrival" must be believable. One long after the film's digital
+  // release is a listing that flickered, and it would show under THIS WEEK and
+  // could notify people (Mass Jathara, 2026-10-11). publish.js nulls these; a
+  // hit here means that guard broke, which is worth failing the run over.
+  const stale = [];
+  const future = [];
+  for (const t of payload.titles) {
+    for (const e of t.p ?? []) {
+      if (!e.on) continue;
+      if (e.on > today) future.push(`${t.t} (${e.on})`);
+      if (t.dg && (Date.parse(e.on) - Date.parse(t.dg)) / 86_400_000 > DIGITAL_GAP_DAYS) stale.push(`${t.t} (digital ${t.dg}, "arrived" ${e.on})`);
+    }
+  }
+  check(`${lang.code} has no arrival dated in the future`, future.length === 0, future.slice(0, 5).join('; '));
+  check(`${lang.code} has no arrival long after the digital release`, stale.length === 0, `${stale.length}: ${stale.slice(0, 5).join('; ')}`);
 }
 
 /* --- report ------------------------------------------------------- */

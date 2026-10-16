@@ -86,11 +86,24 @@ function describe(pairString, snapshot, on) {
  * the title returns in March, March is the honest arrival date, not the
  * original one.
  */
+/**
+ * A pair that disappears and comes back within this many days is a data flap,
+ * not a new arrival. TMDB/JustWatch drop and re-add a listing for a day or a
+ * few days now and then; the pair then looked brand new and was stamped with
+ * the return date. Caught live: Mass Jathara, on Netflix since 28 Nov 2025,
+ * "arrived" on Netflix on 11 Oct 2026 and was shown under THIS WEEK. A real
+ * licence lapse that returns after longer than this is still a new arrival.
+ */
+export const RETURN_WINDOW_DAYS = 90;
+
+const daysBetween = (a, b) => (Date.parse(b) - Date.parse(a)) / 86_400_000;
+
 export function update(ledger, snapshot) {
   const bootstrap = ledger === null;
   const next = bootstrap
     ? { startedOn: snapshot.date, updatedOn: snapshot.date, runs: 0, seen: {} }
-    : { ...ledger, seen: { ...ledger.seen } };
+    : { ...ledger, seen: { ...ledger.seen }, gone: { ...(ledger.gone ?? {}) } };
+  if (bootstrap) next.gone = {};
 
   const todayPairs = pairsIn(snapshot);
   const arrivals = [];
@@ -121,6 +134,13 @@ export function update(ledger, snapshot) {
     const providerId = pair.split('|').pop();
     // Undated on the first run, and undated the first time we see a platform.
     const firstSightOfProvider = !bootstrap && !knownProviders.has(providerId);
+    const tomb = next.gone[pair];
+    if (tomb && daysBetween(tomb.left, snapshot.date) <= RETURN_WINDOW_DAYS) {
+      // Back after a short absence: restore what we knew, report no arrival.
+      next.seen[pair] = tomb.on;
+      delete next.gone[pair];
+      continue;
+    }
     const on = bootstrap || firstSightOfProvider ? null : snapshot.date;
     next.seen[pair] = on;
     if (on) arrivals.push(describe(pair, snapshot, on));
@@ -134,7 +154,13 @@ export function update(ledger, snapshot) {
   for (const pair of Object.keys(next.seen)) {
     if (todayPairs.has(pair)) continue;
     departures.push(describe(pair, snapshot, snapshot.date));
+    next.gone[pair] = { on: next.seen[pair], left: snapshot.date };
     delete next.seen[pair];
+  }
+
+  // Tombstones only matter inside the window; drop the rest so the file stays small.
+  for (const [pair, tomb] of Object.entries(next.gone)) {
+    if (daysBetween(tomb.left, snapshot.date) > RETURN_WINDOW_DAYS) delete next.gone[pair];
   }
 
   next.updatedOn = snapshot.date;

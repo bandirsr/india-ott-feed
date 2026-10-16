@@ -30,57 +30,10 @@ import { loadLedger, arrivalDate } from './src/ledger.js';
 import { toFeedEntries } from './src/gapfill.js';
 import { resolveFreshReports } from './src/fresh.js';
 import { providerIdForPlatformName } from './src/platforms.js';
+import { arrivalOn } from './src/arrival.js';
 import { trailerKeyFor } from './src/trailers.js';
 import { mergeTwins } from './src/twins.js';
 
-/**
- * Two guards against the same root cause, at two different confidence levels.
- *
- * TMDB's own metadata (release date, a series' `networks`) and its
- * JustWatch-sourced watch-providers data do not update on the same schedule.
- * When our sweep sees a provider for the first time, the ledger records that
- * moment as the arrival -- which is right the overwhelming majority of the
- * time (that IS what "arrival" means here), and wrong whenever TMDB simply
- * took years to index a listing that was never new.
- *
- * 1. OWN_ORIGINAL_GAP_DAYS (tv only, tight threshold): a platform's own
- *    Original cannot arrive there after the fact -- it was always there.
- *    Caught live: Bāhubali: The Torchbearer, a Netflix Original documentary
- *    that first aired 2026-06-26, "arrived" in the ledger three months later,
- *    the day TMDB finally tagged Netflix as a watch provider for it at all.
- *    This has zero legitimate exceptions, so 14 days is enough margin for
- *    ordinary bootstrap timing without risking a false suppression.
- *
- * 2. LEGACY_CATALOG_GAP_DAYS (any kind, any platform, generous threshold): a
- *    catalogue title surfacing on a genuinely new platform, long after its
- *    own release, is the entire premise of this app and completely ordinary
- *    -- TMDB_FIELD_TEST in src/sources.js measured that window topping out
- *    around 6-12 months even on the slowest platforms. But a multi-YEAR gap
- *    is a different thing entirely. Caught live: 3 Monkeys, released to OTT
- *    2020-02-07, "arrived" on Prime Video in the ledger on 2026-09-17 -- six
- *    and a half years later, the day TMDB finally tagged it at all. Set well
- *    above the normal windowing range specifically so a real, if unusually
- *    slow, licensing deal never gets silently hidden.
- */
-const OWN_ORIGINAL_GAP_DAYS = 14;
-const LEGACY_CATALOG_GAP_DAYS = 400;
-
-function arrivalOn(kind, rec, pid, on, detail) {
-  if (!on || !rec.d) return on;
-  const gapDays = (Date.parse(on) - Date.parse(rec.d)) / 86_400_000;
-
-  if (
-    kind === 'tv' &&
-    gapDays > OWN_ORIGINAL_GAP_DAYS &&
-    detail?.nw?.some((name) => providerIdForPlatformName(name) === pid)
-  ) {
-    return null;
-  }
-
-  if (gapDays > LEGACY_CATALOG_GAP_DAYS) return null;
-
-  return on;
-}
 
 /**
  * Platforms with no TMDB id get a synthetic negative one.
@@ -219,7 +172,7 @@ function main(freshReports) {
       // Filled in per language below -- a Tamil viewer and a Telugu viewer
       // looking at the same film get different trailers.
       y: null,
-      p: rec.p.map((pid) => ({ id: pid, on: arrivalOn(kind, rec, pid, arrivalDate(ledger, key, pid), details[key]) })),
+      p: rec.p.map((pid) => ({ id: pid, on: arrivalOn(kind, rec, pid, arrivalDate(ledger, key, pid), details[key], digital[key]?.g) })),
       ...detailFields(details[key]),
       // First India digital release, when TMDB has one. Not the cinema date.
       ...(digital[key]?.g ? { dg: digital[key].g } : {}),
