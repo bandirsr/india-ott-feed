@@ -112,6 +112,32 @@ const NOT_A_RELEASE =
   /\b(trailer|teaser|first look|song|lyrical|poster|review|box office|collection|rumou?r|may |could |expected to|likely|shooting|wrapped|announcement of|audio launch)\b/i;
 
 /**
+ * Forward-looking or deal-only wording: the film WILL be, or has been sold to,
+ * a platform. Caught live: "Jailer 2 OTT Release Date and Platform: Rajinikanth's
+ * Latest Film to Stream on Amazon Prime Video After Theatrical Run", published two
+ * days after the film reached cinemas, went onto the app under THIS WEEK as
+ * "Prime Video, Reported 16 Oct". It was a rights story; the film was not
+ * streaming and no date existed.
+ */
+const FORWARD_LOOKING =
+  /\b(to (?:stream|premiere|release|debut|hit|arrive|land|come)|set to|will (?:stream|premiere|release|be|come|arrive)|after (?:its |the )?(?:theatrical|cinema)|post[- ]theatrical|release date and platform|when and where|where to watch|ott (?:rights|deal|partner)|rights (?:sold|bagged|locked|acquired)|(?:secures?|secured|bags?|bagged|snaps?|buys?|bought|grabs?|acquires?|acquired|wins?) (?:[a-z]+ ){0,3}rights|bags?|bagged|locks?|locked|soon|expected|tentative|reportedly|confirmed (?:for|to))\b/i;
+
+/** Explicit "it is watchable today" wording. Beats the forward-looking words above. */
+const AVAILABLE_NOW =
+  /\b(now streaming|streaming now|streaming today|streaming tonight|out now|now available|is now (?:available|streaming)|premieres? (?:today|tonight)|premiered (?:today|on)|began streaming|started streaming|has arrived|(?:arrives?|arrived|lands?|landed|drops?|dropped) on)\b/i;
+
+/**
+ * True for a headline that announces or sells a future release rather than
+ * saying it has happened, and names no date. With an explicit date it is an
+ * announced premiere and stays (see reportedDay); without one there is nothing
+ * to report yet. Exported so a stored report is re-judged at publish time, not
+ * only when first read.
+ */
+export function isAnnouncementOnly(headline, hasDate) {
+  return !hasDate && FORWARD_LOOKING.test(headline) && !AVAILABLE_NOW.test(headline);
+}
+
+/**
  * A title set off in quotes somewhere inside the headline -- "OTT Alert: Ravi
  * Teja's Blockbuster 'Irumudi' Lands on Netflix in 5 Languages". Entertainment
  * headlines quote the film name constantly, in front of arbitrary framing text
@@ -191,6 +217,7 @@ export function extractFromItem(item, source) {
   if (platforms.length === 0) return [];
 
   const dates = findDates(body, item.publishedAt);
+  if (isAnnouncementOnly(headline, dates.length > 0)) return [];
   const languages = findLanguages(body);
   const title = guessTitle(headline);
   if (!title || title.length < 2) return [];
@@ -345,6 +372,8 @@ export async function resolveFreshReports(releases) {
   const out = [];
   for (const r of releases ?? []) {
     if (!r.title || !r.platform) continue;
+    // Re-judged here because data/fresh.json keeps what earlier runs accepted.
+    if (isAnnouncementOnly(r.headline ?? '', Boolean(r.date) || (r.dates?.length ?? 0) > 0)) continue;
     const providerId = providerIdForPlatformName(r.platform);
     if (providerId == null) continue;
 
