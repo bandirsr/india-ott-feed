@@ -9,5 +9,77 @@
     "sourceName": "MediaInfoline (checked by hand 2026-10-09)",
     "headline": "ShemarooMe premieres the Gujarati family drama Jindagi Once More on 17 September 2026",
     "link": "https://www.mediainfoline.com/tag/jindagi-once-more"
+  },
+  {
+    "title": "Sattendru Maarudhu Vaanilai",
+    "platform": "aha",
+    "languages": [
+      "Tamil"
+    ],
+    "date": "2026-06-05",
+    "keep": true,
+    "sourceName": "Reelgood + seen on the aha app 2026-10-16",
+    "headline": "Sattendru Maarudhu Vaanilai streaming on aha (Tamil, Telugu) and Prime Video from 5 June 2026",
+    "link": "https://blog.reelgood.com/?p=240668"
+  },
+  {
+    "title": "Ugly Story",
+    "platform": "aha",
+    "languages": [
+      "Telugu"
+    ],
+    "date": "2026-06-05",
+    "keep": true,
+    "sourceName": "Sakshi Post + seen on the aha app 2026-10-16",
+    "headline": "Ugly Story streaming on aha in Telugu and Tamil, alongside Prime Video, from June 2026",
+    "link": "https://www.sakshipost.com/news/entertainment/shree-nandu-s-psych-siddhartha-and-ugly-story-ott-release-when-and-where-watch"
+  },
+  {
+    "title": "Premistunnaa",
+    "platform": "aha",
+    "languages": [
+      "Telugu"
+    ],
+    "date": "2025-11-28",
+    "keep": true,
+    "sourceName": "FilmiBeat + seen on the aha app 2026-10-16",
+    "headline": "Premistunnaa streaming on aha from 28 November 2025",
+    "link": "https://filmibeat.com/telugu/movies/premistunnaa/ott.html"
+  },
+  {
+    "title": "Dose",
+    "platform": "aha",
+    "languages": [
+      "Malayalam"
+    ],
+    "date": "2026-07-10",
+    "keep": true,
+    "sourceName": "Pinkvilla + seen on the aha app 2026-10-16",
+    "headline": "Dose streaming from 10 July 2026 on Prime Video, ManoramaMAX and aha (Tamil, Telugu, Hindi dubs)",
+    "link": "https://www.pinkvilla.com/entertainment/south/dose-ott-release-when-and-where-to-watch-siju-wilsons-psychological-thriller-online-1404186"
+  },
+  {
+    "title": "Godari Gattupaina",
+    "platform": "Amazon Prime Video",
+    "languages": [
+      "Telugu"
+    ],
+    "date": "2026-05-29",
+    "keep": true,
+    "sourceName": "FilmiBeat",
+    "headline": "Godari Gattupaina streaming on Amazon Prime Video from 29 May 2026",
+    "link": "https://filmibeat.com/telugu/movies/godari-gattupaina/ott.html"
+  },
+  {
+    "title": "Euphoria",
+    "platform": "ETV Win",
+    "languages": [
+      "Telugu"
+    ],
+    "date": "2026-04-02",
+    "keep": true,
+    "sourceName": "FilmiBeat",
+    "headline": "Euphoria streaming on ETV Win from 2 April 2026",
+    "link": "https://filmibeat.com/telugu/news/2026/euphoria-ott-release-date-platform-when-where-to-watch-bhumika-chawla-sara-arjun-vignesh-film-509369.html"
   }
 ]

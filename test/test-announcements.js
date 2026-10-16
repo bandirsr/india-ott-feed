@@ -50,5 +50,13 @@ const jailer = extractFromItem(
 );
 check('Jailer 2 rights story yields no report', jailer.length, 0);
 
+/* Hand-checked entries must carry everything the loader needs, or they are silently ignored. */
+import { readFileSync } from 'node:fs';
+const manual = JSON.parse(readFileSync(new URL('../data/manual-releases.json', import.meta.url), 'utf8'));
+for (const m of manual) {
+  const ok = m.title && m.platform && /^\d{4}-\d{2}-\d{2}$/.test(m.date ?? '') && Array.isArray(m.languages) && /^https?:\/\//.test(m.link ?? '');
+  check(`manual entry is complete: ${m.title}`, Boolean(ok), true);
+}
+
 console.log(`\n${passed} passed, ${failed} failed`);
 process.exit(failed === 0 ? 0 : 1);

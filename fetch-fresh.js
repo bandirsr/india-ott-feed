@@ -120,6 +120,10 @@ async function main() {
     // Wikipedia-sourced lines are rebuilt every run from wikilang.js's cache, so
     // they are kept for the year rather than aged out like a news item.
     if (r.sources?.includes('wikipedia')) return now - Date.parse(r.date) < 400 * DAY;
+    // A hand-checked entry that says `keep` is a platform fact TMDB/JustWatch has
+    // not caught up on (aha titles months old), not a rumour awaiting
+    // confirmation, so it outlives the 60-day news window.
+    if (r.keep && r.date) return now - Date.parse(r.date) < 400 * DAY;
     if (r.date) return now - Date.parse(r.date) < 60 * DAY;
     const seenAt = r.firstSeenAt ? Date.parse(r.firstSeenAt) : now;
     return now - seenAt < 21 * DAY;
