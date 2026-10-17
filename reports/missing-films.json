@@ -1,0 +1,598 @@
+{
+ "date": "2026-10-17",
+ "languages": [
+  {
+   "code": "te",
+   "name": "Telugu",
+   "checked": 18,
+   "missing": [
+    {
+     "id": 1748499,
+     "title": "Kiku Chiranjeevi",
+     "released": "2026-08-28",
+     "popularity": 3,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1516092,
+     "title": "Sahaa - Life of Sanju",
+     "released": "2026-09-04",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1754873,
+     "title": "The Red Bag",
+     "released": "2026-08-21",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    }
+   ]
+  },
+  {
+   "code": "hi",
+   "name": "Hindi",
+   "checked": 20,
+   "missing": [
+    {
+     "id": 1709391,
+     "title": "Hanuman Ansh",
+     "released": "2026-08-07",
+     "popularity": 8,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1475799,
+     "title": "Haiwaan",
+     "released": "2026-09-11",
+     "popularity": 4,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1169537,
+     "title": "Batwara 1947",
+     "released": "2026-08-13",
+     "popularity": 3,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1574560,
+     "title": "Last Man in Tower",
+     "released": "2026-09-11",
+     "popularity": 3,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1642850,
+     "title": "Bhai Tera Star Hai",
+     "released": "2026-07-30",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1384512,
+     "title": "Tera Yaar Hoon Main",
+     "released": "2026-07-24",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1765342,
+     "title": "Mahaprabhu Jagannath",
+     "released": "2026-08-28",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1389153,
+     "title": "Jeevan Bheema Yojana",
+     "released": "2026-09-04",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1713420,
+     "title": "Uttar Da Puttar",
+     "released": "2026-07-24",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1740946,
+     "title": "The Bose Files: Sach Ya Sazish",
+     "released": "2026-07-30",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1714993,
+     "title": "Aryabhatt Ka Zero",
+     "released": "2026-08-07",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1738850,
+     "title": "Indrajaal",
+     "released": "2026-07-24",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1021634,
+     "title": "Max, Min and Meowzaki",
+     "released": "2026-07-24",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1769098,
+     "title": "Parched",
+     "released": "2026-09-07",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1748479,
+     "title": "Harrd Disk",
+     "released": "2026-08-21",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1720201,
+     "title": "Dulhaniya Le Aaeegi",
+     "released": "2026-07-24",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    }
+   ]
+  },
+  {
+   "code": "ta",
+   "name": "Tamil",
+   "checked": 16,
+   "missing": [
+    {
+     "id": 1318304,
+     "title": "Once More",
+     "released": "2026-08-28",
+     "popularity": 4,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1314279,
+     "title": "Hi :)",
+     "released": "2026-08-28",
+     "popularity": 3,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1590380,
+     "title": "Ram and Leela",
+     "released": "2026-08-21",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1505305,
+     "title": "Immortal",
+     "released": "2026-09-04",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1542884,
+     "title": "4 Idiots",
+     "released": "2026-09-04",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    }
+   ]
+  },
+  {
+   "code": "ml",
+   "name": "Malayalam",
+   "checked": 15,
+   "missing": [
+    {
+     "id": 1250502,
+     "title": "I'm Game",
+     "released": "2026-09-03",
+     "popularity": 8,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1545486,
+     "title": "Unmadham",
+     "released": "2026-07-31",
+     "popularity": 4,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1731502,
+     "title": "Vivaah",
+     "released": "2026-08-07",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1766084,
+     "title": "Gandharva",
+     "released": "2026-09-12",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1585736,
+     "title": "Kalari Kid – She Hits Back",
+     "released": "2026-09-01",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1748380,
+     "title": "Aali",
+     "released": "2026-08-14",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1566124,
+     "title": "Madhuramee Jeevitham",
+     "released": "2026-08-14",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    }
+   ]
+  },
+  {
+   "code": "kn",
+   "name": "Kannada",
+   "checked": 11,
+   "missing": [
+    {
+     "id": 1213243,
+     "title": "Toxic",
+     "released": "2026-08-26",
+     "popularity": 20,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1792171,
+     "title": "Life Today",
+     "released": "2026-08-06",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1747816,
+     "title": "Jolly",
+     "released": "2026-07-31",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1734726,
+     "title": "America America 2",
+     "released": "2026-09-11",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1215812,
+     "title": "Karavali",
+     "released": "2026-07-24",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1735403,
+     "title": "Brindavihari",
+     "released": "2026-09-16",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1740534,
+     "title": "Tadviruddha",
+     "released": "2026-07-31",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1093467,
+     "title": "Detective Teekshanaa",
+     "released": "2026-08-07",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1396778,
+     "title": "Ayogya 2",
+     "released": "2026-08-07",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1744541,
+     "title": "Picture",
+     "released": "2026-08-07",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    }
+   ]
+  },
+  {
+   "code": "bn",
+   "name": "Bengali",
+   "checked": 9,
+   "missing": [
+    {
+     "id": 1391798,
+     "title": "Winkle Twinkle",
+     "released": "2026-09-04",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1373504,
+     "title": "Maya Satya Bhram",
+     "released": "2026-08-28",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1242197,
+     "title": "Beporoya",
+     "released": "2026-09-17",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1666714,
+     "title": "Chobiwala",
+     "released": "2026-07-24",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1767365,
+     "title": "Ghun Gaon",
+     "released": "2026-09-11",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 874550,
+     "title": "Deep6",
+     "released": "2026-08-07",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1741127,
+     "title": "Amader 7 Kahon",
+     "released": "2026-08-07",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    }
+   ]
+  },
+  {
+   "code": "mr",
+   "name": "Marathi",
+   "checked": 5,
+   "missing": [
+    {
+     "id": 1747479,
+     "title": "Jayanti 2",
+     "released": "2026-09-11",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1729323,
+     "title": "Bhootam Bhayyam",
+     "released": "2026-07-24",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1747939,
+     "title": "Sammarth",
+     "released": "2026-08-14",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1738125,
+     "title": "Swapnasundari",
+     "released": "2026-07-24",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1609031,
+     "title": "Dilemma",
+     "released": "2026-09-04",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    }
+   ]
+  },
+  {
+   "code": "pa",
+   "name": "Punjabi",
+   "checked": 9,
+   "missing": [
+    {
+     "id": 1657464,
+     "title": "The Great Punjab Robbery",
+     "released": "2026-08-07",
+     "popularity": 2,
+     "tmdb": "streaming",
+     "tmdbPlatforms": [
+      "KableOne"
+     ]
+    },
+    {
+     "id": 1518769,
+     "title": "Singh vs Kaur 2",
+     "released": "2026-09-11",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1754629,
+     "title": "Bol Bhavein Na Bol",
+     "released": "2026-09-04",
+     "popularity": 3,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1649791,
+     "title": "Ishqnama",
+     "released": "2026-07-24",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1756456,
+     "title": "Bardaasht",
+     "released": "2026-08-21",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1649723,
+     "title": "Judaa",
+     "released": "2026-08-21",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1650810,
+     "title": "Baggo",
+     "released": "2026-08-28",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1753066,
+     "title": "Kudiyan Shehar Diyan",
+     "released": "2026-08-20",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    }
+   ]
+  },
+  {
+   "code": "gu",
+   "name": "Gujarati",
+   "checked": 5,
+   "missing": [
+    {
+     "id": 1775289,
+     "title": "Asambhauuu",
+     "released": "2026-09-04",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1739212,
+     "title": "Get Set Go",
+     "released": "2026-08-07",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1766408,
+     "title": "Pidha Pachhi...",
+     "released": "2026-09-11",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1741858,
+     "title": "Hip Hip Hurray",
+     "released": "2026-07-30",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1739294,
+     "title": "Maaran",
+     "released": "2026-07-31",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    }
+   ]
+  }
+ ]
+}
