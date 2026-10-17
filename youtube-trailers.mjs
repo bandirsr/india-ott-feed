@@ -63,6 +63,7 @@ async function search(film) {
     regionCode: 'IN',
     relevanceLanguage: film.lang,
     videoEmbeddable: 'true',
+    safeSearch: 'strict',
     key: KEY,
   });
   const r = await fetch(`https://www.googleapis.com/youtube/v3/search?${params}`);

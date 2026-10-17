@@ -34,6 +34,7 @@ import { arrivalOn } from './src/arrival.js';
 import { trailerKeyFor } from './src/trailers.js';
 import { mergeTwins } from './src/twins.js';
 import { foldProviders } from './src/providerfold.js';
+import { screenTitles } from './src/safety.js';
 
 
 /**
@@ -91,6 +92,7 @@ function detailFields(d) {
   if (d.o) out.syn = d.o;
   if (d.r) out.run = d.r;
   if (d.v) out.rate = d.v;
+  if (d.a) out.a = 1; // TMDB adult flag: read by src/safety.js, never shipped
   return out;
 }
 
@@ -154,7 +156,13 @@ function main(freshReports) {
   // title match, so TMDB wins whenever it has anything.
   const ytPath = resolve(HERE, 'data', 'youtube-trailers.json');
   const youtube = existsSync(ytPath) ? JSON.parse(readFileSync(ytPath, 'utf8')) : {};
-  const trailerFor = (key, code, ol) => trailerKeyFor(trailers[key], code, ol) ?? youtube[key]?.key ?? null;
+  // Age-restricted or removed videos (audit-trailers.mjs) are never shown.
+  const blockedPath = resolve(HERE, 'data', 'blocked-trailers.json');
+  const blockedTrailers = new Set(existsSync(blockedPath) ? JSON.parse(readFileSync(blockedPath, 'utf8')) : []);
+  const trailerFor = (key, code, ol) => {
+    const k = trailerKeyFor(trailers[key], code, ol) ?? youtube[key]?.key ?? null;
+    return k && !blockedTrailers.has(k) ? k : null;
+  };
 
   mkdirSync(join(OUT, 'v1'), { recursive: true });
 
@@ -358,6 +366,16 @@ function main(freshReports) {
   // --- one platform, one id (src/providerfold.js) --------------------------
   const folded = foldProviders(providers, [...byLanguage.values()].flat());
   if (folded.idMap.size) console.log(`  platform duplicates folded: ${folded.idMap.size}`);
+
+  // --- content safety (src/safety.js) -------------------------------------
+  // Adult-platform titles and explicit titles are removed before anything is
+  // written. Borderline names are logged for a human look, never auto-hidden.
+  for (const [code, bucket] of byLanguage) {
+    const r = screenTitles(bucket, folded.providers);
+    byLanguage.set(code, r.kept);
+    for (const d of r.dropped) console.log(`  SAFETY dropped "${d.t}" (${code}): ${d.why}`);
+    for (const v of r.review) console.log(`  safety review (kept) "${v.t}" (${code})`);
+  }
 
   const languages = [];
 

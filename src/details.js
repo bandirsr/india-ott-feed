@@ -66,6 +66,8 @@ export async function detailsFor(kind, tmdbId) {
     // sighting of e.g. Netflix lands weeks after a Netflix Original's own
     // first-air date, that gap is TMDB's provider data catching up, not a
     // real later launch. Never shipped to the app -- publish-time-only.
+    // TMDB's adult flag (movies only). Read by src/safety.js; never shipped.
+    a: full.adult ? 1 : undefined,
     nw: kind === 'tv' ? (full.networks ?? []).map((n) => n.name).filter(Boolean) : undefined,
   };
 }

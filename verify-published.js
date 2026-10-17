@@ -18,6 +18,7 @@ import { readFileSync, existsSync } from 'node:fs';
 import { resolve, dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { DIGITAL_GAP_DAYS } from './src/arrival.js';
+import { violations } from './src/safety.js';
 
 const PUBLIC = resolve(dirname(fileURLToPath(import.meta.url)), 'public');
 
@@ -88,6 +89,16 @@ for (const lang of manifest.languages ?? []) {
   }
   check(`${lang.code} has no arrival dated in the future`, future.length === 0, future.slice(0, 5).join('; '));
   check(`${lang.code} has no arrival long after the digital release`, stale.length === 0, `${stale.length}: ${stale.slice(0, 5).join('; ')}`);
+}
+
+/* --- content safety ------------------------------------------------ */
+// Same rules publish.js applied (src/safety.js). Anything here means the filter
+// was bypassed or broken, and the app would show adult material.
+for (const lang of manifest.languages ?? []) {
+  const file = join(PUBLIC, lang.path);
+  if (!existsSync(file)) continue;
+  const bad = violations(JSON.parse(readFileSync(file, 'utf8')));
+  check(`${lang.code} has no adult or explicit titles`, bad.length === 0, `${bad.length}: ${bad.slice(0, 5).join('; ')}`);
 }
 
 /* --- report ------------------------------------------------------- */
