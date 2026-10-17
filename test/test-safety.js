@@ -39,5 +39,14 @@ check('platform names match loosely', isBlockedPlatformName('Ullu') && isBlocked
 check('violations() finds a leftover', violations({ providers, titles: [row('x', 'Porn star', [8])] }).length === 1);
 check('violations() is empty for clean output', violations({ providers, titles: r.kept }).length === 0);
 
+{
+  const rules = { certs: { 'movie:1': { c: 'A' }, 'movie:2': { c: 'UA' } }, manual: { 'movie:3': 'by hand' } };
+  const k = screenTitles([row('movie:1', 'Cert A', [8]), row('movie:2', 'Cert UA', [8]), row('movie:3', 'Hand blocked', [8]), row('movie:4', 'No cert', [8])], providers, rules).kept.map((t) => t.id);
+  check('certificate A is removed', !k.includes('movie:1'));
+  check('certificate UA is kept', k.includes('movie:2'));
+  check('hand-blocked title is removed', !k.includes('movie:3'));
+  check('unrated film is kept (no evidence against it)', k.includes('movie:4'));
+}
+
 console.log(`safety: ${passed} passed, ${failed} failed`);
 if (failed) process.exit(1);

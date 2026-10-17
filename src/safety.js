@@ -1,6 +1,9 @@
 /**
  * Content safety: nothing adult or explicit reaches the app.
  *
+ * Also: Indian film certificate "A" (data/certifications.json, certs.js) and a
+ * hand-kept list (data/blocked-titles.json).
+ *
  * Layers, from the source outward (all of them are needed, none is enough alone):
  *
  *   1. TMDB queries ask for include_adult=false (sweeps, search, discover).
@@ -50,7 +53,9 @@ export function isBlockedPlatformName(name) {
 }
 
 /** Why a title must not be shown, or null. `providers` maps id -> {name}. */
-export function blockReason(title, providers) {
+export function blockReason(title, providers, rules = {}) {
+  if (rules.manual && rules.manual[title.id]) return `blocked by hand: ${rules.manual[title.id]}`;
+  if (rules.certs?.[title.id]?.c === 'A') return 'certified A (adults only) in India';
   const platforms = (title.p ?? []).map((e) => providers[String(e.id)]?.name).filter(Boolean);
   if (platforms.length > 0 && platforms.every(isBlockedPlatformName)) return `only on adult platform (${platforms[0]})`;
   if (title.a) return 'TMDB marks it adult';
@@ -63,7 +68,7 @@ export function blockReason(title, providers) {
  * Removes blocked titles and blocked-platform listings.
  * Mutates `titles` rows (drops blocked platform entries) and returns the kept list.
  */
-export function screenTitles(titles, providers) {
+export function screenTitles(titles, providers, rules = {}) {
   const kept = [];
   const dropped = [];
   const review = [];
@@ -71,7 +76,7 @@ export function screenTitles(titles, providers) {
     // A film also on a normal platform keeps that listing; only the adult-platform entry goes.
     const clean = (t.p ?? []).filter((e) => !isBlockedPlatformName(providers[String(e.id)]?.name));
     const row = clean.length === (t.p ?? []).length ? t : { ...t, p: clean };
-    const why = blockReason(row, providers);
+    const why = blockReason(row, providers, rules);
     if (why || row.p.length === 0) {
       dropped.push({ id: t.id, t: t.t, why: why ?? 'no platform left after removing adult platforms' });
       continue;
@@ -83,10 +88,10 @@ export function screenTitles(titles, providers) {
 }
 
 /** For verify-published: every violation left in a finished payload. */
-export function violations(payload) {
+export function violations(payload, rules = {}) {
   const out = [];
   for (const t of payload.titles ?? []) {
-    const why = blockReason(t, payload.providers ?? {});
+    const why = blockReason(t, payload.providers ?? {}, rules);
     if (why) out.push(`${t.t} (${why})`);
     for (const e of t.p ?? []) {
       if (isBlockedPlatformName(payload.providers?.[String(e.id)]?.name)) out.push(`${t.t} (listed on adult platform)`);

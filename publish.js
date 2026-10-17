@@ -368,10 +368,12 @@ function main(freshReports) {
   if (folded.idMap.size) console.log(`  platform duplicates folded: ${folded.idMap.size}`);
 
   // --- content safety (src/safety.js) -------------------------------------
+  const readJson = (f) => (existsSync(resolve(HERE, 'data', f)) ? JSON.parse(readFileSync(resolve(HERE, 'data', f), 'utf8')) : {});
+  const safetyRules = { certs: readJson('certifications.json'), manual: readJson('blocked-titles.json') };
   // Adult-platform titles and explicit titles are removed before anything is
   // written. Borderline names are logged for a human look, never auto-hidden.
   for (const [code, bucket] of byLanguage) {
-    const r = screenTitles(bucket, folded.providers);
+    const r = screenTitles(bucket, folded.providers, safetyRules);
     byLanguage.set(code, r.kept);
     for (const d of r.dropped) console.log(`  SAFETY dropped "${d.t}" (${code}): ${d.why}`);
     for (const v of r.review) console.log(`  safety review (kept) "${v.t}" (${code})`);

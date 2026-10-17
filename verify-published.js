@@ -92,12 +92,14 @@ for (const lang of manifest.languages ?? []) {
 }
 
 /* --- content safety ------------------------------------------------ */
+const readRules = (f) => (existsSync(join(PUBLIC, '..', 'data', f)) ? JSON.parse(readFileSync(join(PUBLIC, '..', 'data', f), 'utf8')) : {});
+const safetyRules = { certs: readRules('certifications.json'), manual: readRules('blocked-titles.json') };
 // Same rules publish.js applied (src/safety.js). Anything here means the filter
 // was bypassed or broken, and the app would show adult material.
 for (const lang of manifest.languages ?? []) {
   const file = join(PUBLIC, lang.path);
   if (!existsSync(file)) continue;
-  const bad = violations(JSON.parse(readFileSync(file, 'utf8')));
+  const bad = violations(JSON.parse(readFileSync(file, 'utf8')), safetyRules);
   check(`${lang.code} has no adult or explicit titles`, bad.length === 0, `${bad.length}: ${bad.slice(0, 5).join('; ')}`);
 }
 
