@@ -61,7 +61,7 @@ async function discover(code) {
     if (page >= j.total_pages) break;
   }
   // Re-releases of old classics carry their original date; they are not new films.
-  return films.filter((f) => f.release_date >= day(FROM - 60)).slice(0, PER);
+  return films.filter((f) => f.release_date >= day(FROM + 120)).slice(0, PER);
 }
 
 async function tmdbSays(id) {
