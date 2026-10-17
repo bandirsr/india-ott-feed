@@ -307,7 +307,7 @@ const norm = (s) => String(s).toLowerCase().replace(/[^a-z0-9]/g, '');
  * far worse than a missed one: it would attach someone else's platform to
  * this film's page.
  */
-export async function matchFreshTitle(title, languages = []) {
+export async function matchFreshTitle(title, languages = [], { strict = false } = {}) {
   const clean = String(title ?? '').trim();
   if (clean.length < 2) return null;
 
@@ -319,6 +319,9 @@ export async function matchFreshTitle(title, languages = []) {
 
   const codes = languages.map((l) => LANGUAGE_CODES[l]).filter(Boolean);
   const byLanguage = codes.length > 0 ? candidates.find((r) => codes.includes(r.original_language)) : null;
+  // A platform channel names a film only by its title; for a generic one ("Dose")
+  // the wrong film in another language is the likely hit, so no language match means no match.
+  if (strict && codes.length > 0 && !byLanguage) return null;
   const hit = byLanguage ?? [...candidates].sort((a, b) => (b.popularity ?? 0) - (a.popularity ?? 0))[0];
 
   return {
@@ -377,7 +380,7 @@ export async function resolveFreshReports(releases) {
     const providerId = providerIdForPlatformName(r.platform);
     if (providerId == null) continue;
 
-    const match = await matchFreshTitle(r.title, r.languages ?? []);
+    const match = await matchFreshTitle(r.title, r.languages ?? [], { strict: Boolean(r.strictLanguage) });
     if (!match) continue;
 
     // The day it was reported on the platform -- NOT match.date, which is the
@@ -385,7 +388,9 @@ export async function resolveFreshReports(releases) {
     // earlier than the article itself: "in cinemas 2 Sept, now on Netflix"
     // published 1 Oct names the theatrical day, and that is the exact mistake
     // this field exists to avoid. A later date is an announced premiere.
-    const reportedOn = reportedDay(r);
+    let reportedOn = reportedDay(r);
+    // A platform's "Watch Now" clip for an old film is catalogue, not an arrival: claim no date.
+    if (r.catalog && match.date && (Date.parse(reportedOn) - Date.parse(match.date)) / 86_400_000 > 120) reportedOn = null;
 
     out.push({
       key: match.key,

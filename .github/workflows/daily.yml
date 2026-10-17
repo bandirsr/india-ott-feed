@@ -157,6 +157,8 @@ jobs:
       # rather than passed off as JustWatch-confirmed. No key, no quota; skips
       # a feed that is down rather than failing the run.
       - name: Poll trade-press RSS for same-day releases
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: node fetch-fresh.js
 
       - name: Build the files the app downloads

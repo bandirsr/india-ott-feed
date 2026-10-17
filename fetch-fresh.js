@@ -18,6 +18,7 @@ import { fileURLToPath } from 'node:url';
 import { SOURCES } from './src/sources.js';
 import { fetchFeeds } from './src/feeds.js';
 import { extractFromItem, mergeReleases } from './src/fresh.js';
+import { pollPlatformChannels } from './src/ytplatform.js';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const OUT = resolve(HERE, 'data', 'fresh.json');
@@ -101,6 +102,17 @@ async function main() {
     }
   }
 
+  // The platforms' own YouTube channels: "Watch Now" / "Premieres On <date>" uploads.
+  // Needs YOUTUBE_API_KEY (one quota unit per channel); skips cleanly without it.
+  const ytKey = process.env.YOUTUBE_API_KEY;
+  if (ytKey) {
+    const { records, report } = await pollPlatformChannels(ytKey);
+    for (const line of report) console.log(`  ${line}`);
+    rawRecords.push(...records);
+  } else {
+    console.log('  Platform YouTube channels: skipped (no YOUTUBE_API_KEY)');
+  }
+
   const previous = loadPrevious();
   const manual = loadManual();
   if (manual.length) console.log(`  Checked-by-hand entries: ${manual.length}`);
@@ -124,6 +136,9 @@ async function main() {
     // not caught up on (aha titles months old), not a rumour awaiting
     // confirmation, so it outlives the 60-day news window.
     if (r.keep && r.date) return now - Date.parse(r.date) < 400 * DAY;
+    // A platform-channel sighting lives keepDays from the LATEST day it was seen,
+    // because the platform keeps re-posting a title that is still there.
+    if (r.keepDays && r.dates?.length) return now - Math.max(...r.dates.map((d) => Date.parse(d))) < r.keepDays * DAY;
     if (r.date) return now - Date.parse(r.date) < 60 * DAY;
     const seenAt = r.firstSeenAt ? Date.parse(r.firstSeenAt) : now;
     return now - seenAt < 21 * DAY;
