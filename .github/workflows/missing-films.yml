@@ -1,6 +1,7 @@
 # Weekly check: which recent Indian theatrical films have no platform in the
 # live feed. Read-only against the feed; writes reports/missing-films.md and
-# the job summary (open the run in the Actions tab for the readable table).
+# the job summary, plus reports/user-reports.md (what people sent through the
+# app's "Report a missing title" form) (open the run in the Actions tab for the readable table).
 name: Missing films report
 
 on:
@@ -27,11 +28,15 @@ jobs:
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: node missing-films.mjs
+      - name: Pull user reports from the app
+        env:
+          PUSH_ADMIN_KEY: ${{ secrets.PUSH_ADMIN_KEY }}
+        run: node user-reports.mjs
       - name: Commit the report
         run: |
           git config user.name "ott-bot"
           git config user.email "ott-bot@users.noreply.github.com"
-          git add reports/missing-films.md reports/missing-films.json
+          git add reports/missing-films.md reports/missing-films.json reports/user-reports.md
           git diff --staged --quiet || git commit -m "Missing films report: $(date -u +%Y-%m-%d)"
           git pull --rebase
           git push
