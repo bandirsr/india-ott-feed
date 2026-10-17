@@ -103,6 +103,13 @@ for (const lang of manifest.languages ?? []) {
   check(`${lang.code} has no adult or explicit titles`, bad.length === 0, `${bad.length}: ${bad.slice(0, 5).join('; ')}`);
 }
 
+// The Coming soon list is shown in the app too, so it gets the same check.
+if (existsSync(join(PUBLIC, 'v1', 'upcoming.json'))) {
+  const up = JSON.parse(readFileSync(join(PUBLIC, 'v1', 'upcoming.json'), 'utf8'));
+  const bad = violations({ providers: {}, titles: (up.titles ?? []).map((t) => ({ ...t, p: [] })) }, safetyRules);
+  check('upcoming list has no adult or explicit titles', bad.length === 0, `${bad.length}: ${bad.slice(0, 5).join('; ')}`);
+}
+
 /* --- report ------------------------------------------------------- */
 if (problems.length === 0) {
   const total = (manifest.languages ?? []).reduce((n, l) => n + l.titles, 0);
