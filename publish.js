@@ -33,6 +33,7 @@ import { providerIdForPlatformName } from './src/platforms.js';
 import { arrivalOn } from './src/arrival.js';
 import { trailerKeyFor } from './src/trailers.js';
 import { mergeTwins } from './src/twins.js';
+import { foldProviders } from './src/providerfold.js';
 
 
 /**
@@ -354,6 +355,10 @@ function main(freshReports) {
   }
   if (twinsMerged) console.log(`  duplicates merged: ${twinsMerged}`);
 
+  // --- one platform, one id (src/providerfold.js) --------------------------
+  const folded = foldProviders(providers, [...byLanguage.values()].flat());
+  if (folded.idMap.size) console.log(`  platform duplicates folded: ${folded.idMap.size}`);
+
   const languages = [];
 
   for (const lang of LANGUAGES) {
@@ -388,7 +393,7 @@ function main(freshReports) {
       // How far back arrival dates are actually known. The app uses this to say
       // "tracking since 13 Sep" rather than implying nothing launched before it.
       trackingSince: ledger.startedOn,
-      providers,
+      providers: folded.providers,
       titles,
     };
 
