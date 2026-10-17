@@ -1,4 +1,4 @@
-# Weekly check: which recent Indian theatrical films have no platform in the
+# Several times a day: which recent Indian theatrical films have no platform in the
 # live feed. Read-only against the feed; writes reports/missing-films.md and
 # the job summary, plus reports/user-reports.md (what people sent through the
 # app's "Report a missing title" form) (open the run in the Actions tab for the readable table).
@@ -6,7 +6,7 @@ name: Missing films report
 
 on:
   schedule:
-    - cron: '17 3 * * 1' # Monday 03:17 UTC, after the 02:30 sweep has published
+    - cron: '17 3,9,15,21 * * *' # four times a day, so a new report is never more than ~6 h old
   workflow_dispatch:
 
 permissions:
