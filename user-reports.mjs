@@ -25,5 +25,6 @@ for (const x of reports) {
 const md = lines.join('\n');
 mkdirSync('reports', { recursive: true });
 writeFileSync('reports/user-reports.md', md + '\n');
+writeFileSync('reports/user-reports.json', JSON.stringify(reports, null, 1));
 if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, '\n' + md + '\n');
 console.log(`${reports.length} user reports written.`);
