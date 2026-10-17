@@ -1,0 +1,40 @@
+# Once a day, just after YouTube's quota resets (07:00 UTC). Searches cost 100
+# units each against a shared 10,000/day, so this spends 80 and leaves the rest
+# for the platform-channel and fresh-news passes in daily.yml. The budget is
+# split by language weight in src/trailer-plan.js. Trailers found here reach the
+# app at the next daily publish.
+name: YouTube trailers
+
+on:
+  schedule:
+    - cron: '20 7 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Same group as the daily sweep: both write data/ files and must not overlap.
+concurrency:
+  group: daily-sweep
+  cancel-in-progress: false
+
+jobs:
+  trailers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Find missing trailers on YouTube
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node youtube-trailers.mjs 80
+      - name: Commit the cache
+        run: |
+          git config user.name "ott-bot"
+          git config user.email "ott-bot@users.noreply.github.com"
+          git add data/youtube-trailers.json
+          git diff --staged --quiet || git commit -m "YouTube trailers: $(date -u +%Y-%m-%d)"
+          git pull --rebase
+          git push

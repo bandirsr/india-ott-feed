@@ -30,6 +30,7 @@
  */
 import { readFileSync, writeFileSync, renameSync, existsSync } from 'node:fs';
 import { accept, decode } from './src/youtube-match.js';
+import { planOrder } from './src/trailer-plan.js';
 
 const KEY = process.env.YOUTUBE_API_KEY || readEnv('YOUTUBE_API_KEY');
 const FEED = 'https://bandirsr.github.io/india-ott-feed';
@@ -37,9 +38,9 @@ const TMDB_CACHE = 'data/trailers.json';
 const YT_CACHE = 'data/youtube-trailers.json';
 const DRY = process.argv.includes('--dry');
 const budgetArg = process.argv.slice(2).find((a) => /^\d+$/.test(a));
-// Ninety, not a hundred: leaves headroom so a rerun on the same day does not
-// hit the quota wall halfway through a title.
-const BUDGET = Number(budgetArg ?? 90);
+// Eighty, not a hundred: the rest of the 10,000 units is for the platform-channel
+// and fresh-news passes, which share this key.
+const BUDGET = Number(budgetArg ?? 80);
 // Days before a "found nothing" is worth asking about again. Trailers do get
 // uploaded late, but not often enough to spend quota re-asking weekly.
 const RETRY_AFTER_DAYS = 45;
@@ -96,13 +97,14 @@ const today = new Date().toISOString().slice(0, 10);
 const stale = (entry) =>
   entry && !entry.key && (Date.parse(today) - Date.parse(entry.checkedOn)) / 86_400_000 >= RETRY_AFTER_DAYS;
 
-// Newest first in every language, interleaved so one language cannot spend
-// the whole day's budget before another gets a turn.
+// Newest first within each language; the day's budget is split by language
+// weight (src/trailer-plan.js).
 const manifest = await get('manifest.json');
-const queues = [];
+const queues = new Map();
 for (const lang of manifest.languages) {
   const p = await get(lang.path);
-  queues.push(
+  queues.set(
+    lang.code,
     p.titles
       .filter((t) => t.k === 'movie' && !t.y)
       .filter((t) => !tmdb[t.id] || Object.keys(tmdb[t.id] ?? {}).length === 0)
@@ -110,17 +112,7 @@ for (const lang of manifest.languages) {
       .map((t) => ({ id: t.id, title: t.t, year: t.d ? Number(t.d.slice(0, 4)) : null, lang: lang.code }))
   );
 }
-const order = [];
-const seen = new Set();
-for (let i = 0; queues.some((q) => i < q.length); i++) {
-  for (const q of queues) {
-    const f = q[i];
-    if (f && !seen.has(f.id)) {
-      seen.add(f.id);
-      order.push(f);
-    }
-  }
-}
+const order = planOrder(queues, BUDGET);
 
 console.log(`${order.length} films with no trailer anywhere yet; budget ${BUDGET} searches today.\n`);
 
