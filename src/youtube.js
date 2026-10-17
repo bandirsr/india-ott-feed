@@ -336,12 +336,12 @@ export async function findTrailerKeyless(filmTitle, citationUrls) {
  */
 const TRUSTED_CHANNEL_PATTERNS = [
   /^netflix/i, /^prime ?video/i, /^(disney\+?)? ?hotstar/i, /^jiohotstar/i, /^zee5/i, /^sonyliv/i,
-  /^aha/i, /^sun ?nxt/i, /^etv ?win/i, /^amazon/i,
+  /^aha\b/i, /^sun ?nxt/i, /^etv ?win/i, /^amazon/i,
   /aditya music/i, /^t-?series/i, /saregama/i, /lahari/i, /^sony music south/i, /^think music/i,
   /mythri movie/i, /geetha arts/i, /^ntr arts/i, /dvv entertainment/i, /vyjayanthi/i,
   /sithara entertainments/i, /haarika/i, /^ug media/i, /primeshow entertainment/i,
   /people media factory/i, /^suresh productions/i, /annapurna studios/i, /^sri venkateswara creations/i,
-  /dharma productions/i, /^yash raj/i, /^vfc/i, /^ak entertainments/i, /matinee entertainment/i,
+  /dharma productions/i, /^yash raj/i, /^vfc\b/i, /^ak entertainments/i, /matinee entertainment/i,
   /^fortune four/i, /shine screens/i, /^allu entertainment/i, /^konidela/i,
 ];
 

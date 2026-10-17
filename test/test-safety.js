@@ -48,5 +48,24 @@ check('violations() is empty for clean output', violations({ providers, titles: 
   check('unrated film is kept (no evidence against it)', k.includes('movie:4'));
 }
 
+{
+  const rules = { certs: { 'movie:10': { c: 'A' }, 'movie:11': { c: 'A' }, 'movie:12': { c: 'A' }, 'movie:13': { c: 'A' } }, manual: {} };
+  const kept = (rows) => screenTitles(rows, providers, rules).kept.map((x) => x.id);
+  const k = kept([
+    row('movie:10', 'Violent hit', [8], { syn: 'A gangster wages a bloody war against a rival clan.' }),
+    row('movie:11', 'Steamy one', [8], { syn: 'A married man begins an extramarital relationship.' }),
+    row('movie:12', 'No description', [8]),
+    row('movie:13', 'Essex story', [8], { syn: 'Fourteen friends visit Essex for a heist.' }),
+    row('movie:14', 'Child case', [8], { syn: 'A teenage girl is sexually abused and seeks justice.' }),
+    row('movie:15', 'Kids film', [8], { syn: 'Kids go on a school trip and find a treasure.' }),
+  ]);
+  check('A film with violence only stays', k.includes('movie:10'));
+  check('A film with sexual terms is hidden', !k.includes('movie:11'));
+  check('A film with no description is hidden', !k.includes('movie:12'));
+  check('word boundaries: Essex/fourteen do not trigger', k.includes('movie:13'));
+  check('child + sexual abuse is hidden whatever the rating', !k.includes('movie:14'));
+  check('ordinary kids film is kept', k.includes('movie:15'));
+}
+
 console.log(`safety: ${passed} passed, ${failed} failed`);
 if (failed) process.exit(1);

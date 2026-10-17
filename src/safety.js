@@ -44,6 +44,27 @@ export const BLOCKED_PLATFORMS = [
 /** Words that mean explicit content on their own. */
 const EXPLICIT = /\b(porn\w*|xxx|erotic\w*|softcore|nude\s+web|adults?\s+only|18\s*\+\s*(only)?\s*(web|uncut)|uncut\s+(web\s+)?series|sexcapade\w*|kamasutra)\b/i;
 
+/**
+ * Sexual or exploitative terms. Applied only to films certified A: an A film
+ * stays visible when its title and description contain none of these, and is
+ * hidden when they do (or when there is no description to judge it by).
+ */
+const SEXUAL = /\b(sex\w*|seduc\w*|erotic\w*|nud(e|ity|es)\b|porn\w*|lust\w*|steamy|sensual\w*|adulter\w*|extra-?marital|illicit|prostitut\w*|brothel\w*|call[- ]girl\w*|rape\w*|raped|molest\w*|incest\w*|virgin\w*|mistress\w*|orgy|one[- ]night[- ]stand|intimate scenes?|bold scenes?|sleeps? with|flirt\w*|bedroom|bed\s*room|fling)\b/i;
+
+/**
+ * Child safety, for EVERY film whatever its certificate: a child or minor
+ * together with sexual or abusive content, plus the direct terms. Deliberately
+ * wide; a film about child abuse awareness is hidden too. Wrongly hiding a film
+ * costs little, showing one costs a great deal.
+ */
+const CHILD = /\b(child\w*|minors?|under-?age\w*|school ?girls?|school ?boys?|teen(age|ager|agers|s)?|toddlers?|kids?|juvenile\w*|pre-?teen\w*)\b/i;
+const ABUSE = /\b(sexual\w*|sex|rape\w*|raped|molest\w*|abus\w*|exploit\w*|traffick\w*|porn\w*|nude\w*|incest\w*|seduc\w*|prostitut\w*|pedoph\w*|paedoph\w*|lust\w*|erotic\w*)\b/i;
+const CHILD_DIRECT = /\b(pedoph\w*|paedoph\w*|pocso|child (abuse|porn\w*|molest\w*|sexual\w*|exploitation|trafficking)|sexual abuse of (a )?(child|minor)s?)\b/i;
+
+export function childRisk(text) {
+  return CHILD_DIRECT.test(text) || (CHILD.test(text) && ABUSE.test(text));
+}
+
 /** Worth a human glance, never auto-hidden. */
 const BORDERLINE = /\b(sex\w*|18\s*\+|hot|bold|uncut|nudity|bedroom|sunny\s+leone)\b/i;
 
@@ -55,7 +76,12 @@ export function isBlockedPlatformName(name) {
 /** Why a title must not be shown, or null. `providers` maps id -> {name}. */
 export function blockReason(title, providers, rules = {}) {
   if (rules.manual && rules.manual[title.id]) return `blocked by hand: ${rules.manual[title.id]}`;
-  if (rules.certs?.[title.id]?.c === 'A') return 'certified A (adults only) in India';
+  const text = `${title.t ?? ''} ${title.syn ?? ''}`;
+  if (childRisk(text)) return 'child-safety: child/minor with sexual or abusive content';
+  if (rules.certs?.[title.id]?.c === 'A') {
+    if (!title.syn) return 'certified A, no description to judge it by';
+    if (SEXUAL.test(text)) return 'certified A with sexual terms in title or description';
+  }
   const platforms = (title.p ?? []).map((e) => providers[String(e.id)]?.name).filter(Boolean);
   if (platforms.length > 0 && platforms.every(isBlockedPlatformName)) return `only on adult platform (${platforms[0]})`;
   if (title.a) return 'TMDB marks it adult';
