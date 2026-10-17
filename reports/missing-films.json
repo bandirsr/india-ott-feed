@@ -7,6 +7,14 @@
    "checked": 37,
    "missing": [
     {
+     "id": 1747034,
+     "title": "Agadha",
+     "released": "2026-08-13",
+     "popularity": 3,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
      "id": 1748499,
      "title": "Kiku Chiranjeevi",
      "released": "2026-08-28",
@@ -78,6 +86,14 @@
      "tmdbPlatforms": []
     },
     {
+     "id": 1378537,
+     "title": "Mirzapur: The Movie",
+     "released": "2026-09-04",
+     "popularity": 5,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
      "id": 1475799,
      "title": "Haiwaan",
      "released": "2026-09-11",
@@ -124,6 +140,16 @@
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
+    },
+    {
+     "id": 1293550,
+     "title": "Bandar",
+     "released": "2026-06-05",
+     "popularity": 3,
+     "tmdb": "streaming",
+     "tmdbPlatforms": [
+      "Zee5"
+     ]
     },
     {
      "id": 1384512,
@@ -296,6 +322,14 @@
      "id": 1314279,
      "title": "Hi :)",
      "released": "2026-08-28",
+     "popularity": 3,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1764201,
+     "title": "Yen Ennai Edho Seidhai",
+     "released": "2026-09-04",
      "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -793,17 +827,17 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1727155,
-     "title": "Drushya Adrushya",
-     "released": "2026-06-19",
+     "id": 1747939,
+     "title": "Sammarth",
+     "released": "2026-08-14",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
     {
-     "id": 1747939,
-     "title": "Sammarth",
-     "released": "2026-08-14",
+     "id": 1727155,
+     "title": "Drushya Adrushya",
+     "released": "2026-06-19",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -856,38 +890,10 @@
    "checked": 18,
    "missing": [
     {
-     "id": 1657464,
-     "title": "The Great Punjab Robbery",
-     "released": "2026-08-07",
-     "popularity": 2,
-     "tmdb": "streaming",
-     "tmdbPlatforms": [
-      "KableOne"
-     ]
-    },
-    {
      "id": 1650856,
      "title": "Dastaar",
      "released": "2026-07-17",
      "popularity": 3,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1650181,
-     "title": "Chaali Din",
-     "released": "2026-06-19",
-     "popularity": 2,
-     "tmdb": "streaming",
-     "tmdbPlatforms": [
-      "KableOne"
-     ]
-    },
-    {
-     "id": 1518769,
-     "title": "Singh vs Kaur 2",
-     "released": "2026-09-11",
-     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -900,9 +906,9 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1649791,
-     "title": "Ishqnama",
-     "released": "2026-07-24",
+     "id": 1518769,
+     "title": "Singh vs Kaur 2",
+     "released": "2026-09-11",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -916,9 +922,29 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1649723,
-     "title": "Judaa",
-     "released": "2026-08-21",
+     "id": 1657464,
+     "title": "The Great Punjab Robbery",
+     "released": "2026-08-07",
+     "popularity": 2,
+     "tmdb": "streaming",
+     "tmdbPlatforms": [
+      "KableOne"
+     ]
+    },
+    {
+     "id": 1650181,
+     "title": "Chaali Din",
+     "released": "2026-06-19",
+     "popularity": 2,
+     "tmdb": "streaming",
+     "tmdbPlatforms": [
+      "KableOne"
+     ]
+    },
+    {
+     "id": 1649791,
+     "title": "Ishqnama",
+     "released": "2026-07-24",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -932,10 +958,10 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1650810,
-     "title": "Baggo",
-     "released": "2026-08-28",
-     "popularity": 1,
+     "id": 1649723,
+     "title": "Judaa",
+     "released": "2026-08-21",
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -951,6 +977,14 @@
      "id": 1744543,
      "title": "Dama Dum Mast Kalandar",
      "released": "2026-05-22",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1650810,
+     "title": "Baggo",
+     "released": "2026-08-28",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
