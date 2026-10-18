@@ -272,7 +272,7 @@ function main(freshReports) {
     const existingTarget = byKey.get(row.key);
     if (existingTarget) {
       if (existingTarget.p.some((x) => x.id === row.providerId)) continue;
-      existingTarget.p.push({ id: row.providerId, on: null, src: 'reported', by: row.sourceName, rep: row.reportedOn ?? null });
+      existingTarget.p.push({ id: row.providerId, on: null, src: 'reported', by: row.sourceName, rep: row.reportedOn && row.reportedOn <= new Date().toISOString().slice(0, 10) ? row.reportedOn : null });
       reportedAttached += 1;
       continue;
     }
@@ -290,7 +290,7 @@ function main(freshReports) {
       i: row.poster,
       k: 'movie',
       y: null,
-      p: [{ id: row.providerId, on: null, src: 'reported', by: row.sourceName, rep: row.reportedOn ?? null }],
+      p: [{ id: row.providerId, on: null, src: 'reported', by: row.sourceName, rep: row.reportedOn && row.reportedOn <= new Date().toISOString().slice(0, 10) ? row.reportedOn : null }],
     };
     bucket.push(created);
     byKey.set(row.key, created);
