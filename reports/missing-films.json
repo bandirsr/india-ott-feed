@@ -958,8 +958,10 @@
      "title": "Dastaar",
      "released": "2026-07-17",
      "popularity": 3,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
+     "tmdb": "streaming",
+     "tmdbPlatforms": [
+      "Chaupal Amazon Channel"
+     ]
     },
     {
      "id": 1754629,

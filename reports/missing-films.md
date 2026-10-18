@@ -11,7 +11,7 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 | Kannada | 25 | 3 | 22 | 0 | 0 | 22 |
 | Bengali | 18 | 4 | 14 | 0 | 0 | 14 |
 | Marathi | 12 | 2 | 10 | 0 | 0 | 10 |
-| Punjabi | 19 | 5 | 14 | 3 | 0 | 11 |
+| Punjabi | 19 | 5 | 14 | 4 | 0 | 10 |
 | Gujarati | 9 | 1 | 8 | 0 | 0 | 8 |
 
 ## Telugu
@@ -149,7 +149,7 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 
 ## Punjabi
 
-- Dastaar (2026-07-17, popularity 3, tmdb 1650856) - no platform known anywhere
+- Dastaar (2026-07-17, popularity 3, tmdb 1650856) - TMDB lists it on Chaupal Amazon Channel - should be in the feed
 - Bol Bhavein Na Bol (2026-09-04, popularity 2, tmdb 1754629) - no platform known anywhere
 - Singh vs Kaur 2 (2026-09-11, popularity 3, tmdb 1518769) - no platform known anywhere
 - Bardaasht (2026-08-21, popularity 2, tmdb 1756456) - no platform known anywhere
