@@ -160,16 +160,34 @@
      ]
     },
     {
-     "id": 1642850,
-     "title": "Bhai Tera Star Hai",
-     "released": "2026-07-30",
+     "id": 1293550,
+     "title": "Bandar",
+     "released": "2026-06-05",
      "popularity": 3,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
+     "tmdb": "streaming",
+     "tmdbPlatforms": [
+      "Zee5"
+     ]
     },
     {
      "id": 1384512,
      "title": "Tera Yaar Hoon Main",
+     "released": "2026-07-24",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1351908,
+     "title": "Bharat Bhhagya Viddhaata",
+     "released": "2026-06-12",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1738850,
+     "title": "Indrajaal",
      "released": "2026-07-24",
      "popularity": 2,
      "tmdb": "nothing",
@@ -184,22 +202,6 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1714670,
-     "title": "Heer Sara",
-     "released": "2026-06-12",
-     "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1351908,
-     "title": "Bharat Bhhagya Viddhaata",
-     "released": "2026-06-12",
-     "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1765342,
      "title": "Mahaprabhu Jagannath",
      "released": "2026-08-28",
@@ -208,10 +210,26 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1206167,
-     "title": "Return of the Jungle",
-     "released": "2026-05-29",
-     "popularity": 1,
+     "id": 1701812,
+     "title": "Hum Angrezon Ke Zamane Ke Jailor Hai",
+     "released": "2026-06-12",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1714670,
+     "title": "Heer Sara",
+     "released": "2026-06-12",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1389153,
+     "title": "Jeevan Bheema Yojana",
+     "released": "2026-09-04",
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -232,41 +250,9 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1701812,
-     "title": "Hum Angrezon Ke Zamane Ke Jailor Hai",
-     "released": "2026-06-12",
-     "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1389153,
-     "title": "Jeevan Bheema Yojana",
-     "released": "2026-09-04",
-     "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1740946,
      "title": "The Bose Files: Sach Ya Sazish",
      "released": "2026-07-30",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1775462,
-     "title": "Khoonta",
-     "released": "2026-09-18",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1769098,
-     "title": "Parched",
-     "released": "2026-09-07",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -280,6 +266,14 @@
      "tmdbPlatforms": []
     },
     {
+     "id": 1206167,
+     "title": "Return of the Jungle",
+     "released": "2026-05-29",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
      "id": 1724719,
      "title": "Rahun Main Tere Rubaru",
      "released": "2026-07-17",
@@ -288,17 +282,25 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1738850,
-     "title": "Indrajaal",
+     "id": 1720201,
+     "title": "Dulhaniya Le Aaeegi",
      "released": "2026-07-24",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
     {
-     "id": 1748479,
-     "title": "Harrd Disk",
-     "released": "2026-08-21",
+     "id": 1769098,
+     "title": "Parched",
+     "released": "2026-09-07",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1775462,
+     "title": "Khoonta",
+     "released": "2026-09-18",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -375,17 +377,17 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1514180,
-     "title": "Dark",
-     "released": "2026-07-03",
+     "id": 1655049,
+     "title": "Habeebi",
+     "released": "2026-06-12",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
     {
-     "id": 1655049,
-     "title": "Habeebi",
-     "released": "2026-06-12",
+     "id": 1514180,
+     "title": "Dark",
+     "released": "2026-07-03",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -399,10 +401,10 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1542884,
-     "title": "4 Idiots",
-     "released": "2026-09-04",
-     "popularity": 1,
+     "id": 1758603,
+     "title": "BeeP",
+     "released": "2026-09-18",
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -415,17 +417,9 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1758603,
-     "title": "BeeP",
-     "released": "2026-09-18",
-     "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1738076,
-     "title": "Andharan",
-     "released": "2026-06-26",
+     "id": 1542884,
+     "title": "4 Idiots",
+     "released": "2026-09-04",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -439,8 +433,24 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1627516,
-     "title": "Sandakari",
+     "id": 1738076,
+     "title": "Andharan",
+     "released": "2026-06-26",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1607621,
+     "title": "Arjunan Per Paththu",
+     "released": "2026-07-17",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1766087,
+     "title": "Nalla Padam",
      "released": "2026-09-18",
      "popularity": 1,
      "tmdb": "nothing",
@@ -494,14 +504,6 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1585736,
-     "title": "Kalari Kid – She Hits Back",
-     "released": "2026-09-01",
-     "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1766084,
      "title": "Gandharva",
      "released": "2026-09-12",
@@ -510,8 +512,24 @@
      "tmdbPlatforms": []
     },
     {
+     "id": 1585736,
+     "title": "Kalari Kid – She Hits Back",
+     "released": "2026-09-01",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
      "id": 1070172,
      "title": "Ottam Thullal",
+     "released": "2026-09-18",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1774746,
+     "title": "Daivathaan Kunnu",
      "released": "2026-09-18",
      "popularity": 1,
      "tmdb": "nothing",
@@ -526,9 +544,9 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1774746,
-     "title": "Daivathaan Kunnu",
-     "released": "2026-09-18",
+     "id": 1718698,
+     "title": "Kolahalamedu",
+     "released": "2026-05-22",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -537,14 +555,6 @@
      "id": 1748380,
      "title": "Aali",
      "released": "2026-08-14",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1718698,
-     "title": "Kolahalamedu",
-     "released": "2026-05-22",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -573,9 +583,9 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1771300,
-     "title": "Amartha",
-     "released": "2026-09-18",
+     "id": 1747494,
+     "title": "September 21",
+     "released": "2026-05-22",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -584,6 +594,14 @@
      "id": 1592821,
      "title": "Mango Pachcha",
      "released": "2026-06-05",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1771300,
+     "title": "Amartha",
+     "released": "2026-09-18",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -600,14 +618,6 @@
      "id": 1792171,
      "title": "Life Today",
      "released": "2026-08-06",
-     "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1747494,
-     "title": "September 21",
-     "released": "2026-05-22",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -645,17 +655,9 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1396778,
-     "title": "Ayogya 2",
-     "released": "2026-08-07",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1740534,
-     "title": "Tadviruddha",
-     "released": "2026-07-31",
+     "id": 1730231,
+     "title": "Rakky",
+     "released": "2026-07-10",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -669,17 +671,25 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1730231,
-     "title": "Rakky",
-     "released": "2026-07-10",
+     "id": 1740534,
+     "title": "Tadviruddha",
+     "released": "2026-07-31",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
     {
-     "id": 1747816,
-     "title": "Jolly",
-     "released": "2026-07-31",
+     "id": 1702692,
+     "title": "Balaramana Dinagalu",
+     "released": "2026-06-26",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1396778,
+     "title": "Ayogya 2",
+     "released": "2026-08-07",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -693,17 +703,17 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1093467,
-     "title": "Detective Teekshanaa",
-     "released": "2026-08-07",
+     "id": 1747816,
+     "title": "Jolly",
+     "released": "2026-07-31",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
     {
-     "id": 1702692,
-     "title": "Balaramana Dinagalu",
-     "released": "2026-06-26",
+     "id": 1093467,
+     "title": "Detective Teekshanaa",
+     "released": "2026-08-07",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -764,49 +774,9 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1373504,
-     "title": "Maya Satya Bhram",
-     "released": "2026-08-28",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1607836,
      "title": "Phool Pishi O Edward",
      "released": "2026-05-29",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1767365,
-     "title": "Ghun Gaon",
-     "released": "2026-09-11",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1707728,
-     "title": "Onekdin Por",
-     "released": "2026-06-26",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1666714,
-     "title": "Chobiwala",
-     "released": "2026-07-24",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1711502,
-     "title": "Nevermind",
-     "released": "2026-07-03",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -820,9 +790,25 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1242197,
-     "title": "Beporoya",
-     "released": "2026-09-17",
+     "id": 1711502,
+     "title": "Nevermind",
+     "released": "2026-07-03",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1373504,
+     "title": "Maya Satya Bhram",
+     "released": "2026-08-28",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1707728,
+     "title": "Onekdin Por",
+     "released": "2026-06-26",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -831,6 +817,30 @@
      "id": 1641819,
      "title": "Abhhiman",
      "released": "2026-06-19",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1767365,
+     "title": "Ghun Gaon",
+     "released": "2026-09-11",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1666714,
+     "title": "Chobiwala",
+     "released": "2026-07-24",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1242197,
+     "title": "Beporoya",
+     "released": "2026-09-17",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -954,24 +964,6 @@
    "checked": 19,
    "missing": [
     {
-     "id": 1650856,
-     "title": "Dastaar",
-     "released": "2026-07-17",
-     "popularity": 3,
-     "tmdb": "streaming",
-     "tmdbPlatforms": [
-      "Chaupal Amazon Channel"
-     ]
-    },
-    {
-     "id": 1754629,
-     "title": "Bol Bhavein Na Bol",
-     "released": "2026-09-04",
-     "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1518769,
      "title": "Singh vs Kaur 2",
      "released": "2026-09-11",
@@ -980,27 +972,9 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1756456,
-     "title": "Bardaasht",
-     "released": "2026-08-21",
-     "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1657464,
      "title": "The Great Punjab Robbery",
      "released": "2026-08-07",
-     "popularity": 2,
-     "tmdb": "streaming",
-     "tmdbPlatforms": [
-      "KableOne"
-     ]
-    },
-    {
-     "id": 1650181,
-     "title": "Chaali Din",
-     "released": "2026-06-19",
      "popularity": 2,
      "tmdb": "streaming",
      "tmdbPlatforms": [
@@ -1018,12 +992,38 @@
      ]
     },
     {
+     "id": 1754629,
+     "title": "Bol Bhavein Na Bol",
+     "released": "2026-09-04",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1756456,
+     "title": "Bardaasht",
+     "released": "2026-08-21",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
      "id": 1649791,
      "title": "Ishqnama",
      "released": "2026-07-24",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
+    },
+    {
+     "id": 1650181,
+     "title": "Chaali Din",
+     "released": "2026-06-19",
+     "popularity": 2,
+     "tmdb": "streaming",
+     "tmdbPlatforms": [
+      "KableOne"
+     ]
     },
     {
      "id": 1761039,
