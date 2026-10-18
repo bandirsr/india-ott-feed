@@ -7,18 +7,18 @@
    "checked": 38,
    "missing": [
     {
-     "id": 1747034,
-     "title": "Agadha",
-     "released": "2026-08-13",
-     "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1748499,
      "title": "Kiku Chiranjeevi",
      "released": "2026-08-28",
      "popularity": 3,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1747034,
+     "title": "Agadha",
+     "released": "2026-08-13",
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -39,17 +39,17 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1744681,
-     "title": "M.R.P (Neekentha Naakentha)",
-     "released": "2026-07-17",
+     "id": 1528499,
+     "title": "Transfer Trimurthulu",
+     "released": "2026-06-19",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
     {
-     "id": 1528499,
-     "title": "Transfer Trimurthulu",
-     "released": "2026-06-19",
+     "id": 1744681,
+     "title": "M.R.P (Neekentha Naakentha)",
+     "released": "2026-07-17",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -66,6 +66,14 @@
      "id": 1741006,
      "title": "Police Complaint",
      "released": "2026-06-12",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1754873,
+     "title": "The Red Bag",
+     "released": "2026-08-21",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -102,10 +110,10 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1653208,
-     "title": "The Great Grand Superhero: Aliens Ka Aagman",
-     "released": "2026-05-29",
-     "popularity": 3,
+     "id": 1215889,
+     "title": "Daayra",
+     "released": "2026-09-18",
+     "popularity": 4,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -118,17 +126,9 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1215889,
-     "title": "Daayra",
-     "released": "2026-09-18",
-     "popularity": 4,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1654566,
-     "title": "Vibe",
-     "released": "2026-09-18",
+     "id": 1653208,
+     "title": "The Great Grand Superhero: Aliens Ka Aagman",
+     "released": "2026-05-29",
      "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -150,14 +150,20 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1293550,
-     "title": "Bandar",
-     "released": "2026-06-05",
+     "id": 1654566,
+     "title": "Vibe",
+     "released": "2026-09-18",
      "popularity": 3,
-     "tmdb": "streaming",
-     "tmdbPlatforms": [
-      "Zee5"
-     ]
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1642850,
+     "title": "Bhai Tera Star Hai",
+     "released": "2026-07-30",
+     "popularity": 3,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
     },
     {
      "id": 1293550,
@@ -337,18 +343,18 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1607634,
-     "title": "Anbe Diana",
-     "released": "2026-07-17",
-     "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1764201,
      "title": "Yen Ennai Edho Seidhai",
      "released": "2026-09-04",
      "popularity": 3,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1607634,
+     "title": "Anbe Diana",
+     "released": "2026-07-17",
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },

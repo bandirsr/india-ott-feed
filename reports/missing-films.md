@@ -4,8 +4,8 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 
 | Language | Checked | In feed | Missing | TMDB says streaming (our bug) | Rent/buy only | Unknown |
 |---|---:|---:|---:|---:|---:|---:|
-| Telugu | 38 | 30 | 8 | 0 | 0 | 8 |
-| Hindi | 39 | 11 | 28 | 2 | 0 | 26 |
+| Telugu | 38 | 29 | 9 | 0 | 0 | 9 |
+| Hindi | 39 | 11 | 28 | 1 | 0 | 27 |
 | Tamil | 40 | 22 | 18 | 0 | 0 | 18 |
 | Malayalam | 39 | 26 | 13 | 0 | 0 | 13 |
 | Kannada | 25 | 3 | 22 | 0 | 0 | 22 |
@@ -16,27 +16,28 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 
 ## Telugu
 
-- Agadha (2026-08-13, popularity 2, tmdb 1747034) - no platform known anywhere
 - Kiku Chiranjeevi (2026-08-28, popularity 3, tmdb 1748499) - no platform known anywhere
+- Agadha (2026-08-13, popularity 2, tmdb 1747034) - no platform known anywhere
 - Happy Journey (2026-09-18, popularity 2, tmdb 1772904) - no platform known anywhere
 - Sahaa - Life of Sanju (2026-09-04, popularity 2, tmdb 1516092) - no platform known anywhere
-- M.R.P (Neekentha Naakentha) (2026-07-17, popularity 2, tmdb 1744681) - no platform known anywhere
 - Transfer Trimurthulu (2026-06-19, popularity 2, tmdb 1528499) - no platform known anywhere
+- M.R.P (Neekentha Naakentha) (2026-07-17, popularity 2, tmdb 1744681) - no platform known anywhere
 - Gossip (2026-06-26, popularity 1, tmdb 1719646) - no platform known anywhere
 - Police Complaint (2026-06-12, popularity 1, tmdb 1741006) - no platform known anywhere
+- The Red Bag (2026-08-21, popularity 1, tmdb 1754873) - no platform known anywhere
 
 ## Hindi
 
 - Hanuman Ansh (2026-08-07, popularity 8, tmdb 1709391) - no platform known anywhere
 - Mirzapur: The Movie (2026-09-04, popularity 6, tmdb 1378537) - no platform known anywhere
 - Haiwaan (2026-09-11, popularity 5, tmdb 1475799) - no platform known anywhere
-- The Great Grand Superhero: Aliens Ka Aagman (2026-05-29, popularity 3, tmdb 1653208) - no platform known anywhere
-- Haunted 3D: Echoes of the Past (2026-06-12, popularity 3, tmdb 1486860) - no platform known anywhere
 - Daayra (2026-09-18, popularity 4, tmdb 1215889) - no platform known anywhere
-- Vibe (2026-09-18, popularity 3, tmdb 1654566) - no platform known anywhere
+- Haunted 3D: Echoes of the Past (2026-06-12, popularity 3, tmdb 1486860) - no platform known anywhere
+- The Great Grand Superhero: Aliens Ka Aagman (2026-05-29, popularity 3, tmdb 1653208) - no platform known anywhere
 - Batwara 1947 (2026-08-13, popularity 3, tmdb 1169537) - no platform known anywhere
 - Last Man in Tower (2026-09-11, popularity 3, tmdb 1574560) - no platform known anywhere
-- Bandar (2026-06-05, popularity 3, tmdb 1293550) - TMDB lists it on Zee5 - should be in the feed
+- Vibe (2026-09-18, popularity 3, tmdb 1654566) - no platform known anywhere
+- Bhai Tera Star Hai (2026-07-30, popularity 3, tmdb 1642850) - no platform known anywhere
 - Bandar (2026-06-05, popularity 3, tmdb 1293550) - TMDB lists it on Zee5 - should be in the feed
 - Tera Yaar Hoon Main (2026-07-24, popularity 2, tmdb 1384512) - no platform known anywhere
 - Bharat Bhhagya Viddhaata (2026-06-12, popularity 2, tmdb 1351908) - no platform known anywhere
@@ -61,8 +62,8 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - The Dark Heaven (2026-09-18, popularity 13, tmdb 1618200) - no platform known anywhere
 - Once More (2026-08-28, popularity 4, tmdb 1318304) - no platform known anywhere
 - Hi :) (2026-08-28, popularity 3, tmdb 1314279) - no platform known anywhere
-- Anbe Diana (2026-07-17, popularity 2, tmdb 1607634) - no platform known anywhere
 - Yen Ennai Edho Seidhai (2026-09-04, popularity 3, tmdb 1764201) - no platform known anywhere
+- Anbe Diana (2026-07-17, popularity 2, tmdb 1607634) - no platform known anywhere
 - Rage (2026-09-18, popularity 2, tmdb 1576223) - no platform known anywhere
 - Ram and Leela (2026-08-21, popularity 2, tmdb 1590380) - no platform known anywhere
 - Immortal (2026-09-04, popularity 2, tmdb 1505305) - no platform known anywhere
