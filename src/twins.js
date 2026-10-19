@@ -56,14 +56,22 @@ export function mergeTwins(titles, { threshold = 0.85 } = {}) {
     if (wn.length < 5) continue;
 
     const arrivalYear = yearOf(w.p.find((r) => r.on)?.on);
+    // "Arjun Chakravarthy" against TMDB's "Arjun Chakravarthy: Journey of an Unsung Champion":
+    // the article name is the whole title before a subtitle. Treated as an exact name, only for
+    // names of 8+ letters, and it still has to clear the date guard and be the only candidate.
+    const subtitleLead = (t) => {
+      const full = String(t.t).toLowerCase();
+      const lead = String(w.t).toLowerCase();
+      return wn.length >= 8 && full.startsWith(lead) && /^\s*[:–—-]\s+\S/.test(full.slice(lead.length));
+    };
     const candidates = real
-      .filter((t) => Math.abs(norm(t.t).length - wn.length) <= 4)
+      .filter((t) => Math.abs(norm(t.t).length - wn.length) <= 4 || subtitleLead(t))
       .filter((t) => {
         const cinema = yearOf(t.d);
         if (!arrivalYear || !cinema) return true;
         return cinema <= arrivalYear + 1 && cinema >= arrivalYear - 4;
       })
-      .map((t) => ({ t, s: similarity(w.t, t.t) }))
+      .map((t) => ({ t, s: subtitleLead(t) ? 1 : similarity(w.t, t.t) }))
       // Wikipedia entries are all filed as movies, but ETV Win has many series,
       // so an EXACT name may cross that line. A near name may not: a series and
       // a film with merely similar titles are far more likely to be two works.

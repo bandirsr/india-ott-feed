@@ -41,5 +41,14 @@ check('a provider already on the TMDB row is not added twice', (() => {
   return r.titles[0].p.length === 1;
 })());
 
+// A TMDB title that is the article name plus a subtitle
+{
+  const r = mergeTwins([tm(11, 'Arjun Chakravarthy: Journey of an Unsung Champion', '2025-08-29'), wk('a', 'Arjun Chakravarthy', '2025-10-01')]);
+  check('a subtitle after the article name is merged', r.merged === 1 && r.titles.length === 1 && r.titles[0].id === 'movie:11');
+  check('a longer name that merely starts the same (no subtitle break) is not merged', mergeTwins([tm(12, 'Arjun Chakravarthy Returns Again', '2025-08-29'), wk('a2', 'Arjun Chakravarthy', '2025-10-01')]).merged === 0);
+  check('a subtitle match respects the date guard', mergeTwins([tm(13, 'Arjun Chakravarthy: Journey of an Unsung Champion', '2010-08-29'), wk('a3', 'Arjun Chakravarthy', '2025-10-01')]).merged === 0);
+  check('short names never use the subtitle rule', mergeTwins([tm(14, 'Rush: The Return', '2025-08-29'), wk('r2', 'Rush', '2025-10-01')]).merged === 0);
+}
+
 console.log(`\n${passed} passed, ${failed} failed`);
 process.exit(failed ? 1 : 0);
