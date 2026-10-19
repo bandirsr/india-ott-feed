@@ -1,5 +1,5 @@
 {
- "date": "2026-10-18",
+ "date": "2026-10-19",
  "languages": [
   {
    "code": "te",
@@ -18,7 +18,7 @@
      "id": 1747034,
      "title": "Agadha",
      "released": "2026-08-13",
-     "popularity": 2,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -66,7 +66,7 @@
      "id": 1741006,
      "title": "Police Complaint",
      "released": "2026-06-12",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -89,7 +89,7 @@
      "id": 1709391,
      "title": "Hanuman Ansh",
      "released": "2026-08-07",
-     "popularity": 8,
+     "popularity": 9,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -97,7 +97,7 @@
      "id": 1378537,
      "title": "Mirzapur: The Movie",
      "released": "2026-09-04",
-     "popularity": 6,
+     "popularity": 5,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -113,7 +113,7 @@
      "id": 1215889,
      "title": "Daayra",
      "released": "2026-09-18",
-     "popularity": 4,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -153,7 +153,7 @@
      "id": 1654566,
      "title": "Vibe",
      "released": "2026-09-18",
-     "popularity": 3,
+     "popularity": 4,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -169,7 +169,7 @@
      "id": 1293550,
      "title": "Bandar",
      "released": "2026-06-05",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "streaming",
      "tmdbPlatforms": [
       "Zee5"
@@ -219,7 +219,7 @@
      "id": 1701812,
      "title": "Hum Angrezon Ke Zamane Ke Jailor Hai",
      "released": "2026-06-12",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -235,7 +235,7 @@
      "id": 1389153,
      "title": "Jeevan Bheema Yojana",
      "released": "2026-09-04",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -243,7 +243,7 @@
      "id": 1714993,
      "title": "Aryabhatt Ka Zero",
      "released": "2026-08-07",
-     "popularity": 1,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -251,7 +251,7 @@
      "id": 1453317,
      "title": "Hari Ka Om",
      "released": "2026-09-18",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -259,7 +259,7 @@
      "id": 1740946,
      "title": "The Bose Files: Sach Ya Sazish",
      "released": "2026-07-30",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -426,7 +426,7 @@
      "id": 1542884,
      "title": "4 Idiots",
      "released": "2026-09-04",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -467,7 +467,7 @@
   {
    "code": "ml",
    "name": "Malayalam",
-   "checked": 39,
+   "checked": 38,
    "missing": [
     {
      "id": 1250502,
@@ -497,7 +497,7 @@
      "id": 1616268,
      "title": "Aroopi",
      "released": "2026-07-03",
-     "popularity": 2,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -513,7 +513,7 @@
      "id": 1766084,
      "title": "Gandharva",
      "released": "2026-09-12",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -521,7 +521,7 @@
      "id": 1585736,
      "title": "Kalari Kid – She Hits Back",
      "released": "2026-09-01",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -632,7 +632,7 @@
      "id": 691267,
      "title": "Graamaayana",
      "released": "2026-07-03",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -664,7 +664,7 @@
      "id": 1730231,
      "title": "Rakky",
      "released": "2026-07-10",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -680,7 +680,7 @@
      "id": 1740534,
      "title": "Tadviruddha",
      "released": "2026-07-31",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -783,7 +783,7 @@
      "id": 1607836,
      "title": "Phool Pishi O Edward",
      "released": "2026-05-29",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -871,7 +871,7 @@
      "id": 874550,
      "title": "Deep6",
      "released": "2026-08-07",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     }
@@ -880,7 +880,7 @@
   {
    "code": "mr",
    "name": "Marathi",
-   "checked": 12,
+   "checked": 11,
    "missing": [
     {
      "id": 1747479,
@@ -902,7 +902,7 @@
      "id": 1729323,
      "title": "Bhootam Bhayyam",
      "released": "2026-07-24",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -1059,7 +1059,7 @@
      "id": 1744543,
      "title": "Dama Dum Mast Kalandar",
      "released": "2026-05-22",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
