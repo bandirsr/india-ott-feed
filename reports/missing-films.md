@@ -122,17 +122,17 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 
 ## Bengali
 
-- Winkle Twinkle (2026-09-04, popularity 1, tmdb 1391798) - no platform known anywhere
 - Phera (2026-05-29, popularity 2, tmdb 1493932) - no platform known anywhere
 - Phool Pishi O Edward (2026-05-29, popularity 2, tmdb 1607836) - no platform known anywhere
-- Maya Satya Bhram (2026-08-28, popularity 1, tmdb 1373504) - no platform known anywhere
+- Winkle Twinkle (2026-09-04, popularity 1, tmdb 1391798) - no platform known anywhere
 - Pinjar (2026-07-10, popularity 1, tmdb 1530591) - no platform known anywhere
 - Chobiwala (2026-07-24, popularity 1, tmdb 1666714) - no platform known anywhere
-- Abhhiman (2026-06-19, popularity 1, tmdb 1641819) - no platform known anywhere
-- Nevermind (2026-07-03, popularity 1, tmdb 1711502) - no platform known anywhere
-- Beporoya (2026-09-17, popularity 1, tmdb 1242197) - no platform known anywhere
 - Ghun Gaon (2026-09-11, popularity 1, tmdb 1767365) - no platform known anywhere
+- Maya Satya Bhram (2026-08-28, popularity 1, tmdb 1373504) - no platform known anywhere
+- Abhhiman (2026-06-19, popularity 1, tmdb 1641819) - no platform known anywhere
 - Onekdin Por (2026-06-26, popularity 1, tmdb 1707728) - no platform known anywhere
+- Beporoya (2026-09-17, popularity 1, tmdb 1242197) - no platform known anywhere
+- Nevermind (2026-07-03, popularity 1, tmdb 1711502) - no platform known anywhere
 - Daktar Kaku (2026-09-18, popularity 1, tmdb 917372) - no platform known anywhere
 - Amader 7 Kahon (2026-08-07, popularity 1, tmdb 1741127) - no platform known anywhere
 - Deep6 (2026-08-07, popularity 1, tmdb 874550) - no platform known anywhere
@@ -168,9 +168,9 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 ## Gujarati
 
 - Asambhauuu (2026-09-04, popularity 3, tmdb 1775289) - no platform known anywhere
-- Get Set Go (2026-08-07, popularity 2, tmdb 1739212) - no platform known anywhere
 - Kabanda (2026-05-29, popularity 2, tmdb 1786120) - no platform known anywhere
 - Pidha Pachhi... (2026-09-11, popularity 2, tmdb 1766408) - no platform known anywhere
-- Hip Hip Hurray (2026-07-30, popularity 1, tmdb 1741858) - no platform known anywhere
+- Get Set Go (2026-08-07, popularity 2, tmdb 1739212) - no platform known anywhere
 - Maaran (2026-07-31, popularity 1, tmdb 1739294) - no platform known anywhere
+- Hip Hip Hurray (2026-07-30, popularity 1, tmdb 1741858) - no platform known anywhere
 - Madman's Ally (2026-05-28, popularity 1, tmdb 1704138) - no platform known anywhere
