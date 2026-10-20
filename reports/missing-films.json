@@ -1,5 +1,5 @@
 {
- "date": "2026-10-19",
+ "date": "2026-10-20",
  "languages": [
   {
    "code": "te",
@@ -74,6 +74,22 @@
      "id": 1719646,
      "title": "Gossip",
      "released": "2026-06-26",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1663311,
+     "title": "Abadameva Jayathe",
+     "released": "2026-06-05",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1745884,
+     "title": "Yamudu",
+     "released": "2026-08-07",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -310,6 +326,14 @@
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
+    },
+    {
+     "id": 1690372,
+     "title": "Krishna Aur Chitthi",
+     "released": "2026-05-29",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
     }
    ]
   },
@@ -467,7 +491,7 @@
   {
    "code": "ml",
    "name": "Malayalam",
-   "checked": 38,
+   "checked": 35,
    "missing": [
     {
      "id": 1250502,
@@ -550,14 +574,6 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1718698,
-     "title": "Kolahalamedu",
-     "released": "2026-05-22",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1748380,
      "title": "Aali",
      "released": "2026-08-14",
@@ -578,7 +594,7 @@
   {
    "code": "kn",
    "name": "Kannada",
-   "checked": 25,
+   "checked": 24,
    "missing": [
     {
      "id": 1213243,
@@ -600,14 +616,6 @@
      "id": 1771300,
      "title": "Amartha",
      "released": "2026-09-18",
-     "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1747494,
-     "title": "September 21",
-     "released": "2026-05-22",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -967,7 +975,7 @@
   {
    "code": "pa",
    "name": "Punjabi",
-   "checked": 19,
+   "checked": 18,
    "missing": [
     {
      "id": 1518769,
@@ -978,32 +986,12 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1771989,
-     "title": "Mitti De Putt",
-     "released": "2026-09-18",
-     "popularity": 2,
-     "tmdb": "streaming",
-     "tmdbPlatforms": [
-      "KableOne"
-     ]
-    },
-    {
      "id": 1754629,
      "title": "Bol Bhavein Na Bol",
      "released": "2026-09-04",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
-    },
-    {
-     "id": 1657464,
-     "title": "The Great Punjab Robbery",
-     "released": "2026-08-07",
-     "popularity": 2,
-     "tmdb": "streaming",
-     "tmdbPlatforms": [
-      "KableOne"
-     ]
     },
     {
      "id": 1756456,
@@ -1025,24 +1013,6 @@
      "id": 1761039,
      "title": "Duja Rabb",
      "released": "2026-07-13",
-     "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1650181,
-     "title": "Chaali Din",
-     "released": "2026-06-19",
-     "popularity": 2,
-     "tmdb": "streaming",
-     "tmdbPlatforms": [
-      "KableOne"
-     ]
-    },
-    {
-     "id": 1744543,
-     "title": "Dama Dum Mast Kalandar",
-     "released": "2026-05-22",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -1084,12 +1054,20 @@
   {
    "code": "gu",
    "name": "Gujarati",
-   "checked": 9,
+   "checked": 8,
    "missing": [
     {
      "id": 1775289,
      "title": "Asambhauuu",
      "released": "2026-09-04",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1739212,
+     "title": "Get Set Go",
+     "released": "2026-08-07",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -1107,22 +1085,6 @@
      "title": "Pidha Pachhi...",
      "released": "2026-09-11",
      "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1739212,
-     "title": "Get Set Go",
-     "released": "2026-08-07",
-     "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1722430,
-     "title": "Bhamardo",
-     "released": "2026-05-22",
-     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
