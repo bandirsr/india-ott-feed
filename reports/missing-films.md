@@ -41,16 +41,16 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - Last Man in Tower (2026-09-11, popularity 3, tmdb 1574560) - no platform known anywhere
 - Batwara 1947 (2026-08-13, popularity 3, tmdb 1169537) - no platform known anywhere
 - Haunted 3D: Echoes of the Past (2026-06-12, popularity 5, tmdb 1486860) - no platform known anywhere
-- Bandar (2026-06-05, popularity 2, tmdb 1293550) - TMDB lists it on Zee5 - should be in the feed
+- Bandar (2026-06-05, popularity 3, tmdb 1293550) - TMDB lists it on Zee5 - should be in the feed
 - Uttar Da Puttar (2026-07-24, popularity 2, tmdb 1713420) - no platform known anywhere
 - Tera Yaar Hoon Main (2026-07-24, popularity 2, tmdb 1384512) - no platform known anywhere
-- Hari Ka Om (2026-09-18, popularity 2, tmdb 1453317) - no platform known anywhere
 - Bharat Bhhagya Viddhaata (2026-06-12, popularity 2, tmdb 1351908) - no platform known anywhere
 - Indrajaal (2026-07-24, popularity 2, tmdb 1738850) - no platform known anywhere
+- Hari Ka Om (2026-09-18, popularity 2, tmdb 1453317) - no platform known anywhere
 - Heer Sara (2026-06-12, popularity 2, tmdb 1714670) - no platform known anywhere
 - Mahaprabhu Jagannath (2026-08-28, popularity 2, tmdb 1765342) - no platform known anywhere
-- The Bose Files: Sach Ya Sazish (2026-07-30, popularity 2, tmdb 1740946) - no platform known anywhere
-- Hum Angrezon Ke Zamane Ke Jailor Hai (2026-06-12, popularity 1, tmdb 1701812) - no platform known anywhere
+- The Bose Files: Sach Ya Sazish (2026-07-30, popularity 1, tmdb 1740946) - no platform known anywhere
+- Hum Angrezon Ke Zamane Ke Jailor Hai (2026-06-12, popularity 2, tmdb 1701812) - no platform known anywhere
 - Khoonta (2026-09-18, popularity 1, tmdb 1775462) - no platform known anywhere
 - Max, Min and Meowzaki (2026-07-24, popularity 1, tmdb 1021634) - no platform known anywhere
 - Jeevan Bheema Yojana (2026-09-04, popularity 1, tmdb 1389153) - no platform known anywhere
@@ -105,19 +105,19 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - Mango Pachcha (2026-06-05, popularity 2, tmdb 1592821) - no platform known anywhere
 - Rakky (2026-07-10, popularity 1, tmdb 1730231) - no platform known anywhere
 - Tadviruddha (2026-07-31, popularity 1, tmdb 1740534) - no platform known anywhere
-- Graamaayana (2026-07-03, popularity 1, tmdb 691267) - no platform known anywhere
 - Karavali (2026-07-24, popularity 2, tmdb 1215812) - no platform known anywhere
 - America America 2 (2026-09-11, popularity 1, tmdb 1734726) - no platform known anywhere
 - City Lights (2026-09-18, popularity 2, tmdb 1730215) - no platform known anywhere
+- Graamaayana (2026-07-03, popularity 1, tmdb 691267) - no platform known anywhere
 - Balaramana Dinagalu (2026-06-26, popularity 1, tmdb 1702692) - no platform known anywhere
 - Brindavihari (2026-09-16, popularity 1, tmdb 1735403) - no platform known anywhere
 - Ayogya 2 (2026-08-07, popularity 1, tmdb 1396778) - no platform known anywhere
 - Picture (2026-08-07, popularity 1, tmdb 1744541) - no platform known anywhere
 - Jolly (2026-07-31, popularity 1, tmdb 1747816) - no platform known anywhere
 - Father's Day (2026-07-17, popularity 1, tmdb 1732392) - no platform known anywhere
-- Detective Teekshanaa (2026-08-07, popularity 1, tmdb 1093467) - no platform known anywhere
 - College Kalavida (2026-06-06, popularity 1, tmdb 1496916) - no platform known anywhere
-- Mruthyudevate (2026-06-12, popularity 0, tmdb 1756890) - no platform known anywhere
+- Detective Teekshanaa (2026-08-07, popularity 1, tmdb 1093467) - no platform known anywhere
+- Mruthyudevate (2026-06-12, popularity 1, tmdb 1756890) - no platform known anywhere
 - Boys Never Compromise (2026-07-10, popularity 0, tmdb 1779338) - no platform known anywhere
 
 ## Bengali
@@ -125,14 +125,14 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - Winkle Twinkle (2026-09-04, popularity 1, tmdb 1391798) - no platform known anywhere
 - Phera (2026-05-29, popularity 2, tmdb 1493932) - no platform known anywhere
 - Phool Pishi O Edward (2026-05-29, popularity 2, tmdb 1607836) - no platform known anywhere
-- Abhhiman (2026-06-19, popularity 1, tmdb 1641819) - no platform known anywhere
 - Maya Satya Bhram (2026-08-28, popularity 1, tmdb 1373504) - no platform known anywhere
 - Pinjar (2026-07-10, popularity 1, tmdb 1530591) - no platform known anywhere
-- Beporoya (2026-09-17, popularity 1, tmdb 1242197) - no platform known anywhere
+- Chobiwala (2026-07-24, popularity 1, tmdb 1666714) - no platform known anywhere
+- Abhhiman (2026-06-19, popularity 1, tmdb 1641819) - no platform known anywhere
 - Nevermind (2026-07-03, popularity 1, tmdb 1711502) - no platform known anywhere
+- Beporoya (2026-09-17, popularity 1, tmdb 1242197) - no platform known anywhere
 - Ghun Gaon (2026-09-11, popularity 1, tmdb 1767365) - no platform known anywhere
 - Onekdin Por (2026-06-26, popularity 1, tmdb 1707728) - no platform known anywhere
-- Chobiwala (2026-07-24, popularity 1, tmdb 1666714) - no platform known anywhere
 - Daktar Kaku (2026-09-18, popularity 1, tmdb 917372) - no platform known anywhere
 - Amader 7 Kahon (2026-08-07, popularity 1, tmdb 1741127) - no platform known anywhere
 - Deep6 (2026-08-07, popularity 1, tmdb 874550) - no platform known anywhere
