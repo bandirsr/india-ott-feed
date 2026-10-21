@@ -391,14 +391,6 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1710563,
-     "title": "Nizhal",
-     "released": "2026-06-12",
-     "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1590380,
      "title": "Ram and Leela",
      "released": "2026-08-21",
@@ -407,8 +399,16 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1655049,
-     "title": "Habeebi",
+     "id": 1514180,
+     "title": "Dark",
+     "released": "2026-07-03",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1710563,
+     "title": "Nizhal",
      "released": "2026-06-12",
      "popularity": 2,
      "tmdb": "nothing",
@@ -423,18 +423,10 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1514180,
-     "title": "Dark",
-     "released": "2026-07-03",
+     "id": 1758603,
+     "title": "BeeP",
+     "released": "2026-09-18",
      "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1737178,
-     "title": "Ego Raman",
-     "released": "2026-05-29",
-     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -447,25 +439,17 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1758603,
-     "title": "BeeP",
+     "id": 1766087,
+     "title": "Nalla Padam",
      "released": "2026-09-18",
-     "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1738076,
-     "title": "Andharan",
-     "released": "2026-06-26",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
     {
-     "id": 1485325,
-     "title": "Angikaaram",
-     "released": "2026-06-26",
+     "id": 1737178,
+     "title": "Ego Raman",
+     "released": "2026-05-29",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -482,6 +466,14 @@
      "id": 1627516,
      "title": "Sandakari",
      "released": "2026-09-18",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1620357,
+     "title": "Lakshmikanthan Kolai Vazhakku",
+     "released": "2026-07-10",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -526,10 +518,10 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1585736,
-     "title": "Kalari Kid – She Hits Back",
-     "released": "2026-09-01",
-     "popularity": 1,
+     "id": 1774746,
+     "title": "Daivathaan Kunnu",
+     "released": "2026-09-18",
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -550,18 +542,18 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1070172,
-     "title": "Ottam Thullal",
-     "released": "2026-09-18",
+     "id": 1585736,
+     "title": "Kalari Kid – She Hits Back",
+     "released": "2026-09-01",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
     {
-     "id": 1774746,
-     "title": "Daivathaan Kunnu",
+     "id": 1070172,
+     "title": "Ottam Thullal",
      "released": "2026-09-18",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -978,22 +970,20 @@
    "checked": 18,
    "missing": [
     {
+     "id": 1649791,
+     "title": "Ishqnama",
+     "released": "2026-07-24",
+     "popularity": 3,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
      "id": 1518769,
      "title": "Singh vs Kaur 2",
      "released": "2026-09-11",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
-    },
-    {
-     "id": 1771989,
-     "title": "Mitti De Putt",
-     "released": "2026-09-18",
-     "popularity": 2,
-     "tmdb": "streaming",
-     "tmdbPlatforms": [
-      "KableOne"
-     ]
     },
     {
      "id": 1657464,
@@ -1014,16 +1004,26 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1649791,
-     "title": "Ishqnama",
-     "released": "2026-07-24",
-     "popularity": 3,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
+     "id": 1771989,
+     "title": "Mitti De Putt",
+     "released": "2026-09-18",
+     "popularity": 2,
+     "tmdb": "streaming",
+     "tmdbPlatforms": [
+      "KableOne"
+     ]
     },
     {
      "id": 1756456,
      "title": "Bardaasht",
+     "released": "2026-08-21",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1649723,
+     "title": "Judaa",
      "released": "2026-08-21",
      "popularity": 2,
      "tmdb": "nothing",
@@ -1038,10 +1038,10 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1649723,
-     "title": "Judaa",
-     "released": "2026-08-21",
-     "popularity": 2,
+     "id": 1753066,
+     "title": "Kudiyan Shehar Diyan",
+     "released": "2026-08-20",
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -1056,25 +1056,17 @@
      ]
     },
     {
-     "id": 1650810,
-     "title": "Baggo",
-     "released": "2026-08-28",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1753066,
-     "title": "Kudiyan Shehar Diyan",
-     "released": "2026-08-20",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1692948,
      "title": "Chardikala",
      "released": "2026-05-29",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1650810,
+     "title": "Baggo",
+     "released": "2026-08-28",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
