@@ -1,5 +1,23 @@
 [
  {
+  "title": "Husar pittalu",
+  "at": "2026-10-21T15:40:15.557Z",
+  "language": "Telugu",
+  "platform": "",
+  "kind": "missing",
+  "verdict": "NEEDS REVIEW",
+  "why": "no matching Indian-language title on TMDB"
+ },
+ {
+  "title": "Prema oorella",
+  "at": "2026-10-21T15:31:38.578Z",
+  "language": "Kannada",
+  "platform": "",
+  "kind": "missing",
+  "verdict": "NEEDS REVIEW",
+  "why": "no matching Indian-language title on TMDB"
+ },
+ {
   "title": "Test film",
   "at": "2026-10-19T04:21:38.770Z",
   "language": "Hindi",
