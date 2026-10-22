@@ -1,4 +1,4 @@
-# Missing films - 2026-10-21
+# Missing films - 2026-10-22
 
 Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per original language) with no platform in the live feed.
 
@@ -7,7 +7,7 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 | Telugu | 38 | 27 | 11 | 0 | 0 | 11 |
 | Hindi | 39 | 10 | 29 | 1 | 0 | 28 |
 | Tamil | 40 | 22 | 18 | 0 | 0 | 18 |
-| Malayalam | 35 | 24 | 11 | 0 | 0 | 11 |
+| Malayalam | 35 | 23 | 12 | 0 | 0 | 12 |
 | Kannada | 23 | 3 | 20 | 0 | 0 | 20 |
 | Bengali | 18 | 4 | 14 | 0 | 0 | 14 |
 | Marathi | 11 | 1 | 10 | 0 | 0 | 10 |
@@ -87,6 +87,7 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - Unmadham (2026-07-31, popularity 4, tmdb 1545486) - no platform known anywhere
 - L&O - Law and Order (2026-09-18, popularity 3, tmdb 1588472) - no platform known anywhere
 - Aroopi (2026-07-03, popularity 3, tmdb 1616268) - no platform known anywhere
+- Daivathaan Kunnu (2026-09-18, popularity 2, tmdb 1774746) - no platform known anywhere
 - Vivaah (2026-08-07, popularity 2, tmdb 1731502) - no platform known anywhere
 - Gandharva (2026-09-12, popularity 2, tmdb 1766084) - no platform known anywhere
 - Kalari Kid – She Hits Back (2026-09-01, popularity 1, tmdb 1585736) - no platform known anywhere
