@@ -1,7 +1,8 @@
 # User reports - 2026-10-22
 
-6 reports, newest first.
+7 reports, newest first.
 
+- **Download** - Missing title (2026-10-22; Telugu, android)
 - **Husar pittalu** - Missing title (2026-10-21; Telugu, android)
 - **Prema oorella** - Missing title (2026-10-21; Kannada, android)
 - **Test film** - Missing title (2026-10-19; Hindi, web)
