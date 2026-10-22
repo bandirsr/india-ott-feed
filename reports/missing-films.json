@@ -134,14 +134,6 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1714993,
-     "title": "Aryabhatt Ka Zero",
-     "released": "2026-08-07",
-     "popularity": 4,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1215889,
      "title": "Daayra",
      "released": "2026-09-18",
@@ -150,10 +142,10 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1169537,
-     "title": "Batwara 1947",
-     "released": "2026-08-13",
-     "popularity": 3,
+     "id": 1714993,
+     "title": "Aryabhatt Ka Zero",
+     "released": "2026-08-07",
+     "popularity": 4,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -182,6 +174,14 @@
      "tmdbPlatforms": [
       "Zee5"
      ]
+    },
+    {
+     "id": 1169537,
+     "title": "Batwara 1947",
+     "released": "2026-08-13",
+     "popularity": 3,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
     },
     {
      "id": 1653208,
@@ -534,17 +534,25 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1731502,
-     "title": "Vivaah",
-     "released": "2026-08-07",
+     "id": 1766084,
+     "title": "Gandharva",
+     "released": "2026-09-12",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
     {
-     "id": 1766084,
-     "title": "Gandharva",
-     "released": "2026-09-12",
+     "id": 1070172,
+     "title": "Ottam Thullal",
+     "released": "2026-09-18",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1731502,
+     "title": "Vivaah",
+     "released": "2026-08-07",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -558,10 +566,10 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1070172,
-     "title": "Ottam Thullal",
-     "released": "2026-09-18",
-     "popularity": 2,
+     "id": 1748380,
+     "title": "Aali",
+     "released": "2026-08-14",
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -569,14 +577,6 @@
      "id": 1722975,
      "title": "Kla Kla Klee Klee Nazriya Thirinjunookki",
      "released": "2026-07-03",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1748380,
-     "title": "Aali",
-     "released": "2026-08-14",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -764,14 +764,6 @@
    "checked": 18,
    "missing": [
     {
-     "id": 1391798,
-     "title": "Winkle Twinkle",
-     "released": "2026-09-04",
-     "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1493932,
      "title": "Phera",
      "released": "2026-05-29",
@@ -791,6 +783,22 @@
      "id": 1530591,
      "title": "Pinjar",
      "released": "2026-07-10",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1391798,
+     "title": "Winkle Twinkle",
+     "released": "2026-09-04",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1373504,
+     "title": "Maya Satya Bhram",
+     "released": "2026-08-28",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -812,14 +820,6 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1707728,
-     "title": "Onekdin Por",
-     "released": "2026-06-26",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1641819,
      "title": "Abhhiman",
      "released": "2026-06-19",
@@ -828,17 +828,17 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1373504,
-     "title": "Maya Satya Bhram",
-     "released": "2026-08-28",
+     "id": 1711502,
+     "title": "Nevermind",
+     "released": "2026-07-03",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
     {
-     "id": 1711502,
-     "title": "Nevermind",
-     "released": "2026-07-03",
+     "id": 1707728,
+     "title": "Onekdin Por",
+     "released": "2026-06-26",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []

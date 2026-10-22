@@ -34,12 +34,12 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - Haunted 3D: Echoes of the Past (2026-06-12, popularity 6, tmdb 1486860) - no platform known anywhere
 - Mirzapur: The Movie (2026-09-04, popularity 5, tmdb 1378537) - no platform known anywhere
 - Haiwaan (2026-09-11, popularity 5, tmdb 1475799) - no platform known anywhere
-- Aryabhatt Ka Zero (2026-08-07, popularity 4, tmdb 1714993) - no platform known anywhere
 - Daayra (2026-09-18, popularity 4, tmdb 1215889) - no platform known anywhere
-- Batwara 1947 (2026-08-13, popularity 3, tmdb 1169537) - no platform known anywhere
+- Aryabhatt Ka Zero (2026-08-07, popularity 4, tmdb 1714993) - no platform known anywhere
 - Vibe (2026-09-18, popularity 3, tmdb 1654566) - no platform known anywhere
 - Last Man in Tower (2026-09-11, popularity 3, tmdb 1574560) - no platform known anywhere
 - Bandar (2026-06-05, popularity 3, tmdb 1293550) - TMDB lists it on Zee5 - should be in the feed
+- Batwara 1947 (2026-08-13, popularity 3, tmdb 1169537) - no platform known anywhere
 - The Great Grand Superhero: Aliens Ka Aagman (2026-05-29, popularity 3, tmdb 1653208) - no platform known anywhere
 - Bhai Tera Star Hai (2026-07-30, popularity 2, tmdb 1642850) - no platform known anywhere
 - Bharat Bhhagya Viddhaata (2026-06-12, popularity 2, tmdb 1351908) - no platform known anywhere
@@ -88,12 +88,12 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - L&O - Law and Order (2026-09-18, popularity 3, tmdb 1588472) - no platform known anywhere
 - Aroopi (2026-07-03, popularity 3, tmdb 1616268) - no platform known anywhere
 - Daivathaan Kunnu (2026-09-18, popularity 2, tmdb 1774746) - no platform known anywhere
-- Vivaah (2026-08-07, popularity 2, tmdb 1731502) - no platform known anywhere
 - Gandharva (2026-09-12, popularity 2, tmdb 1766084) - no platform known anywhere
-- Kalari Kid – She Hits Back (2026-09-01, popularity 1, tmdb 1585736) - no platform known anywhere
 - Ottam Thullal (2026-09-18, popularity 2, tmdb 1070172) - no platform known anywhere
-- Kla Kla Klee Klee Nazriya Thirinjunookki (2026-07-03, popularity 1, tmdb 1722975) - no platform known anywhere
+- Vivaah (2026-08-07, popularity 2, tmdb 1731502) - no platform known anywhere
+- Kalari Kid – She Hits Back (2026-09-01, popularity 1, tmdb 1585736) - no platform known anywhere
 - Aali (2026-08-14, popularity 1, tmdb 1748380) - no platform known anywhere
+- Kla Kla Klee Klee Nazriya Thirinjunookki (2026-07-03, popularity 1, tmdb 1722975) - no platform known anywhere
 - Madhuramee Jeevitham (2026-08-14, popularity 1, tmdb 1566124) - no platform known anywhere
 
 ## Kannada
@@ -121,16 +121,16 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 
 ## Bengali
 
-- Winkle Twinkle (2026-09-04, popularity 2, tmdb 1391798) - no platform known anywhere
 - Phera (2026-05-29, popularity 2, tmdb 1493932) - no platform known anywhere
 - Phool Pishi O Edward (2026-05-29, popularity 2, tmdb 1607836) - no platform known anywhere
-- Pinjar (2026-07-10, popularity 1, tmdb 1530591) - no platform known anywhere
+- Pinjar (2026-07-10, popularity 2, tmdb 1530591) - no platform known anywhere
+- Winkle Twinkle (2026-09-04, popularity 1, tmdb 1391798) - no platform known anywhere
+- Maya Satya Bhram (2026-08-28, popularity 1, tmdb 1373504) - no platform known anywhere
 - Ghun Gaon (2026-09-11, popularity 1, tmdb 1767365) - no platform known anywhere
 - Beporoya (2026-09-17, popularity 1, tmdb 1242197) - no platform known anywhere
-- Onekdin Por (2026-06-26, popularity 1, tmdb 1707728) - no platform known anywhere
 - Abhhiman (2026-06-19, popularity 1, tmdb 1641819) - no platform known anywhere
-- Maya Satya Bhram (2026-08-28, popularity 1, tmdb 1373504) - no platform known anywhere
 - Nevermind (2026-07-03, popularity 1, tmdb 1711502) - no platform known anywhere
+- Onekdin Por (2026-06-26, popularity 1, tmdb 1707728) - no platform known anywhere
 - Chobiwala (2026-07-24, popularity 1, tmdb 1666714) - no platform known anywhere
 - Daktar Kaku (2026-09-18, popularity 1, tmdb 917372) - no platform known anywhere
 - Deep6 (2026-08-07, popularity 1, tmdb 874550) - no platform known anywhere
