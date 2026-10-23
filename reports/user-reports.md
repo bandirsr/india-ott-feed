@@ -1,7 +1,9 @@
 # User reports - 2026-10-23
 
-8 reports, newest first.
+10 reports, newest first.
 
+- **Ajay** - Missing title (2026-10-23; Telugu, on Telugu, android)
+- **2026** - Missing title (2026-10-23; Telugu, android)
 - **New movies** - Missing title (2026-10-23; Telugu, android)
 - **Download** - Missing title (2026-10-22; Telugu, android)
 - **Husar pittalu** - Missing title (2026-10-21; Telugu, android)

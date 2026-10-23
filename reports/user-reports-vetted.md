@@ -2,6 +2,8 @@
 
 | Title | Verdict | Why | TMDB | Cert | Wikipedia |
 |---|---|---|---|---|---|
+| Ajay | NEEDS REVIEW | no matching Indian-language title on TMDB |  |  | no |
+| 2026 | NEEDS REVIEW | no matching Indian-language title on TMDB |  |  | no |
 | New movies | NEEDS REVIEW | no matching Indian-language title on TMDB |  |  | no |
 | Download | NEEDS REVIEW | no matching Indian-language title on TMDB |  |  | no |
 | Husar pittalu | NEEDS REVIEW | no matching Indian-language title on TMDB |  |  | no |
