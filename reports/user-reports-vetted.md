@@ -1,7 +1,8 @@
-# Vetted user reports - 2026-10-22
+# Vetted user reports - 2026-10-23
 
 | Title | Verdict | Why | TMDB | Cert | Wikipedia |
 |---|---|---|---|---|---|
+| New movies | NEEDS REVIEW | no matching Indian-language title on TMDB |  |  | no |
 | Download | NEEDS REVIEW | no matching Indian-language title on TMDB |  |  | no |
 | Husar pittalu | NEEDS REVIEW | no matching Indian-language title on TMDB |  |  | no |
 | Prema oorella | NEEDS REVIEW | no matching Indian-language title on TMDB |  |  | no |

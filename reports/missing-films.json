@@ -1,11 +1,19 @@
 {
- "date": "2026-10-22",
+ "date": "2026-10-23",
  "languages": [
   {
    "code": "te",
    "name": "Telugu",
    "checked": 38,
    "missing": [
+    {
+     "id": 1376856,
+     "title": "The Paradise",
+     "released": "2026-09-23",
+     "popularity": 24,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
     {
      "id": 1747034,
      "title": "Agadha",
@@ -26,7 +34,7 @@
      "id": 1772904,
      "title": "Happy Journey",
      "released": "2026-09-18",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -42,7 +50,7 @@
      "id": 1719646,
      "title": "Gossip",
      "released": "2026-06-26",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -58,7 +66,7 @@
      "id": 1741006,
      "title": "Police Complaint",
      "released": "2026-06-12",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -85,14 +93,6 @@
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
-    },
-    {
-     "id": 1799441,
-     "title": "Kagitham Padavalu",
-     "released": "2026-09-18",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
     }
    ]
   },
@@ -105,7 +105,7 @@
      "id": 1709391,
      "title": "Hanuman Ansh",
      "released": "2026-08-07",
-     "popularity": 8,
+     "popularity": 9,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -137,7 +137,7 @@
      "id": 1215889,
      "title": "Daayra",
      "released": "2026-09-18",
-     "popularity": 4,
+     "popularity": 5,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -153,7 +153,7 @@
      "id": 1654566,
      "title": "Vibe",
      "released": "2026-09-18",
-     "popularity": 3,
+     "popularity": 4,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -169,7 +169,7 @@
      "id": 1293550,
      "title": "Bandar",
      "released": "2026-06-05",
-     "popularity": 3,
+     "popularity": 4,
      "tmdb": "streaming",
      "tmdbPlatforms": [
       "Zee5"
@@ -259,7 +259,7 @@
      "id": 1389153,
      "title": "Jeevan Bheema Yojana",
      "released": "2026-09-04",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -320,17 +320,17 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 403514,
-     "title": "Dial 1975",
-     "released": "2026-07-01",
+     "id": 1713546,
+     "title": "Jeena Dil Se",
+     "released": "2026-05-29",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
     {
-     "id": 1523598,
-     "title": "Naina",
-     "released": "2026-06-15",
+     "id": 403514,
+     "title": "Dial 1975",
+     "released": "2026-07-01",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -346,7 +346,7 @@
      "id": 1618200,
      "title": "The Dark Heaven",
      "released": "2026-09-18",
-     "popularity": 13,
+     "popularity": 14,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -354,7 +354,7 @@
      "id": 1318304,
      "title": "Once More",
      "released": "2026-08-28",
-     "popularity": 3,
+     "popularity": 4,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -450,7 +450,7 @@
      "id": 1737178,
      "title": "Ego Raman",
      "released": "2026-05-29",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -497,7 +497,7 @@
      "id": 1545486,
      "title": "Unmadham",
      "released": "2026-07-31",
-     "popularity": 4,
+     "popularity": 5,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -545,7 +545,7 @@
      "id": 1731502,
      "title": "Vivaah",
      "released": "2026-08-07",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -592,7 +592,7 @@
      "id": 1213243,
      "title": "Toxic",
      "released": "2026-08-26",
-     "popularity": 17,
+     "popularity": 16,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -632,7 +632,7 @@
      "id": 1730215,
      "title": "City Lights",
      "released": "2026-09-18",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -775,7 +775,7 @@
      "id": 1530591,
      "title": "Pinjar",
      "released": "2026-07-10",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -783,7 +783,7 @@
      "id": 1391798,
      "title": "Winkle Twinkle",
      "released": "2026-09-04",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -886,7 +886,7 @@
      "id": 1747479,
      "title": "Jayanti 2",
      "released": "2026-09-11",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -902,7 +902,7 @@
      "id": 1747939,
      "title": "Sammarth",
      "released": "2026-08-14",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -950,7 +950,7 @@
      "id": 1609031,
      "title": "Dilemma",
      "released": "2026-09-04",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     }
@@ -965,7 +965,7 @@
      "id": 1754629,
      "title": "Bol Bhavein Na Bol",
      "released": "2026-09-04",
-     "popularity": 4,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -1090,7 +1090,7 @@
      "id": 1766408,
      "title": "Pidha Pachhi...",
      "released": "2026-09-11",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -1098,7 +1098,7 @@
      "id": 1786120,
      "title": "Kabanda",
      "released": "2026-05-29",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -1122,7 +1122,7 @@
      "id": 1704138,
      "title": "Madman's Ally",
      "released": "2026-05-28",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     }

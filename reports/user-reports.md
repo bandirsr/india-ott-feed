@@ -1,7 +1,8 @@
-# User reports - 2026-10-22
+# User reports - 2026-10-23
 
-7 reports, newest first.
+8 reports, newest first.
 
+- **New movies** - Missing title (2026-10-23; Telugu, android)
 - **Download** - Missing title (2026-10-22; Telugu, android)
 - **Husar pittalu** - Missing title (2026-10-21; Telugu, android)
 - **Prema oorella** - Missing title (2026-10-21; Kannada, android)
