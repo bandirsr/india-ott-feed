@@ -47,14 +47,6 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1719646,
-     "title": "Gossip",
-     "released": "2026-06-26",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1516092,
      "title": "Sahaa - Life of Sanju",
      "released": "2026-09-04",
@@ -71,6 +63,14 @@
      "tmdbPlatforms": []
     },
     {
+     "id": 1719646,
+     "title": "Gossip",
+     "released": "2026-06-26",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
      "id": 1744681,
      "title": "M.R.P (Neekentha Naakentha)",
      "released": "2026-07-17",
@@ -79,17 +79,17 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1754873,
-     "title": "The Red Bag",
-     "released": "2026-08-21",
+     "id": 1663311,
+     "title": "Abadameva Jayathe",
+     "released": "2026-06-05",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
     {
-     "id": 1663311,
-     "title": "Abadameva Jayathe",
-     "released": "2026-06-05",
+     "id": 1754873,
+     "title": "The Red Bag",
+     "released": "2026-08-21",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -605,17 +605,17 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1771300,
-     "title": "Amartha",
-     "released": "2026-09-18",
+     "id": 1757697,
+     "title": "Love Seasons",
+     "released": "2026-07-03",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
     {
-     "id": 1757697,
-     "title": "Love Seasons",
-     "released": "2026-07-03",
+     "id": 1771300,
+     "title": "Amartha",
+     "released": "2026-09-18",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -625,14 +625,6 @@
      "title": "Mango Pachcha",
      "released": "2026-06-05",
      "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1730215,
-     "title": "City Lights",
-     "released": "2026-09-18",
-     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -653,9 +645,9 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1215812,
-     "title": "Karavali",
-     "released": "2026-07-24",
+     "id": 1730215,
+     "title": "City Lights",
+     "released": "2026-09-18",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -669,25 +661,17 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1732392,
-     "title": "Father's Day",
-     "released": "2026-07-17",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 691267,
-     "title": "Graamaayana",
-     "released": "2026-07-03",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1744541,
      "title": "Picture",
      "released": "2026-08-07",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1215812,
+     "title": "Karavali",
+     "released": "2026-07-24",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -701,8 +685,32 @@
      "tmdbPlatforms": []
     },
     {
+     "id": 691267,
+     "title": "Graamaayana",
+     "released": "2026-07-03",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
      "id": 1396778,
      "title": "Ayogya 2",
+     "released": "2026-08-07",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1732392,
+     "title": "Father's Day",
+     "released": "2026-07-17",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1093467,
+     "title": "Detective Teekshanaa",
      "released": "2026-08-07",
      "popularity": 1,
      "tmdb": "nothing",
@@ -712,14 +720,6 @@
      "id": 1747816,
      "title": "Jolly",
      "released": "2026-07-31",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1093467,
-     "title": "Detective Teekshanaa",
-     "released": "2026-08-07",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -772,14 +772,6 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1530591,
-     "title": "Pinjar",
-     "released": "2026-07-10",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1391798,
      "title": "Winkle Twinkle",
      "released": "2026-09-04",
@@ -788,9 +780,9 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1373504,
-     "title": "Maya Satya Bhram",
-     "released": "2026-08-28",
+     "id": 1530591,
+     "title": "Pinjar",
+     "released": "2026-07-10",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -799,6 +791,14 @@
      "id": 1767365,
      "title": "Ghun Gaon",
      "released": "2026-09-11",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1711502,
+     "title": "Nevermind",
+     "released": "2026-07-03",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -820,17 +820,9 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1711502,
-     "title": "Nevermind",
-     "released": "2026-07-03",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1707728,
-     "title": "Onekdin Por",
-     "released": "2026-06-26",
+     "id": 1373504,
+     "title": "Maya Satya Bhram",
+     "released": "2026-08-28",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -839,6 +831,14 @@
      "id": 1666714,
      "title": "Chobiwala",
      "released": "2026-07-24",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1707728,
+     "title": "Onekdin Por",
+     "released": "2026-06-26",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
