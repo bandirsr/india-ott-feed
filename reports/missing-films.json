@@ -804,17 +804,17 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1242197,
-     "title": "Beporoya",
-     "released": "2026-09-17",
+     "id": 1641819,
+     "title": "Abhhiman",
+     "released": "2026-06-19",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
     {
-     "id": 1641819,
-     "title": "Abhhiman",
-     "released": "2026-06-19",
+     "id": 1242197,
+     "title": "Beporoya",
+     "released": "2026-09-17",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -931,6 +931,14 @@
      "tmdbPlatforms": []
     },
     {
+     "id": 1609031,
+     "title": "Dilemma",
+     "released": "2026-09-04",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
      "id": 1718397,
      "title": "Ghabadkund",
      "released": "2026-06-19",
@@ -942,14 +950,6 @@
      "id": 1719518,
      "title": "Cup Bashi",
      "released": "2026-06-19",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1609031,
-     "title": "Dilemma",
-     "released": "2026-09-04",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []

@@ -126,8 +126,8 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - Winkle Twinkle (2026-09-04, popularity 2, tmdb 1391798) - no platform known anywhere
 - Maya Satya Bhram (2026-08-28, popularity 1, tmdb 1373504) - no platform known anywhere
 - Ghun Gaon (2026-09-11, popularity 1, tmdb 1767365) - no platform known anywhere
-- Beporoya (2026-09-17, popularity 1, tmdb 1242197) - no platform known anywhere
 - Abhhiman (2026-06-19, popularity 1, tmdb 1641819) - no platform known anywhere
+- Beporoya (2026-09-17, popularity 1, tmdb 1242197) - no platform known anywhere
 - Nevermind (2026-07-03, popularity 1, tmdb 1711502) - no platform known anywhere
 - Onekdin Por (2026-06-26, popularity 1, tmdb 1707728) - no platform known anywhere
 - Chobiwala (2026-07-24, popularity 1, tmdb 1666714) - no platform known anywhere
@@ -144,9 +144,9 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - Bhootam Bhayyam (2026-07-24, popularity 1, tmdb 1729323) - no platform known anywhere
 - The Maharashtra Files (2026-06-12, popularity 1, tmdb 1716933) - no platform known anywhere
 - Swapnasundari (2026-07-24, popularity 1, tmdb 1738125) - no platform known anywhere
+- Dilemma (2026-09-04, popularity 1, tmdb 1609031) - no platform known anywhere
 - Ghabadkund (2026-06-19, popularity 1, tmdb 1718397) - no platform known anywhere
 - Cup Bashi (2026-06-19, popularity 1, tmdb 1719518) - no platform known anywhere
-- Dilemma (2026-09-04, popularity 1, tmdb 1609031) - no platform known anywhere
 
 ## Punjabi
 
