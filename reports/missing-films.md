@@ -5,7 +5,7 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 | Language | Checked | In feed | Missing | TMDB says streaming (our bug) | Rent/buy only | Unknown |
 |---|---:|---:|---:|---:|---:|---:|
 | Telugu | 38 | 28 | 10 | 1 | 0 | 9 |
-| Hindi | 39 | 10 | 29 | 2 | 0 | 27 |
+| Hindi | 39 | 11 | 28 | 1 | 0 | 27 |
 | Tamil | 40 | 23 | 17 | 0 | 0 | 17 |
 | Malayalam | 35 | 23 | 12 | 0 | 0 | 12 |
 | Kannada | 23 | 3 | 20 | 0 | 0 | 20 |
@@ -42,7 +42,6 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - The Great Grand Superhero: Aliens Ka Aagman (2026-05-29, popularity 3, tmdb 1653208) - no platform known anywhere
 - Max, Min and Meowzaki (2026-07-24, popularity 2, tmdb 1021634) - no platform known anywhere
 - Tera Yaar Hoon Main (2026-07-24, popularity 2, tmdb 1384512) - no platform known anywhere
-- Jeena Dil Se (2026-05-29, popularity 2, tmdb 1713546) - TMDB lists it on JioHotstar - should be in the feed
 - Bharat Bhhagya Viddhaata (2026-06-12, popularity 2, tmdb 1351908) - no platform known anywhere
 - Heer Sara (2026-06-12, popularity 2, tmdb 1714670) - no platform known anywhere
 - Bhai Tera Star Hai (2026-07-30, popularity 2, tmdb 1642850) - no platform known anywhere
