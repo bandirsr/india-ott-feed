@@ -2,6 +2,7 @@
 
 | Title | Verdict | Why | TMDB | Cert | Wikipedia |
 |---|---|---|---|---|---|
+| Paappayan | NEEDS REVIEW | no matching Indian-language title on TMDB |  |  | no |
 | Ajay | NEEDS REVIEW | no matching Indian-language title on TMDB |  |  | no |
 | 2026 | NEEDS REVIEW | no matching Indian-language title on TMDB |  |  | no |
 | New movies | NEEDS REVIEW | no matching Indian-language title on TMDB |  |  | no |
