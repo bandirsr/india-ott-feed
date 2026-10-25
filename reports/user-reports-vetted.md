@@ -1,7 +1,9 @@
-# Vetted user reports - 2026-10-24
+# Vetted user reports - 2026-10-25
 
 | Title | Verdict | Why | TMDB | Cert | Wikipedia |
 |---|---|---|---|---|---|
+| మండాడి మూవీ | NEEDS REVIEW | no matching Indian-language title on TMDB |  |  | no |
+| Insidious | NEEDS REVIEW | no matching Indian-language title on TMDB |  |  | no |
 | Paappayan | NEEDS REVIEW | no matching Indian-language title on TMDB |  |  | no |
 | Ajay | NEEDS REVIEW | no matching Indian-language title on TMDB |  |  | no |
 | 2026 | NEEDS REVIEW | no matching Indian-language title on TMDB |  |  | no |

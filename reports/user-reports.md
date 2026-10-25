@@ -1,7 +1,9 @@
-# User reports - 2026-10-24
+# User reports - 2026-10-25
 
-11 reports, newest first.
+13 reports, newest first.
 
+- **మండాడి మూవీ** - Missing title (2026-10-25; Tamil, android)
+- **Insidious** - Missing title (2026-10-25; android)
 - **Paappayan** - Missing title (2026-10-24; android)
 - **Ajay** - Missing title (2026-10-23; Telugu, on Telugu, android)
 - **2026** - Missing title (2026-10-23; Telugu, android)
