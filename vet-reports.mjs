@@ -32,6 +32,7 @@ const reports = JSON.parse(readFileSync('reports/user-reports.json', 'utf8')).fi
 const read = (f) => (existsSync(`data/${f}`) ? JSON.parse(readFileSync(`data/${f}`, 'utf8')) : {});
 const rules = { certs: read('certifications.json'), manual: read('blocked-titles.json') };
 
+const resolutions = read('report-resolutions.json');
 const LANGS = ['te', 'hi', 'ta', 'ml', 'kn', 'bn', 'mr', 'pa', 'gu'];
 const LANG_CODE = { telugu: 'te', hindi: 'hi', tamil: 'ta', malayalam: 'ml', kannada: 'kn', bengali: 'bn', marathi: 'mr', punjabi: 'pa', gujarati: 'gu' };
 // A leading "The" is dropped: people type "Paradise" for "The Paradise".
@@ -79,7 +80,9 @@ for (const r of reports) {
       out.push(v);
       continue;
     }
-    const m = await tmdbMatch(r.title, langHint);
+    // A human-confirmed match (a title typed in Telugu script, or misspelt) beats the name search.
+    const pinned = resolutions[r.title];
+    const m = pinned ? { kind: pinned.split(':')[0], hit: { id: pinned.split(':')[1] } } : await tmdbMatch(r.title, langHint);
     if (!m) {
       // Nothing exact: show the closest Indian-language titles so a human can tell a typo from a film TMDB lacks.
       const want = norm(r.title);
@@ -124,11 +127,62 @@ for (const r of reports) {
   out.push(v);
 }
 
-const md = [`# Vetted user reports - ${new Date().toISOString().slice(0, 10)}`, '', '| Title | Verdict | Why | TMDB | Cert | Wikipedia |', '|---|---|---|---|---|---|'];
-for (const v of out) md.push(`| ${v.title} | ${v.verdict} | ${v.why} | ${v.tmdb ?? ''} | ${v.cert ?? ''} | ${v.wikipedia === null ? '?' : v.wikipedia ? 'yes' : 'no'} |`);
+// --- ledger: when each report came in, and when it was fixed ----------------------------------
+// Kept in reports/user-reports-status.json so a report keeps its dates from one run to the next.
+// "listedOn" is the first run on which the checker found the title in the live feed; a report
+// that was already covered when it arrived says so (listedOn on the day it was reported).
+const today = new Date().toISOString().slice(0, 10);
+const ledgerPath = 'reports/user-reports-status.json';
+const ledger = existsSync(ledgerPath) ? JSON.parse(readFileSync(ledgerPath, 'utf8')) : {};
+const isTest = (t) => /(^|[^a-z])(test|testtest|ignore)([^a-z]|$)/i.test(t);
+const STATUS = {
+  FIXED: { icon: '🟢', label: 'Fixed - in the app' },
+  READY: { icon: '🔵', label: 'Ready to add' },
+  REVIEW: { icon: '🟡', label: 'Needs a look' },
+  REJECT: { icon: '🔴', label: 'Rejected by safety rules' },
+  TEST: { icon: '⚪', label: 'Test entry' },
+};
+const rows = [];
+for (const v of out) {
+  const key = `${v.at}|${v.title}`;
+  const prev = ledger[key] ?? {};
+  const status = isTest(v.title) ? 'TEST' : v.verdict === 'ALREADY LISTED' ? 'FIXED' : v.verdict === 'READY TO ADD' ? 'READY' : v.verdict === 'REJECT' ? 'REJECT' : 'REVIEW';
+  const row = {
+    ...prev,
+    key, title: v.title, reportedAt: v.at, language: v.language, appPlatform: reports.find((r) => r.at === v.at && r.title === v.title)?.source ?? '',
+    onPlatform: v.platform, note: reports.find((r) => r.at === v.at && r.title === v.title)?.note ?? '',
+    status, verdict: v.verdict, why: v.why, tmdb: v.tmdb ?? null, matched: v.matched ?? null, cert: v.cert ?? null,
+    firstSeen: prev.firstSeen ?? today, checkedOn: today,
+  };
+  if (status === 'FIXED') row.fixedOn = prev.fixedOn ?? today;
+  else delete row.fixedOn;
+  ledger[key] = row;
+  rows.push(row);
+}
+writeFileSync(ledgerPath, JSON.stringify(ledger, null, 1));
+
+const day = (iso) => String(iso ?? '').slice(0, 10);
+const counts = Object.fromEntries(Object.keys(STATUS).map((k) => [k, rows.filter((r) => r.status === k).length]));
+const order = ['REVIEW', 'READY', 'REJECT', 'FIXED', 'TEST'];
+const md = [
+  `# What people reported - checked ${today}`,
+  '',
+  Object.keys(STATUS).map((k) => `${STATUS[k].icon} ${STATUS[k].label}: **${counts[k]}**`).join(' &nbsp;·&nbsp; '),
+  '',
+  'Newest first inside each group. "Fixed on" is the first day the checker saw the title in the live app; a report already covered when it arrived shows the report day.',
+];
+for (const k of order) {
+  const group = rows.filter((r) => r.status === k).sort((a, b) => (a.reportedAt < b.reportedAt ? 1 : -1));
+  if (!group.length) continue;
+  md.push('', `## ${STATUS[k].icon} ${STATUS[k].label} (${group.length})`, '', '| Reported | Title | Language | From | Their note | What we found | Fixed on |', '|---|---|---|---|---|---|---|');
+  for (const r of group) {
+    const found = r.matched ? `${r.matched} (${r.tmdb}${r.cert ? ', cert ' + r.cert : ''})` : r.why;
+    md.push(`| ${day(r.reportedAt)} | **${r.title}** | ${r.language || '-'} | ${r.appPlatform || '-'}${r.onPlatform ? ' · ' + r.onPlatform : ''} | ${r.note || '-'} | ${k === 'FIXED' ? '' : r.why + (r.matched ? '' : '')}${k === 'FIXED' ? found : ''} | ${r.fixedOn ? (day(r.reportedAt) === r.fixedOn ? r.fixedOn + ' (same day)' : r.fixedOn) : '-'} |`);
+  }
+}
 mkdirSync('reports', { recursive: true });
 writeFileSync('reports/user-reports-vetted.md', md.join('\n') + '\n');
-writeFileSync('reports/user-reports-vetted.json', JSON.stringify(out, null, 1));
+writeFileSync('reports/user-reports-vetted.json', JSON.stringify(rows, null, 1));
 if (process.env.GITHUB_STEP_SUMMARY) writeFileSync(process.env.GITHUB_STEP_SUMMARY, md.join('\n') + '\n', { flag: 'a' });
 const tally = {};
 for (const v of out) tally[v.verdict] = (tally[v.verdict] ?? 0) + 1;

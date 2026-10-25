@@ -1,0 +1,5 @@
+{
+  "_note": "Reports whose typed title does not match TMDB by name, matched by hand to the film's feed id. Add a line here and the next vetting run checks that film instead.",
+  "మండాడి మూవీ": "movie:1465943",
+  "Husar pittalu": "movie:1742434"
+}
