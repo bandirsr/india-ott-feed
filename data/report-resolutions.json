@@ -9,6 +9,6 @@
   "New movies": { "close": "No film name given. Latest releases are under This week and Coming soon." },
   "Download": { "close": "No film name given. The app lists where to watch; it does not host or download films." },
   "Ajay": { "note": "Unclear which film. TMDB has Ajay (1996 hi, 2006 kn) and Ajay Gadu (2024 te, no streaming platform). Waiting for a clearer report." },
-  "Paappayan": { "note": "No such title on TMDB or in a web search. Closest is Paappan (Malayalam, 2022, ZEE5). Waiting for a clearer report." },
-  "Prema oorella": { "note": "No such title on TMDB or in a web search (Kannada). Possibly misspelt. Waiting for a clearer report." }
+  "Paappayan": "movie:845343",
+  "Prema oorella": { "close": "Real film: Premada Oorali (Kannada, theatrical 25 Sep 2026, JioHotstar 20 Nov 2026). Added to Coming soon by hand." }
 }
