@@ -15,7 +15,10 @@
   "cert": "A",
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-25",
-  "fixedOn": "2026-10-25"
+  "fixedOn": "2026-10-25",
+  "firstCheckedAt": "2026-10-25T18:21:11.373Z",
+  "checkedAt": "2026-10-25T18:21:11.373Z",
+  "fixedAt": "2026-10-25T18:21:11.373Z"
  },
  {
   "key": "2026-10-25T12:21:29.253Z|Movie",
@@ -32,7 +35,9 @@
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-25",
-  "checkedOn": "2026-10-25"
+  "checkedOn": "2026-10-25",
+  "firstCheckedAt": "2026-10-25T18:21:11.373Z",
+  "checkedAt": "2026-10-25T18:21:11.373Z"
  },
  {
   "key": "2026-10-25T10:57:22.586Z|Paradise",
@@ -50,7 +55,10 @@
   "cert": "A",
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-25",
-  "fixedOn": "2026-10-25"
+  "fixedOn": "2026-10-25",
+  "firstCheckedAt": "2026-10-25T18:21:11.373Z",
+  "checkedAt": "2026-10-25T18:21:11.373Z",
+  "fixedAt": "2026-10-25T18:21:11.373Z"
  },
  {
   "key": "2026-10-25T09:22:45.581Z|Radbali",
@@ -67,7 +75,9 @@
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-25",
-  "checkedOn": "2026-10-25"
+  "checkedOn": "2026-10-25",
+  "firstCheckedAt": "2026-10-25T18:21:11.373Z",
+  "checkedAt": "2026-10-25T18:21:11.373Z"
  },
  {
   "key": "2026-10-25T03:13:12.942Z|మండాడి మూవీ",
@@ -85,7 +95,10 @@
   "cert": "U/A 16+",
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-25",
-  "fixedOn": "2026-10-25"
+  "fixedOn": "2026-10-25",
+  "firstCheckedAt": "2026-10-25T18:21:11.373Z",
+  "checkedAt": "2026-10-25T18:21:11.373Z",
+  "fixedAt": "2026-10-25T18:21:11.373Z"
  },
  {
   "key": "2026-10-25T02:10:36.229Z|Insidious",
@@ -102,7 +115,9 @@
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-25",
-  "checkedOn": "2026-10-25"
+  "checkedOn": "2026-10-25",
+  "firstCheckedAt": "2026-10-25T18:21:11.373Z",
+  "checkedAt": "2026-10-25T18:21:11.373Z"
  },
  {
   "key": "2026-10-24T14:07:06.996Z|Paappayan",
@@ -119,7 +134,9 @@
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-25",
-  "checkedOn": "2026-10-25"
+  "checkedOn": "2026-10-25",
+  "firstCheckedAt": "2026-10-25T18:21:11.373Z",
+  "checkedAt": "2026-10-25T18:21:11.373Z"
  },
  {
   "key": "2026-10-23T17:17:36.437Z|Ajay",
@@ -136,7 +153,9 @@
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-25",
-  "checkedOn": "2026-10-25"
+  "checkedOn": "2026-10-25",
+  "firstCheckedAt": "2026-10-25T18:21:11.373Z",
+  "checkedAt": "2026-10-25T18:21:11.373Z"
  },
  {
   "key": "2026-10-23T17:11:34.071Z|2026",
@@ -153,7 +172,9 @@
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-25",
-  "checkedOn": "2026-10-25"
+  "checkedOn": "2026-10-25",
+  "firstCheckedAt": "2026-10-25T18:21:11.373Z",
+  "checkedAt": "2026-10-25T18:21:11.373Z"
  },
  {
   "key": "2026-10-23T07:06:27.222Z|New movies",
@@ -170,7 +191,9 @@
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-25",
-  "checkedOn": "2026-10-25"
+  "checkedOn": "2026-10-25",
+  "firstCheckedAt": "2026-10-25T18:21:11.373Z",
+  "checkedAt": "2026-10-25T18:21:11.373Z"
  },
  {
   "key": "2026-10-22T08:01:27.977Z|Download",
@@ -187,7 +210,9 @@
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-25",
-  "checkedOn": "2026-10-25"
+  "checkedOn": "2026-10-25",
+  "firstCheckedAt": "2026-10-25T18:21:11.373Z",
+  "checkedAt": "2026-10-25T18:21:11.373Z"
  },
  {
   "key": "2026-10-21T15:40:15.557Z|Husar pittalu",
@@ -205,7 +230,10 @@
   "cert": "U/A 16+",
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-25",
-  "fixedOn": "2026-10-25"
+  "fixedOn": "2026-10-25",
+  "firstCheckedAt": "2026-10-25T18:21:11.373Z",
+  "checkedAt": "2026-10-25T18:21:11.373Z",
+  "fixedAt": "2026-10-25T18:21:11.373Z"
  },
  {
   "key": "2026-10-21T15:31:38.578Z|Prema oorella",
@@ -222,7 +250,9 @@
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-25",
-  "checkedOn": "2026-10-25"
+  "checkedOn": "2026-10-25",
+  "firstCheckedAt": "2026-10-25T18:21:11.373Z",
+  "checkedAt": "2026-10-25T18:21:11.373Z"
  },
  {
   "key": "2026-10-19T04:21:38.770Z|Test film",
@@ -239,7 +269,9 @@
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-25",
-  "checkedOn": "2026-10-25"
+  "checkedOn": "2026-10-25",
+  "firstCheckedAt": "2026-10-25T18:21:11.373Z",
+  "checkedAt": "2026-10-25T18:21:11.373Z"
  },
  {
   "key": "2026-10-17T14:00:40.537Z|Testtest",
@@ -256,7 +288,9 @@
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-25",
-  "checkedOn": "2026-10-25"
+  "checkedOn": "2026-10-25",
+  "firstCheckedAt": "2026-10-25T18:21:11.373Z",
+  "checkedAt": "2026-10-25T18:21:11.373Z"
  },
  {
   "key": "2026-10-17T03:32:01.179Z|Browser test film (ignore)",
@@ -273,7 +307,9 @@
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-25",
-  "checkedOn": "2026-10-25"
+  "checkedOn": "2026-10-25",
+  "firstCheckedAt": "2026-10-25T18:21:11.373Z",
+  "checkedAt": "2026-10-25T18:21:11.373Z"
  },
  {
   "key": "2026-10-17T03:31:31.428Z|Test film (ignore)",
@@ -290,6 +326,8 @@
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-25",
-  "checkedOn": "2026-10-25"
+  "checkedOn": "2026-10-25",
+  "firstCheckedAt": "2026-10-25T18:21:11.373Z",
+  "checkedAt": "2026-10-25T18:21:11.373Z"
  }
 ]

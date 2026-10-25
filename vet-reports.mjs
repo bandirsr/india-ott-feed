@@ -131,7 +131,8 @@ for (const r of reports) {
 // Kept in reports/user-reports-status.json so a report keeps its dates from one run to the next.
 // "listedOn" is the first run on which the checker found the title in the live feed; a report
 // that was already covered when it arrived says so (listedOn on the day it was reported).
-const today = new Date().toISOString().slice(0, 10);
+const nowIso = new Date().toISOString();
+const today = nowIso.slice(0, 10);
 const ledgerPath = 'reports/user-reports-status.json';
 const ledger = existsSync(ledgerPath) ? JSON.parse(readFileSync(ledgerPath, 'utf8')) : {};
 const isTest = (t) => /(^|[^a-z])(test|testtest|ignore)([^a-z]|$)/i.test(t);
@@ -152,10 +153,15 @@ for (const v of out) {
     key, title: v.title, reportedAt: v.at, language: v.language, appPlatform: reports.find((r) => r.at === v.at && r.title === v.title)?.source ?? '',
     onPlatform: v.platform, note: reports.find((r) => r.at === v.at && r.title === v.title)?.note ?? '',
     status, verdict: v.verdict, why: v.why, tmdb: v.tmdb ?? null, matched: v.matched ?? null, cert: v.cert ?? null,
-    firstSeen: prev.firstSeen ?? today, checkedOn: today,
+    firstSeen: prev.firstSeen ?? today, checkedOn: today, firstCheckedAt: prev.firstCheckedAt ?? nowIso, checkedAt: nowIso,
   };
-  if (status === 'FIXED') row.fixedOn = prev.fixedOn ?? today;
-  else delete row.fixedOn;
+  if (status === 'FIXED') {
+    row.fixedOn = prev.fixedOn ?? today;
+    row.fixedAt = prev.fixedAt ?? nowIso;
+  } else {
+    delete row.fixedOn;
+    delete row.fixedAt;
+  }
   ledger[key] = row;
   rows.push(row);
 }
