@@ -1,7 +1,8 @@
 # User reports - 2026-10-25
 
-16 reports, newest first.
+17 reports, newest first.
 
+- **The Paradise** - Missing title (2026-10-25; Telugu, android)
 - **Movie** - Missing title (2026-10-25; Telugu, android)
 - **Paradise** - Missing title (2026-10-25; Telugu, on Netflix, android) - 22 oct 2026
 - **Radbali** - Missing title (2026-10-25; Telugu, android)

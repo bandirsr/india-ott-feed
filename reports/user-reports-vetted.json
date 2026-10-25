@@ -1,5 +1,21 @@
 [
  {
+  "title": "The Paradise",
+  "at": "2026-10-25T16:53:05.285Z",
+  "language": "Telugu",
+  "platform": "",
+  "kind": "missing",
+  "tmdb": "movie:1376856",
+  "matched": "The Paradise",
+  "cert": "A",
+  "streams": [
+   "Netflix"
+  ],
+  "wikipedia": true,
+  "verdict": "ALREADY LISTED",
+  "why": "it is in the live feed"
+ },
+ {
   "title": "Movie",
   "at": "2026-10-25T12:21:29.253Z",
   "language": "Telugu",
@@ -14,8 +30,15 @@
   "language": "Telugu",
   "platform": "Netflix",
   "kind": "missing",
-  "verdict": "NEEDS REVIEW",
-  "why": "no matching Indian-language title on TMDB"
+  "tmdb": "movie:1376856",
+  "matched": "The Paradise",
+  "cert": "A",
+  "streams": [
+   "Netflix"
+  ],
+  "wikipedia": true,
+  "verdict": "ALREADY LISTED",
+  "why": "it is in the live feed"
  },
  {
   "title": "Radbali",
@@ -60,7 +83,7 @@
   "platform": "Telugu",
   "kind": "missing",
   "verdict": "NEEDS REVIEW",
-  "why": "no matching Indian-language title on TMDB"
+  "why": "no exact match; similar: Ajay (1996, hi, movie:303105); Ajay (2006, kn, movie:691305); Ajay Gadu (2024, te, movie:1227108)"
  },
  {
   "title": "2026",
@@ -69,7 +92,7 @@
   "platform": "",
   "kind": "missing",
   "verdict": "NEEDS REVIEW",
-  "why": "no matching Indian-language title on TMDB"
+  "why": "no exact match; similar: TN 2026 (2026, ta, movie:1556783); School Friends Class of 2026 (2026, hi, tv:312794)"
  },
  {
   "title": "New movies",
