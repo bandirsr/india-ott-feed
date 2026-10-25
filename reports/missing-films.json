@@ -102,9 +102,9 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1486860,
-     "title": "Haunted 3D: Echoes of the Past",
-     "released": "2026-06-12",
+     "id": 1378537,
+     "title": "Mirzapur: The Movie",
+     "released": "2026-09-04",
      "popularity": 5,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -118,18 +118,10 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1378537,
-     "title": "Mirzapur: The Movie",
-     "released": "2026-09-04",
+     "id": 1486860,
+     "title": "Haunted 3D: Echoes of the Past",
+     "released": "2026-06-12",
      "popularity": 5,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1215889,
-     "title": "Daayra",
-     "released": "2026-09-18",
-     "popularity": 4,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -137,6 +129,14 @@
      "id": 1714993,
      "title": "Aryabhatt Ka Zero",
      "released": "2026-08-07",
+     "popularity": 4,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1215889,
+     "title": "Daayra",
+     "released": "2026-09-18",
      "popularity": 4,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -160,10 +160,10 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1654566,
-     "title": "Vibe",
-     "released": "2026-09-18",
-     "popularity": 3,
+     "id": 1574560,
+     "title": "Last Man in Tower",
+     "released": "2026-09-11",
+     "popularity": 4,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -176,17 +176,9 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1574560,
-     "title": "Last Man in Tower",
-     "released": "2026-09-11",
-     "popularity": 4,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1653208,
-     "title": "The Great Grand Superhero: Aliens Ka Aagman",
-     "released": "2026-05-29",
+     "id": 1654566,
+     "title": "Vibe",
+     "released": "2026-09-18",
      "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []

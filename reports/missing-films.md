@@ -5,7 +5,7 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 | Language | Checked | In feed | Missing | TMDB says streaming (our bug) | Rent/buy only | Unknown |
 |---|---:|---:|---:|---:|---:|---:|
 | Telugu | 38 | 28 | 10 | 0 | 0 | 10 |
-| Hindi | 39 | 10 | 29 | 1 | 0 | 28 |
+| Hindi | 39 | 11 | 28 | 1 | 0 | 27 |
 | Tamil | 40 | 23 | 17 | 2 | 0 | 15 |
 | Malayalam | 37 | 24 | 13 | 1 | 0 | 12 |
 | Kannada | 24 | 3 | 21 | 0 | 0 | 21 |
@@ -30,17 +30,16 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 ## Hindi
 
 - Hanuman Ansh (2026-08-07, popularity 8, tmdb 1709391) - no platform known anywhere
-- Haunted 3D: Echoes of the Past (2026-06-12, popularity 5, tmdb 1486860) - no platform known anywhere
-- Haiwaan (2026-09-11, popularity 5, tmdb 1475799) - no platform known anywhere
 - Mirzapur: The Movie (2026-09-04, popularity 5, tmdb 1378537) - no platform known anywhere
-- Daayra (2026-09-18, popularity 4, tmdb 1215889) - no platform known anywhere
+- Haiwaan (2026-09-11, popularity 5, tmdb 1475799) - no platform known anywhere
+- Haunted 3D: Echoes of the Past (2026-06-12, popularity 5, tmdb 1486860) - no platform known anywhere
 - Aryabhatt Ka Zero (2026-08-07, popularity 4, tmdb 1714993) - no platform known anywhere
+- Daayra (2026-09-18, popularity 4, tmdb 1215889) - no platform known anywhere
 - Bandar (2026-06-05, popularity 4, tmdb 1293550) - TMDB lists it on Zee5 - should be in the feed
 - Love Lottery (2026-09-25, popularity 4, tmdb 1640649) - no platform known anywhere
-- Vibe (2026-09-18, popularity 3, tmdb 1654566) - no platform known anywhere
-- Batwara 1947 (2026-08-13, popularity 3, tmdb 1169537) - no platform known anywhere
 - Last Man in Tower (2026-09-11, popularity 4, tmdb 1574560) - no platform known anywhere
-- The Great Grand Superhero: Aliens Ka Aagman (2026-05-29, popularity 3, tmdb 1653208) - no platform known anywhere
+- Batwara 1947 (2026-08-13, popularity 3, tmdb 1169537) - no platform known anywhere
+- Vibe (2026-09-18, popularity 3, tmdb 1654566) - no platform known anywhere
 - The Great Grand Superhero: Aliens Ka Aagman (2026-05-29, popularity 3, tmdb 1653208) - no platform known anywhere
 - Mahakavya: Shri Ramayan Katha (2026-09-25, popularity 3, tmdb 1285815) - no platform known anywhere
 - Max, Min and Meowzaki (2026-07-24, popularity 3, tmdb 1021634) - no platform known anywhere
