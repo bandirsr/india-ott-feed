@@ -38,10 +38,35 @@ const LANG_CODE = { telugu: 'te', hindi: 'hi', tamil: 'ta', malayalam: 'ml', kan
 // A leading "The" is dropped: people type "Paradise" for "The Paradise".
 const norm = (s) => String(s ?? '').toLowerCase().replace(/^the\s+/, '').replace(/[^a-z0-9]/g, '');
 
-const inFeed = new Set();
+// id -> { t, lang, soon }: everything the app can show, including the Coming soon list.
+const inFeed = new Map();
 for (const l of LANGS) {
   const p = await (await fetch(`https://bandirsr.github.io/india-ott-feed/v1/${l}.json`)).json();
-  for (const t of p.titles) inFeed.add(t.id);
+  for (const t of p.titles) inFeed.set(t.id, { t: t.t, lang: l, soon: false });
+}
+const upcoming = await (await fetch('https://bandirsr.github.io/india-ott-feed/v1/upcoming.json')).json();
+for (const t of upcoming.titles ?? []) if (!inFeed.has(t.id)) inFeed.set(t.id, { t: t.t, lang: t.l, soon: true });
+
+// Edit distance, for spotting a misspelling of a title the app already has ("Radbali" for "Ranabaali").
+function distance(a, b) {
+  const d = Array.from({ length: a.length + 1 }, (_, i) => [i, ...Array(b.length).fill(0)]);
+  for (let j = 1; j <= b.length; j++) d[0][j] = j;
+  for (let i = 1; i <= a.length; i++)
+    for (let j = 1; j <= b.length; j++)
+      d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+  return d[a.length][b.length];
+}
+function lookalikes(title) {
+  const w = norm(title);
+  if (w.length < 5) return [];
+  const hits = [];
+  for (const [id, f] of inFeed) {
+    const n = norm(f.t);
+    if (Math.abs(n.length - w.length) > 3) continue;
+    const dist = distance(w, n);
+    if (dist <= Math.max(2, Math.round(w.length * 0.4)) && dist > 0) hits.push({ id, t: f.t, lang: f.lang, soon: f.soon, dist });
+  }
+  return hits.sort((a, b) => a.dist - b.dist).slice(0, 3);
 }
 
 async function tmdbMatch(title, langHint) {
@@ -81,7 +106,14 @@ for (const r of reports) {
       continue;
     }
     // A human-confirmed match (a title typed in Telugu script, or misspelt) beats the name search.
-    const pinned = resolutions[r.title];
+    const res = resolutions[r.title];
+    if (res && typeof res === 'object') {
+      // {"close": "why"} -> closed with a reason (not a film we list); {"note": "..."} -> stays open with the note.
+      Object.assign(v, res.close ? { verdict: 'CLOSED', why: res.close } : { verdict: 'NEEDS REVIEW', why: res.note });
+      out.push(v);
+      continue;
+    }
+    const pinned = typeof res === 'string' ? res : null;
     const m = pinned ? { kind: pinned.split(':')[0], hit: { id: pinned.split(':')[1] } } : await tmdbMatch(r.title, langHint);
     if (!m) {
       // Nothing exact: show the closest Indian-language titles so a human can tell a typo from a film TMDB lacks.
@@ -96,6 +128,8 @@ for (const r of reports) {
           }
         }
       }
+      const look = lookalikes(r.title).map((h) => `${h.t} (${h.lang}, ${h.id}, ${h.soon ? 'in the app, Coming soon' : 'in the app'})`);
+      if (look.length) close.unshift(`looks like a misspelling of: ${look.join('; ')}`);
       Object.assign(v, {
         verdict: 'NEEDS REVIEW',
         why: close.length ? `no exact match; similar: ${close.slice(0, 3).join('; ')}` : 'no matching Indian-language title on TMDB',
@@ -118,7 +152,7 @@ for (const r of reports) {
     const why = blockReason(row, provMap, { certs: { ...rules.certs, [id]: { c: cert } }, manual: rules.manual });
     Object.assign(v, { tmdb: id, matched: row.t, cert, streams: [...new Set(streams)], wikipedia: await wikipediaHas(row.t) });
     if (why) Object.assign(v, { verdict: 'REJECT', why });
-    else if (inFeed.has(id)) Object.assign(v, { verdict: 'ALREADY LISTED', why: 'it is in the live feed' });
+    else if (inFeed.has(id)) Object.assign(v, { verdict: 'ALREADY LISTED', why: inFeed.get(id).soon ? 'in the app under Coming soon (not streaming yet)' : 'it is in the live feed' });
     else if (streams.length === 0) Object.assign(v, { verdict: 'NEEDS REVIEW', why: 'real and safe, but TMDB shows no India streaming platform yet' });
     else Object.assign(v, { verdict: 'READY TO ADD', why: `real, safe, streams on ${[...new Set(streams)].join(', ')}, not in the feed` });
   } catch (e) {
@@ -140,6 +174,7 @@ const STATUS = {
   FIXED: { icon: '🟢', label: 'Fixed - in the app' },
   READY: { icon: '🔵', label: 'Ready to add' },
   REVIEW: { icon: '🟡', label: 'Needs a look' },
+  CLOSED: { icon: '🟣', label: 'Closed - nothing to add' },
   REJECT: { icon: '🔴', label: 'Rejected by safety rules' },
   TEST: { icon: '⚪', label: 'Test entry' },
 };
@@ -147,7 +182,7 @@ const rows = [];
 for (const v of out) {
   const key = `${v.at}|${v.title}`;
   const prev = ledger[key] ?? {};
-  const status = isTest(v.title) ? 'TEST' : v.verdict === 'ALREADY LISTED' ? 'FIXED' : v.verdict === 'READY TO ADD' ? 'READY' : v.verdict === 'REJECT' ? 'REJECT' : 'REVIEW';
+  const status = isTest(v.title) ? 'TEST' : v.verdict === 'ALREADY LISTED' ? 'FIXED' : v.verdict === 'CLOSED' ? 'CLOSED' : v.verdict === 'READY TO ADD' ? 'READY' : v.verdict === 'REJECT' ? 'REJECT' : 'REVIEW';
   const row = {
     ...prev,
     key, title: v.title, reportedAt: v.at, language: v.language, appPlatform: reports.find((r) => r.at === v.at && r.title === v.title)?.source ?? '',
@@ -155,7 +190,7 @@ for (const v of out) {
     status, verdict: v.verdict, why: v.why, tmdb: v.tmdb ?? null, matched: v.matched ?? null, cert: v.cert ?? null,
     firstSeen: prev.firstSeen ?? today, checkedOn: today, firstCheckedAt: prev.firstCheckedAt ?? nowIso, checkedAt: nowIso,
   };
-  if (status === 'FIXED') {
+  if (status === 'FIXED' || status === 'CLOSED') {
     row.fixedOn = prev.fixedOn ?? today;
     row.fixedAt = prev.fixedAt ?? nowIso;
   } else {
@@ -169,7 +204,7 @@ writeFileSync(ledgerPath, JSON.stringify(ledger, null, 1));
 
 const day = (iso) => String(iso ?? '').slice(0, 10);
 const counts = Object.fromEntries(Object.keys(STATUS).map((k) => [k, rows.filter((r) => r.status === k).length]));
-const order = ['REVIEW', 'READY', 'REJECT', 'FIXED', 'TEST'];
+const order = ['REVIEW', 'READY', 'REJECT', 'FIXED', 'CLOSED', 'TEST'];
 const md = [
   `# What people reported - checked ${today}`,
   '',

@@ -17,7 +17,7 @@
   "checkedOn": "2026-10-25",
   "fixedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-25T18:24:25.509Z",
+  "checkedAt": "2026-10-25T18:46:14.586Z",
   "fixedAt": "2026-10-25T18:21:11.373Z"
  },
  "2026-10-25T12:21:29.253Z|Movie": {
@@ -28,16 +28,18 @@
   "appPlatform": "android",
   "onPlatform": "",
   "note": "",
-  "status": "REVIEW",
-  "verdict": "NEEDS REVIEW",
-  "why": "no matching Indian-language title on TMDB",
+  "status": "CLOSED",
+  "verdict": "CLOSED",
+  "why": "No film name given.",
   "tmdb": null,
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-25T18:24:25.509Z"
+  "checkedAt": "2026-10-25T18:46:14.586Z",
+  "fixedOn": "2026-10-25",
+  "fixedAt": "2026-10-25T18:46:04.432Z"
  },
  "2026-10-25T10:57:22.586Z|Paradise": {
   "key": "2026-10-25T10:57:22.586Z|Paradise",
@@ -57,7 +59,7 @@
   "checkedOn": "2026-10-25",
   "fixedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-25T18:24:25.509Z",
+  "checkedAt": "2026-10-25T18:46:14.586Z",
   "fixedAt": "2026-10-25T18:21:11.373Z"
  },
  "2026-10-25T09:22:45.581Z|Radbali": {
@@ -68,16 +70,18 @@
   "appPlatform": "android",
   "onPlatform": "",
   "note": "",
-  "status": "REVIEW",
-  "verdict": "NEEDS REVIEW",
-  "why": "no matching Indian-language title on TMDB",
-  "tmdb": null,
-  "matched": null,
-  "cert": null,
+  "status": "FIXED",
+  "verdict": "ALREADY LISTED",
+  "why": "in the app under Coming soon (not streaming yet)",
+  "tmdb": "movie:1389379",
+  "matched": "Ranabaali",
+  "cert": "U/A 16+",
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-25T18:24:25.509Z"
+  "checkedAt": "2026-10-25T18:46:14.586Z",
+  "fixedOn": "2026-10-25",
+  "fixedAt": "2026-10-25T18:46:14.586Z"
  },
  "2026-10-25T03:13:12.942Z|మండాడి మూవీ": {
   "key": "2026-10-25T03:13:12.942Z|మండాడి మూవీ",
@@ -97,7 +101,7 @@
   "checkedOn": "2026-10-25",
   "fixedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-25T18:24:25.509Z",
+  "checkedAt": "2026-10-25T18:46:14.586Z",
   "fixedAt": "2026-10-25T18:21:11.373Z"
  },
  "2026-10-25T02:10:36.229Z|Insidious": {
@@ -108,16 +112,18 @@
   "appPlatform": "android",
   "onPlatform": "",
   "note": "",
-  "status": "REVIEW",
-  "verdict": "NEEDS REVIEW",
-  "why": "no matching Indian-language title on TMDB",
+  "status": "CLOSED",
+  "verdict": "CLOSED",
+  "why": "Hollywood horror franchise. The app lists Indian-language titles only.",
   "tmdb": null,
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-25T18:24:25.509Z"
+  "checkedAt": "2026-10-25T18:46:14.586Z",
+  "fixedOn": "2026-10-25",
+  "fixedAt": "2026-10-25T18:46:04.432Z"
  },
  "2026-10-24T14:07:06.996Z|Paappayan": {
   "key": "2026-10-24T14:07:06.996Z|Paappayan",
@@ -129,14 +135,14 @@
   "note": "",
   "status": "REVIEW",
   "verdict": "NEEDS REVIEW",
-  "why": "no matching Indian-language title on TMDB",
+  "why": "No such title on TMDB or in a web search. Closest is Paappan (Malayalam, 2022, ZEE5). Waiting for a clearer report.",
   "tmdb": null,
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-25T18:24:25.509Z"
+  "checkedAt": "2026-10-25T18:46:14.586Z"
  },
  "2026-10-23T17:17:36.437Z|Ajay": {
   "key": "2026-10-23T17:17:36.437Z|Ajay",
@@ -148,14 +154,14 @@
   "note": "",
   "status": "REVIEW",
   "verdict": "NEEDS REVIEW",
-  "why": "no exact match; similar: Ajay (1996, hi, movie:303105); Ajay (2006, kn, movie:691305); Ajay Gadu (2024, te, movie:1227108)",
+  "why": "Unclear which film. TMDB has Ajay (1996 hi, 2006 kn) and Ajay Gadu (2024 te, no streaming platform). Waiting for a clearer report.",
   "tmdb": null,
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-25T18:24:25.509Z"
+  "checkedAt": "2026-10-25T18:46:14.586Z"
  },
  "2026-10-23T17:11:34.071Z|2026": {
   "key": "2026-10-23T17:11:34.071Z|2026",
@@ -165,16 +171,18 @@
   "appPlatform": "android",
   "onPlatform": "",
   "note": "",
-  "status": "REVIEW",
-  "verdict": "NEEDS REVIEW",
-  "why": "no exact match; similar: TN 2026 (2026, ta, movie:1556783); School Friends Class of 2026 (2026, hi, tv:312794)",
+  "status": "CLOSED",
+  "verdict": "CLOSED",
+  "why": "No film name given (a year only).",
   "tmdb": null,
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-25T18:24:25.509Z"
+  "checkedAt": "2026-10-25T18:46:14.586Z",
+  "fixedOn": "2026-10-25",
+  "fixedAt": "2026-10-25T18:46:04.432Z"
  },
  "2026-10-23T07:06:27.222Z|New movies": {
   "key": "2026-10-23T07:06:27.222Z|New movies",
@@ -184,16 +192,18 @@
   "appPlatform": "android",
   "onPlatform": "",
   "note": "",
-  "status": "REVIEW",
-  "verdict": "NEEDS REVIEW",
-  "why": "no matching Indian-language title on TMDB",
+  "status": "CLOSED",
+  "verdict": "CLOSED",
+  "why": "No film name given. Latest releases are under This week and Coming soon.",
   "tmdb": null,
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-25T18:24:25.509Z"
+  "checkedAt": "2026-10-25T18:46:14.586Z",
+  "fixedOn": "2026-10-25",
+  "fixedAt": "2026-10-25T18:46:04.432Z"
  },
  "2026-10-22T08:01:27.977Z|Download": {
   "key": "2026-10-22T08:01:27.977Z|Download",
@@ -203,16 +213,18 @@
   "appPlatform": "android",
   "onPlatform": "",
   "note": "",
-  "status": "REVIEW",
-  "verdict": "NEEDS REVIEW",
-  "why": "no matching Indian-language title on TMDB",
+  "status": "CLOSED",
+  "verdict": "CLOSED",
+  "why": "No film name given. The app lists where to watch; it does not host or download films.",
   "tmdb": null,
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-25T18:24:25.509Z"
+  "checkedAt": "2026-10-25T18:46:14.586Z",
+  "fixedOn": "2026-10-25",
+  "fixedAt": "2026-10-25T18:46:04.432Z"
  },
  "2026-10-21T15:40:15.557Z|Husar pittalu": {
   "key": "2026-10-21T15:40:15.557Z|Husar pittalu",
@@ -230,10 +242,10 @@
   "cert": "U/A 16+",
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-25",
-  "fixedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-25T18:24:25.509Z",
-  "fixedAt": "2026-10-25T18:21:11.373Z"
+  "checkedAt": "2026-10-25T18:46:14.586Z",
+  "fixedOn": "2026-10-25",
+  "fixedAt": "2026-10-25T18:46:14.586Z"
  },
  "2026-10-21T15:31:38.578Z|Prema oorella": {
   "key": "2026-10-21T15:31:38.578Z|Prema oorella",
@@ -245,14 +257,14 @@
   "note": "",
   "status": "REVIEW",
   "verdict": "NEEDS REVIEW",
-  "why": "no matching Indian-language title on TMDB",
+  "why": "No such title on TMDB or in a web search (Kannada). Possibly misspelt. Waiting for a clearer report.",
   "tmdb": null,
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-25T18:24:25.509Z"
+  "checkedAt": "2026-10-25T18:46:14.586Z"
  },
  "2026-10-19T04:21:38.770Z|Test film": {
   "key": "2026-10-19T04:21:38.770Z|Test film",
@@ -271,7 +283,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-25T18:24:25.509Z"
+  "checkedAt": "2026-10-25T18:46:14.586Z"
  },
  "2026-10-17T14:00:40.537Z|Testtest": {
   "key": "2026-10-17T14:00:40.537Z|Testtest",
@@ -290,7 +302,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-25T18:24:25.509Z"
+  "checkedAt": "2026-10-25T18:46:14.586Z"
  },
  "2026-10-17T03:32:01.179Z|Browser test film (ignore)": {
   "key": "2026-10-17T03:32:01.179Z|Browser test film (ignore)",
@@ -309,7 +321,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-25T18:24:25.509Z"
+  "checkedAt": "2026-10-25T18:46:14.586Z"
  },
  "2026-10-17T03:31:31.428Z|Test film (ignore)": {
   "key": "2026-10-17T03:31:31.428Z|Test film (ignore)",
@@ -328,6 +340,6 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-25T18:24:25.509Z"
+  "checkedAt": "2026-10-25T18:46:14.586Z"
  }
 }

@@ -1,5 +1,14 @@
 {
-  "_note": "Reports whose typed title does not match TMDB by name, matched by hand to the film's feed id. Add a line here and the next vetting run checks that film instead.",
+  "_note": "Reports checked by hand. A string is the film's feed id (typed in another script or misspelt). {close} ends the report with a reason; {note} keeps it open with a note. Add a line and the next vetting run uses it.",
   "మండాడి మూవీ": "movie:1465943",
-  "Husar pittalu": "movie:1742434"
+  "Husar pittalu": "movie:1742434",
+  "Radbali": "movie:1389379",
+  "Insidious": { "close": "Hollywood horror franchise. The app lists Indian-language titles only." },
+  "Movie": { "close": "No film name given." },
+  "2026": { "close": "No film name given (a year only)." },
+  "New movies": { "close": "No film name given. Latest releases are under This week and Coming soon." },
+  "Download": { "close": "No film name given. The app lists where to watch; it does not host or download films." },
+  "Ajay": { "note": "Unclear which film. TMDB has Ajay (1996 hi, 2006 kn) and Ajay Gadu (2024 te, no streaming platform). Waiting for a clearer report." },
+  "Paappayan": { "note": "No such title on TMDB or in a web search. Closest is Paappan (Malayalam, 2022, ZEE5). Waiting for a clearer report." },
+  "Prema oorella": { "note": "No such title on TMDB or in a web search (Kannada). Possibly misspelt. Waiting for a clearer report." }
 }
