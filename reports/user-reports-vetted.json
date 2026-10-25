@@ -1,5 +1,32 @@
 [
  {
+  "title": "Movie",
+  "at": "2026-10-25T12:21:29.253Z",
+  "language": "Telugu",
+  "platform": "",
+  "kind": "missing",
+  "verdict": "NEEDS REVIEW",
+  "why": "no matching Indian-language title on TMDB"
+ },
+ {
+  "title": "Paradise",
+  "at": "2026-10-25T10:57:22.586Z",
+  "language": "Telugu",
+  "platform": "Netflix",
+  "kind": "missing",
+  "verdict": "NEEDS REVIEW",
+  "why": "no matching Indian-language title on TMDB"
+ },
+ {
+  "title": "Radbali",
+  "at": "2026-10-25T09:22:45.581Z",
+  "language": "Telugu",
+  "platform": "",
+  "kind": "missing",
+  "verdict": "NEEDS REVIEW",
+  "why": "no matching Indian-language title on TMDB"
+ },
+ {
   "title": "మండాడి మూవీ",
   "at": "2026-10-25T03:13:12.942Z",
   "language": "Tamil",

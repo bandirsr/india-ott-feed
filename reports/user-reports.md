@@ -1,7 +1,10 @@
 # User reports - 2026-10-25
 
-13 reports, newest first.
+16 reports, newest first.
 
+- **Movie** - Missing title (2026-10-25; Telugu, android)
+- **Paradise** - Missing title (2026-10-25; Telugu, on Netflix, android) - 22 oct 2026
+- **Radbali** - Missing title (2026-10-25; Telugu, android)
 - **మండాడి మూవీ** - Missing title (2026-10-25; Tamil, android)
 - **Insidious** - Missing title (2026-10-25; android)
 - **Paappayan** - Missing title (2026-10-24; android)
