@@ -37,6 +37,6 @@ Newest first inside each group. "Fixed on" is the first day the checker saw the 
 | Reported | Title | Language | From | Their note | What we found | Fixed on |
 |---|---|---|---|---|---|---|
 | 2026-10-19 | **Test film** | Hindi | web | - | no matching Indian-language title on TMDB | - |
-| 2026-10-17 | **Testtest** | - | web | - | no matching Indian-language title on TMDB | - |
+| 2026-10-17 | **Testtest** | - | web | - | no exact match; similar: looks like a misspelling of: The Test Case (hi, tv:76793, in the app) | - |
 | 2026-10-17 | **Browser test film (ignore)** | - | web | - | no matching Indian-language title on TMDB | - |
 | 2026-10-17 | **Test film (ignore)** | Telugu | web | endpoint test from Claude | no matching Indian-language title on TMDB | - |
