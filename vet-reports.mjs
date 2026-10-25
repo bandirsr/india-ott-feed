@@ -34,7 +34,8 @@ const rules = { certs: read('certifications.json'), manual: read('blocked-titles
 
 const LANGS = ['te', 'hi', 'ta', 'ml', 'kn', 'bn', 'mr', 'pa', 'gu'];
 const LANG_CODE = { telugu: 'te', hindi: 'hi', tamil: 'ta', malayalam: 'ml', kannada: 'kn', bengali: 'bn', marathi: 'mr', punjabi: 'pa', gujarati: 'gu' };
-const norm = (s) => String(s ?? '').toLowerCase().replace(/[^a-z0-9]/g, '');
+// A leading "The" is dropped: people type "Paradise" for "The Paradise".
+const norm = (s) => String(s ?? '').toLowerCase().replace(/^the\s+/, '').replace(/[^a-z0-9]/g, '');
 
 const inFeed = new Set();
 for (const l of LANGS) {
@@ -80,7 +81,22 @@ for (const r of reports) {
     }
     const m = await tmdbMatch(r.title, langHint);
     if (!m) {
-      Object.assign(v, { verdict: 'NEEDS REVIEW', why: 'no matching Indian-language title on TMDB' });
+      // Nothing exact: show the closest Indian-language titles so a human can tell a typo from a film TMDB lacks.
+      const want = norm(r.title);
+      const close = [];
+      for (const kind of ['movie', 'tv']) {
+        const j = await rawCall(`/search/${kind}`, { query: r.title, include_adult: false });
+        for (const x of j.results ?? []) {
+          const n = norm(x.title ?? x.name);
+          if (LANGS.includes(x.original_language) && want.length >= 3 && (n.includes(want) || want.includes(n))) {
+            close.push(`${x.title ?? x.name} (${(x.release_date ?? x.first_air_date ?? '').slice(0, 4)}, ${x.original_language}, ${kind}:${x.id})`);
+          }
+        }
+      }
+      Object.assign(v, {
+        verdict: 'NEEDS REVIEW',
+        why: close.length ? `no exact match; similar: ${close.slice(0, 3).join('; ')}` : 'no matching Indian-language title on TMDB',
+      });
       out.push(v);
       continue;
     }
