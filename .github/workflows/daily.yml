@@ -164,6 +164,14 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: node certs.js 1500
 
+      # An A-certified film with no synopsis is hidden by src/safety.js. Ask
+      # TMDB again for those, so a new film is not hidden just because details
+      # had not reached it yet (The Paradise, Oct 2026).
+      - name: Fill synopses for A-certified films
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: node details-certified.mjs
+
       # Every trailer key is checked against YouTube's own age-restriction flag
       # before anything is published (1 quota unit per 50 videos, cached).
       - name: Check trailer safety
