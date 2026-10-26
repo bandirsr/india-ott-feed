@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T08:07:02.659Z",
+  "generatedAt": "2026-10-26T18:56:51.863Z",
   "note": "Provisional. Reported by news sources; Wikipedia corrects these later.",
   "releases": [
     {
@@ -25,7 +25,7 @@
         "2026-11-20"
       ],
       "firstSeenAt": "2026-11-20T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1
     },
@@ -51,7 +51,32 @@
         "2026-11-18"
       ],
       "firstSeenAt": "Thu, 15 Oct 2026 11:20:41 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Dilwali Diwali",
+      "platform": "Netflix",
+      "languages": [],
+      "date": "2026-11-05",
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "keralatv-ott",
+      "sourceName": "KeralaTV OTT",
+      "headline": "Dilwali Diwali OTT Release Date is November 5, 2026 – Netflix Announces November 5 Premiere of New Family Film",
+      "link": "https://www.keralatv.in/dilwali-diwali-ott-release-date/",
+      "publishedAt": "Mon, 26 Oct 2026 09:00:41 +0000",
+      "sources": [
+        "keralatv-ott"
+      ],
+      "dates": [
+        "2026-11-05"
+      ],
+      "firstSeenAt": "Mon, 26 Oct 2026 09:00:41 +0000",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -76,7 +101,7 @@
         "2026-10-30"
       ],
       "firstSeenAt": "Tue, 06 Oct 2026 13:55:36 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -101,7 +126,7 @@
         "2026-10-30"
       ],
       "firstSeenAt": "Sat, 17 Oct 2026 08:45:00 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -120,17 +145,68 @@
       "link": "https://www.keralatv.in/immortal-ott-release-date-sonyliv-gv-prakash-kumar/",
       "publishedAt": "Sat, 24 Oct 2026 06:27:31 +0000",
       "sources": [
-        "keralatv-ott",
-        "ottrelease"
+        "keralatv-ott"
       ],
       "dates": [
         "2026-10-30"
       ],
       "firstSeenAt": "Sat, 24 Oct 2026 06:27:31 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
-      "sourceCount": 2,
-      "confidence": "high"
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "What’s",
+      "platform": "Netflix",
+      "languages": [],
+      "date": "2026-10-30",
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "binged",
+      "sourceName": "Binged",
+      "headline": "What’s Streaming on OTT This Week? Akka and More",
+      "link": "https://www.binged.com/ott-analysis/what-streaming-on-ott-oct-2026-last-week-akka-and-more/",
+      "publishedAt": "Mon, 26 Oct 2026 09:04:17 +0000",
+      "sources": [
+        "binged"
+      ],
+      "dates": [
+        "2026-10-30"
+      ],
+      "firstSeenAt": "Mon, 26 Oct 2026 09:04:17 +0000",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Avaraachan And Sons Sets Its Netflix Arrival Date",
+      "platform": "Netflix",
+      "languages": [
+        "Malayalam"
+      ],
+      "date": "2026-10-30",
+      "dateStatus": "reported",
+      "provisional": true,
+      "source": "ottrelease",
+      "sourceName": "OTT Release",
+      "headline": "Biju Menon’s Avaraachan And Sons Sets Its Netflix Arrival Date – Streaming in 5 Languages!",
+      "link": "https://www.ottrelease.com/news/biju-menons-avaraachan-and-sons-sets-its-netflix-arrival-date-streaming-in-5-languages.html",
+      "publishedAt": "Mon, 26 Oct 2026 13:31:58 +0000",
+      "sources": [
+        "ottrelease"
+      ],
+      "dates": [
+        "2026-10-30"
+      ],
+      "firstSeenAt": "Mon, 26 Oct 2026 13:31:58 +0000",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
     },
     {
       "kind": "release",
@@ -154,7 +230,7 @@
         "2026-10-29"
       ],
       "firstSeenAt": "Sun, 25 Oct 2026 11:08:46 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -185,7 +261,7 @@
         "2026-10-29"
       ],
       "firstSeenAt": "Sun, 25 Oct 2026 07:57:28 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -215,7 +291,37 @@
         "2026-10-26"
       ],
       "firstSeenAt": "2026-10-26T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
+      "conflictingDates": [],
+      "sourceCount": 1,
+      "confidence": "single-source"
+    },
+    {
+      "kind": "release",
+      "title": "Shakthi Thirumagan",
+      "platform": "JioHotstar",
+      "languages": [
+        "Tamil"
+      ],
+      "strictLanguage": true,
+      "date": "2026-10-26",
+      "dateStatus": "reported",
+      "provisional": true,
+      "catalog": true,
+      "keepDays": 120,
+      "source": "yt-UC8lPjTzRiG37n1Q2kpz3Rfg",
+      "sourceName": "JioHotstar Tamil on YouTube",
+      "headline": "Shakthi Thirumagan | Streaming Now on JioHotstar",
+      "link": "https://www.youtube.com/watch?v=qcaxtNZBYcg",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "sources": [
+        "yt-UC8lPjTzRiG37n1Q2kpz3Rfg"
+      ],
+      "dates": [
+        "2026-10-26"
+      ],
+      "firstSeenAt": "2026-10-26T00:00:00.000Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -245,7 +351,7 @@
         "2026-10-25"
       ],
       "firstSeenAt": "2026-10-25T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -275,7 +381,7 @@
         "2026-10-25"
       ],
       "firstSeenAt": "2026-10-25T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -305,7 +411,7 @@
         "2026-10-25"
       ],
       "firstSeenAt": "2026-10-25T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -335,7 +441,7 @@
         "2026-10-25"
       ],
       "firstSeenAt": "2026-10-25T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -365,7 +471,7 @@
         "2026-10-24"
       ],
       "firstSeenAt": "2026-10-24T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -395,7 +501,7 @@
         "2026-10-24"
       ],
       "firstSeenAt": "2026-10-24T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -425,7 +531,7 @@
         "2026-10-24"
       ],
       "firstSeenAt": "2026-10-24T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -450,7 +556,7 @@
         "2026-10-23"
       ],
       "firstSeenAt": "Thu, 08 Oct 2026 03:14:46 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -477,7 +583,7 @@
         "2026-10-23"
       ],
       "firstSeenAt": "Thu, 15 Oct 2026 08:21:01 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -504,7 +610,7 @@
         "2026-10-23"
       ],
       "firstSeenAt": "Fri, 16 Oct 2026 02:56:21 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -531,7 +637,7 @@
         "2026-10-23"
       ],
       "firstSeenAt": "Wed, 21 Oct 2026 02:45:30 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -558,7 +664,7 @@
         "2026-10-23"
       ],
       "firstSeenAt": "Mon, 05 Oct 2026 08:44:39 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -588,7 +694,7 @@
         "2026-10-23"
       ],
       "firstSeenAt": "2026-10-23T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -619,7 +725,7 @@
         "2026-10-23"
       ],
       "firstSeenAt": "2026-10-23T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -649,7 +755,7 @@
         "2026-10-23"
       ],
       "firstSeenAt": "2026-10-23T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -674,7 +780,7 @@
         "2026-10-22"
       ],
       "firstSeenAt": "Mon, 12 Oct 2026 06:15:45 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -701,7 +807,7 @@
         "2026-10-22"
       ],
       "firstSeenAt": "Wed, 14 Oct 2026 09:39:22 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -728,7 +834,7 @@
         "2026-10-22"
       ],
       "firstSeenAt": "Sun, 18 Oct 2026 06:45:33 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -762,7 +868,7 @@
         "2026-10-23"
       ],
       "firstSeenAt": "2026-10-16T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [
         "2026-10-25",
         "2026-10-23"
@@ -795,7 +901,7 @@
         "2026-10-22"
       ],
       "firstSeenAt": "2026-10-22T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -825,7 +931,7 @@
         "2026-10-22"
       ],
       "firstSeenAt": "2026-10-22T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -855,7 +961,7 @@
         "2026-10-22"
       ],
       "firstSeenAt": "2026-10-22T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -885,7 +991,7 @@
         "2026-10-21"
       ],
       "firstSeenAt": "2026-10-21T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -916,7 +1022,7 @@
         "2026-10-21"
       ],
       "firstSeenAt": "2026-10-21T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -946,7 +1052,7 @@
         "2026-10-20"
       ],
       "firstSeenAt": "2026-10-20T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -977,7 +1083,7 @@
         "2026-10-19"
       ],
       "firstSeenAt": "2026-10-19T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1007,7 +1113,7 @@
         "2026-10-19"
       ],
       "firstSeenAt": "2026-10-19T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1037,7 +1143,7 @@
         "2026-10-19"
       ],
       "firstSeenAt": "2026-10-19T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1067,7 +1173,7 @@
         "2026-10-18"
       ],
       "firstSeenAt": "2026-10-18T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1097,7 +1203,7 @@
         "2026-10-17"
       ],
       "firstSeenAt": "2026-10-17T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1124,11 +1230,14 @@
         "yt-UC8lPjTzRiG37n1Q2kpz3Rfg"
       ],
       "dates": [
-        "2026-10-17"
+        "2026-10-17",
+        "2026-10-26"
       ],
       "firstSeenAt": "2026-10-17T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
-      "conflictingDates": [],
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
+      "conflictingDates": [
+        "2026-10-26"
+      ],
       "sourceCount": 1,
       "confidence": "single-source"
     },
@@ -1157,7 +1266,7 @@
         "2026-10-17"
       ],
       "firstSeenAt": "2026-10-17T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1182,7 +1291,7 @@
         "2026-10-16"
       ],
       "firstSeenAt": "Wed, 07 Oct 2026 14:04:38 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1209,7 +1318,7 @@
         "2026-10-16"
       ],
       "firstSeenAt": "Sun, 11 Oct 2026 02:22:16 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1236,7 +1345,7 @@
         "2026-10-16"
       ],
       "firstSeenAt": "Sun, 11 Oct 2026 08:48:27 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1267,7 +1376,7 @@
         "2026-10-16"
       ],
       "firstSeenAt": "2026-10-16T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1298,7 +1407,7 @@
         "2026-10-16"
       ],
       "firstSeenAt": "2026-10-14T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1328,7 +1437,7 @@
         "2026-10-16"
       ],
       "firstSeenAt": "2026-10-15T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1363,7 +1472,7 @@
         "2026-10-24"
       ],
       "firstSeenAt": "2026-10-16T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [
         "2026-10-26",
         "2026-10-24"
@@ -1397,7 +1506,7 @@
         "2026-10-23"
       ],
       "firstSeenAt": "2026-10-16T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [
         "2026-10-23"
       ],
@@ -1429,7 +1538,7 @@
         "2026-10-16"
       ],
       "firstSeenAt": "2026-10-16T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1456,7 +1565,7 @@
         "2026-10-15"
       ],
       "firstSeenAt": "Mon, 12 Oct 2026 05:59:16 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1487,7 +1596,7 @@
         "2026-10-15"
       ],
       "firstSeenAt": "2026-10-15T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1517,7 +1626,7 @@
         "2026-10-15"
       ],
       "firstSeenAt": "2026-10-15T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1547,7 +1656,7 @@
         "2026-10-15"
       ],
       "firstSeenAt": "2026-10-15T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1572,7 +1681,7 @@
         "2026-10-14"
       ],
       "firstSeenAt": "Tue, 13 Oct 2026 06:42:13 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1603,7 +1712,7 @@
         "2026-10-25"
       ],
       "firstSeenAt": "2026-10-14T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [
         "2026-10-25"
       ],
@@ -1635,7 +1744,7 @@
         "2026-10-14"
       ],
       "firstSeenAt": "2026-10-14T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1666,7 +1775,7 @@
         "2026-10-13"
       ],
       "firstSeenAt": "2026-10-13T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1696,7 +1805,7 @@
         "2026-10-13"
       ],
       "firstSeenAt": "2026-10-13T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1725,7 +1834,7 @@
         "2026-10-12"
       ],
       "firstSeenAt": "Tue, 06 Oct 2026 10:35:15 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1754,7 +1863,7 @@
         "2026-10-12"
       ],
       "firstSeenAt": "Tue, 06 Oct 2026 10:35:15 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1783,7 +1892,7 @@
         "2026-10-12"
       ],
       "firstSeenAt": "Tue, 06 Oct 2026 10:35:15 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1812,7 +1921,7 @@
         "2026-10-12"
       ],
       "firstSeenAt": "Fri, 09 Oct 2026 05:05:00 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1840,7 +1949,7 @@
         "2026-10-12"
       ],
       "firstSeenAt": "Tue, 13 Oct 2026 05:26:48 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1868,11 +1977,14 @@
         "yt-UCmO-jDLU-KUcweCzktuDsbg"
       ],
       "dates": [
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-26"
       ],
       "firstSeenAt": "2026-10-12T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
-      "conflictingDates": [],
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
+      "conflictingDates": [
+        "2026-10-26"
+      ],
       "sourceCount": 1,
       "confidence": "single-source"
     },
@@ -1902,7 +2014,7 @@
         "2026-10-10"
       ],
       "firstSeenAt": "2026-10-10T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1933,7 +2045,7 @@
         "2026-10-10"
       ],
       "firstSeenAt": "2026-10-10T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1964,7 +2076,7 @@
         "2026-10-10"
       ],
       "firstSeenAt": "2026-10-10T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -1995,7 +2107,7 @@
         "2026-10-09"
       ],
       "firstSeenAt": "Fri, 02 Oct 2026 13:46:36 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2020,7 +2132,7 @@
         "2026-10-09"
       ],
       "firstSeenAt": "Thu, 01 Oct 2026 03:00:19 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2045,7 +2157,7 @@
         "2026-10-09"
       ],
       "firstSeenAt": "Sat, 03 Oct 2026 10:18:03 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2072,7 +2184,7 @@
         "2026-10-09"
       ],
       "firstSeenAt": "Sun, 04 Oct 2026 16:57:52 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2103,7 +2215,7 @@
         "2026-10-09"
       ],
       "firstSeenAt": "Tue, 06 Oct 2026 08:32:39 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2130,7 +2242,7 @@
         "2026-10-09"
       ],
       "firstSeenAt": "Tue, 06 Oct 2026 14:00:16 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2157,7 +2269,7 @@
         "2026-10-09"
       ],
       "firstSeenAt": "Tue, 06 Oct 2026 14:00:16 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2188,7 +2300,7 @@
         "2026-10-09"
       ],
       "firstSeenAt": "Tue, 06 Oct 2026 09:50:49 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2216,7 +2328,7 @@
         "2026-10-09"
       ],
       "firstSeenAt": "Fri, 09 Oct 2026 03:05:43 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2243,7 +2355,7 @@
         "2026-10-09"
       ],
       "firstSeenAt": "Thu, 08 Oct 2026 13:42:11 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2274,7 +2386,7 @@
         "2026-10-09"
       ],
       "firstSeenAt": "2026-10-09T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2301,7 +2413,7 @@
         "2026-10-08"
       ],
       "firstSeenAt": "Mon, 05 Oct 2026 09:06:07 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2329,7 +2441,7 @@
         "2026-10-08"
       ],
       "firstSeenAt": "Tue, 06 Oct 2026 02:51:54 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2358,7 +2470,7 @@
         "2026-10-08"
       ],
       "firstSeenAt": "Mon, 05 Oct 2026 10:10:35 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2389,7 +2501,7 @@
         "2026-10-08"
       ],
       "firstSeenAt": "2026-10-08T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2419,7 +2531,7 @@
         "2026-10-06"
       ],
       "firstSeenAt": "Sat, 03 Oct 2026 10:50:12 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2444,7 +2556,7 @@
         "2026-10-03"
       ],
       "firstSeenAt": "Wed, 30 Sep 2026 14:16:59 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2471,7 +2583,7 @@
         "2026-10-02"
       ],
       "firstSeenAt": "Wed, 30 Sep 2026 06:38:09 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2499,7 +2611,7 @@
         "2026-10-01"
       ],
       "firstSeenAt": "Mon, 28 Sep 2026 08:07:05 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2526,7 +2638,7 @@
         "2026-10-01"
       ],
       "firstSeenAt": "Mon, 28 Sep 2026 04:09:27 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2553,7 +2665,7 @@
         "2026-09-25"
       ],
       "firstSeenAt": "Sun, 20 Sep 2026 16:02:08 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2581,7 +2693,7 @@
         "2026-09-17"
       ],
       "firstSeenAt": "2026-09-17T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1
     },
@@ -2607,7 +2719,7 @@
         "2026-09-11"
       ],
       "firstSeenAt": "Thu, 01 Oct 2026 08:30:50 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2635,7 +2747,7 @@
         "2026-09-11"
       ],
       "firstSeenAt": "2026-09-11T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1
     },
@@ -2664,7 +2776,7 @@
         "2026-09-04"
       ],
       "firstSeenAt": "2026-08-28T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2694,7 +2806,7 @@
         "2026-08-28"
       ],
       "firstSeenAt": "2026-08-28T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2724,7 +2836,7 @@
         "2026-08-21"
       ],
       "firstSeenAt": "2026-08-18T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2754,7 +2866,7 @@
         "2026-07-24"
       ],
       "firstSeenAt": "2026-07-18T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -2782,7 +2894,7 @@
         "2026-07-10"
       ],
       "firstSeenAt": "2026-07-10T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1
     },
@@ -2810,7 +2922,7 @@
         "2026-07-10"
       ],
       "firstSeenAt": "2026-07-10T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1
     },
@@ -2837,7 +2949,7 @@
         "2026-06-26"
       ],
       "firstSeenAt": "2026-06-26T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1
     },
@@ -2864,7 +2976,7 @@
         "2026-06-05"
       ],
       "firstSeenAt": "2026-06-05T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1
     },
@@ -2892,7 +3004,7 @@
         "2026-06-05"
       ],
       "firstSeenAt": "2026-06-05T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1
     },
@@ -2920,7 +3032,7 @@
         "2026-06-05"
       ],
       "firstSeenAt": "2026-06-05T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1
     },
@@ -2947,7 +3059,7 @@
         "2026-06-05"
       ],
       "firstSeenAt": "2026-06-05T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1
     },
@@ -2975,7 +3087,7 @@
         "2026-05-29"
       ],
       "firstSeenAt": "2026-05-29T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1
     },
@@ -3002,7 +3114,7 @@
         "2026-05-15"
       ],
       "firstSeenAt": "2026-05-15T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1
     },
@@ -3029,7 +3141,7 @@
         "2026-04-10"
       ],
       "firstSeenAt": "2026-04-10T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1
     },
@@ -3057,7 +3169,7 @@
         "2026-04-02"
       ],
       "firstSeenAt": "2026-04-02T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1
     },
@@ -3084,7 +3196,7 @@
         "2026-03-19"
       ],
       "firstSeenAt": "2026-03-19T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1
     },
@@ -3111,7 +3223,7 @@
         "2026-03-19"
       ],
       "firstSeenAt": "2026-03-19T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1
     },
@@ -3138,7 +3250,7 @@
         "2026-02-27"
       ],
       "firstSeenAt": "2026-02-27T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1
     },
@@ -3165,7 +3277,7 @@
         "2026-02-20"
       ],
       "firstSeenAt": "2026-02-20T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1
     },
@@ -3193,32 +3305,9 @@
         "2025-11-28"
       ],
       "firstSeenAt": "2025-11-28T00:00:00.000Z",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1
-    },
-    {
-      "kind": "release",
-      "title": "Netflix Bags Irandu Vaanam Digital Rights for a Whopping ₹26 Crore!",
-      "platform": "Netflix",
-      "languages": [],
-      "date": null,
-      "dateStatus": "reported",
-      "provisional": true,
-      "source": "ottrelease",
-      "sourceName": "OTT Release",
-      "headline": "Netflix Bags Irandu Vaanam Digital Rights for a Whopping ₹26 Crore!",
-      "link": "https://www.ottrelease.com/news/netflix-bags-irandu-vaanam-digital-rights-for-a-whopping-%e2%82%b926-crore.html",
-      "publishedAt": "Mon, 05 Oct 2026 09:29:26 +0000",
-      "sources": [
-        "ottrelease"
-      ],
-      "dates": [],
-      "firstSeenAt": "Mon, 05 Oct 2026 09:29:26 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
-      "conflictingDates": [],
-      "sourceCount": 1,
-      "confidence": "single-source"
     },
     {
       "kind": "release",
@@ -3240,7 +3329,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Tue, 06 Oct 2026 09:03:14 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3269,7 +3358,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Tue, 06 Oct 2026 04:30:31 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3294,7 +3383,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Tue, 06 Oct 2026 05:55:54 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3317,7 +3406,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Tue, 06 Oct 2026 11:06:48 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3340,7 +3429,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Tue, 06 Oct 2026 11:06:48 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3365,7 +3454,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 09 Oct 2026 05:05:00 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3388,7 +3477,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Thu, 08 Oct 2026 13:19:25 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3413,7 +3502,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Thu, 08 Oct 2026 10:09:19 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3438,7 +3527,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Thu, 08 Oct 2026 09:42:43 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3464,7 +3553,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Sat, 10 Oct 2026 07:20:58 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3493,7 +3582,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 09 Oct 2026 17:23:07 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3518,7 +3607,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Sat, 10 Oct 2026 16:30:07 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3541,7 +3630,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Mon, 12 Oct 2026 06:19:00 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3566,7 +3655,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Mon, 12 Oct 2026 09:55:17 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3589,7 +3678,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Tue, 13 Oct 2026 09:03:16 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3612,7 +3701,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Tue, 13 Oct 2026 10:17:04 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3635,7 +3724,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Wed, 14 Oct 2026 11:08:45 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3658,7 +3747,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Wed, 14 Oct 2026 10:36:28 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3684,7 +3773,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 16 Oct 2026 01:33:37 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3707,7 +3796,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 16 Oct 2026 08:19:26 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3736,7 +3825,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 16 Oct 2026 11:26:38 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3765,7 +3854,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 16 Oct 2026 11:26:38 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3794,7 +3883,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 16 Oct 2026 11:26:38 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3819,7 +3908,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Sun, 18 Oct 2026 09:20:13 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3844,7 +3933,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Sun, 18 Oct 2026 17:31:58 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3867,7 +3956,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Mon, 19 Oct 2026 13:07:25 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3890,7 +3979,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Mon, 19 Oct 2026 08:07:38 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3913,7 +4002,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Mon, 19 Oct 2026 08:07:38 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3936,7 +4025,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Wed, 21 Oct 2026 05:43:49 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3959,7 +4048,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Thu, 22 Oct 2026 06:12:20 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -3984,7 +4073,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Thu, 22 Oct 2026 05:31:17 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -4007,7 +4096,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Thu, 22 Oct 2026 05:01:09 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -4036,7 +4125,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Thu, 22 Oct 2026 16:19:59 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -4059,7 +4148,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 23 Oct 2026 03:05:49 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -4084,7 +4173,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 23 Oct 2026 05:32:55 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -4107,7 +4196,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 23 Oct 2026 13:38:34 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -4130,7 +4219,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Fri, 23 Oct 2026 13:28:51 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -4155,7 +4244,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Sat, 24 Oct 2026 06:01:42 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -4184,7 +4273,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Sat, 24 Oct 2026 14:22:03 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -4209,7 +4298,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Sat, 24 Oct 2026 12:48:25 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -4234,7 +4323,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Sat, 24 Oct 2026 12:48:25 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -4259,7 +4348,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Sat, 24 Oct 2026 12:48:25 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -4282,7 +4371,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Sun, 25 Oct 2026 12:15:50 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -4307,7 +4396,7 @@
       ],
       "dates": [],
       "firstSeenAt": "Mon, 26 Oct 2026 04:39:09 +0000",
-      "lastSeenAt": "2026-10-26T08:07:02.653Z",
+      "lastSeenAt": "2026-10-26T18:56:51.855Z",
       "conflictingDates": [],
       "sourceCount": 1,
       "confidence": "single-source"
@@ -4432,6 +4521,13 @@
       "headline": "Binged Top 10: What to Watch and What to Skip This Week?",
       "link": "https://www.binged.com/ott-analysis/binged-top-10-what-to-watch-and-what-to-skip-oct-2026-last-week/",
       "publishedAt": "Sun, 25 Oct 2026 03:30:20 +0000"
+    },
+    {
+      "kind": "roundup",
+      "source": "123telugu",
+      "headline": "OTT Releases From Oct 26 to Nov 1: What to Watch This Week on Netflix, JioHotstar, ZEE5, and Others",
+      "link": "https://www.123telugu.com/mnews/ott-releases-from-oct-26-to-nov-1-what-to-watch-this-week-on-netflix-jiohotstar-zee5-and-others-hk.html",
+      "publishedAt": "Mon, 26 Oct 2026 12:30:19 +0000"
     }
   ]
 }
