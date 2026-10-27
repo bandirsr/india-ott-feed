@@ -1,5 +1,5 @@
 {
- "date": "2026-10-26",
+ "date": "2026-10-27",
  "languages": [
   {
    "code": "te",
@@ -23,10 +23,10 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1772904,
-     "title": "Happy Journey",
-     "released": "2026-09-18",
-     "popularity": 3,
+     "id": 1528499,
+     "title": "Transfer Trimurthulu",
+     "released": "2026-06-19",
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -74,6 +74,14 @@
      "id": 1741006,
      "title": "Police Complaint",
      "released": "2026-06-12",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1754873,
+     "title": "The Red Bag",
+     "released": "2026-08-21",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -192,14 +200,6 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1653208,
-     "title": "The Great Grand Superhero: Aliens Ka Aagman",
-     "released": "2026-05-29",
-     "popularity": 3,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1714670,
      "title": "Heer Sara",
      "released": "2026-06-12",
@@ -310,6 +310,22 @@
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
+    },
+    {
+     "id": 1740946,
+     "title": "The Bose Files: Sach Ya Sazish",
+     "released": "2026-07-30",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1718299,
+     "title": "Samarpit Father’s Love",
+     "released": "2026-06-19",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
     }
    ]
   },
@@ -343,18 +359,18 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1563192,
-     "title": "Lenin Pandiyan",
-     "released": "2026-09-25",
-     "popularity": 3,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1318304,
      "title": "Once More",
      "released": "2026-08-28",
      "popularity": 4,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1563192,
+     "title": "Lenin Pandiyan",
+     "released": "2026-09-25",
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -435,14 +451,6 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1737178,
-     "title": "Ego Raman",
-     "released": "2026-05-29",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1627516,
      "title": "Sandakari",
      "released": "2026-09-18",
@@ -457,13 +465,21 @@
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
+    },
+    {
+     "id": 1715800,
+     "title": "Dark Giant",
+     "released": "2026-06-19",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
     }
    ]
   },
   {
    "code": "ml",
    "name": "Malayalam",
-   "checked": 36,
+   "checked": 35,
    "missing": [
     {
      "id": 1250502,
@@ -767,28 +783,12 @@
   {
    "code": "bn",
    "name": "Bengali",
-   "checked": 19,
+   "checked": 17,
    "missing": [
-    {
-     "id": 1493932,
-     "title": "Phera",
-     "released": "2026-05-29",
-     "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
     {
      "id": 1736398,
      "title": "Autobi",
      "released": "2026-09-25",
-     "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1607836,
-     "title": "Phool Pishi O Edward",
-     "released": "2026-05-29",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -997,18 +997,8 @@
   {
    "code": "pa",
    "name": "Punjabi",
-   "checked": 18,
+   "checked": 17,
    "missing": [
-    {
-     "id": 1657464,
-     "title": "The Great Punjab Robbery",
-     "released": "2026-08-07",
-     "popularity": 4,
-     "tmdb": "streaming",
-     "tmdbPlatforms": [
-      "KableOne"
-     ]
-    },
     {
      "id": 1518769,
      "title": "Singh vs Kaur 2",
@@ -1030,34 +1020,6 @@
      "title": "Ishqnama",
      "released": "2026-07-24",
      "popularity": 3,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1771989,
-     "title": "Mitti De Putt",
-     "released": "2026-09-18",
-     "popularity": 2,
-     "tmdb": "streaming",
-     "tmdbPlatforms": [
-      "KableOne"
-     ]
-    },
-    {
-     "id": 1650181,
-     "title": "Chaali Din",
-     "released": "2026-06-19",
-     "popularity": 2,
-     "tmdb": "streaming",
-     "tmdbPlatforms": [
-      "KableOne"
-     ]
-    },
-    {
-     "id": 1692948,
-     "title": "Chardikala",
-     "released": "2026-05-29",
-     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -1141,14 +1103,6 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1786120,
-     "title": "Kabanda",
-     "released": "2026-05-29",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1739294,
      "title": "Maaran",
      "released": "2026-07-31",
@@ -1161,6 +1115,14 @@
      "title": "Hip Hip Hurray",
      "released": "2026-07-30",
      "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1808613,
+     "title": "Chatni",
+     "released": "2026-09-18",
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     }
