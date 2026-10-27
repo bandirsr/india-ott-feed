@@ -1,7 +1,12 @@
 # User reports - 2026-10-27
 
-19 reports, newest first.
+24 reports, newest first.
 
+- **418 movie** - Missing title (2026-10-27; Telugu, android)
+- **Mani** - Missing title (2026-10-27; H, on G, android) - Hnv
+- **All** - Wrong platform/date (2026-10-27; Talugu, android)
+- **Court** - Missing title (2026-10-27; Telugu, on Netflix, web)
+- **Pardesi movie** - Missing title (2026-10-27; android)
 - **Jaialr2** - Missing title (2026-10-27; Telugu, android)
 - **Telugu moves** - Missing title (2026-10-27; Telugu, android)
 - **The Paradise** - Missing title (2026-10-25; Telugu, android)
