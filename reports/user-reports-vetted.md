@@ -1,13 +1,15 @@
 # What people reported - checked 2026-10-27
 
-🟢 Fixed - in the app: **6** &nbsp;·&nbsp; 🔵 Ready to add: **0** &nbsp;·&nbsp; 🟡 Needs a look: **1** &nbsp;·&nbsp; 🟣 Closed - nothing to add: **6** &nbsp;·&nbsp; 🔴 Rejected by safety rules: **0** &nbsp;·&nbsp; ⚪ Test entry: **4**
+🟢 Fixed - in the app: **6** &nbsp;·&nbsp; 🔵 Ready to add: **0** &nbsp;·&nbsp; 🟡 Needs a look: **3** &nbsp;·&nbsp; 🟣 Closed - nothing to add: **6** &nbsp;·&nbsp; 🔴 Rejected by safety rules: **0** &nbsp;·&nbsp; ⚪ Test entry: **4**
 
 Newest first inside each group. "Fixed on" is the first day the checker saw the title in the live app; a report already covered when it arrived shows the report day.
 
-## 🟡 Needs a look (1)
+## 🟡 Needs a look (3)
 
 | Reported | Title | Language | From | Their note | What we found | Fixed on |
 |---|---|---|---|---|---|---|
+| 2026-10-27 | **Jaialr2** | Telugu | android | - | no exact match; similar: looks like a misspelling of: Jailer 2 (ta, movie:1234139, in the app, Coming soon); Jailer (kn, movie:937020, in the app); Gadar 2 (hi, movie:885331, in the app) | - |
+| 2026-10-27 | **Telugu moves** | Telugu | android | - | no matching Indian-language title on TMDB | - |
 | 2026-10-23 | **Ajay** | Telugu | android · Telugu | - | Unclear which film. TMDB has Ajay (1996 hi, 2006 kn) and Ajay Gadu (2024 te, no streaming platform). Waiting for a clearer report. | - |
 
 ## 🟢 Fixed - in the app (6)

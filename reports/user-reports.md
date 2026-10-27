@@ -1,7 +1,9 @@
 # User reports - 2026-10-27
 
-17 reports, newest first.
+19 reports, newest first.
 
+- **Jaialr2** - Missing title (2026-10-27; Telugu, android)
+- **Telugu moves** - Missing title (2026-10-27; Telugu, android)
 - **The Paradise** - Missing title (2026-10-25; Telugu, android)
 - **Movie** - Missing title (2026-10-25; Telugu, android)
 - **Paradise** - Missing title (2026-10-25; Telugu, on Netflix, android) - 22 oct 2026
