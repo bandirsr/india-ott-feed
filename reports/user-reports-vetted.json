@@ -1,5 +1,159 @@
 [
  {
+  "key": "2026-10-28T17:11:44.780Z|Viswanath and sons",
+  "title": "Viswanath and sons",
+  "reportedAt": "2026-10-28T17:11:44.780Z",
+  "language": "Telugu",
+  "appPlatform": "android",
+  "onPlatform": "",
+  "note": "",
+  "status": "REVIEW",
+  "verdict": "NEEDS REVIEW",
+  "why": "no exact match; similar: looks like a misspelling of: Vishwanath & Sons (ta, movie:1408162, in the app)",
+  "tmdb": null,
+  "matched": null,
+  "cert": null,
+  "firstSeen": "2026-10-28",
+  "checkedOn": "2026-10-28",
+  "firstCheckedAt": "2026-10-28T20:15:47.492Z",
+  "checkedAt": "2026-10-28T20:15:47.492Z"
+ },
+ {
+  "key": "2026-10-28T16:51:43.143Z|Pushpa",
+  "title": "Pushpa",
+  "reportedAt": "2026-10-28T16:51:43.143Z",
+  "language": "Telugu",
+  "appPlatform": "android",
+  "onPlatform": "",
+  "note": "",
+  "status": "REVIEW",
+  "verdict": "NEEDS REVIEW",
+  "why": "no exact match; similar: looks like a misspelling of: PUPA (ml, movie:1802890, in the app); Pushpa: The Rise (2021, te, movie:690957); Pushpa 2 - The Rule (2024, te, movie:857598)",
+  "tmdb": null,
+  "matched": null,
+  "cert": null,
+  "firstSeen": "2026-10-28",
+  "checkedOn": "2026-10-28",
+  "firstCheckedAt": "2026-10-28T20:15:47.492Z",
+  "checkedAt": "2026-10-28T20:15:47.492Z"
+ },
+ {
+  "key": "2026-10-28T16:51:24.860Z|Rajan",
+  "title": "Rajan",
+  "reportedAt": "2026-10-28T16:51:24.860Z",
+  "language": "Telugu",
+  "appPlatform": "android",
+  "onPlatform": "",
+  "note": "",
+  "status": "REVIEW",
+  "verdict": "NEEDS REVIEW",
+  "why": "no exact match; similar: looks like a misspelling of: Raja (ta, movie:69418, in the app); Raja (te, movie:267779, in the app); Raja (hi, movie:205075, in the app); Rajan Vagaiyara (, ta, movie:1700973); Michael Madana Kama Rajan (1990, ta, movie:14445)",
+  "tmdb": null,
+  "matched": null,
+  "cert": null,
+  "firstSeen": "2026-10-28",
+  "checkedOn": "2026-10-28",
+  "firstCheckedAt": "2026-10-28T20:15:47.492Z",
+  "checkedAt": "2026-10-28T20:15:47.492Z"
+ },
+ {
+  "key": "2026-10-28T16:13:43.460Z|Telugu",
+  "title": "Telugu",
+  "reportedAt": "2026-10-28T16:13:43.460Z",
+  "language": "Hindi",
+  "appPlatform": "android",
+  "onPlatform": "",
+  "note": "",
+  "status": "FIXED",
+  "verdict": "ALREADY LISTED",
+  "why": "it is in the live feed",
+  "tmdb": "tv:300894",
+  "matched": "Telugu",
+  "cert": null,
+  "firstSeen": "2026-10-28",
+  "checkedOn": "2026-10-28",
+  "firstCheckedAt": "2026-10-28T20:15:47.492Z",
+  "checkedAt": "2026-10-28T20:15:47.492Z",
+  "fixedOn": "2026-10-28",
+  "fixedAt": "2026-10-28T20:15:47.492Z"
+ },
+ {
+  "key": "2026-10-28T15:59:30.983Z|Hollywood",
+  "title": "Hollywood",
+  "reportedAt": "2026-10-28T15:59:30.983Z",
+  "language": "Telugu",
+  "appPlatform": "android",
+  "onPlatform": "",
+  "note": "",
+  "status": "REVIEW",
+  "verdict": "NEEDS REVIEW",
+  "why": "no exact match; similar: looks like a misspelling of: Hello World (te, tv:208094, in the app); Lolly Pop (hi, movie:919656, in the app); Honeymoon (hi, movie:331370, in the app); Hollywood (2002, kn, movie:339861)",
+  "tmdb": null,
+  "matched": null,
+  "cert": null,
+  "firstSeen": "2026-10-28",
+  "checkedOn": "2026-10-28",
+  "firstCheckedAt": "2026-10-28T20:15:47.492Z",
+  "checkedAt": "2026-10-28T20:15:47.492Z"
+ },
+ {
+  "key": "2026-10-28T15:53:34.752Z|The navigator",
+  "title": "The navigator",
+  "reportedAt": "2026-10-28T15:53:34.752Z",
+  "language": "English",
+  "appPlatform": "android",
+  "onPlatform": "",
+  "note": "",
+  "status": "REVIEW",
+  "verdict": "NEEDS REVIEW",
+  "why": "no exact match; similar: looks like a misspelling of: Zwigato (hi, movie:1014060, in the app); Nadigai (ta, movie:1184102, in the app); Nadikar (ml, movie:893591, in the app)",
+  "tmdb": null,
+  "matched": null,
+  "cert": null,
+  "firstSeen": "2026-10-28",
+  "checkedOn": "2026-10-28",
+  "firstCheckedAt": "2026-10-28T20:15:47.492Z",
+  "checkedAt": "2026-10-28T20:15:47.492Z"
+ },
+ {
+  "key": "2026-10-28T13:51:23.466Z|Na wife missing",
+  "title": "Na wife missing",
+  "reportedAt": "2026-10-28T13:51:23.466Z",
+  "language": "Telugu",
+  "appPlatform": "android",
+  "onPlatform": "",
+  "note": "",
+  "status": "REVIEW",
+  "verdict": "NEEDS REVIEW",
+  "why": "no matching Indian-language title on TMDB",
+  "tmdb": null,
+  "matched": null,
+  "cert": null,
+  "firstSeen": "2026-10-28",
+  "checkedOn": "2026-10-28",
+  "firstCheckedAt": "2026-10-28T20:15:47.492Z",
+  "checkedAt": "2026-10-28T20:15:47.492Z"
+ },
+ {
+  "key": "2026-10-28T13:28:15.672Z|I'm game",
+  "title": "I'm game",
+  "reportedAt": "2026-10-28T13:28:15.672Z",
+  "language": "Telugu",
+  "appPlatform": "android",
+  "onPlatform": "",
+  "note": "",
+  "status": "REVIEW",
+  "verdict": "NEEDS REVIEW",
+  "why": "no exact match; similar: looks like a misspelling of: Game (te, movie:866588, in the app); Game (bn, movie:578970, in the app); Game (hi, movie:60740, in the app); I'm Game (2026, ml, movie:1250502)",
+  "tmdb": null,
+  "matched": null,
+  "cert": null,
+  "firstSeen": "2026-10-28",
+  "checkedOn": "2026-10-28",
+  "firstCheckedAt": "2026-10-28T20:15:47.492Z",
+  "checkedAt": "2026-10-28T20:15:47.492Z"
+ },
+ {
   "key": "2026-10-28T02:38:30.655Z|Premadha Oorali",
   "title": "Premadha Oorali",
   "reportedAt": "2026-10-28T02:38:30.655Z",
@@ -16,7 +170,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-28T09:38:40.436Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z"
+  "checkedAt": "2026-10-28T20:15:47.492Z"
  },
  {
   "key": "2026-10-28T02:03:44.137Z|Premada",
@@ -35,7 +189,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-28T09:38:40.436Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z"
+  "checkedAt": "2026-10-28T20:15:47.492Z"
  },
  {
   "key": "2026-10-27T17:41:43.054Z|Mounamelanoyi",
@@ -54,7 +208,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-28T00:31:51.755Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z"
+  "checkedAt": "2026-10-28T20:15:47.492Z"
  },
  {
   "key": "2026-10-27T17:31:40.057Z|Chenni express",
@@ -73,7 +227,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-28T00:31:51.755Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z"
+  "checkedAt": "2026-10-28T20:15:47.492Z"
  },
  {
   "key": "2026-10-27T17:23:43.618Z|The paradise movie Telugu",
@@ -92,7 +246,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-28T00:31:51.755Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z"
+  "checkedAt": "2026-10-28T20:15:47.492Z"
  },
  {
   "key": "2026-10-27T15:48:20.526Z|Prakash",
@@ -111,7 +265,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-28T00:31:51.755Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z"
+  "checkedAt": "2026-10-28T20:15:47.492Z"
  },
  {
   "key": "2026-10-27T14:28:37.825Z|418 movie",
@@ -130,7 +284,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-27T15:21:05.543Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z"
+  "checkedAt": "2026-10-28T20:15:47.492Z"
  },
  {
   "key": "2026-10-27T13:06:46.776Z|Mani",
@@ -149,7 +303,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-27T15:21:05.543Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z"
+  "checkedAt": "2026-10-28T20:15:47.492Z"
  },
  {
   "key": "2026-10-27T12:03:15.248Z|All",
@@ -168,7 +322,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-27T15:21:05.543Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z"
+  "checkedAt": "2026-10-28T20:15:47.492Z"
  },
  {
   "key": "2026-10-27T11:37:53.493Z|Court",
@@ -187,7 +341,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-27T15:21:05.543Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z"
+  "checkedAt": "2026-10-28T20:15:47.492Z"
  },
  {
   "key": "2026-10-27T10:02:17.642Z|Pardesi movie",
@@ -206,7 +360,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-27T15:21:05.543Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z"
+  "checkedAt": "2026-10-28T20:15:47.492Z"
  },
  {
   "key": "2026-10-27T07:38:25.064Z|Jaialr2",
@@ -225,7 +379,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-27T08:58:12.086Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z"
+  "checkedAt": "2026-10-28T20:15:47.492Z"
  },
  {
   "key": "2026-10-27T00:29:22.190Z|Telugu moves",
@@ -244,7 +398,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-27T08:58:12.086Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z"
+  "checkedAt": "2026-10-28T20:15:47.492Z"
  },
  {
   "key": "2026-10-25T16:53:05.285Z|The Paradise",
@@ -264,7 +418,7 @@
   "checkedOn": "2026-10-28",
   "fixedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z",
+  "checkedAt": "2026-10-28T20:15:47.492Z",
   "fixedAt": "2026-10-25T18:21:11.373Z"
  },
  {
@@ -284,7 +438,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z",
+  "checkedAt": "2026-10-28T20:15:47.492Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:04.432Z"
  },
@@ -306,7 +460,7 @@
   "checkedOn": "2026-10-28",
   "fixedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z",
+  "checkedAt": "2026-10-28T20:15:47.492Z",
   "fixedAt": "2026-10-25T18:21:11.373Z"
  },
  {
@@ -326,7 +480,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z",
+  "checkedAt": "2026-10-28T20:15:47.492Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:14.586Z"
  },
@@ -348,7 +502,7 @@
   "checkedOn": "2026-10-28",
   "fixedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z",
+  "checkedAt": "2026-10-28T20:15:47.492Z",
   "fixedAt": "2026-10-25T18:21:11.373Z"
  },
  {
@@ -368,7 +522,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z",
+  "checkedAt": "2026-10-28T20:15:47.492Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:04.432Z"
  },
@@ -389,7 +543,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z",
+  "checkedAt": "2026-10-28T20:15:47.492Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T19:08:57.929Z"
  },
@@ -410,7 +564,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z"
+  "checkedAt": "2026-10-28T20:15:47.492Z"
  },
  {
   "key": "2026-10-23T17:11:34.071Z|2026",
@@ -429,7 +583,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z",
+  "checkedAt": "2026-10-28T20:15:47.492Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:04.432Z"
  },
@@ -450,7 +604,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z",
+  "checkedAt": "2026-10-28T20:15:47.492Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:04.432Z"
  },
@@ -471,7 +625,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z",
+  "checkedAt": "2026-10-28T20:15:47.492Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:04.432Z"
  },
@@ -492,7 +646,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z",
+  "checkedAt": "2026-10-28T20:15:47.492Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:14.586Z"
  },
@@ -513,7 +667,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z",
+  "checkedAt": "2026-10-28T20:15:47.492Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T19:09:21.748Z"
  },
@@ -534,7 +688,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z"
+  "checkedAt": "2026-10-28T20:15:47.492Z"
  },
  {
   "key": "2026-10-17T14:00:40.537Z|Testtest",
@@ -553,7 +707,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z"
+  "checkedAt": "2026-10-28T20:15:47.492Z"
  },
  {
   "key": "2026-10-17T03:32:01.179Z|Browser test film (ignore)",
@@ -572,7 +726,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z"
+  "checkedAt": "2026-10-28T20:15:47.492Z"
  },
  {
   "key": "2026-10-17T03:31:31.428Z|Test film (ignore)",
@@ -591,6 +745,6 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-10-28",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-10-28T09:38:40.436Z"
+  "checkedAt": "2026-10-28T20:15:47.492Z"
  }
 ]

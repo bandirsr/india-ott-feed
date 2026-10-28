@@ -1,7 +1,15 @@
 # User reports - 2026-10-28
 
-30 reports, newest first.
+38 reports, newest first.
 
+- **Viswanath and sons** - Missing title (2026-10-28; Telugu, android)
+- **Pushpa** - Missing title (2026-10-28; Telugu, android)
+- **Rajan** - Missing title (2026-10-28; Telugu, android)
+- **Telugu** - Missing title (2026-10-28; Hindi, android)
+- **Hollywood** - Missing title (2026-10-28; Telugu, android)
+- **The navigator** - Missing title (2026-10-28; English, android)
+- **Na wife missing** - Missing title (2026-10-28; Telugu, android)
+- **I'm game** - Missing title (2026-10-28; Telugu, android)
 - **Premadha Oorali** - Missing title (2026-10-28; Kannada, android)
 - **Premada** - Missing title (2026-10-28; Kannada, android)
 - **Mounamelanoyi** - Missing title (2026-10-27; Telugu, android)

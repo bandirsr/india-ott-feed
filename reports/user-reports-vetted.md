@@ -1,13 +1,20 @@
 # What people reported - checked 2026-10-28
 
-🟢 Fixed - in the app: **6** &nbsp;·&nbsp; 🔵 Ready to add: **0** &nbsp;·&nbsp; 🟡 Needs a look: **13** &nbsp;·&nbsp; 🟣 Closed - nothing to add: **6** &nbsp;·&nbsp; 🔴 Rejected by safety rules: **1** &nbsp;·&nbsp; ⚪ Test entry: **4**
+🟢 Fixed - in the app: **7** &nbsp;·&nbsp; 🔵 Ready to add: **0** &nbsp;·&nbsp; 🟡 Needs a look: **20** &nbsp;·&nbsp; 🟣 Closed - nothing to add: **6** &nbsp;·&nbsp; 🔴 Rejected by safety rules: **1** &nbsp;·&nbsp; ⚪ Test entry: **4**
 
 Newest first inside each group. "Fixed on" is the first day the checker saw the title in the live app; a report already covered when it arrived shows the report day.
 
-## 🟡 Needs a look (13)
+## 🟡 Needs a look (20)
 
 | Reported | Title | Language | From | Their note | What we found | Fixed on |
 |---|---|---|---|---|---|---|
+| 2026-10-28 | **Viswanath and sons** | Telugu | android | - | no exact match; similar: looks like a misspelling of: Vishwanath & Sons (ta, movie:1408162, in the app) | - |
+| 2026-10-28 | **Pushpa** | Telugu | android | - | no exact match; similar: looks like a misspelling of: PUPA (ml, movie:1802890, in the app); Pushpa: The Rise (2021, te, movie:690957); Pushpa 2 - The Rule (2024, te, movie:857598) | - |
+| 2026-10-28 | **Rajan** | Telugu | android | - | no exact match; similar: looks like a misspelling of: Raja (ta, movie:69418, in the app); Raja (te, movie:267779, in the app); Raja (hi, movie:205075, in the app); Rajan Vagaiyara (, ta, movie:1700973); Michael Madana Kama Rajan (1990, ta, movie:14445) | - |
+| 2026-10-28 | **Hollywood** | Telugu | android | - | no exact match; similar: looks like a misspelling of: Hello World (te, tv:208094, in the app); Lolly Pop (hi, movie:919656, in the app); Honeymoon (hi, movie:331370, in the app); Hollywood (2002, kn, movie:339861) | - |
+| 2026-10-28 | **The navigator** | English | android | - | no exact match; similar: looks like a misspelling of: Zwigato (hi, movie:1014060, in the app); Nadigai (ta, movie:1184102, in the app); Nadikar (ml, movie:893591, in the app) | - |
+| 2026-10-28 | **Na wife missing** | Telugu | android | - | no matching Indian-language title on TMDB | - |
+| 2026-10-28 | **I'm game** | Telugu | android | - | no exact match; similar: looks like a misspelling of: Game (te, movie:866588, in the app); Game (bn, movie:578970, in the app); Game (hi, movie:60740, in the app); I'm Game (2026, ml, movie:1250502) | - |
 | 2026-10-28 | **Premadha Oorali** | Kannada | android | - | no exact match; similar: looks like a misspelling of: Premada Oorali (kn, movie:1735270, in the app); Prema Kavali (te, movie:99354, in the app); Prema Khaidi (te, movie:1512271, in the app) | - |
 | 2026-10-28 | **Premada** | Kannada | android | - | no exact match; similar: looks like a misspelling of: Premalu (ml, movie:1149791, in the app); Premam (hi, movie:409255, in the app); Prema & Co. (te, movie:1217314, in the app); Premada Oorali (2026, kn, movie:1735270); Premada Kanike (1976, kn, movie:301665) | - |
 | 2026-10-27 | **Mounamelanoyi** | Telugu | android | - | no matching Indian-language title on TMDB | - |
@@ -28,10 +35,11 @@ Newest first inside each group. "Fixed on" is the first day the checker saw the 
 |---|---|---|---|---|---|---|
 | 2026-10-27 | **Mani** | H | android · G | Hnv | certified A with sexual terms in title or description | - |
 
-## 🟢 Fixed - in the app (6)
+## 🟢 Fixed - in the app (7)
 
 | Reported | Title | Language | From | Their note | What we found | Fixed on |
 |---|---|---|---|---|---|---|
+| 2026-10-28 | **Telugu** | Hindi | android | - | Telugu (tv:300894) | 2026-10-28 (same day) |
 | 2026-10-25 | **The Paradise** | Telugu | android | - | The Paradise (movie:1376856, cert A) | 2026-10-25 (same day) |
 | 2026-10-25 | **Paradise** | Telugu | android · Netflix | 22 oct 2026 | The Paradise (movie:1376856, cert A) | 2026-10-25 (same day) |
 | 2026-10-25 | **Radbali** | Telugu | android | - | Ranabaali (movie:1389379, cert U/A 16+) | 2026-10-25 (same day) |
