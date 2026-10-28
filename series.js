@@ -24,9 +24,10 @@ if (!loadTmdbKey()) {
 
 const budget = Number(process.argv.slice(2).find((a) => /^\d+$/.test(a)) ?? 400);
 
-// Two years. Older series are already well covered by the provider sweep, and
-// the gap this closes is specifically recent web series.
-const since = new Date(Date.now() - 730 * 86_400_000).toISOString().slice(0, 10);
+// Four years. Two left out series from 2023-24 that TV needs now (Telugu alone had a dozen
+// on aha, Hotstar, ZEE5 and Prime that were never looked up). The cache keeps every answer,
+// so only the first run pays for the older ones.
+const since = new Date(Date.now() - 1460 * 86_400_000).toISOString().slice(0, 10);
 
 function loadCache() {
   if (!existsSync(CACHE_PATH)) return {};
