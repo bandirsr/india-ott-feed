@@ -1,13 +1,15 @@
 # What people reported - checked 2026-10-28
 
-🟢 Fixed - in the app: **6** &nbsp;·&nbsp; 🔵 Ready to add: **0** &nbsp;·&nbsp; 🟡 Needs a look: **11** &nbsp;·&nbsp; 🟣 Closed - nothing to add: **6** &nbsp;·&nbsp; 🔴 Rejected by safety rules: **1** &nbsp;·&nbsp; ⚪ Test entry: **4**
+🟢 Fixed - in the app: **6** &nbsp;·&nbsp; 🔵 Ready to add: **0** &nbsp;·&nbsp; 🟡 Needs a look: **13** &nbsp;·&nbsp; 🟣 Closed - nothing to add: **6** &nbsp;·&nbsp; 🔴 Rejected by safety rules: **1** &nbsp;·&nbsp; ⚪ Test entry: **4**
 
 Newest first inside each group. "Fixed on" is the first day the checker saw the title in the live app; a report already covered when it arrived shows the report day.
 
-## 🟡 Needs a look (11)
+## 🟡 Needs a look (13)
 
 | Reported | Title | Language | From | Their note | What we found | Fixed on |
 |---|---|---|---|---|---|---|
+| 2026-10-28 | **Premadha Oorali** | Kannada | android | - | no exact match; similar: looks like a misspelling of: Premada Oorali (kn, movie:1735270, in the app); Prema Kavali (te, movie:99354, in the app); Prema Khaidi (te, movie:1512271, in the app) | - |
+| 2026-10-28 | **Premada** | Kannada | android | - | no exact match; similar: looks like a misspelling of: Premalu (ml, movie:1149791, in the app); Premam (hi, movie:409255, in the app); Prema & Co. (te, movie:1217314, in the app); Premada Oorali (2026, kn, movie:1735270); Premada Kanike (1976, kn, movie:301665) | - |
 | 2026-10-27 | **Mounamelanoyi** | Telugu | android | - | no matching Indian-language title on TMDB | - |
 | 2026-10-27 | **Chenni express** | Tamil | android | - | no exact match; similar: looks like a misspelling of: Chennai Express (ta, movie:205022, in the app); Heer Express (hi, movie:1525636, in the app) | - |
 | 2026-10-27 | **The paradise movie Telugu** | Telugu movies | android | - | no matching Indian-language title on TMDB | - |

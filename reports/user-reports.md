@@ -1,7 +1,9 @@
 # User reports - 2026-10-28
 
-28 reports, newest first.
+30 reports, newest first.
 
+- **Premadha Oorali** - Missing title (2026-10-28; Kannada, android)
+- **Premada** - Missing title (2026-10-28; Kannada, android)
 - **Mounamelanoyi** - Missing title (2026-10-27; Telugu, android)
 - **Chenni express** - Missing title (2026-10-27; Tamil, android)
 - **The paradise movie Telugu** - Missing title (2026-10-27; Telugu movies, android)
