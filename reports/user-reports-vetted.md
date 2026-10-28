@@ -1,13 +1,17 @@
-# What people reported - checked 2026-10-27
+# What people reported - checked 2026-10-28
 
-🟢 Fixed - in the app: **6** &nbsp;·&nbsp; 🔵 Ready to add: **0** &nbsp;·&nbsp; 🟡 Needs a look: **7** &nbsp;·&nbsp; 🟣 Closed - nothing to add: **6** &nbsp;·&nbsp; 🔴 Rejected by safety rules: **1** &nbsp;·&nbsp; ⚪ Test entry: **4**
+🟢 Fixed - in the app: **6** &nbsp;·&nbsp; 🔵 Ready to add: **0** &nbsp;·&nbsp; 🟡 Needs a look: **11** &nbsp;·&nbsp; 🟣 Closed - nothing to add: **6** &nbsp;·&nbsp; 🔴 Rejected by safety rules: **1** &nbsp;·&nbsp; ⚪ Test entry: **4**
 
 Newest first inside each group. "Fixed on" is the first day the checker saw the title in the live app; a report already covered when it arrived shows the report day.
 
-## 🟡 Needs a look (7)
+## 🟡 Needs a look (11)
 
 | Reported | Title | Language | From | Their note | What we found | Fixed on |
 |---|---|---|---|---|---|---|
+| 2026-10-27 | **Mounamelanoyi** | Telugu | android | - | no matching Indian-language title on TMDB | - |
+| 2026-10-27 | **Chenni express** | Tamil | android | - | no exact match; similar: looks like a misspelling of: Chennai Express (ta, movie:205022, in the app); Heer Express (hi, movie:1525636, in the app) | - |
+| 2026-10-27 | **The paradise movie Telugu** | Telugu movies | android | - | no matching Indian-language title on TMDB | - |
+| 2026-10-27 | **Prakash** | E g telugu | android | - | no exact match; similar: looks like a misspelling of: Aakash (kn, movie:691094, in the app); Raksha (te, movie:459120, in the app); Raakh (hi, tv:284631, in the app); Prakash Electronic (2017, hi, movie:843100); Sarath Kumar Kamal Prakash Movie (, ta, movie:1731587) | - |
 | 2026-10-27 | **418 movie** | Telugu | android | - | no matching Indian-language title on TMDB | - |
 | 2026-10-27 | **All** | Talugu | android | - | no matching Indian-language title on TMDB | - |
 | 2026-10-27 | **Court** | Telugu | web · Netflix | - | no exact match; similar: looks like a misspelling of: Cobra (ta, movie:793032, in the app); Cobra (ml, movie:137404, in the app); Dour (bn, tv:201135, in the app); Court (2015, mr, movie:290815); Court Martial (2020, hi, movie:702882) | - |

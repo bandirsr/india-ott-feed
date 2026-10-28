@@ -1,7 +1,11 @@
-# User reports - 2026-10-27
+# User reports - 2026-10-28
 
-24 reports, newest first.
+28 reports, newest first.
 
+- **Mounamelanoyi** - Missing title (2026-10-27; Telugu, android)
+- **Chenni express** - Missing title (2026-10-27; Tamil, android)
+- **The paradise movie Telugu** - Missing title (2026-10-27; Telugu movies, android)
+- **Prakash** - Missing title (2026-10-27; E g telugu, android)
 - **418 movie** - Missing title (2026-10-27; Telugu, android)
 - **Mani** - Missing title (2026-10-27; H, on G, android) - Hnv
 - **All** - Wrong platform/date (2026-10-27; Talugu, android)

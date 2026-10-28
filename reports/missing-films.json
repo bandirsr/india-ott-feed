@@ -1,5 +1,5 @@
 {
- "date": "2026-10-27",
+ "date": "2026-10-28",
  "languages": [
   {
    "code": "te",
@@ -158,26 +158,10 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1574560,
-     "title": "Last Man in Tower",
-     "released": "2026-09-11",
-     "popularity": 3,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1169537,
      "title": "Batwara 1947",
      "released": "2026-08-13",
      "popularity": 4,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1714993,
-     "title": "Aryabhatt Ka Zero",
-     "released": "2026-08-07",
-     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -190,6 +174,22 @@
      "tmdbPlatforms": [
       "Zee5"
      ]
+    },
+    {
+     "id": 1714993,
+     "title": "Aryabhatt Ka Zero",
+     "released": "2026-08-07",
+     "popularity": 3,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1021634,
+     "title": "Max, Min and Meowzaki",
+     "released": "2026-07-24",
+     "popularity": 3,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
     },
     {
      "id": 1574560,
@@ -351,14 +351,6 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1538457,
-     "title": "Meesaya Murukku 2",
-     "released": "2026-09-25",
-     "popularity": 8,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1314279,
      "title": "Hi :)",
      "released": "2026-08-28",
@@ -367,17 +359,17 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1318304,
-     "title": "Once More",
-     "released": "2026-08-28",
+     "id": 1563192,
+     "title": "Lenin Pandiyan",
+     "released": "2026-09-25",
      "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
     {
-     "id": 1563192,
-     "title": "Lenin Pandiyan",
-     "released": "2026-09-25",
+     "id": 1318304,
+     "title": "Once More",
+     "released": "2026-08-28",
      "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -524,9 +516,9 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1616268,
-     "title": "Aroopi",
-     "released": "2026-07-03",
+     "id": 1070172,
+     "title": "Ottam Thullal",
+     "released": "2026-09-18",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -755,17 +747,17 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1747816,
-     "title": "Jolly",
-     "released": "2026-07-31",
+     "id": 1496916,
+     "title": "College Kalavida",
+     "released": "2026-06-06",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
     {
-     "id": 1496916,
-     "title": "College Kalavida",
-     "released": "2026-06-06",
+     "id": 1747816,
+     "title": "Jolly",
+     "released": "2026-07-31",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -1018,14 +1010,6 @@
      ]
     },
     {
-     "id": 1518769,
-     "title": "Singh vs Kaur 2",
-     "released": "2026-09-11",
-     "popularity": 3,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1754629,
      "title": "Bol Bhavein Na Bol",
      "released": "2026-09-04",
@@ -1037,6 +1021,14 @@
      "id": 1649791,
      "title": "Ishqnama",
      "released": "2026-07-24",
+     "popularity": 3,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1518769,
+     "title": "Singh vs Kaur 2",
+     "released": "2026-09-11",
      "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -1070,16 +1062,24 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1756456,
-     "title": "Bardaasht",
+     "id": 1649723,
+     "title": "Judaa",
      "released": "2026-08-21",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
     {
-     "id": 1649723,
-     "title": "Judaa",
+     "id": 1753066,
+     "title": "Kudiyan Shehar Diyan",
+     "released": "2026-08-20",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1756456,
+     "title": "Bardaasht",
      "released": "2026-08-21",
      "popularity": 1,
      "tmdb": "nothing",
@@ -1089,14 +1089,6 @@
      "id": 1650810,
      "title": "Baggo",
      "released": "2026-08-28",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1753066,
-     "title": "Kudiyan Shehar Diyan",
-     "released": "2026-08-20",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
