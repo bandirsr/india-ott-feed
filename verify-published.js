@@ -103,6 +103,28 @@ for (const lang of manifest.languages ?? []) {
   check(`${lang.code} has no adult or explicit titles`, bad.length === 0, `${bad.length}: ${bad.slice(0, 5).join('; ')}`);
 }
 
+// The first-screen file is a slice of the language files, so every title in it must be in the
+// full file for that language, and it gets the same safety check. A recent file that drifted from
+// the archive would show titles the full list later drops, or show something the filter removed.
+if (manifest.recent) {
+  const rf = join(PUBLIC, manifest.recent.path);
+  check('recent file was written', existsSync(rf), `manifest points at ${manifest.recent.path}`);
+  if (existsSync(rf)) {
+    const recent = JSON.parse(readFileSync(rf, 'utf8'));
+    check('recent buildId matches', recent.buildId === manifest.buildId, 'the app would re-download it on every launch');
+    check('recent names its providers', Object.keys(recent.providers ?? {}).length > 0);
+    for (const slice of recent.languages ?? []) {
+      const lang = (manifest.languages ?? []).find((l) => l.code === slice.language);
+      if (!lang) { problems.push(`recent: language ${slice.language} is not in the manifest`); continue; }
+      const full = new Set(JSON.parse(readFileSync(join(PUBLIC, lang.path), 'utf8')).titles.map((t) => t.id));
+      const strays = slice.titles.filter((t) => !full.has(t.id)).length;
+      check(`recent ${slice.language} is a subset of the full file`, strays === 0, `${strays} titles are not in ${lang.path}`);
+      const bad = violations({ providers: recent.providers, titles: slice.titles }, safetyRules);
+      check(`recent ${slice.language} has no adult or explicit titles`, bad.length === 0, `${bad.length}: ${bad.slice(0, 5).join('; ')}`);
+    }
+  }
+}
+
 // The Coming soon list is shown in the app too, so it gets the same check.
 if (existsSync(join(PUBLIC, 'v1', 'upcoming.json'))) {
   const up = JSON.parse(readFileSync(join(PUBLIC, 'v1', 'upcoming.json'), 'utf8'));

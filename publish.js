@@ -380,6 +380,11 @@ function main(freshReports) {
   }
 
   const languages = [];
+  // Per-language slice of what is recent, for the small first-screen file written after the loop.
+  const recentSlices = [];
+  const RECENT_DAYS = 45;
+  const recentCutoff = new Date(Date.now() - RECENT_DAYS * 86_400_000).toISOString().slice(0, 10);
+  const todayIso = new Date().toISOString().slice(0, 10);
 
   for (const lang of LANGUAGES) {
     const titles = byLanguage.get(lang.code) ?? [];
@@ -419,6 +424,22 @@ function main(freshReports) {
 
     const file = join(OUT, 'v1', `${lang.code}.json`);
     writeFileSync(file, JSON.stringify(payload));
+
+    // The first screen only needs what arrived lately. A title is recent if ANY date the app could
+    // show for it (watched arrival, India digital release, a news date that is not in the future)
+    // falls inside the window, so the app's "This week" and "This month" read the same from this
+    // slice as from the full file.
+    const isRecent = (t) =>
+      (t.dg && t.dg >= recentCutoff) ||
+      t.p.some(
+        (x) => (x.on && x.on >= recentCutoff) || (x.src === 'reported' && x.rep && x.rep <= todayIso && x.rep >= recentCutoff)
+      );
+    recentSlices.push({
+      language: lang.code,
+      languageName: lang.name,
+      trackingSince: ledger.startedOn,
+      titles: titles.filter(isRecent),
+    });
 
     const bytes = statSync(file).size;
     const gz = gzipSync(JSON.stringify(payload)).length;
@@ -460,6 +481,25 @@ function main(freshReports) {
     languages,
   };
 
+  // The first-screen file: a few weeks of every language, in one small download. The app shows it
+  // at once and fetches the full language files behind it. Old app versions never look for it.
+  const recentFile = join(OUT, 'v1', 'recent.json');
+  const recentPayload = {
+    version: latestDate,
+    buildId: builtAt,
+    windowDays: RECENT_DAYS,
+    providers: folded.providers,
+    languages: recentSlices,
+  };
+  writeFileSync(recentFile, JSON.stringify(recentPayload));
+  manifest.recent = {
+    path: 'v1/recent.json',
+    windowDays: RECENT_DAYS,
+    titles: recentSlices.reduce((n, l) => n + l.titles.length, 0),
+    bytes: statSync(recentFile).size,
+    gzipBytes: gzipSync(JSON.stringify(recentPayload)).length,
+  };
+
   writeFileSync(join(OUT, 'manifest.json'), JSON.stringify(manifest, null, 2));
 
   console.log(`Published version ${latestDate} from ${dates.length} snapshot(s)\n`);
@@ -473,6 +513,7 @@ function main(freshReports) {
   const totalGz = languages.reduce((s, l) => s + l.gzipBytes, 0);
   console.log(`\n  manifest ${statSync(join(OUT, 'manifest.json')).size} bytes`);
   console.log(`  all languages ${Math.round(totalGz / 1024)} KB gzipped`);
+  console.log(`  recent file ${manifest.recent.titles} titles, ${Math.round(manifest.recent.gzipBytes / 1024)} KB gzipped`);
   if (reportedAttached || reportedAdded) {
     console.log(`  news layer: ${reportedAttached} attached, ${reportedAdded} new titles (unconfirmed, pending TMDB)`);
   }
