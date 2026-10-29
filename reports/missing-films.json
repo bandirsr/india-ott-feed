@@ -1,10 +1,10 @@
 {
- "date": "2026-10-28",
+ "date": "2026-10-29",
  "languages": [
   {
    "code": "te",
    "name": "Telugu",
-   "checked": 38,
+   "checked": 39,
    "missing": [
     {
      "id": 1772904,
@@ -26,7 +26,7 @@
      "id": 1747034,
      "title": "Agadha",
      "released": "2026-08-13",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -105,7 +105,7 @@
      "id": 1709391,
      "title": "Hanuman Ansh",
      "released": "2026-08-07",
-     "popularity": 7,
+     "popularity": 6,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -113,7 +113,7 @@
      "id": 1640649,
      "title": "Love Lottery",
      "released": "2026-09-25",
-     "popularity": 5,
+     "popularity": 6,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -129,7 +129,7 @@
      "id": 1486860,
      "title": "Haunted 3D: Echoes of the Past",
      "released": "2026-06-12",
-     "popularity": 5,
+     "popularity": 4,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -137,7 +137,7 @@
      "id": 1215889,
      "title": "Daayra",
      "released": "2026-09-18",
-     "popularity": 5,
+     "popularity": 4,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -187,7 +187,7 @@
      "id": 1021634,
      "title": "Max, Min and Meowzaki",
      "released": "2026-07-24",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -211,7 +211,7 @@
      "id": 1285815,
      "title": "Mahakavya: Shri Ramayan Katha",
      "released": "2026-09-25",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -219,7 +219,7 @@
      "id": 1720201,
      "title": "Dulhaniya Le Aaeegi",
      "released": "2026-07-24",
-     "popularity": 2,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -299,7 +299,7 @@
      "id": 1765342,
      "title": "Mahaprabhu Jagannath",
      "released": "2026-08-28",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -307,7 +307,7 @@
      "id": 1713420,
      "title": "Uttar Da Puttar",
      "released": "2026-07-24",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -346,7 +346,7 @@
      "id": 1618200,
      "title": "The Dark Heaven",
      "released": "2026-09-18",
-     "popularity": 21,
+     "popularity": 22,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -362,7 +362,7 @@
      "id": 1563192,
      "title": "Lenin Pandiyan",
      "released": "2026-09-25",
-     "popularity": 4,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -394,7 +394,7 @@
      "id": 1607634,
      "title": "Anbe Diana",
      "released": "2026-07-17",
-     "popularity": 2,
+     "popularity": 3,
      "tmdb": "streaming",
      "tmdbPlatforms": [
       "Sonyliv Amazon Channel"
@@ -470,7 +470,7 @@
      "id": 1329084,
      "title": "The Grand Master",
      "released": "2026-09-25",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -501,7 +501,7 @@
      "id": 1545486,
      "title": "Unmadham",
      "released": "2026-07-31",
-     "popularity": 5,
+     "popularity": 4,
      "tmdb": "streaming",
      "tmdbPlatforms": [
       "Sonyliv Amazon Channel"
@@ -511,7 +511,7 @@
      "id": 1588472,
      "title": "L&O - Law and Order",
      "released": "2026-09-18",
-     "popularity": 4,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -614,7 +614,7 @@
      "id": 1213243,
      "title": "Toxic",
      "released": "2026-08-26",
-     "popularity": 16,
+     "popularity": 14,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -662,7 +662,7 @@
      "id": 1757697,
      "title": "Love Seasons",
      "released": "2026-07-03",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -670,7 +670,7 @@
      "id": 691267,
      "title": "Graamaayana",
      "released": "2026-07-03",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -702,7 +702,7 @@
      "id": 1215812,
      "title": "Karavali",
      "released": "2026-07-24",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -908,7 +908,7 @@
      "id": 1780846,
      "title": "Bandkhor",
      "released": "2026-09-24",
-     "popularity": 4,
+     "popularity": 5,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -1065,7 +1065,7 @@
      "id": 1756456,
      "title": "Bardaasht",
      "released": "2026-08-21",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -1160,7 +1160,7 @@
      "id": 1808613,
      "title": "Chatni",
      "released": "2026-09-18",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     }

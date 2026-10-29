@@ -1,4 +1,4 @@
-# What people reported - checked 2026-10-28
+# What people reported - checked 2026-10-29
 
 🟢 Fixed - in the app: **7** &nbsp;·&nbsp; 🔵 Ready to add: **0** &nbsp;·&nbsp; 🟡 Needs a look: **20** &nbsp;·&nbsp; 🟣 Closed - nothing to add: **6** &nbsp;·&nbsp; 🔴 Rejected by safety rules: **1** &nbsp;·&nbsp; ⚪ Test entry: **4**
 
@@ -13,7 +13,7 @@ Newest first inside each group. "Fixed on" is the first day the checker saw the 
 | 2026-10-28 | **Rajan** | Telugu | android | - | no exact match; similar: looks like a misspelling of: Raja (ta, movie:69418, in the app); Raja (te, movie:267779, in the app); Raja (hi, movie:205075, in the app); Rajan Vagaiyara (, ta, movie:1700973); Michael Madana Kama Rajan (1990, ta, movie:14445) | - |
 | 2026-10-28 | **Hollywood** | Telugu | android | - | no exact match; similar: looks like a misspelling of: Hello World (te, tv:208094, in the app); Lolly Pop (hi, movie:919656, in the app); Honeymoon (hi, movie:331370, in the app); Hollywood (2002, kn, movie:339861) | - |
 | 2026-10-28 | **The navigator** | English | android | - | no exact match; similar: looks like a misspelling of: Zwigato (hi, movie:1014060, in the app); Nadigai (ta, movie:1184102, in the app); Nadikar (ml, movie:893591, in the app) | - |
-| 2026-10-28 | **Na wife missing** | Telugu | android | - | no matching Indian-language title on TMDB | - |
+| 2026-10-28 | **Na wife missing** | Telugu | android | - | real and safe, but TMDB shows no India streaming platform yet | - |
 | 2026-10-28 | **I'm game** | Telugu | android | - | no exact match; similar: looks like a misspelling of: Game (te, movie:866588, in the app); Game (bn, movie:578970, in the app); Game (hi, movie:60740, in the app); I'm Game (2026, ml, movie:1250502) | - |
 | 2026-10-28 | **Premadha Oorali** | Kannada | android | - | no exact match; similar: looks like a misspelling of: Premada Oorali (kn, movie:1735270, in the app); Prema Kavali (te, movie:99354, in the app); Prema Khaidi (te, movie:1512271, in the app) | - |
 | 2026-10-28 | **Premada** | Kannada | android | - | no exact match; similar: looks like a misspelling of: Premalu (ml, movie:1149791, in the app); Premam (hi, movie:409255, in the app); Prema & Co. (te, movie:1217314, in the app); Premada Oorali (2026, kn, movie:1735270); Premada Kanike (1976, kn, movie:301665) | - |
