@@ -6,7 +6,7 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 |---|---:|---:|---:|---:|---:|---:|
 | Telugu | 39 | 28 | 11 | 0 | 0 | 11 |
 | Hindi | 39 | 10 | 29 | 1 | 0 | 28 |
-| Tamil | 40 | 23 | 17 | 2 | 0 | 15 |
+| Tamil | 40 | 24 | 16 | 2 | 0 | 14 |
 | Malayalam | 35 | 21 | 14 | 1 | 0 | 13 |
 | Kannada | 26 | 4 | 22 | 0 | 0 | 22 |
 | Bengali | 17 | 4 | 13 | 0 | 0 | 13 |
@@ -70,7 +70,6 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - Ram and Leela (2026-08-21, popularity 2, tmdb 1590380) - no platform known anywhere
 - Anbe Diana (2026-07-17, popularity 3, tmdb 1607634) - TMDB lists it on Sonyliv Amazon Channel - should be in the feed
 - Lakshmikanthan Kolai Vazhakku (2026-07-10, popularity 2, tmdb 1620357) - no platform known anywhere
-- Immortal (2026-09-04, popularity 2, tmdb 1505305) - no platform known anywhere
 - Dark (2026-07-03, popularity 2, tmdb 1514180) - no platform known anywhere
 - Habeebi (2026-06-12, popularity 2, tmdb 1655049) - TMDB lists it on Sonyliv Amazon Channel - should be in the feed
 - BeeP (2026-09-18, popularity 2, tmdb 1758603) - no platform known anywhere
