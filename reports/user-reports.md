@@ -1,7 +1,8 @@
 # User reports - 2026-10-29
 
-38 reports, newest first.
+39 reports, newest first.
 
+- **Kannada movie** - Missing title (2026-10-29; Telugu, android)
 - **Viswanath and sons** - Missing title (2026-10-28; Telugu, android)
 - **Pushpa** - Missing title (2026-10-28; Telugu, android)
 - **Rajan** - Missing title (2026-10-28; Telugu, android)
