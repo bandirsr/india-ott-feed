@@ -92,5 +92,73 @@
     "sourceName": "Google search (Wikipedia, BookMyShow) checked by hand 2026-10-25",
     "headline": "Kannada musical romantic family drama Premada Oorali (theatrical 25 Sep 2026) streams on JioHotstar from 20 November 2026",
     "link": "https://en.wikipedia.org/wiki/Premada_Oorali"
+  },
+  {
+    "title": "Thella Kaagitham",
+    "platform": "ETV Win",
+    "languages": [
+      "Telugu"
+    ],
+    "date": "2026-10-29",
+    "sourceName": "Esquire India roundup (checked by hand 2026-10-30)",
+    "headline": "Telugu romantic drama Thella Kaagitham streams on ETV Win from 29 October 2026",
+    "link": "https://www.esquireindia.co.in/entertainment/what-to-stream/7-south-indian-ott-releases-this-weekend-october-26-november-1-baththa-rudravanam-ps-akka-to-love-always-on-netflix-zee5-jiohotstar"
+  },
+  {
+    "title": "SI Yugandhar",
+    "platform": "Netflix",
+    "languages": [
+      "Telugu"
+    ],
+    "date": "2026-10-30",
+    "sourceName": "Sacnilk + Esquire India (checked by hand 2026-10-30)",
+    "headline": "Telugu crime thriller SI (Sub-Inspector) Yugandhar streams on Netflix from 30 October 2026",
+    "link": "https://www.sacnilk.com/news/new-ott-releases-this-week-october-26-november-1-2026-obsession-baththa-akka-and-more-movies-and-series-on-netflix-jiohotstar-and-zee5"
+  },
+  {
+    "title": "Rudravanam PS",
+    "platform": "ZEE5",
+    "languages": [
+      "Telugu"
+    ],
+    "date": "2026-10-30",
+    "sourceName": "Sacnilk + Esquire India (checked by hand 2026-10-30)",
+    "headline": "Telugu crime thriller series Rudravanam PS premieres on ZEE5 on 30 October 2026",
+    "link": "https://www.sacnilk.com/news/new-ott-releases-this-week-october-26-november-1-2026-obsession-baththa-akka-and-more-movies-and-series-on-netflix-jiohotstar-and-zee5",
+    "type": "series"
+  },
+  {
+    "title": "Avaraachan & Sons",
+    "platform": "Netflix",
+    "languages": [
+      "Malayalam"
+    ],
+    "date": "2026-10-30",
+    "sourceName": "Sacnilk + Esquire India (checked by hand 2026-10-30)",
+    "headline": "Malayalam family comedy-drama Avaraachan & Sons streams on Netflix from 30 October 2026",
+    "link": "https://www.sacnilk.com/news/new-ott-releases-this-week-october-26-november-1-2026-obsession-baththa-akka-and-more-movies-and-series-on-netflix-jiohotstar-and-zee5"
+  },
+  {
+    "title": "Love Always",
+    "platform": "JioHotstar",
+    "languages": [
+      "Tamil"
+    ],
+    "date": "2026-10-30",
+    "sourceName": "Sacnilk + Esquire India (checked by hand 2026-10-30)",
+    "headline": "Tamil series Love Always streams on JioHotstar from 30 October 2026",
+    "link": "https://www.sacnilk.com/news/new-ott-releases-this-week-october-26-november-1-2026-obsession-baththa-akka-and-more-movies-and-series-on-netflix-jiohotstar-and-zee5",
+    "type": "series"
+  },
+  {
+    "title": "Meethe Mein Kya Hai",
+    "platform": "Netflix",
+    "languages": [
+      "Hindi"
+    ],
+    "date": "2026-10-30",
+    "sourceName": "Sacnilk (checked by hand 2026-10-30)",
+    "headline": "Hindi film Meethe Mein Kya Hai streams on Netflix from 30 October 2026",
+    "link": "https://www.sacnilk.com/news/new-ott-releases-this-week-october-26-november-1-2026-obsession-baththa-akka-and-more-movies-and-series-on-netflix-jiohotstar-and-zee5"
   }
 ]

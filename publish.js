@@ -288,7 +288,7 @@ function main(freshReports) {
       t: row.title,
       d: row.date,
       i: row.poster,
-      k: 'movie',
+      k: row.key.startsWith('tv:') ? 'tv' : 'movie',
       y: null,
       p: [{ id: row.providerId, on: null, src: 'reported', by: row.sourceName, rep: row.reportedOn && row.reportedOn <= new Date().toISOString().slice(0, 10) ? row.reportedOn : null }],
     };

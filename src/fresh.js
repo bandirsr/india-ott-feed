@@ -307,12 +307,14 @@ const norm = (s) => String(s).toLowerCase().replace(/[^a-z0-9]/g, '');
  * far worse than a missed one: it would attach someone else's platform to
  * this film's page.
  */
-export async function matchFreshTitle(title, languages = [], { strict = false } = {}) {
+export async function matchFreshTitle(title, languages = [], { strict = false, series = false } = {}) {
   const clean = String(title ?? '').trim();
   if (clean.length < 2) return null;
 
-  const json = await rawCall('/search/movie', { query: clean, include_adult: false });
-  const results = json.results ?? [];
+  // `series` is only ever set for a hand-checked entry that says "type": "series":
+  // a news headline never opts in, so junk guesses cannot match a TV show.
+  const json = await rawCall(series ? '/search/tv' : '/search/movie', { query: clean, include_adult: false });
+  const results = (json.results ?? []).map((r) => (series ? { ...r, title: r.name, original_title: r.original_name, release_date: r.first_air_date } : r));
   const target = norm(clean);
   const candidates = results.filter((r) => norm(r.title) === target || norm(r.original_title) === target);
   if (candidates.length === 0) return null;
@@ -325,7 +327,7 @@ export async function matchFreshTitle(title, languages = [], { strict = false } 
   const hit = byLanguage ?? [...candidates].sort((a, b) => (b.popularity ?? 0) - (a.popularity ?? 0))[0];
 
   return {
-    key: `movie:${hit.id}`,
+    key: `${series ? 'tv' : 'movie'}:${hit.id}`,
     title: hit.title,
     date: hit.release_date || null,
     poster: hit.poster_path || null,
@@ -380,7 +382,7 @@ export async function resolveFreshReports(releases) {
     const providerId = providerIdForPlatformName(r.platform);
     if (providerId == null) continue;
 
-    const match = await matchFreshTitle(r.title, r.languages ?? [], { strict: Boolean(r.strictLanguage) });
+    const match = await matchFreshTitle(r.title, r.languages ?? [], { strict: Boolean(r.strictLanguage), series: r.source === 'manual' && r.type === 'series' });
     if (!match) continue;
 
     // The day it was reported on the platform -- NOT match.date, which is the
