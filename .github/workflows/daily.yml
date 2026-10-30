@@ -194,6 +194,16 @@ jobs:
         run: node upcoming.js
         continue-on-error: true
 
+      # The fourth robot: the weekly roundups people find on Google (Sacnilk) against
+      # the feed just built. Report only: writes data/gaps.json and the run summary,
+      # never edits the feed. A title listed there is real, Indian and on TMDB but in
+      # no language file -- add it to data/manual-releases.json. Never fails the sweep.
+      - name: Check the feed against weekly OTT roundups
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: node gapcheck.mjs | tee -a "$GITHUB_STEP_SUMMARY"
+        continue-on-error: true
+
       # Notifications go out only for a feed that passes the same gate the job fails
       # on at the end. Not fatal here: the ledger commit below must still land, and the
       # final "Verify the published output" step is what fails the job.
@@ -222,7 +232,7 @@ jobs:
         run: |
           git config user.name "ott-bot"
           git config user.email "ott-bot@users.noreply.github.com"
-          git add data/upcoming-cache.json data/certifications.json data/blocked-titles.json data/trailer-safety.json data/blocked-trailers.json data/arrivals.json data/trailers.json data/gapfill.json data/dubs.json data/series.json data/details.json data/digital.json data/youtube-trailers.json data/fresh.json data/wikilang.json data/wiki-releases.json data/manual-releases.json data/notified.json
+          git add data/upcoming-cache.json data/certifications.json data/blocked-titles.json data/trailer-safety.json data/blocked-trailers.json data/arrivals.json data/trailers.json data/gapfill.json data/dubs.json data/series.json data/details.json data/digital.json data/youtube-trailers.json data/fresh.json data/wikilang.json data/wiki-releases.json data/manual-releases.json data/gaps.json data/notified.json
           git diff --staged --quiet || git commit -m "Ledger: $(date -u +%Y-%m-%d)"
           # Rebase before pushing. A plain push failed whenever someone pushed to
           # main while the sweep was running, and the whole day went unpublished.
