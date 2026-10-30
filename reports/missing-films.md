@@ -6,7 +6,7 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 |---|---:|---:|---:|---:|---:|---:|
 | Telugu | 39 | 28 | 11 | 0 | 0 | 11 |
 | Hindi | 39 | 10 | 29 | 1 | 0 | 28 |
-| Tamil | 40 | 25 | 15 | 2 | 0 | 13 |
+| Tamil | 40 | 26 | 14 | 2 | 0 | 12 |
 | Malayalam | 35 | 21 | 14 | 1 | 0 | 13 |
 | Kannada | 26 | 5 | 21 | 0 | 0 | 21 |
 | Bengali | 17 | 4 | 13 | 0 | 0 | 13 |
@@ -37,8 +37,8 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - Haunted 3D: Echoes of the Past (2026-06-12, popularity 4, tmdb 1486860) - no platform known anywhere
 - Haiwaan (2026-09-11, popularity 4, tmdb 1475799) - no platform known anywhere
 - Batwara 1947 (2026-08-13, popularity 4, tmdb 1169537) - no platform known anywhere
-- Vibe (2026-09-18, popularity 4, tmdb 1654566) - no platform known anywhere
 - Bandar (2026-06-05, popularity 4, tmdb 1293550) - TMDB lists it on Zee5 - should be in the feed
+- Vibe (2026-09-18, popularity 4, tmdb 1654566) - no platform known anywhere
 - Last Man in Tower (2026-09-11, popularity 3, tmdb 1574560) - no platform known anywhere
 - Aryabhatt Ka Zero (2026-08-07, popularity 3, tmdb 1714993) - no platform known anywhere
 - Dulhaniya Le Aaeegi (2026-07-24, popularity 2, tmdb 1720201) - no platform known anywhere
@@ -62,7 +62,6 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 
 ## Tamil
 
-- The Dark Heaven (2026-09-18, popularity 26, tmdb 1618200) - no platform known anywhere
 - Hi :) (2026-08-28, popularity 4, tmdb 1314279) - no platform known anywhere
 - Lenin Pandiyan (2026-09-25, popularity 4, tmdb 1563192) - no platform known anywhere
 - Once More (2026-08-28, popularity 3, tmdb 1318304) - no platform known anywhere

@@ -158,14 +158,6 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1654566,
-     "title": "Vibe",
-     "released": "2026-09-18",
-     "popularity": 4,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1293550,
      "title": "Bandar",
      "released": "2026-06-05",
@@ -174,6 +166,14 @@
      "tmdbPlatforms": [
       "Zee5"
      ]
+    },
+    {
+     "id": 1654566,
+     "title": "Vibe",
+     "released": "2026-09-18",
+     "popularity": 4,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
     },
     {
      "id": 1574560,
@@ -342,14 +342,6 @@
    "name": "Tamil",
    "checked": 40,
    "missing": [
-    {
-     "id": 1618200,
-     "title": "The Dark Heaven",
-     "released": "2026-09-18",
-     "popularity": 26,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
     {
      "id": 1314279,
      "title": "Hi :)",
