@@ -1,6 +1,6 @@
 # What people reported - checked 2026-10-30
 
-🟢 Fixed - in the app: **7** &nbsp;·&nbsp; 🔵 Ready to add: **0** &nbsp;·&nbsp; 🟡 Needs a look: **21** &nbsp;·&nbsp; 🟣 Closed - nothing to add: **6** &nbsp;·&nbsp; 🔴 Rejected by safety rules: **1** &nbsp;·&nbsp; ⚪ Test entry: **4**
+🟢 Fixed - in the app: **8** &nbsp;·&nbsp; 🔵 Ready to add: **0** &nbsp;·&nbsp; 🟡 Needs a look: **21** &nbsp;·&nbsp; 🟣 Closed - nothing to add: **6** &nbsp;·&nbsp; 🔴 Rejected by safety rules: **1** &nbsp;·&nbsp; ⚪ Test entry: **4**
 
 Newest first inside each group. "Fixed on" is the first day the checker saw the title in the live app; a report already covered when it arrived shows the report day.
 
@@ -36,10 +36,11 @@ Newest first inside each group. "Fixed on" is the first day the checker saw the 
 |---|---|---|---|---|---|---|
 | 2026-10-27 | **Mani** | H | android · G | Hnv | certified A with sexual terms in title or description | - |
 
-## 🟢 Fixed - in the app (7)
+## 🟢 Fixed - in the app (8)
 
 | Reported | Title | Language | From | Their note | What we found | Fixed on |
 |---|---|---|---|---|---|---|
+| 2026-10-30 | **The ghazi attack** | Telugu | android | - | The Ghazi Attack (movie:442405, cert UA) | 2026-10-30 (same day) |
 | 2026-10-28 | **Na wife missing** | Telugu | android | - | Na Wife Missing (movie:1804176) | 2026-10-29 |
 | 2026-10-25 | **The Paradise** | Telugu | android | - | The Paradise (movie:1376856, cert A) | 2026-10-25 (same day) |
 | 2026-10-25 | **Paradise** | Telugu | android · Netflix | 22 oct 2026 | The Paradise (movie:1376856, cert A) | 2026-10-25 (same day) |

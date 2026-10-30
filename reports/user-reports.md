@@ -1,7 +1,8 @@
 # User reports - 2026-10-30
 
-39 reports, newest first.
+40 reports, newest first.
 
+- **The ghazi attack** - Missing title (2026-10-30; Telugu, android)
 - **Kannada movie** - Missing title (2026-10-29; Telugu, android)
 - **Viswanath and sons** - Missing title (2026-10-28; Telugu, android)
 - **Pushpa** - Missing title (2026-10-28; Telugu, android)
