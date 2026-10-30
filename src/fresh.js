@@ -271,6 +271,8 @@ export function mergeReleases(records) {
     existing.lastSeenAt = now;
     if (!existing.sources.includes(r.source)) existing.sources.push(r.source);
     if (r.date && !existing.dates.includes(r.date)) existing.dates.push(r.date);
+    // A hand-checked "series" survives merging with a news report of the same title.
+    if (r.type && !existing.type) existing.type = r.type;
     for (const l of r.languages) if (!existing.languages.includes(l)) existing.languages.push(l);
   }
 
@@ -382,7 +384,7 @@ export async function resolveFreshReports(releases) {
     const providerId = providerIdForPlatformName(r.platform);
     if (providerId == null) continue;
 
-    const match = await matchFreshTitle(r.title, r.languages ?? [], { strict: Boolean(r.strictLanguage), series: r.source === 'manual' && r.type === 'series' });
+    const match = await matchFreshTitle(r.title, r.languages ?? [], { strict: Boolean(r.strictLanguage), series: r.type === 'series' && (r.source === 'manual' || (r.sources ?? []).includes('manual')) });
     if (!match) continue;
 
     // The day it was reported on the platform -- NOT match.date, which is the
