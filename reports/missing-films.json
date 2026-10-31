@@ -1,5 +1,5 @@
 {
- "date": "2026-10-30",
+ "date": "2026-10-31",
  "languages": [
   {
    "code": "te",
@@ -161,7 +161,7 @@
      "id": 1475799,
      "title": "Haiwaan",
      "released": "2026-09-11",
-     "popularity": 4,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -179,7 +179,7 @@
      "id": 1574560,
      "title": "Last Man in Tower",
      "released": "2026-09-11",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -195,15 +195,7 @@
      "id": 1285815,
      "title": "Mahakavya: Shri Ramayan Katha",
      "released": "2026-09-25",
-     "popularity": 3,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1363988,
-     "title": "Maa Behen",
-     "released": "2026-06-04",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -211,7 +203,7 @@
      "id": 1714670,
      "title": "Heer Sara",
      "released": "2026-06-12",
-     "popularity": 2,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -291,7 +283,7 @@
      "id": 1351908,
      "title": "Bharat Bhhagya Viddhaata",
      "released": "2026-06-12",
-     "popularity": 2,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -334,6 +326,14 @@
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
+    },
+    {
+     "id": 1738850,
+     "title": "Indrajaal",
+     "released": "2026-07-24",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
     }
    ]
   },
@@ -354,7 +354,7 @@
      "id": 1563192,
      "title": "Lenin Pandiyan",
      "released": "2026-09-25",
-     "popularity": 4,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -375,6 +375,14 @@
      "tmdbPlatforms": [
       "Sonyliv Amazon Channel"
      ]
+    },
+    {
+     "id": 1732327,
+     "title": "Maaruvesham",
+     "released": "2026-10-01",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
     },
     {
      "id": 1758603,
@@ -449,35 +457,19 @@
      "tmdbPlatforms": [
       "Sonyliv Amazon Channel"
      ]
-    },
-    {
-     "id": 1329084,
-     "title": "The Grand Master",
-     "released": "2026-09-25",
-     "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1627516,
-     "title": "Sandakari",
-     "released": "2026-09-18",
-     "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
     }
    ]
   },
   {
    "code": "ml",
    "name": "Malayalam",
-   "checked": 35,
+   "checked": 36,
    "missing": [
     {
      "id": 1250502,
      "title": "I'm Game",
      "released": "2026-09-03",
-     "popularity": 8,
+     "popularity": 7,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -586,6 +578,14 @@
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
+    },
+    {
+     "id": 1706748,
+     "title": "Wreath",
+     "released": "2026-10-01",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
     }
    ]
   },
@@ -606,7 +606,7 @@
      "id": 1754121,
      "title": "Spark",
      "released": "2026-09-25",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -678,7 +678,7 @@
      "id": 1730215,
      "title": "City Lights",
      "released": "2026-09-18",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -686,7 +686,7 @@
      "id": 1093467,
      "title": "Detective Teekshanaa",
      "released": "2026-08-07",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -789,7 +789,7 @@
      "id": 1391798,
      "title": "Winkle Twinkle",
      "released": "2026-09-04",
-     "popularity": 2,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -884,7 +884,7 @@
      "id": 1780846,
      "title": "Bandkhor",
      "released": "2026-09-24",
-     "popularity": 6,
+     "popularity": 5,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -932,7 +932,7 @@
      "id": 1747939,
      "title": "Sammarth",
      "released": "2026-08-14",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -997,7 +997,7 @@
      "id": 1649791,
      "title": "Ishqnama",
      "released": "2026-07-24",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -1041,7 +1041,7 @@
      "id": 1756456,
      "title": "Bardaasht",
      "released": "2026-08-21",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -1096,7 +1096,7 @@
      "id": 1776954,
      "title": "Mitrata",
      "released": "2026-09-25",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
