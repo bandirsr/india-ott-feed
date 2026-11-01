@@ -41,11 +41,17 @@ for (const url of recent) {
 
 // 3. What the feed already holds, and what a person already added by hand.
 const have = new Set();
+const where = new Map(); // normalised title -> { ids:Set, codes:Set } across the language files
 for (const c of Object.values(CODE)) {
   // GAP_LIVE=1 reads the published feed instead of the files just built (for testing off the runner).
   const f = `public/v1/${c}.json`;
   const doc = process.env.GAP_LIVE ? await (await fetch(`https://bandirsr.github.io/india-ott-feed/v1/${c}.json`)).json() : existsSync(f) ? JSON.parse(readFileSync(f, 'utf8')) : { titles: [] };
-  for (const t of doc.titles) have.add(norm(t.t));
+  for (const t of doc.titles) {
+    have.add(norm(t.t));
+    const w = where.get(norm(t.t)) ?? { ids: new Set(), codes: new Set() };
+    w.ids.add(t.id); w.codes.add(c); w.recent = (w.recent ?? false) || Number((t.d ?? '0').slice(0, 4)) >= new Date().getFullYear() - 1;
+    where.set(norm(t.t), w);
+  }
 }
 const manual = new Set(JSON.parse(readFileSync('data/manual-releases.json', 'utf8')).map((r) => norm(r.title)));
 
@@ -67,6 +73,30 @@ for (const r of rows) {
     poster: Boolean(hit.poster_path), series: r.series, alreadyHandAdded: manual.has(n), source: r.url,
   });
 }
+
+// 5. Dubs. TMDB rarely records which Indian languages a platform offers, but the roundups
+// state them per title (Sigma on Netflix: Tamil, Telugu, Kannada, Malayalam, Hindi). Where a
+// title is in the feed under fewer languages than its roundup names, add the rest to
+// data/dubs.json, the cache publish.js already reads. Additive only: never removes a dub.
+const DUBS = 'data/dubs.json';
+const dubs = existsSync(DUBS) ? JSON.parse(readFileSync(DUBS, 'utf8')) : {};
+const dubAdded = [];
+for (const r of rows) {
+  const w = where.get(norm(r.title));
+  if (!w || w.ids.size !== 1 || !w.recent) continue; // unknown, ambiguous or an old namesake: skip
+  const codes = r.languages.split(/,|&/).map((x) => CODE[x.trim()]).filter(Boolean);
+  const extra = codes.filter((c) => !w.codes.has(c));
+  if (codes.length < 2 || extra.length === 0) continue;
+  const id = [...w.ids][0];
+  const merged = [...new Set([...(dubs[id] ?? []), ...extra])];
+  if (merged.length === (dubs[id] ?? []).length) continue;
+  dubs[id] = merged;
+  dubAdded.push(`${r.title} ${id}: +${extra.join(',')}`);
+}
+if (dubAdded.length) writeFileSync(DUBS, JSON.stringify(dubs));
+
 writeFileSync(OUT, JSON.stringify({ generatedAt: new Date().toISOString(), roundups: recent, checked: rows.length, gaps }, null, 2) + '\n');
+console.log(`dubs added from roundups: ${dubAdded.length}`);
+for (const d of dubAdded) console.log(`  ${d}`);
 console.log(`gapcheck: ${rows.length} roundup rows, ${gaps.length} missing from the feed`);
 for (const g of gaps) console.log(`  ${g.alreadyHandAdded ? '(hand-added, not yet live)' : 'MISSING'} ${g.title} [${g.language}] ${g.platform} ${g.date} ${g.tmdb}`);
