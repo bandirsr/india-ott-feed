@@ -28,7 +28,7 @@ if (!existsSync('reports/user-reports.json')) {
   console.log('No reports/user-reports.json -- nothing to vet.');
   process.exit(0);
 }
-const reports = JSON.parse(readFileSync('reports/user-reports.json', 'utf8')).filter((r) => r.kind !== 'other');
+const reports = JSON.parse(readFileSync('reports/user-reports.json', 'utf8')).filter((r) => r.kind !== 'other' && r.kind !== 'language');
 const read = (f) => (existsSync(`data/${f}`) ? JSON.parse(readFileSync(`data/${f}`, 'utf8')) : {});
 const rules = { certs: read('certifications.json'), manual: read('blocked-titles.json') };
 

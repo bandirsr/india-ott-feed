@@ -16,11 +16,11 @@ if (!r.ok) {
   process.exit(0);
 }
 const { reports } = await r.json();
-const KIND = { missing: 'Missing title', wrong: 'Wrong platform/date', other: 'Other' };
+const KIND = { missing: 'Missing title', wrong: 'Wrong platform/date', other: 'Other', language: 'Also in another language' };
 const lines = [`# User reports - ${new Date().toISOString().slice(0, 10)}`, '', `${reports.length} reports, newest first.`, ''];
 for (const x of reports) {
   const bits = [x.language, x.platform && `on ${x.platform}`, x.source].filter(Boolean).join(', ');
-  lines.push(`- **${x.title}** - ${KIND[x.kind] ?? x.kind} (${x.at.slice(0, 10)}${bits ? '; ' + bits : ''})${x.note ? ' - ' + x.note : ''}`);
+  lines.push(`- **${x.title}** - ${KIND[x.kind] ?? x.kind} (${x.at.slice(0, 10)}${bits ? '; ' + bits : ''})${x.note ? ' - ' + x.note : ''}${x.audio ? ' [audio: ' + x.audio + ']' : ''}`);
 }
 const md = lines.join('\n');
 mkdirSync('reports', { recursive: true });
