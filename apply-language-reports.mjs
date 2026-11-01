@@ -44,6 +44,8 @@ for (const [k, { n, title }] of counts) {
   audit[id] = { ...(audit[id] ?? {}), [code]: n };
   added.push(`${title} (${id}) +${code} from ${n} reports`);
 }
+if (!existsSync('data/dubs-reported.json')) writeFileSync('data/dubs-reported.json', '{}
+');
 if (added.length) { writeFileSync('data/dubs.json', JSON.stringify(dubs)); writeFileSync('data/dubs-reported.json', JSON.stringify(audit, null, 1) + '\n'); }
 
 mkdirSync('reports', { recursive: true });
