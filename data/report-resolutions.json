@@ -3,12 +3,55 @@
   "మండాడి మూవీ": "movie:1465943",
   "Husar pittalu": "movie:1742434",
   "Radbali": "movie:1389379",
-  "Insidious": { "close": "Hollywood horror franchise. The app lists Indian-language titles only." },
-  "Movie": { "close": "No film name given." },
-  "2026": { "close": "No film name given (a year only)." },
-  "New movies": { "close": "No film name given. Latest releases are under This week and Coming soon." },
-  "Download": { "close": "No film name given. The app lists where to watch; it does not host or download films." },
-  "Ajay": { "note": "Unclear which film. TMDB has Ajay (1996 hi, 2006 kn) and Ajay Gadu (2024 te, no streaming platform). Waiting for a clearer report." },
+  "Insidious": {
+    "close": "Hollywood horror franchise. The app lists Indian-language titles only."
+  },
+  "Movie": {
+    "close": "No film name given."
+  },
+  "2026": {
+    "close": "No film name given (a year only)."
+  },
+  "New movies": {
+    "close": "No film name given. Latest releases are under This week and Coming soon."
+  },
+  "Download": {
+    "close": "No film name given. The app lists where to watch; it does not host or download films."
+  },
+  "Ajay": {
+    "note": "Unclear which film. TMDB has Ajay (1996 hi, 2006 kn) and Ajay Gadu (2024 te, no streaming platform). Waiting for a clearer report."
+  },
   "Paappayan": "movie:845343",
-  "Prema oorella": { "close": "Real film: Premada Oorali (Kannada, theatrical 25 Sep 2026, JioHotstar 20 Nov 2026). Added to Coming soon by hand." }
+  "Prema oorella": {
+    "close": "Real film: Premada Oorali (Kannada, theatrical 25 Sep 2026, JioHotstar 20 Nov 2026). Added to Coming soon by hand."
+  },
+  "Viswanath and sons": "movie:1408162",
+  "Premadha Oorali": "movie:1735270",
+  "Chenni express": "movie:205022",
+  "Jaialr2": "movie:1234139",
+  "Pushpa": "movie:857598",
+  "Court": "movie:1424217",
+  "I'm game": "movie:1250502",
+  "The paradise movie Telugu": "movie:1376856",
+  "Kannada movie": {
+    "close": "No film name given."
+  },
+  "Telugu": {
+    "close": "No film name given."
+  },
+  "Hollywood": {
+    "close": "No film name given."
+  },
+  "All": {
+    "close": "No film name given."
+  },
+  "Telugu moves": {
+    "close": "No film name given."
+  },
+  "Prakash": {
+    "close": "No film name given."
+  },
+  "418 movie": {
+    "note": "TMDB has 418 (Telugu, 2026, movie:1606527) but no India streaming platform yet; it will list once TMDB or a roundup names one."
+  }
 }
