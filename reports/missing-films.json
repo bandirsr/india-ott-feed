@@ -1,5 +1,5 @@
 {
- "date": "2026-11-01",
+ "date": "2026-11-02",
  "languages": [
   {
    "code": "te",
@@ -18,7 +18,7 @@
      "id": 1748499,
      "title": "Kiku Chiranjeevi",
      "released": "2026-08-28",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -66,7 +66,7 @@
      "id": 1516092,
      "title": "Sahaa - Life of Sanju",
      "released": "2026-09-04",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -85,6 +85,14 @@
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
+    },
+    {
+     "id": 1663311,
+     "title": "Abadameva Jayathe",
+     "released": "2026-06-05",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
     }
    ]
   },
@@ -97,7 +105,7 @@
      "id": 1269325,
      "title": "Drishyam: The Conclusion",
      "released": "2026-10-02",
-     "popularity": 14,
+     "popularity": 13,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -105,7 +113,7 @@
      "id": 1709391,
      "title": "Hanuman Ansh",
      "released": "2026-08-07",
-     "popularity": 7,
+     "popularity": 8,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -113,7 +121,7 @@
      "id": 1640649,
      "title": "Love Lottery",
      "released": "2026-09-25",
-     "popularity": 6,
+     "popularity": 5,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -137,7 +145,7 @@
      "id": 1215889,
      "title": "Daayra",
      "released": "2026-09-18",
-     "popularity": 4,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -145,7 +153,7 @@
      "id": 1293550,
      "title": "Bandar",
      "released": "2026-06-05",
-     "popularity": 4,
+     "popularity": 3,
      "tmdb": "streaming",
      "tmdbPlatforms": [
       "Zee5"
@@ -179,7 +187,7 @@
      "id": 1389153,
      "title": "Jeevan Bheema Yojana",
      "released": "2026-09-04",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -195,7 +203,7 @@
      "id": 1351908,
      "title": "Bharat Bhhagya Viddhaata",
      "released": "2026-06-12",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -203,7 +211,7 @@
      "id": 1574560,
      "title": "Last Man in Tower",
      "released": "2026-09-11",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -211,7 +219,7 @@
      "id": 1714670,
      "title": "Heer Sara",
      "released": "2026-06-12",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -219,7 +227,7 @@
      "id": 1384512,
      "title": "Tera Yaar Hoon Main",
      "released": "2026-07-24",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -227,7 +235,7 @@
      "id": 1285815,
      "title": "Mahakavya: Shri Ramayan Katha",
      "released": "2026-09-25",
-     "popularity": 2,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -330,7 +338,7 @@
      "id": 1563192,
      "title": "Lenin Pandiyan",
      "released": "2026-09-25",
-     "popularity": 4,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -433,7 +441,7 @@
      "id": 1070172,
      "title": "Ottam Thullal",
      "released": "2026-09-18",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -624,7 +632,7 @@
      "id": 1702692,
      "title": "Balaramana Dinagalu",
      "released": "2026-06-26",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -648,7 +656,7 @@
      "id": 1093467,
      "title": "Detective Teekshanaa",
      "released": "2026-08-07",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -728,7 +736,7 @@
      "id": 1788984,
      "title": "Sumaa the Flower",
      "released": "2026-10-02",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -791,7 +799,7 @@
      "id": 1711502,
      "title": "Nevermind",
      "released": "2026-07-03",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -870,7 +878,7 @@
      "id": 1780846,
      "title": "Bandkhor",
      "released": "2026-09-24",
-     "popularity": 5,
+     "popularity": 6,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -878,7 +886,7 @@
      "id": 1747479,
      "title": "Jayanti 2",
      "released": "2026-09-11",
-     "popularity": 4,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -902,7 +910,7 @@
      "id": 1747939,
      "title": "Sammarth",
      "released": "2026-08-14",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -989,7 +997,7 @@
      "id": 1518769,
      "title": "Singh vs Kaur 2",
      "released": "2026-09-11",
-     "popularity": 5,
+     "popularity": 6,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
