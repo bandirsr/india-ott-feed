@@ -1,7 +1,8 @@
 # User reports - 2026-11-02
 
-41 reports, newest first.
+42 reports, newest first.
 
+- **Telugu movies** - Missing title (2026-11-02; Kannada, android)
 - **Test language report (ignore)** - Also in another language (2026-11-01; web) [audio: te]
 - **The ghazi attack** - Missing title (2026-10-30; Telugu, android)
 - **Kannada movie** - Missing title (2026-10-29; Telugu, android)
