@@ -1,5 +1,5 @@
 {
- "date": "2026-11-02",
+ "date": "2026-11-03",
  "languages": [
   {
    "code": "te",
@@ -10,7 +10,7 @@
      "id": 1772904,
      "title": "Happy Journey",
      "released": "2026-09-18",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -26,7 +26,7 @@
      "id": 1628882,
      "title": "Shabara",
      "released": "2026-10-02",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -34,7 +34,7 @@
      "id": 1747034,
      "title": "Agadha",
      "released": "2026-08-13",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -42,7 +42,7 @@
      "id": 1744681,
      "title": "M.R.P (Neekentha Naakentha)",
      "released": "2026-07-17",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -50,7 +50,7 @@
      "id": 1741006,
      "title": "Police Complaint",
      "released": "2026-06-12",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -58,7 +58,7 @@
      "id": 1719646,
      "title": "Gossip",
      "released": "2026-06-26",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -66,7 +66,7 @@
      "id": 1542674,
      "title": "Anumana Pakshi",
      "released": "2026-09-25",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -97,7 +97,7 @@
      "id": 1269325,
      "title": "Drishyam: The Conclusion",
      "released": "2026-10-02",
-     "popularity": 13,
+     "popularity": 11,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -105,7 +105,7 @@
      "id": 1709391,
      "title": "Hanuman Ansh",
      "released": "2026-08-07",
-     "popularity": 8,
+     "popularity": 7,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -113,7 +113,7 @@
      "id": 1640649,
      "title": "Love Lottery",
      "released": "2026-09-25",
-     "popularity": 5,
+     "popularity": 4,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -121,7 +121,7 @@
      "id": 1654566,
      "title": "Vibe",
      "released": "2026-09-18",
-     "popularity": 4,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -129,19 +129,9 @@
      "id": 1486860,
      "title": "Haunted 3D: Echoes of the Past",
      "released": "2026-06-12",
-     "popularity": 4,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
-    },
-    {
-     "id": 1293550,
-     "title": "Bandar",
-     "released": "2026-06-05",
-     "popularity": 3,
-     "tmdb": "streaming",
-     "tmdbPlatforms": [
-      "Zee5"
-     ]
     },
     {
      "id": 1215889,
@@ -179,7 +169,7 @@
      "id": 1714993,
      "title": "Aryabhatt Ka Zero",
      "released": "2026-08-07",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -187,7 +177,7 @@
      "id": 1285815,
      "title": "Mahakavya: Shri Ramayan Katha",
      "released": "2026-09-25",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -243,7 +233,7 @@
      "id": 1453317,
      "title": "Hari Ka Om",
      "released": "2026-09-18",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -251,7 +241,7 @@
      "id": 1720201,
      "title": "Dulhaniya Le Aaeegi",
      "released": "2026-07-24",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -259,7 +249,7 @@
      "id": 403514,
      "title": "Dial 1975",
      "released": "2026-07-01",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -267,7 +257,7 @@
      "id": 1701812,
      "title": "Hum Angrezon Ke Zamane Ke Jailor Hai",
      "released": "2026-06-12",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -275,7 +265,7 @@
      "id": 1021634,
      "title": "Max, Min and Meowzaki",
      "released": "2026-07-24",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -283,7 +273,7 @@
      "id": 1724719,
      "title": "Rahun Main Tere Rubaru",
      "released": "2026-07-17",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -291,7 +281,7 @@
      "id": 1798313,
      "title": "Oye Chill Maar",
      "released": "2026-09-25",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -315,6 +305,14 @@
      "id": 1765342,
      "title": "Mahaprabhu Jagannath",
      "released": "2026-08-28",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1740946,
+     "title": "The Bose Files: Sach Ya Sazish",
+     "released": "2026-07-30",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -346,7 +344,7 @@
      "id": 1318304,
      "title": "Once More",
      "released": "2026-08-28",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -394,7 +392,7 @@
      "id": 1620357,
      "title": "Lakshmikanthan Kolai Vazhakku",
      "released": "2026-07-10",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -402,7 +400,7 @@
      "id": 1758603,
      "title": "BeeP",
      "released": "2026-09-18",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -410,7 +408,7 @@
      "id": 1514180,
      "title": "Dark",
      "released": "2026-07-03",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -418,7 +416,15 @@
      "id": 1766087,
      "title": "Nalla Padam",
      "released": "2026-09-18",
-     "popularity": 2,
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1607621,
+     "title": "Arjunan Per Paththu",
+     "released": "2026-07-17",
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     }
@@ -427,13 +433,13 @@
   {
    "code": "ml",
    "name": "Malayalam",
-   "checked": 39,
+   "checked": 38,
    "missing": [
     {
      "id": 1588472,
      "title": "L&O - Law and Order",
      "released": "2026-09-18",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -465,7 +471,7 @@
      "id": 1766084,
      "title": "Gandharva",
      "released": "2026-09-12",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -554,21 +560,13 @@
   {
    "code": "kn",
    "name": "Kannada",
-   "checked": 29,
+   "checked": 28,
    "missing": [
     {
      "id": 1213243,
      "title": "Toxic",
      "released": "2026-08-26",
-     "popularity": 15,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1592821,
-     "title": "Mango Pachcha",
-     "released": "2026-06-05",
-     "popularity": 2,
+     "popularity": 14,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -624,7 +622,7 @@
      "id": 1792171,
      "title": "Life Today",
      "released": "2026-08-06",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -632,7 +630,7 @@
      "id": 1757697,
      "title": "Love Seasons",
      "released": "2026-07-03",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -640,7 +638,7 @@
      "id": 1215812,
      "title": "Karavali",
      "released": "2026-07-24",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -648,7 +646,7 @@
      "id": 1093467,
      "title": "Detective Teekshanaa",
      "released": "2026-08-07",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -720,7 +718,7 @@
      "id": 1788984,
      "title": "Sumaa the Flower",
      "released": "2026-10-02",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -767,7 +765,7 @@
      "id": 1736398,
      "title": "Autobi",
      "released": "2026-09-25",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -783,7 +781,7 @@
      "id": 1530591,
      "title": "Pinjar",
      "released": "2026-07-10",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -878,7 +876,7 @@
      "id": 1780846,
      "title": "Bandkhor",
      "released": "2026-09-24",
-     "popularity": 6,
+     "popularity": 5,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -886,7 +884,7 @@
      "id": 1747479,
      "title": "Jayanti 2",
      "released": "2026-09-11",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -894,7 +892,7 @@
      "id": 1774540,
      "title": "MANJAR",
      "released": "2026-09-18",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -966,7 +964,7 @@
      "id": 1718397,
      "title": "Ghabadkund",
      "released": "2026-06-19",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -997,7 +995,7 @@
      "id": 1518769,
      "title": "Singh vs Kaur 2",
      "released": "2026-09-11",
-     "popularity": 6,
+     "popularity": 7,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -1005,7 +1003,7 @@
      "id": 1657464,
      "title": "The Great Punjab Robbery",
      "released": "2026-08-07",
-     "popularity": 4,
+     "popularity": 3,
      "tmdb": "streaming",
      "tmdbPlatforms": [
       "KableOne"
@@ -1031,7 +1029,7 @@
      "id": 1650181,
      "title": "Chaali Din",
      "released": "2026-06-19",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "streaming",
      "tmdbPlatforms": [
       "KableOne"
@@ -1041,7 +1039,7 @@
      "id": 1771989,
      "title": "Mitti De Putt",
      "released": "2026-09-18",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "streaming",
      "tmdbPlatforms": [
       "KableOne"
@@ -1098,7 +1096,7 @@
      "id": 1739212,
      "title": "Get Set Go",
      "released": "2026-08-07",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
