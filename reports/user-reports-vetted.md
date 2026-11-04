@@ -9,7 +9,7 @@ Newest first inside each group. "Fixed on" is the first day the checker saw the 
 | Reported | Title | Language | From | Their note | What we found | Fixed on |
 |---|---|---|---|---|---|---|
 | 2026-11-02 | **Telugu movies** | Kannada | android | - | no matching Indian-language title on TMDB | - |
-| 2026-10-28 | **Rajan** | Telugu | android | - | no exact match; similar: looks like a misspelling of: Raja (ta, movie:69418, in the app); Raja (te, movie:267779, in the app); Raja (hi, movie:205075, in the app); Rajan Vagaiyara (, ta, movie:1700973); Michael Madana Kama Rajan (1990, ta, movie:14445) | - |
+| 2026-10-28 | **Rajan** | Telugu | android | - | no exact match; similar: looks like a misspelling of: Raja (ta, movie:69418, in the app); Raja (te, movie:267779, in the app); Raja (hi, movie:205075, in the app); Rajan Vagaiyara (, ta, movie:1700973); Madana Kama Rajan (1941, ta, movie:1643116) | - |
 | 2026-10-28 | **The navigator** | English | android | - | no exact match; similar: looks like a misspelling of: Zwigato (hi, movie:1014060, in the app); Nadigai (ta, movie:1184102, in the app); Nadikar (ml, movie:893591, in the app) | - |
 | 2026-10-28 | **Na wife missing** | Telugu | android | - | no matching Indian-language title on TMDB | - |
 | 2026-10-28 | **Premada** | Kannada | android | - | no exact match; similar: looks like a misspelling of: Premalu (ml, movie:1149791, in the app); Premam (hi, movie:409255, in the app); Prema & Co. (te, movie:1217314, in the app); Premada Oorali (2026, kn, movie:1735270); Premada Kanike (1976, kn, movie:301665) | - |
