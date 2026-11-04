@@ -1,9 +1,9 @@
-# Language reports - 2026-11-03
+# Language reports - 2026-11-04
 
-0 "also in another language" reports; 2 agreeing reports add a language.
+1 "also in another language" reports; 2 agreeing reports add a language.
 
 ## Added this run
 - none
 
 ## Waiting for more reports
-- none
+- DC (movie:1479832) +te: 1/2
