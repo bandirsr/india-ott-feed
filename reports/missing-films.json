@@ -1,5 +1,5 @@
 {
- "date": "2026-11-04",
+ "date": "2026-11-05",
  "languages": [
   {
    "code": "te",
@@ -26,7 +26,7 @@
      "id": 1747034,
      "title": "Agadha",
      "released": "2026-08-13",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -89,7 +89,7 @@
      "id": 1269325,
      "title": "Drishyam: The Conclusion",
      "released": "2026-10-02",
-     "popularity": 11,
+     "popularity": 10,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -113,7 +113,15 @@
      "id": 1640649,
      "title": "Love Lottery",
      "released": "2026-09-25",
-     "popularity": 3,
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1654566,
+     "title": "Vibe",
+     "released": "2026-09-18",
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -121,7 +129,7 @@
      "id": 1640396,
      "title": "Prem Keetanu",
      "released": "2026-10-02",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -129,7 +137,7 @@
      "id": 1215889,
      "title": "Daayra",
      "released": "2026-09-18",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -145,7 +153,7 @@
      "id": 1169537,
      "title": "Batwara 1947",
      "released": "2026-08-13",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -312,7 +320,7 @@
      "id": 1563192,
      "title": "Lenin Pandiyan",
      "released": "2026-09-25",
-     "popularity": 3,
+     "popularity": 4,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -320,7 +328,7 @@
      "id": 1318304,
      "title": "Once More",
      "released": "2026-08-28",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -328,7 +336,7 @@
      "id": 1314279,
      "title": "Hi :)",
      "released": "2026-08-28",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -400,7 +408,7 @@
      "id": 1514180,
      "title": "Dark",
      "released": "2026-07-03",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     }
@@ -447,7 +455,7 @@
      "id": 1731502,
      "title": "Vivaah",
      "released": "2026-08-07",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -519,7 +527,7 @@
      "id": 1706748,
      "title": "Wreath",
      "released": "2026-10-01",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -527,7 +535,7 @@
      "id": 1566124,
      "title": "Madhuramee Jeevitham",
      "released": "2026-08-14",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     }
@@ -582,7 +590,7 @@
      "id": 1771300,
      "title": "Amartha",
      "released": "2026-09-18",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -778,6 +786,16 @@
      "tmdbPlatforms": []
     },
     {
+     "id": 1154844,
+     "title": "Abar Hawa Bodol",
+     "released": "2026-06-12",
+     "popularity": 1,
+     "tmdb": "store",
+     "tmdbPlatforms": [
+      "Amazon Video"
+     ]
+    },
+    {
      "id": 917372,
      "title": "Daktar Kaku",
      "released": "2026-09-18",
@@ -805,7 +823,7 @@
      "id": 874550,
      "title": "Deep6",
      "released": "2026-08-07",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -829,7 +847,7 @@
      "id": 1741127,
      "title": "Amader 7 Kahon",
      "released": "2026-08-07",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     }
@@ -844,7 +862,7 @@
      "id": 1780846,
      "title": "Bandkhor",
      "released": "2026-09-24",
-     "popularity": 4,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -860,7 +878,7 @@
      "id": 1747479,
      "title": "Jayanti 2",
      "released": "2026-09-11",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -924,7 +942,7 @@
      "id": 1719518,
      "title": "Cup Bashi",
      "released": "2026-06-19",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -957,7 +975,7 @@
   {
    "code": "pa",
    "name": "Punjabi",
-   "checked": 17,
+   "checked": 18,
    "missing": [
     {
      "id": 1518769,
@@ -1096,7 +1114,7 @@
      "id": 1808613,
      "title": "Chatni",
      "released": "2026-09-18",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
