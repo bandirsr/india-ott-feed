@@ -1,5 +1,5 @@
 {
- "date": "2026-11-05",
+ "date": "2026-11-06",
  "languages": [
   {
    "code": "te",
@@ -238,6 +238,14 @@
      "tmdbPlatforms": []
     },
     {
+     "id": 1715215,
+     "title": "Almari",
+     "released": "2026-10-07",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
      "id": 1798313,
      "title": "Oye Chill Maar",
      "released": "2026-09-25",
@@ -305,14 +313,6 @@
      "id": 1738850,
      "title": "Indrajaal",
      "released": "2026-07-24",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1740946,
-     "title": "The Bose Files: Sach Ya Sazish",
-     "released": "2026-07-30",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []

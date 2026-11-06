@@ -1,4 +1,4 @@
-# What people reported - checked 2026-11-05
+# What people reported - checked 2026-11-06
 
 🟢 Fixed - in the app: **15** &nbsp;·&nbsp; 🔵 Ready to add: **0** &nbsp;·&nbsp; 🟡 Needs a look: **9** &nbsp;·&nbsp; 🟣 Closed - nothing to add: **12** &nbsp;·&nbsp; 🔴 Rejected by safety rules: **1** &nbsp;·&nbsp; ⚪ Test entry: **4**
 
@@ -8,14 +8,14 @@ Newest first inside each group. "Fixed on" is the first day the checker saw the 
 
 | Reported | Title | Language | From | Their note | What we found | Fixed on |
 |---|---|---|---|---|---|---|
-| 2026-11-02 | **Telugu movies** | Kannada | android | - | no matching Indian-language title on TMDB | - |
-| 2026-10-28 | **Rajan** | Telugu | android | - | no exact match; similar: looks like a misspelling of: Raja (ta, movie:69418, in the app); Raja (te, movie:267779, in the app); Raja (hi, movie:205075, in the app); Rajan Vagaiyara (, ta, movie:1700973); Madana Kama Rajan (1941, ta, movie:1643116) | - |
-| 2026-10-28 | **The navigator** | English | android | - | no exact match; similar: looks like a misspelling of: Zwigato (hi, movie:1014060, in the app); Nadigai (ta, movie:1184102, in the app); Nadikar (ml, movie:893591, in the app) | - |
-| 2026-10-28 | **Na wife missing** | Telugu | android | - | no matching Indian-language title on TMDB | - |
-| 2026-10-28 | **Premada** | Kannada | android | - | no exact match; similar: looks like a misspelling of: Premalu (ml, movie:1149791, in the app); Premam (hi, movie:409255, in the app); Prema & Co. (te, movie:1217314, in the app); Premada Oorali (2026, kn, movie:1735270); Premada Kanike (1976, kn, movie:301665) | - |
-| 2026-10-27 | **Mounamelanoyi** | Telugu | android | - | no matching Indian-language title on TMDB | - |
+| 2026-11-02 | **Telugu movies** | Kannada | android | - | no matching Indian-language title on TMDB. Web news: New Telugu OTT Releases This Week (November 2026): Movies & Series Streaming Now | Latest Telugu Movies & Web Series on OTT – November 2026 Streaming Guide | Telugu OTT Premieres This Week: November 2026 Movies on Prime, Netflix, Aha & Z - Filmibeat (2025-12-30) | October 2025 Telugu Movies Release Date, Schedule & Calendar - Filmibeat (2025-12-05) | October 2026 Telugu Movies Release Date, Schedule & Calendar - Filmibeat (2025-09-10) | - |
+| 2026-10-28 | **Rajan** | Telugu | android | - | no exact match; similar: looks like a misspelling of: Raja (ta, movie:69418, in the app); Raja (te, movie:267779, in the app); Raja (hi, movie:205075, in the app); Rajan Vagaiyara (, ta, movie:1700973); Madana Kama Rajan (1941, ta, movie:1643116). Web news: With Love on OTT: When, where to watch Abishan Jeevinth-Anaswara Rajan’s film in Telugu and Malayalam - OTTPlay (2026-03-03) | 'With Love' OTT release: When and where to watch Abishan Jeevinth and Anaswara Rajan's romantic drama - The Times of India (2026-02-27) | Champion OTT release date confimed: When and where to watch Roshan Meka, Anaswara Rajan's Telugu period sp - The Economic Times (2026-01-24) | - |
+| 2026-10-28 | **The navigator** | English | android | - | no exact match; similar: looks like a misspelling of: Zwigato (hi, movie:1014060, in the app); Nadigai (ta, movie:1184102, in the app); Nadikar (ml, movie:893591, in the app). Web news: Flight Of The Navigator kids: Then and now - Yahoo News UK (2016-12-01) | - |
+| 2026-10-28 | **Na wife missing** | Telugu | android | - | no matching Indian-language title on TMDB. Web news: Na Wife Missing: Cast, Crew, Movie Review, Release Date, Teaser, Trailer - filmyfocus.com (2026-10-15) | Na Wife Missing Movie Review & Rating! - FilmyFocus (2026-10-22) | Na Wife Missing OTT Release: When and where to watch Varun Sandesh’s Telugu crime-drama online - NewsroomPost (2026-10-21) | - |
+| 2026-10-28 | **Premada** | Kannada | android | - | no exact match; similar: looks like a misspelling of: Premalu (ml, movie:1149791, in the app); Premam (hi, movie:409255, in the app); Prema & Co. (te, movie:1217314, in the app); Premada Oorali (2026, kn, movie:1735270); Premada Kanike (1976, kn, movie:301665). Web news: 'Premada Oorali' OTT release: Makers share update regarding Sriram’s Kannada hit - The Times of India (2026-10-13) | Premada Oorali: This little film has taken the Kannada film industry by storm - The Hindu (2026-10-08) | Kannada cinema's new blockbuster: How Premada Oorali turned 60 shows into Rs 50 crore - India Today (2026-10-14) | - |
+| 2026-10-27 | **Mounamelanoyi** | Telugu | android | - | no matching Indian-language title on TMDB. Web news: nothing found | - |
 | 2026-10-27 | **418 movie** | Telugu | android | - | TMDB has 418 (Telugu, 2026, movie:1606527) but no India streaming platform yet; it will list once TMDB or a roundup names one. | - |
-| 2026-10-27 | **Pardesi movie** | - | android | - | no matching Indian-language title on TMDB | - |
+| 2026-10-27 | **Pardesi movie** | - | android | - | no matching Indian-language title on TMDB. Web news: nothing found | - |
 | 2026-10-23 | **Ajay** | Telugu | android · Telugu | - | Unclear which film. TMDB has Ajay (1996 hi, 2006 kn) and Ajay Gadu (2024 te, no streaming platform). Waiting for a clearer report. | - |
 
 ## 🔴 Rejected by safety rules (1)
@@ -65,7 +65,7 @@ Newest first inside each group. "Fixed on" is the first day the checker saw the 
 
 | Reported | Title | Language | From | Their note | What we found | Fixed on |
 |---|---|---|---|---|---|---|
-| 2026-10-19 | **Test film** | Hindi | web | - | no matching Indian-language title on TMDB | - |
-| 2026-10-17 | **Testtest** | - | web | - | no exact match; similar: looks like a misspelling of: The Test Case (hi, tv:76793, in the app) | - |
-| 2026-10-17 | **Browser test film (ignore)** | - | web | - | no matching Indian-language title on TMDB | - |
-| 2026-10-17 | **Test film (ignore)** | Telugu | web | endpoint test from Claude | no matching Indian-language title on TMDB | - |
+| 2026-10-19 | **Test film** | Hindi | web | - | no matching Indian-language title on TMDB. Web news: nothing found | - |
+| 2026-10-17 | **Testtest** | - | web | - | no exact match; similar: looks like a misspelling of: The Test Case (hi, tv:76793, in the app). Web news: nothing found | - |
+| 2026-10-17 | **Browser test film (ignore)** | - | web | - | no matching Indian-language title on TMDB. Web news: nothing found | - |
+| 2026-10-17 | **Test film (ignore)** | Telugu | web | endpoint test from Claude | no matching Indian-language title on TMDB. Web news: nothing found | - |

@@ -1,4 +1,4 @@
-# Missing films - 2026-11-05
+# Missing films - 2026-11-06
 
 Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per original language) with no platform in the live feed.
 
@@ -47,6 +47,7 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - Rahun Main Tere Rubaru (2026-07-17, popularity 2, tmdb 1724719) - no platform known anywhere
 - Heer Sara (2026-06-12, popularity 2, tmdb 1714670) - no platform known anywhere
 - Last Man in Tower (2026-09-11, popularity 2, tmdb 1574560) - no platform known anywhere
+- Almari (2026-10-07, popularity 2, tmdb 1715215) - no platform known anywhere
 - Oye Chill Maar (2026-09-25, popularity 1, tmdb 1798313) - no platform known anywhere
 - Hari Ka Om (2026-09-18, popularity 1, tmdb 1453317) - no platform known anywhere
 - Dial 1975 (2026-07-01, popularity 1, tmdb 403514) - no platform known anywhere
@@ -56,7 +57,6 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - Uttar Da Puttar (2026-07-24, popularity 1, tmdb 1713420) - no platform known anywhere
 - Dulhaniya Le Aaeegi (2026-07-24, popularity 1, tmdb 1720201) - no platform known anywhere
 - Indrajaal (2026-07-24, popularity 1, tmdb 1738850) - no platform known anywhere
-- The Bose Files: Sach Ya Sazish (2026-07-30, popularity 1, tmdb 1740946) - no platform known anywhere
 
 ## Tamil
 
