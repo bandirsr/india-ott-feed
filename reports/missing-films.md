@@ -7,7 +7,7 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 | Telugu | 39 | 29 | 10 | 0 | 0 | 10 |
 | Hindi | 39 | 11 | 28 | 0 | 0 | 28 |
 | Tamil | 40 | 29 | 11 | 0 | 0 | 11 |
-| Malayalam | 38 | 23 | 15 | 0 | 0 | 15 |
+| Malayalam | 38 | 24 | 14 | 1 | 0 | 13 |
 | Kannada | 27 | 5 | 22 | 0 | 0 | 22 |
 | Bengali | 18 | 4 | 14 | 0 | 0 | 14 |
 | Marathi | 16 | 2 | 14 | 0 | 0 | 14 |
@@ -18,7 +18,7 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 
 - Happy Journey (2026-09-18, popularity 2, tmdb 1772904) - no platform known anywhere
 - Kiku Chiranjeevi (2026-08-28, popularity 2, tmdb 1748499) - no platform known anywhere
-- Agadha (2026-08-13, popularity 2, tmdb 1747034) - no platform known anywhere
+- Agadha (2026-08-13, popularity 1, tmdb 1747034) - no platform known anywhere
 - Gossip (2026-06-26, popularity 1, tmdb 1719646) - no platform known anywhere
 - Anumana Pakshi (2026-09-25, popularity 1, tmdb 1542674) - no platform known anywhere
 - Sahaa - Life of Sanju (2026-09-04, popularity 1, tmdb 1516092) - no platform known anywhere
@@ -29,7 +29,7 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 
 ## Hindi
 
-- Drishyam: The Conclusion (2026-10-02, popularity 10, tmdb 1269325) - no platform known anywhere
+- Drishyam: The Conclusion (2026-10-02, popularity 9, tmdb 1269325) - no platform known anywhere
 - Hanuman Ansh (2026-08-07, popularity 7, tmdb 1709391) - no platform known anywhere
 - Haunted 3D: Echoes of the Past (2026-06-12, popularity 3, tmdb 1486860) - no platform known anywhere
 - Haiwaan (2026-09-11, popularity 3, tmdb 1475799) - no platform known anywhere
@@ -39,15 +39,15 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - Mahakavya: Shri Ramayan Katha (2026-09-25, popularity 2, tmdb 1285815) - no platform known anywhere
 - Batwara 1947 (2026-08-13, popularity 2, tmdb 1169537) - no platform known anywhere
 - Daayra (2026-09-18, popularity 2, tmdb 1215889) - no platform known anywhere
-- Bhai Tera Star Hai (2026-07-30, popularity 2, tmdb 1642850) - no platform known anywhere
+- Bhai Tera Star Hai (2026-07-30, popularity 3, tmdb 1642850) - no platform known anywhere
 - Bharat Bhhagya Viddhaata (2026-06-12, popularity 2, tmdb 1351908) - no platform known anywhere
 - Tera Yaar Hoon Main (2026-07-24, popularity 2, tmdb 1384512) - no platform known anywhere
 - Jeevan Bheema Yojana (2026-09-04, popularity 2, tmdb 1389153) - no platform known anywhere
-- Aryabhatt Ka Zero (2026-08-07, popularity 2, tmdb 1714993) - no platform known anywhere
-- Rahun Main Tere Rubaru (2026-07-17, popularity 2, tmdb 1724719) - no platform known anywhere
-- Heer Sara (2026-06-12, popularity 2, tmdb 1714670) - no platform known anywhere
+- Aryabhatt Ka Zero (2026-08-07, popularity 1, tmdb 1714993) - no platform known anywhere
+- Rahun Main Tere Rubaru (2026-07-17, popularity 1, tmdb 1724719) - no platform known anywhere
+- Heer Sara (2026-06-12, popularity 1, tmdb 1714670) - no platform known anywhere
 - Last Man in Tower (2026-09-11, popularity 2, tmdb 1574560) - no platform known anywhere
-- Almari (2026-10-07, popularity 2, tmdb 1715215) - no platform known anywhere
+- Almari (2026-10-07, popularity 1, tmdb 1715215) - no platform known anywhere
 - Oye Chill Maar (2026-09-25, popularity 1, tmdb 1798313) - no platform known anywhere
 - Hari Ka Om (2026-09-18, popularity 1, tmdb 1453317) - no platform known anywhere
 - Dial 1975 (2026-07-01, popularity 1, tmdb 403514) - no platform known anywhere
@@ -61,22 +61,21 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 ## Tamil
 
 - Lenin Pandiyan (2026-09-25, popularity 4, tmdb 1563192) - no platform known anywhere
-- Once More (2026-08-28, popularity 2, tmdb 1318304) - no platform known anywhere
+- Once More (2026-08-28, popularity 3, tmdb 1318304) - no platform known anywhere
 - Dark Giant (2026-06-19, popularity 2, tmdb 1715800) - no platform known anywhere
 - Hi :) (2026-08-28, popularity 2, tmdb 1314279) - no platform known anywhere
 - Rage (2026-09-18, popularity 2, tmdb 1576223) - no platform known anywhere
 - Maaruvesham (2026-10-01, popularity 2, tmdb 1732327) - no platform known anywhere
-- Ram and Leela (2026-08-21, popularity 2, tmdb 1590380) - no platform known anywhere
+- Ram and Leela (2026-08-21, popularity 1, tmdb 1590380) - no platform known anywhere
 - Lakshmikanthan Kolai Vazhakku (2026-07-10, popularity 2, tmdb 1620357) - no platform known anywhere
 - Yen Ennai Edho Seidhai (2026-09-04, popularity 2, tmdb 1764201) - no platform known anywhere
-- Dark (2026-07-03, popularity 2, tmdb 1514180) - no platform known anywhere
+- Dark (2026-07-03, popularity 1, tmdb 1514180) - no platform known anywhere
 - Nalla Padam (2026-09-18, popularity 1, tmdb 1766087) - no platform known anywhere
 
 ## Malayalam
 
 - Aroopi (2026-07-03, popularity 2, tmdb 1616268) - no platform known anywhere
 - Aaram (2026-09-25, popularity 2, tmdb 1624274) - no platform known anywhere
-- Ottam Thullal (2026-09-18, popularity 2, tmdb 1070172) - no platform known anywhere
 - L&O - Law and Order (2026-09-18, popularity 2, tmdb 1588472) - no platform known anywhere
 - Vivaah (2026-08-07, popularity 1, tmdb 1731502) - no platform known anywhere
 - Gandharva (2026-09-12, popularity 1, tmdb 1766084) - no platform known anywhere
@@ -87,8 +86,8 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - Kla Kla Klee Klee Nazriya Thirinjunookki (2026-07-03, popularity 1, tmdb 1722975) - no platform known anywhere
 - Daivathaan Kunnu (2026-09-18, popularity 1, tmdb 1774746) - no platform known anywhere
 - Aali (2026-08-14, popularity 1, tmdb 1748380) - no platform known anywhere
-- Madhuramee Jeevitham (2026-08-14, popularity 1, tmdb 1566124) - no platform known anywhere
-- Wreath (2026-10-01, popularity 0, tmdb 1706748) - no platform known anywhere
+- Madhuramee Jeevitham (2026-08-14, popularity 0, tmdb 1566124) - no platform known anywhere
+- Wreath (2026-10-01, popularity 1, tmdb 1706748) - TMDB lists it on YouTube - should be in the feed
 
 ## Kannada
 
@@ -109,7 +108,7 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - Picture (2026-08-07, popularity 1, tmdb 1744541) - no platform known anywhere
 - America America 2 (2026-09-11, popularity 1, tmdb 1734726) - no platform known anywhere
 - Rakky (2026-07-10, popularity 1, tmdb 1730231) - no platform known anywhere
-- Pinaka (2026-10-02, popularity 1, tmdb 1726972) - no platform known anywhere
+- Pinaka (2026-10-02, popularity 0, tmdb 1726972) - no platform known anywhere
 - Jolly (2026-07-31, popularity 1, tmdb 1747816) - no platform known anywhere
 - Father's Day (2026-07-17, popularity 0, tmdb 1732392) - no platform known anywhere
 - Sumaa the Flower (2026-10-02, popularity 0, tmdb 1788984) - no platform known anywhere
@@ -117,10 +116,10 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 
 ## Bengali
 
-- Winkle Twinkle (2026-09-04, popularity 3, tmdb 1391798) - no platform known anywhere
+- Winkle Twinkle (2026-09-04, popularity 2, tmdb 1391798) - no platform known anywhere
 - Abhhiman (2026-06-19, popularity 2, tmdb 1641819) - no platform known anywhere
 - Nevermind (2026-07-03, popularity 2, tmdb 1711502) - no platform known anywhere
-- Autobi (2026-09-25, popularity 2, tmdb 1736398) - no platform known anywhere
+- Autobi (2026-09-25, popularity 1, tmdb 1736398) - no platform known anywhere
 - Pinjar (2026-07-10, popularity 1, tmdb 1530591) - no platform known anywhere
 - Ghun Gaon (2026-09-11, popularity 1, tmdb 1767365) - no platform known anywhere
 - Beporoya (2026-09-17, popularity 1, tmdb 1242197) - no platform known anywhere
@@ -143,8 +142,8 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - Maharashtra Epstein Files (2026-10-02, popularity 1, tmdb 1726314) - no platform known anywhere
 - Tujhya Aai La (2026-09-25, popularity 1, tmdb 1747950) - no platform known anywhere
 - Sammarth (2026-08-14, popularity 1, tmdb 1747939) - no platform known anywhere
-- Swapnasundari (2026-07-24, popularity 1, tmdb 1738125) - no platform known anywhere
-- Cup Bashi (2026-06-19, popularity 1, tmdb 1719518) - no platform known anywhere
+- Swapnasundari (2026-07-24, popularity 0, tmdb 1738125) - no platform known anywhere
+- Cup Bashi (2026-06-19, popularity 0, tmdb 1719518) - no platform known anywhere
 - Dilemma (2026-09-04, popularity 0, tmdb 1609031) - no platform known anywhere
 - Ghabadkund (2026-06-19, popularity 0, tmdb 1718397) - no platform known anywhere
 - Gaman (2026-10-02, popularity 0, tmdb 1608281) - no platform known anywhere
@@ -164,8 +163,8 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 
 ## Gujarati
 
-- Chatni (2026-09-18, popularity 2, tmdb 1808613) - no platform known anywhere
-- Asambhauuu (2026-09-04, popularity 2, tmdb 1775289) - no platform known anywhere
+- Chatni (2026-09-18, popularity 1, tmdb 1808613) - no platform known anywhere
+- Asambhauuu (2026-09-04, popularity 1, tmdb 1775289) - no platform known anywhere
 - Get Set Go (2026-08-07, popularity 1, tmdb 1739212) - no platform known anywhere
 - Pidha Pachhi... (2026-09-11, popularity 1, tmdb 1766408) - no platform known anywhere
 - Mitrata (2026-09-25, popularity 1, tmdb 1776954) - no platform known anywhere

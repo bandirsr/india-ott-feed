@@ -1,7 +1,8 @@
 # User reports - 2026-11-06
 
-43 reports, newest first.
+44 reports, newest first.
 
+- **Meesaya Murukku 2** - Also in another language (2026-11-06; web) [audio: ta]
 - **DC** - Also in another language (2026-11-03; web) [audio: te]
 - **Telugu movies** - Missing title (2026-11-02; Kannada, android)
 - **Test language report (ignore)** - Also in another language (2026-11-01; web) [audio: te]

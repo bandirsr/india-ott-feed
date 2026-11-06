@@ -26,7 +26,7 @@
      "id": 1747034,
      "title": "Agadha",
      "released": "2026-08-13",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -97,7 +97,7 @@
      "id": 1269325,
      "title": "Drishyam: The Conclusion",
      "released": "2026-10-02",
-     "popularity": 10,
+     "popularity": 9,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -177,7 +177,7 @@
      "id": 1642850,
      "title": "Bhai Tera Star Hai",
      "released": "2026-07-30",
-     "popularity": 2,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -209,7 +209,7 @@
      "id": 1714993,
      "title": "Aryabhatt Ka Zero",
      "released": "2026-08-07",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -217,7 +217,7 @@
      "id": 1724719,
      "title": "Rahun Main Tere Rubaru",
      "released": "2026-07-17",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -225,7 +225,7 @@
      "id": 1714670,
      "title": "Heer Sara",
      "released": "2026-06-12",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -241,7 +241,7 @@
      "id": 1715215,
      "title": "Almari",
      "released": "2026-10-07",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -336,7 +336,7 @@
      "id": 1318304,
      "title": "Once More",
      "released": "2026-08-28",
-     "popularity": 2,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -376,7 +376,7 @@
      "id": 1590380,
      "title": "Ram and Leela",
      "released": "2026-08-21",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -400,7 +400,7 @@
      "id": 1514180,
      "title": "Dark",
      "released": "2026-07-03",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -431,14 +431,6 @@
      "id": 1624274,
      "title": "Aaram",
      "released": "2026-09-25",
-     "popularity": 2,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1070172,
-     "title": "Ottam Thullal",
-     "released": "2026-09-18",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -527,7 +519,7 @@
      "id": 1566124,
      "title": "Madhuramee Jeevitham",
      "released": "2026-08-14",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -535,9 +527,11 @@
      "id": 1706748,
      "title": "Wreath",
      "released": "2026-10-01",
-     "popularity": 0,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
+     "popularity": 1,
+     "tmdb": "streaming",
+     "tmdbPlatforms": [
+      "YouTube"
+     ]
     }
    ]
   },
@@ -686,7 +680,7 @@
      "id": 1726972,
      "title": "Pinaka",
      "released": "2026-10-02",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -733,7 +727,7 @@
      "id": 1391798,
      "title": "Winkle Twinkle",
      "released": "2026-09-04",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -757,7 +751,7 @@
      "id": 1736398,
      "title": "Autobi",
      "released": "2026-09-25",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -924,7 +918,7 @@
      "id": 1738125,
      "title": "Swapnasundari",
      "released": "2026-07-24",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -932,7 +926,7 @@
      "id": 1719518,
      "title": "Cup Bashi",
      "released": "2026-06-19",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -1064,7 +1058,7 @@
      "id": 1808613,
      "title": "Chatni",
      "released": "2026-09-18",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -1072,7 +1066,7 @@
      "id": 1775289,
      "title": "Asambhauuu",
      "released": "2026-09-04",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
