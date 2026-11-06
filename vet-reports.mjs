@@ -83,6 +83,23 @@ async function tmdbMatch(title, langHint) {
   return null;
 }
 
+// Google News search (RSS, no key) for titles TMDB cannot match: shows what the web says so a human
+// can tell a new OTT original from a typo. Hints only, never an automatic add; failures are silent.
+async function webHints(title, language) {
+  try {
+    const q = encodeURIComponent(`"${title}" ${language || ''} movie OTT`.replace(/\s+/g, ' ').trim());
+    const res = await fetch(`https://news.google.com/rss/search?q=${q}&hl=en-IN&gl=IN&ceid=IN:en`, { headers: { 'user-agent': 'Mozilla/5.0 (OTTwalaVetting/1.0)' }, signal: AbortSignal.timeout(10_000) });
+    const xml = await res.text();
+    const want = norm(title);
+    const items = [...xml.matchAll(/<item>[\s\S]*?<title>([^<]*)<\/title>[\s\S]*?<pubDate>([^<]*)<\/pubDate>/g)]
+      .map((m) => ({ t: m[1].replace(/&amp;/g, '&').replace(/&#39;|&apos;/g, "'").replace(/&quot;/g, '"').trim(), d: new Date(m[2]) }))
+      .filter((x) => norm(x.t).includes(want));
+    return items.slice(0, 3).map((x) => `${x.t} (${x.d.toISOString().slice(0, 10)})`);
+  } catch {
+    return [];
+  }
+}
+
 async function wikipediaHas(title) {
   try {
     const u = new URL('https://en.wikipedia.org/w/api.php');
@@ -130,9 +147,11 @@ for (const r of reports) {
       }
       const look = lookalikes(r.title).map((h) => `${h.t} (${h.lang}, ${h.id}, ${h.soon ? 'in the app, Coming soon' : 'in the app'})`);
       if (look.length) close.unshift(`looks like a misspelling of: ${look.join('; ')}`);
+      const web = /(^|[^a-z])(test|testtest|ignore)([^a-z]|$)/i.test(r.title) ? [] : await webHints(r.title, r.language);
       Object.assign(v, {
         verdict: 'NEEDS REVIEW',
-        why: close.length ? `no exact match; similar: ${close.slice(0, 3).join('; ')}` : 'no matching Indian-language title on TMDB',
+        why: (close.length ? `no exact match; similar: ${close.slice(0, 3).join('; ')}` : 'no matching Indian-language title on TMDB')
+          + (web.length ? `. Web news: ${web.join(' | ')}` : '. Web news: nothing found'),
       });
       out.push(v);
       continue;
