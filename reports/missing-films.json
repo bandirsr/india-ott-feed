@@ -1,5 +1,5 @@
 {
- "date": "2026-11-06",
+ "date": "2026-11-07",
  "languages": [
   {
    "code": "te",
@@ -169,7 +169,7 @@
      "id": 1574560,
      "title": "Last Man in Tower",
      "released": "2026-09-11",
-     "popularity": 2,
+     "popularity": 4,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -177,7 +177,7 @@
      "id": 1640649,
      "title": "Love Lottery",
      "released": "2026-09-25",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -193,7 +193,7 @@
      "id": 1351908,
      "title": "Bharat Bhhagya Viddhaata",
      "released": "2026-06-12",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -201,7 +201,7 @@
      "id": 1389153,
      "title": "Jeevan Bheema Yojana",
      "released": "2026-09-04",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -320,7 +320,7 @@
      "id": 1563192,
      "title": "Lenin Pandiyan",
      "released": "2026-09-25",
-     "popularity": 4,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -328,7 +328,7 @@
      "id": 1318304,
      "title": "Once More",
      "released": "2026-08-28",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -392,7 +392,7 @@
      "id": 1758603,
      "title": "BeeP",
      "released": "2026-09-18",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -495,7 +495,7 @@
      "id": 1774746,
      "title": "Daivathaan Kunnu",
      "released": "2026-09-18",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -503,7 +503,7 @@
      "id": 1748380,
      "title": "Aali",
      "released": "2026-08-14",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -511,7 +511,7 @@
      "id": 1805385,
      "title": "Aaru Aanugal",
      "released": "2026-09-25",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -550,7 +550,7 @@
      "id": 1703067,
      "title": "Bail",
      "released": "2026-10-02",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -558,7 +558,7 @@
      "id": 1730215,
      "title": "City Lights",
      "released": "2026-09-18",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -566,7 +566,7 @@
      "id": 1754121,
      "title": "Spark",
      "released": "2026-09-25",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -836,7 +836,7 @@
      "id": 1780846,
      "title": "Bandkhor",
      "released": "2026-09-24",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -844,7 +844,7 @@
      "id": 1774540,
      "title": "MANJAR",
      "released": "2026-09-18",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -955,7 +955,7 @@
      "id": 1518769,
      "title": "Singh vs Kaur 2",
      "released": "2026-09-11",
-     "popularity": 6,
+     "popularity": 5,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -963,7 +963,7 @@
      "id": 1657464,
      "title": "The Great Punjab Robbery",
      "released": "2026-08-07",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "streaming",
      "tmdbPlatforms": [
       "KableOne"
@@ -989,7 +989,7 @@
      "id": 1649723,
      "title": "Judaa",
      "released": "2026-08-21",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -1033,7 +1033,7 @@
      "id": 1753066,
      "title": "Kudiyan Shehar Diyan",
      "released": "2026-08-20",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     }

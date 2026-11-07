@@ -1,4 +1,4 @@
-# Missing films - 2026-11-06
+# Missing films - 2026-11-07
 
 Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per original language) with no platform in the live feed.
 
@@ -38,11 +38,11 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - Prem Keetanu (2026-10-02, popularity 2, tmdb 1640396) - no platform known anywhere
 - Daayra (2026-09-18, popularity 2, tmdb 1215889) - no platform known anywhere
 - Batwara 1947 (2026-08-13, popularity 2, tmdb 1169537) - no platform known anywhere
-- Last Man in Tower (2026-09-11, popularity 2, tmdb 1574560) - no platform known anywhere
-- Love Lottery (2026-09-25, popularity 2, tmdb 1640649) - no platform known anywhere
+- Last Man in Tower (2026-09-11, popularity 4, tmdb 1574560) - no platform known anywhere
+- Love Lottery (2026-09-25, popularity 1, tmdb 1640649) - no platform known anywhere
 - Tera Yaar Hoon Main (2026-07-24, popularity 2, tmdb 1384512) - no platform known anywhere
-- Bharat Bhhagya Viddhaata (2026-06-12, popularity 2, tmdb 1351908) - no platform known anywhere
-- Jeevan Bheema Yojana (2026-09-04, popularity 2, tmdb 1389153) - no platform known anywhere
+- Bharat Bhhagya Viddhaata (2026-06-12, popularity 1, tmdb 1351908) - no platform known anywhere
+- Jeevan Bheema Yojana (2026-09-04, popularity 1, tmdb 1389153) - no platform known anywhere
 - Oye Chill Maar (2026-09-25, popularity 1, tmdb 1798313) - no platform known anywhere
 - Aryabhatt Ka Zero (2026-08-07, popularity 1, tmdb 1714993) - no platform known anywhere
 - Almari (2026-10-07, popularity 1, tmdb 1715215) - no platform known anywhere
@@ -59,8 +59,8 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 
 ## Tamil
 
-- Lenin Pandiyan (2026-09-25, popularity 4, tmdb 1563192) - no platform known anywhere
-- Once More (2026-08-28, popularity 3, tmdb 1318304) - no platform known anywhere
+- Lenin Pandiyan (2026-09-25, popularity 3, tmdb 1563192) - no platform known anywhere
+- Once More (2026-08-28, popularity 2, tmdb 1318304) - no platform known anywhere
 - Hi :) (2026-08-28, popularity 2, tmdb 1314279) - no platform known anywhere
 - Dark Giant (2026-06-19, popularity 2, tmdb 1715800) - no platform known anywhere
 - Lakshmikanthan Kolai Vazhakku (2026-07-10, popularity 2, tmdb 1620357) - no platform known anywhere
@@ -68,7 +68,7 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - The Grand Master (2026-09-25, popularity 2, tmdb 1329084) - no platform known anywhere
 - Yen Ennai Edho Seidhai (2026-09-04, popularity 2, tmdb 1764201) - no platform known anywhere
 - Maaruvesham (2026-10-01, popularity 2, tmdb 1732327) - no platform known anywhere
-- BeeP (2026-09-18, popularity 2, tmdb 1758603) - no platform known anywhere
+- BeeP (2026-09-18, popularity 1, tmdb 1758603) - no platform known anywhere
 - Ram and Leela (2026-08-21, popularity 1, tmdb 1590380) - no platform known anywhere
 - Arjunan Per Paththu (2026-07-17, popularity 1, tmdb 1607621) - no platform known anywhere
 
@@ -83,18 +83,18 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - Kalari Kid – She Hits Back (2026-09-01, popularity 1, tmdb 1585736) - no platform known anywhere
 - Izhakalkkappuram (2026-10-02, popularity 1, tmdb 1776596) - no platform known anywhere
 - Kla Kla Klee Klee Nazriya Thirinjunookki (2026-07-03, popularity 1, tmdb 1722975) - no platform known anywhere
-- Daivathaan Kunnu (2026-09-18, popularity 1, tmdb 1774746) - no platform known anywhere
-- Aali (2026-08-14, popularity 1, tmdb 1748380) - no platform known anywhere
-- Aaru Aanugal (2026-09-25, popularity 1, tmdb 1805385) - no platform known anywhere
+- Daivathaan Kunnu (2026-09-18, popularity 0, tmdb 1774746) - no platform known anywhere
+- Aali (2026-08-14, popularity 0, tmdb 1748380) - no platform known anywhere
+- Aaru Aanugal (2026-09-25, popularity 0, tmdb 1805385) - no platform known anywhere
 - Madhuramee Jeevitham (2026-08-14, popularity 0, tmdb 1566124) - no platform known anywhere
 
 ## Kannada
 
 - Toxic (2026-08-26, popularity 14, tmdb 1213243) - no platform known anywhere
 - Graamaayana (2026-07-03, popularity 2, tmdb 691267) - no platform known anywhere
-- Bail (2026-10-02, popularity 2, tmdb 1703067) - no platform known anywhere
-- City Lights (2026-09-18, popularity 2, tmdb 1730215) - no platform known anywhere
-- Spark (2026-09-25, popularity 2, tmdb 1754121) - no platform known anywhere
+- Bail (2026-10-02, popularity 1, tmdb 1703067) - no platform known anywhere
+- City Lights (2026-09-18, popularity 1, tmdb 1730215) - no platform known anywhere
+- Spark (2026-09-25, popularity 1, tmdb 1754121) - no platform known anywhere
 - Amartha (2026-09-18, popularity 1, tmdb 1771300) - no platform known anywhere
 - Detective Teekshanaa (2026-08-07, popularity 1, tmdb 1093467) - no platform known anywhere
 - Love Seasons (2026-07-03, popularity 1, tmdb 1757697) - no platform known anywhere
@@ -132,8 +132,8 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 
 ## Marathi
 
-- Bandkhor (2026-09-24, popularity 3, tmdb 1780846) - no platform known anywhere
-- MANJAR (2026-09-18, popularity 3, tmdb 1774540) - no platform known anywhere
+- Bandkhor (2026-09-24, popularity 2, tmdb 1780846) - no platform known anywhere
+- MANJAR (2026-09-18, popularity 2, tmdb 1774540) - no platform known anywhere
 - Jayanti 2 (2026-09-11, popularity 2, tmdb 1747479) - no platform known anywhere
 - Bhootam Bhayyam (2026-07-24, popularity 1, tmdb 1729323) - no platform known anywhere
 - Drushya Adrushya (2026-06-19, popularity 1, tmdb 1727155) - no platform known anywhere
@@ -149,16 +149,16 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 
 ## Punjabi
 
-- Singh vs Kaur 2 (2026-09-11, popularity 6, tmdb 1518769) - no platform known anywhere
-- The Great Punjab Robbery (2026-08-07, popularity 3, tmdb 1657464) - TMDB lists it on KableOne - should be in the feed
+- Singh vs Kaur 2 (2026-09-11, popularity 5, tmdb 1518769) - no platform known anywhere
+- The Great Punjab Robbery (2026-08-07, popularity 2, tmdb 1657464) - TMDB lists it on KableOne - should be in the feed
 - Bardaasht (2026-08-21, popularity 2, tmdb 1756456) - no platform known anywhere
 - Ishqnama (2026-07-24, popularity 2, tmdb 1649791) - no platform known anywhere
-- Judaa (2026-08-21, popularity 2, tmdb 1649723) - no platform known anywhere
+- Judaa (2026-08-21, popularity 1, tmdb 1649723) - no platform known anywhere
 - Baggo (2026-08-28, popularity 1, tmdb 1650810) - no platform known anywhere
 - Mitti De Putt (2026-09-18, popularity 1, tmdb 1771989) - TMDB lists it on KableOne - should be in the feed
 - Duja Rabb (2026-07-13, popularity 1, tmdb 1761039) - no platform known anywhere
 - Chaali Din (2026-06-19, popularity 1, tmdb 1650181) - TMDB lists it on KableOne - should be in the feed
-- Kudiyan Shehar Diyan (2026-08-20, popularity 1, tmdb 1753066) - no platform known anywhere
+- Kudiyan Shehar Diyan (2026-08-20, popularity 0, tmdb 1753066) - no platform known anywhere
 
 ## Gujarati
 
