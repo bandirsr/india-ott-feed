@@ -10,7 +10,7 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 | Malayalam | 38 | 25 | 13 | 0 | 0 | 13 |
 | Kannada | 27 | 5 | 22 | 0 | 0 | 22 |
 | Bengali | 18 | 4 | 14 | 0 | 0 | 14 |
-| Marathi | 16 | 2 | 14 | 0 | 0 | 14 |
+| Marathi | 16 | 2 | 14 | 1 | 0 | 13 |
 | Punjabi | 18 | 8 | 10 | 3 | 0 | 7 |
 | Gujarati | 8 | 1 | 7 | 0 | 0 | 7 |
 
@@ -135,7 +135,7 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - Bandkhor (2026-09-24, popularity 2, tmdb 1780846) - no platform known anywhere
 - MANJAR (2026-09-18, popularity 2, tmdb 1774540) - no platform known anywhere
 - Jayanti 2 (2026-09-11, popularity 2, tmdb 1747479) - no platform known anywhere
-- Bhootam Bhayyam (2026-07-24, popularity 1, tmdb 1729323) - no platform known anywhere
+- Bhootam Bhayyam (2026-07-24, popularity 1, tmdb 1729323) - TMDB lists it on Zee5 - should be in the feed
 - Drushya Adrushya (2026-06-19, popularity 1, tmdb 1727155) - no platform known anywhere
 - Aali Mothi Shahani (2026-10-02, popularity 1, tmdb 1783048) - no platform known anywhere
 - Maharashtra Epstein Files (2026-10-02, popularity 1, tmdb 1726314) - no platform known anywhere

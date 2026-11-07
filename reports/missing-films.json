@@ -861,8 +861,10 @@
      "title": "Bhootam Bhayyam",
      "released": "2026-07-24",
      "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
+     "tmdb": "streaming",
+     "tmdbPlatforms": [
+      "Zee5"
+     ]
     },
     {
      "id": 1727155,
