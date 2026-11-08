@@ -1,10 +1,10 @@
 {
- "date": "2026-11-07",
+ "date": "2026-11-08",
  "languages": [
   {
    "code": "te",
    "name": "Telugu",
-   "checked": 39,
+   "checked": 40,
    "missing": [
     {
      "id": 1748499,
@@ -39,6 +39,14 @@
      "tmdbPlatforms": []
     },
     {
+     "id": 1794441,
+     "title": "Good Time",
+     "released": "2026-10-09",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
      "id": 1516092,
      "title": "Sahaa - Life of Sanju",
      "released": "2026-09-04",
@@ -50,14 +58,6 @@
      "id": 1719646,
      "title": "Gossip",
      "released": "2026-06-26",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1628882,
-     "title": "Shabara",
-     "released": "2026-10-02",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -90,6 +90,14 @@
      "title": "Haunted 3D: Echoes of the Past",
      "released": "2026-06-12",
      "popularity": 3,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1792167,
+     "title": "Only Me",
+     "released": "2026-10-09",
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -145,6 +153,14 @@
      "id": 1389153,
      "title": "Jeevan Bheema Yojana",
      "released": "2026-09-04",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1564177,
+     "title": "Dongri: Gangster's Paradise",
+     "released": "2026-10-09",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -244,22 +260,6 @@
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
-    },
-    {
-     "id": 1720201,
-     "title": "Dulhaniya Le Aaeegi",
-     "released": "2026-07-24",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1775462,
-     "title": "Khoonta",
-     "released": "2026-09-18",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
     }
    ]
   },
@@ -349,9 +349,9 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1607621,
-     "title": "Arjunan Per Paththu",
-     "released": "2026-07-17",
+     "id": 1752883,
+     "title": "Kitti",
+     "released": "2026-10-09",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -361,7 +361,7 @@
   {
    "code": "ml",
    "name": "Malayalam",
-   "checked": 38,
+   "checked": 39,
    "missing": [
     {
      "id": 1624274,
@@ -388,9 +388,25 @@
      "tmdbPlatforms": []
     },
     {
+     "id": 1778302,
+     "title": "Chiram",
+     "released": "2026-10-09",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
      "id": 1731502,
      "title": "Vivaah",
      "released": "2026-08-07",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1790417,
+     "title": "Dhanushkodiyilekku",
+     "released": "2026-10-09",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -455,14 +471,6 @@
      "id": 1774746,
      "title": "Daivathaan Kunnu",
      "released": "2026-09-18",
-     "popularity": 0,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1566124,
-     "title": "Madhuramee Jeevitham",
-     "released": "2026-08-14",
      "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -877,7 +885,7 @@
   {
    "code": "pa",
    "name": "Punjabi",
-   "checked": 18,
+   "checked": 19,
    "missing": [
     {
      "id": 1518769,
@@ -938,6 +946,14 @@
      "tmdbPlatforms": [
       "KableOne"
      ]
+    },
+    {
+     "id": 1651316,
+     "title": "Eh Din Roz Ni Aune",
+     "released": "2026-10-09",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
     },
     {
      "id": 1761039,
