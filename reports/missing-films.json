@@ -10,7 +10,7 @@
      "id": 1748499,
      "title": "Kiku Chiranjeevi",
      "released": "2026-08-28",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -18,7 +18,7 @@
      "id": 1772904,
      "title": "Happy Journey",
      "released": "2026-09-18",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -89,7 +89,7 @@
      "id": 1486860,
      "title": "Haunted 3D: Echoes of the Past",
      "released": "2026-06-12",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -137,7 +137,7 @@
      "id": 1384512,
      "title": "Tera Yaar Hoon Main",
      "released": "2026-07-24",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -241,7 +241,7 @@
      "id": 1738850,
      "title": "Indrajaal",
      "released": "2026-07-24",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -273,6 +273,14 @@
      "title": "Lenin Pandiyan",
      "released": "2026-09-25",
      "popularity": 3,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1431738,
+     "title": "Anbil Avan",
+     "released": "2026-10-02",
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -312,7 +320,7 @@
      "id": 1620357,
      "title": "Lakshmikanthan Kolai Vazhakku",
      "released": "2026-07-10",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -320,7 +328,7 @@
      "id": 1764201,
      "title": "Yen Ennai Edho Seidhai",
      "released": "2026-09-04",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -328,7 +336,7 @@
      "id": 1732327,
      "title": "Maaruvesham",
      "released": "2026-10-01",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -396,6 +404,14 @@
      "tmdbPlatforms": []
     },
     {
+     "id": 922673,
+     "title": "The Third Murder",
+     "released": "2026-10-02",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
      "id": 1731502,
      "title": "Vivaah",
      "released": "2026-08-07",
@@ -420,14 +436,6 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 922673,
-     "title": "The Third Murder",
-     "released": "2026-10-02",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1776596,
      "title": "Izhakalkkappuram",
      "released": "2026-10-02",
@@ -447,7 +455,7 @@
      "id": 1722975,
      "title": "Kla Kla Klee Klee Nazriya Thirinjunookki",
      "released": "2026-07-03",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -494,7 +502,7 @@
      "id": 691267,
      "title": "Graamaayana",
      "released": "2026-07-03",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -566,7 +574,7 @@
      "id": 1730231,
      "title": "Rakky",
      "released": "2026-07-10",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -582,7 +590,7 @@
      "id": 1734726,
      "title": "America America 2",
      "released": "2026-09-11",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -590,7 +598,7 @@
      "id": 1740534,
      "title": "Tadviruddha",
      "released": "2026-07-31",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -598,7 +606,7 @@
      "id": 1744541,
      "title": "Picture",
      "released": "2026-08-07",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -606,7 +614,7 @@
      "id": 1396778,
      "title": "Ayogya 2",
      "released": "2026-08-07",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -614,7 +622,7 @@
      "id": 1747816,
      "title": "Jolly",
      "released": "2026-07-31",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -669,7 +677,7 @@
      "id": 1711502,
      "title": "Nevermind",
      "released": "2026-07-03",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -677,7 +685,7 @@
      "id": 1641819,
      "title": "Abhhiman",
      "released": "2026-06-19",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -741,7 +749,7 @@
      "id": 1707728,
      "title": "Onekdin Por",
      "released": "2026-06-26",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -749,7 +757,7 @@
      "id": 917372,
      "title": "Daktar Kaku",
      "released": "2026-09-18",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -796,7 +804,7 @@
      "id": 1747479,
      "title": "Jayanti 2",
      "released": "2026-09-11",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -828,7 +836,7 @@
      "id": 1747950,
      "title": "Tujhya Aai La",
      "released": "2026-09-25",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -836,7 +844,7 @@
      "id": 1747939,
      "title": "Sammarth",
      "released": "2026-08-14",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -885,7 +893,7 @@
   {
    "code": "pa",
    "name": "Punjabi",
-   "checked": 19,
+   "checked": 20,
    "missing": [
     {
      "id": 1518769,
@@ -909,7 +917,7 @@
      "id": 1649791,
      "title": "Ishqnama",
      "released": "2026-07-24",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -917,7 +925,7 @@
      "id": 1756456,
      "title": "Bardaasht",
      "released": "2026-08-21",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -946,6 +954,14 @@
      "tmdbPlatforms": [
       "KableOne"
      ]
+    },
+    {
+     "id": 1738641,
+     "title": "Kankaan De Ohle",
+     "released": "2026-07-31",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
     },
     {
      "id": 1651316,

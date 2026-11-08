@@ -1,6 +1,6 @@
 # What people reported - checked 2026-11-08
 
-🟢 Fixed - in the app: **15** &nbsp;·&nbsp; 🔵 Ready to add: **0** &nbsp;·&nbsp; 🟡 Needs a look: **9** &nbsp;·&nbsp; 🟣 Closed - nothing to add: **12** &nbsp;·&nbsp; 🔴 Rejected by safety rules: **1** &nbsp;·&nbsp; ⚪ Test entry: **4**
+🟢 Fixed - in the app: **15** &nbsp;·&nbsp; 🔵 Ready to add: **0** &nbsp;·&nbsp; 🟡 Needs a look: **9** &nbsp;·&nbsp; 🟣 Closed - nothing to add: **13** &nbsp;·&nbsp; 🔴 Rejected by safety rules: **1** &nbsp;·&nbsp; ⚪ Test entry: **4**
 
 Newest first inside each group. "Fixed on" is the first day the checker saw the title in the live app; a report already covered when it arrived shows the report day.
 
@@ -44,10 +44,11 @@ Newest first inside each group. "Fixed on" is the first day the checker saw the 
 | 2026-10-24 | **Paappayan** | - | android | - | Paappan (movie:845343, cert UA) | 2026-10-25 |
 | 2026-10-21 | **Husar pittalu** | Telugu | android | - | Hushar Pittalu (movie:1742434, cert U/A 16+) | 2026-10-25 |
 
-## 🟣 Closed - nothing to add (12)
+## 🟣 Closed - nothing to add (13)
 
 | Reported | Title | Language | From | Their note | What we found | Fixed on |
 |---|---|---|---|---|---|---|
+| 2026-11-08 | **Telugu** | Telugu | android | - | No film name given. | 2026-11-08 (same day) |
 | 2026-10-29 | **Kannada movie** | Telugu | android | - | No film name given. | 2026-11-01 |
 | 2026-10-28 | **Telugu** | Hindi | android | - | No film name given. | 2026-11-01 |
 | 2026-10-28 | **Hollywood** | Telugu | android | - | No film name given. | 2026-11-01 |
