@@ -24,6 +24,7 @@ import { blockReason, childRisk } from './src/safety.js';
 const CHANNELS = 'data/youtube-movie-channels.json';
 const OUT = 'data/youtube-movies.json';
 const KEEP_DAYS = 400;
+const MAX_MINUTES = 240; // a longer video is a compilation or a live stream, not one film
 const MIN_MINUTES = 80; // a feature film; trailers, clips and compilations are shorter or far longer
 const NAMES = { te: 'Telugu', hi: 'Hindi', ta: 'Tamil', ml: 'Malayalam', kn: 'Kannada', bn: 'Bengali', mr: 'Marathi', pa: 'Punjabi', gu: 'Gujarati' };
 const UA = { 'user-agent': 'Mozilla/5.0 (OTTwalaYouTubeMovies/1.0)' };
@@ -31,15 +32,36 @@ const KEY = process.env.YOUTUBE_API_KEY;
 
 const decode = (s) => s.replace(/&amp;/g, '&').replace(/&#39;|&apos;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
 // Reviews, recaps and story explainers run for an hour or more and say "Full Movie" in the title.
-const REVIEW_WORDS = /(reviews?|explained|explanation|recap|story\s*(?:in|line)|facts|breakdown|ending explained|analysis|reaction)/i;
+const REVIEW_WORDS = /\b(?:reviews?|explained|explanation|recap|story\s*(?:in|line)|facts|breakdown|analysis|reaction|audio\s*(?:launch|release|review|jukebox)|jukebox|pre[-\s]?release|press\s*meet|launch|muhurat(?:am)?|interview|making|behind\s+the\s+scenes|bgm|lyrical|first\s+look|motion\s+poster|glimpse|promo|event|live|ott\s+release|box\s*office|collections?)\b/i;
 const NOT_A_MOVIE = /#shorts?\b|\bshorts?\b|streaming now|\bscenes?\b|\bsongs?\b|\btrailer\b|\bteaser\b|\bpromo\b|\bclip\b|\bcomedy\b.*\bscenes?\b|\b(?:on|in)\s+(?:prime video|netflix|zee5|jiohotstar|sun nxt|aha)\b/i;
 
-/** "Hyderabad Nawabs Hindi Full Movie | Saleem Pheku | Superhit Movies" -> "Hyderabad Nawabs" */
+const FULL_MOVIE = /\bfull\s+(?:hd\s+|length\s+)?(?:movie|film)\b/i;
+// Everything from the first descriptor word onwards is not part of the film's name.
+const DESCRIPTOR = /\b(?:full\s+(?:hd\s+|length\s+)?(?:movie|film)|(?:hindi|telugu|tamil|malayalam|kannada|bengali|marathi|punjabi|gujarati|south)\s+(?:dubbed|full|movie|film|indian|action|suspense)|dubbed|new(?:ly)?\s+releas\w*|latest|blockbuster|super\s*hit|bollywood|4k|hd|(?:19|20)\d{2}\)?\s+(?:new|latest|south|hindi|full|super))\b.*$/i;
+
+/** "Anurag Kashyap Ki Mystery Thriller | NO SMOKING | Full Movie (HD)" -> "NO SMOKING". Null when no reliable name. */
 export function movieName(title) {
-  let t = title.split(/\s*[|–—]\s*/)[0];
-  t = t.replace(/\b(?:(?:telugu|hindi|tamil|malayalam|kannada|bengali|marathi|punjabi|gujarati|dubbed|hd|4k|new|latest|blockbuster|superhit|super hit|south)\s+)*(?:full\s+(?:movie|film)|movie)\b.*$/i, '');
-  t = t.replace(/\s*[\(\[]\s*(?:19|20)\d{2}\s*[\)\]]\s*$/, '').replace(/#\S+/g, '').replace(/\s*[-:]\s*$/, '').trim();
-  return t.length >= 2 ? t : null;
+  const clean = (x) => x.replace(DESCRIPTOR, '').replace(/#\S+/g, '').replace(/\s*[\(\[]\s*(?:19|20)\d{2}\s*[\)\]]\s*$/, '').replace(/\s*[-:,&]\s*$/, '').replace(/\s+/g, ' ').trim();
+  const segs = title.split(/\s*[|–—]\s*/);
+  let name = null;
+  const at = segs.findIndex((x) => FULL_MOVIE.test(x));
+  if (at >= 0) {
+    name = clean(segs[at]);
+    if (name.length < 2 && at > 0) name = clean(segs[at - 1]);
+  } else {
+    name = clean(segs[0]);
+    // "Ravi Teja (2026) New Released ... Movie | Real Title": the words before "New Released" are the star, not the film.
+    const cut = DESCRIPTOR.exec(segs[0]);
+    if (cut && /^(?:new|latest|(?:19|20)\d{2})/i.test(cut[0])) {
+      const next = segs[1] ? clean(segs[1]) : '';
+      name = next && next.split(/\s+/).length <= 4 && !/[,&]/.test(next) && !DESCRIPTOR.test(segs[1]) ? next : null;
+    }
+  }
+  if (name) name = name.replace(/\s*[\(\[][^\)\]]*$/, '').trim(); // an unclosed "(HD" left over from the cut
+  // "Night Drive - South Suspense Thriller ..." -> "Night Drive"
+  if (name && / [-–] /.test(name)) name = name.split(/ [-–] /)[0].trim();
+  if (!name || /[,&]/.test(name) || name.length < 2 || name.length > 40 || name.split(/\s+/).length > 6 || /['’]s$/i.test(name) || /\b(?:ki|ka|ke|ko)\s+(?:mystery|action|comedy|thriller|horror|romantic)/i.test(name)) return null;
+  return name;
 }
 
 const minutes = (iso) => {
@@ -79,8 +101,8 @@ async function stats(ids) {
   const out = new Map();
   if (!KEY) return out;
   for (let i = 0; i < ids.length; i += 50) {
-    const j = await api('videos', { part: 'contentDetails,statistics,snippet', id: ids.slice(i, i + 50).join(',') });
-    for (const v of j.items ?? []) out.set(v.id, { minutes: minutes(v.contentDetails?.duration), views: Number(v.statistics?.viewCount ?? 0), likes: v.statistics?.likeCount == null ? null : Number(v.statistics.likeCount), ageRestricted: v.contentDetails?.contentRating?.ytRating === 'ytAgeRestricted', audio: String(v.snippet?.defaultAudioLanguage ?? v.snippet?.defaultLanguage ?? '').slice(0, 2).toLowerCase() });
+    const j = await api('videos', { part: 'contentDetails,statistics,snippet,status', id: ids.slice(i, i + 50).join(',') });
+    for (const v of j.items ?? []) out.set(v.id, { minutes: minutes(v.contentDetails?.duration), views: Number(v.statistics?.viewCount ?? 0), likes: v.statistics?.likeCount == null ? null : Number(v.statistics.likeCount), ageRestricted: v.contentDetails?.contentRating?.ytRating === 'ytAgeRestricted', blocked: v.status?.privacyStatus !== 'public' || v.status?.embeddable === false || v.status?.uploadStatus !== 'processed' || (v.contentDetails?.regionRestriction?.blocked ?? []).includes('IN') || ((v.contentDetails?.regionRestriction?.allowed ?? ['IN']).includes('IN') === false), audio: String(v.snippet?.defaultAudioLanguage ?? v.snippet?.defaultLanguage ?? '').slice(0, 2).toLowerCase() });
   }
   return out;
 }
@@ -102,8 +124,9 @@ async function movies(ch, list) {
     if (!name) why = 'no usable title';
     else if (NOT_A_MOVIE.test(v.title)) why = 'clip, song, trailer or platform promo';
     else if (REVIEW_WORDS.test(v.title)) why = 'review, recap or explainer';
+    else if (s?.blocked) why = 'not public, not embeddable, or not available in India';
     else if (s?.ageRestricted) why = 'age-restricted on YouTube';
-    else if (KEY ? !s || s.minutes < MIN_MINUTES : !/\bfull\s+(movie|film)\b/i.test(v.title)) why = KEY ? `only ${Math.round(s?.minutes ?? 0)} min` : 'title does not say Full Movie';
+    else if (KEY ? !s || s.minutes < MIN_MINUTES || s.minutes > MAX_MINUTES : !/\bfull\s+(movie|film)\b/i.test(v.title)) why = KEY ? `only ${Math.round(s?.minutes ?? 0)} min` : 'title does not say Full Movie';
     else if (childRisk(v.title) || blockReason({ id: '', t: name, syn: '', p: [] }, {}, { certs: {}, manual: {} })) why = 'trips the safety rules';
     // A channel that posts in several languages (Eros South) is only trusted when the video states its own audio language.
     const stated = NAMES[s?.audio];
@@ -150,10 +173,22 @@ try {
   const st = await stats([...kept.keys()]);
   if (KEY) for (const [id, r] of kept) {
     const s = st.get(id);
-    if (!s || s.ageRestricted) { kept.delete(id); continue; }
+    if (!s || s.ageRestricted || s.blocked) { kept.delete(id); continue; } // removed, made private, restricted or blocked in India: gone from the app on this run
+    // The rules tighten over time, so everything kept is re-judged on its upload title and length every run.
+    const name = movieName(r.uploadTitle ?? '');
+    if (!name) { kept.delete(id); continue; }
+    r.title = name;
+    if (REVIEW_WORDS.test(r.uploadTitle ?? '') || NOT_A_MOVIE.test(r.uploadTitle ?? '') || s.minutes < MIN_MINUTES || s.minutes > MAX_MINUTES) { kept.delete(id); continue; }
     r.views = s.views; r.likes = s.likes;
   }
 } catch (e) { console.log(`  counts not refreshed: ${e.message}`); }
+// The same film posted by several channels (the DRJ channels, for one) is listed once, from the copy with most views.
+const best = new Map();
+for (const r of kept.values()) {
+  const key = `${r.language}|${r.title.toLowerCase().replace(/[^\p{L}\p{N}]/gu, '')}`;
+  if (!best.has(key) || (r.views ?? 0) > (best.get(key).views ?? 0)) best.set(key, r);
+}
+for (const [id, r] of kept) if (best.get(`${r.language}|${r.title.toLowerCase().replace(/[^\p{L}\p{N}]/gu, '')}`) !== r) kept.delete(id);
 const now = Date.now();
 const releases = [...kept.values()].filter((r) => now - Date.parse(r.date) < KEEP_DAYS * 86_400_000).sort((a, b) => b.date.localeCompare(a.date));
 writeFileSync(OUT, JSON.stringify({ generatedAt: new Date().toISOString(), releases }, null, 1) + '\n');

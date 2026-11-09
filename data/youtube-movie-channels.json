@@ -47,6 +47,228 @@
       "approved": true,
       "evidence": "Copyright line names AR Enterprises; ChatGPT: provisional aggregator",
       "checked": "2026-11-09"
+    },
+    {
+      "name": "Goldmines",
+      "channelId": "UCyoXW-Dse7fURq30EWl_CUA",
+      "language": "Hindi",
+      "approved": true,
+      "evidence": "ChatGPT: official, high (2026-11-09 review); own signals: created 2012, no fair-use disclaimer",
+      "checked": "2026-11-09"
+    },
+    {
+      "name": "Shemaroo",
+      "channelId": "UCF1JIbMUs6uqoZEY1Haw0GQ",
+      "language": "Hindi",
+      "approved": true,
+      "evidence": "ChatGPT: official, high (2026-11-09 review); own signals: created 2007, no fair-use disclaimer",
+      "checked": "2026-11-09",
+      "multiLanguage": true
+    },
+    {
+      "name": "Shemaroo Movies",
+      "channelId": "UCBOmfqgTZi7yDp4-3Lr_3lA",
+      "language": "Hindi",
+      "approved": true,
+      "evidence": "ChatGPT: official, high (2026-11-09 review); own signals: created 2011, no fair-use disclaimer",
+      "checked": "2026-11-09",
+      "multiLanguage": true
+    },
+    {
+      "name": "Eros Universe",
+      "channelId": "UCX52tYZiEh_mHoFja3Veciw",
+      "language": "Hindi",
+      "approved": true,
+      "evidence": "ChatGPT: official, medium (2026-11-09 review); own signals: created 2007, no fair-use disclaimer",
+      "checked": "2026-11-09",
+      "multiLanguage": true
+    },
+    {
+      "name": "Ultra Movie Parlour",
+      "channelId": "UCYauDsl-rswjQGpA0_-Z9Pw",
+      "language": "Hindi",
+      "approved": true,
+      "evidence": "ChatGPT: official, high (2026-11-09 review); own signals: created 2011, no fair-use disclaimer",
+      "checked": "2026-11-09"
+    },
+    {
+      "name": "RKD Studios",
+      "channelId": "UCjBwQ6M9QyCgO5Pp-TQRFUA",
+      "language": "Hindi",
+      "approved": true,
+      "evidence": "ChatGPT: official, high (2026-11-09 review); own signals: created 2014, no fair-use disclaimer",
+      "checked": "2026-11-09"
+    },
+    {
+      "name": "Venus Movies",
+      "channelId": "UCpcsv3Ow-8IhoUGDEfPetsQ",
+      "language": "Hindi",
+      "approved": true,
+      "evidence": "ChatGPT: official, high (2026-11-09 review); own signals: created 2010, no fair-use disclaimer",
+      "checked": "2026-11-09"
+    },
+    {
+      "name": "DRJ Records Movies",
+      "channelId": "UCBhStnvUsWCMvAUj7UGj0Wg",
+      "language": "Hindi",
+      "approved": true,
+      "evidence": "ChatGPT: official, high; (c) line names DRJ Records (2026-11-09 review); own signals: created 2015, no fair-use disclaimer",
+      "checked": "2026-11-09"
+    },
+    {
+      "name": "Bollywood Premium",
+      "channelId": "UCnqA9rYxHah-HY2RzGXWLFg",
+      "language": "Hindi",
+      "approved": true,
+      "evidence": "ChatGPT: official, high; Ultra Media (2026-11-09 review); own signals: created 2020, no fair-use disclaimer",
+      "checked": "2026-11-09"
+    },
+    {
+      "name": "DRJ Records Zest",
+      "channelId": "UCvv-gzXIoMY68hCr82TXelg",
+      "language": "Hindi",
+      "approved": true,
+      "evidence": "ChatGPT: official, high; (c) line names DRJ Records (2026-11-09 review); own signals: created 2017, no fair-use disclaimer",
+      "checked": "2026-11-09"
+    },
+    {
+      "name": "RelianceEntertainment",
+      "channelId": "UCqZR7KVVsZRSfezZKJllxVQ",
+      "language": "Hindi",
+      "approved": true,
+      "evidence": "ChatGPT: official, high (2026-11-09 review); own signals: created 2006, no fair-use disclaimer",
+      "checked": "2026-11-09"
+    },
+    {
+      "name": "Wam India Movie Talkies",
+      "channelId": "UChOXJw1nDQMmaGZg1DOv8bQ",
+      "language": "Hindi",
+      "approved": true,
+      "evidence": "ChatGPT: aggregator, medium (2026-11-09 review); own signals: created 2014, no fair-use disclaimer",
+      "checked": "2026-11-09"
+    },
+    {
+      "name": "DRJ Records Action",
+      "channelId": "UCS5IuLoG4Wx-OWjEptkx_fQ",
+      "language": "Hindi",
+      "approved": true,
+      "evidence": "ChatGPT: official, medium (2026-11-09 review); own signals: created 2017, no fair-use disclaimer",
+      "checked": "2026-11-09"
+    },
+    {
+      "name": "RKD Movies",
+      "channelId": "UCWYb7qZzdQxi3jxHRl6IrBA",
+      "language": "Hindi",
+      "approved": true,
+      "evidence": "ChatGPT: official, high (2026-11-09 review); own signals: created 2015, no fair-use disclaimer",
+      "checked": "2026-11-09"
+    },
+    {
+      "name": "Soham Rockstar Entertainment",
+      "channelId": "UC_Qan_w2z9EVG-NS0f2g6XQ",
+      "language": "Hindi",
+      "approved": true,
+      "evidence": "ChatGPT: official, high (2026-11-09 review); own signals: created 2018, no fair-use disclaimer",
+      "checked": "2026-11-09"
+    },
+    {
+      "name": "SGV Digital - Kannada Full Movies",
+      "channelId": "UCZaVCXWtPFbEM1RnQQC1qOQ",
+      "language": "Kannada",
+      "approved": true,
+      "evidence": "ChatGPT: aggregator, medium (2026-11-09 review); own signals: created 2015, no fair-use disclaimer",
+      "checked": "2026-11-09"
+    },
+    {
+      "name": "SRS Media Vision | Kannada Full Movies",
+      "channelId": "UCa9c6LDV43ZfD89zsxkEyzg",
+      "language": "Kannada",
+      "approved": true,
+      "evidence": "ChatGPT: official, high (2026-11-09 review); own signals: created 2014, no fair-use disclaimer",
+      "checked": "2026-11-09"
+    },
+    {
+      "name": "Mango Kannada",
+      "channelId": "UCx9OPKq3HhxylxfIvXg-SXA",
+      "language": "Kannada",
+      "approved": true,
+      "evidence": "ChatGPT: aggregator, medium (2026-11-09 review); own signals: created 2015, no fair-use disclaimer",
+      "checked": "2026-11-09"
+    },
+    {
+      "name": "Sri Ganesh Videos",
+      "channelId": "UC7B6bqTYOOy4JmI2byFaPgg",
+      "language": "Kannada",
+      "approved": true,
+      "evidence": "ChatGPT: aggregator, medium (2026-11-09 review); own signals: created 2013, no fair-use disclaimer",
+      "checked": "2026-11-09"
+    },
+    {
+      "name": "SGV Kannada Films",
+      "channelId": "UCqHcF31sut5sUUnLvLZlhSQ",
+      "language": "Kannada",
+      "approved": true,
+      "evidence": "ChatGPT: aggregator, medium (2026-11-09 review); own signals: created 2016, no fair-use disclaimer",
+      "checked": "2026-11-09"
+    },
+    {
+      "name": "Kannada HD Movies",
+      "channelId": "UCH8iqJMB471kEd-ZbYJYpqg",
+      "language": "Kannada",
+      "approved": true,
+      "evidence": "ChatGPT: aggregator, medium; (c) Speed Audio & Video (2026-11-09 review); own signals: created 2019, no fair-use disclaimer",
+      "checked": "2026-11-09",
+      "multiLanguage": true
+    },
+    {
+      "name": "Millennium Cinemas",
+      "channelId": "UCrtwzlQDYRs4vReNd_Ro91w",
+      "language": "Malayalam",
+      "approved": true,
+      "evidence": "ChatGPT: aggregator, medium; Millennium Audios (2026-11-09 review); own signals: created 2013, no fair-use disclaimer",
+      "checked": "2026-11-09"
+    },
+    {
+      "name": "Matinee Now",
+      "channelId": "UCN8O3J_z9fdoF1xrYK89uOQ",
+      "language": "Malayalam",
+      "approved": true,
+      "evidence": "ChatGPT: official, high (2026-11-09 review); own signals: created 2019, no fair-use disclaimer",
+      "checked": "2026-11-09"
+    },
+    {
+      "name": "Online Movies",
+      "channelId": "UC4QzHi13GWur9dX-nE7_ebQ",
+      "language": "Malayalam",
+      "approved": true,
+      "evidence": "ChatGPT: aggregator, medium; (c) Speed Audio & Video (2026-11-09 review); own signals: created 2015, no fair-use disclaimer",
+      "checked": "2026-11-09",
+      "multiLanguage": true
+    },
+    {
+      "name": "Indian Video Guru",
+      "channelId": "UCBnIEg5WTFKcMMV1GAagQCQ",
+      "language": "Tamil",
+      "approved": true,
+      "evidence": "ChatGPT: aggregator, high (2026-11-09 review); own signals: created 2012, no fair-use disclaimer",
+      "checked": "2026-11-09",
+      "multiLanguage": true
+    },
+    {
+      "name": "SUPERCLUSTER PRODUCTIONS",
+      "channelId": "UCmKJUJmyKxbrq5c7bfzhbWg",
+      "language": "Tamil",
+      "approved": true,
+      "evidence": "ChatGPT: aggregator, high (2026-11-09 review); own signals: created 2020, no fair-use disclaimer",
+      "checked": "2026-11-09"
+    },
+    {
+      "name": "NH Studioz Tamil",
+      "channelId": "UCfJBF0qXQbr7UfpbH0fAkzA",
+      "language": "Tamil",
+      "approved": true,
+      "evidence": "ChatGPT: official, high (2026-11-09 review); own signals: created 2016, no fair-use disclaimer",
+      "checked": "2026-11-09"
     }
   ]
 }
