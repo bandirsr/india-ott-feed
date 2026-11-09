@@ -1,0 +1,6 @@
+{
+  "_note": "Channels whose full-movie uploads may appear as YouTube availability. Only entries with approved:true are polled. Approve a channel only if it is the film's official owner or a known licensed distributor: many full-movie uploads on YouTube are not licensed. Find channelId with: node youtube-movies.mjs --try UC... hi (language code te/hi/ta/ml/kn/bn/mr/pa/gu) to preview what a channel would add.",
+  "channels": [
+    { "name": "Sri Balaji Hindi Movies", "channelId": "UCrOfzpH1sWPu1IqHnVhojKA", "language": "Hindi", "approved": false }
+  ]
+}

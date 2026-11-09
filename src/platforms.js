@@ -26,6 +26,7 @@ export const PLATFORMS = [
   { name: 'JioHotstar', tmdbId: 2336, status: 'covered', reach: 'national', languages: ['all'], note: 'JioCinema merged into this; the old JioCinema id 220 is no longer an India provider.' },
   { name: 'Zee5', tmdbId: 232, status: 'covered', reach: 'national', languages: ['all'] },
   { name: 'Sony Liv', tmdbId: 237, status: 'covered', reach: 'national', languages: ['all'], note: 'Telugu catalogue is 26 titles and three years stale. Listed, but effectively unmaintained for South content.' },
+  { name: 'YouTube', tmdbId: 192, status: 'covered', reach: 'national', note: 'Free full movies on approved official channels (data/youtube-movie-channels.json) plus whatever TMDB lists.' },
   { name: 'MX Player', tmdbId: 515, status: 'covered', reach: 'national', languages: ['all'] },
   { name: 'Amazon MX Player', tmdbId: 1898, status: 'covered', reach: 'national', languages: ['all'], note: 'The former Amazon MiniTV.' },
   { name: 'Apple TV', tmdbId: 350, status: 'covered', reach: 'national', languages: ['all'], note: 'TMDB calls Apple TV+ simply "Apple TV"; "Apple TV Store" is the separate rental storefront.' },

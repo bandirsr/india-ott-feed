@@ -69,6 +69,20 @@ function loadManual() {
   }
 }
 
+/** Free full movies from approved official YouTube channels (youtube-movies.mjs). Kept a year, like Wikipedia lines. */
+function loadYoutubeMovies() {
+  const f = resolve(HERE, 'data', 'youtube-movies.json');
+  if (!existsSync(f)) return [];
+  try {
+    return (JSON.parse(readFileSync(f, 'utf8')).releases ?? []).map((r) => ({
+      kind: 'release', dateStatus: 'reported', confidence: 'channel-upload', publishedAt: `${r.date}T00:00:00.000Z`, ...r,
+    }));
+  } catch (e) {
+    console.log(`youtube-movies.json unreadable (${e.message}) -- ignored`);
+    return [];
+  }
+}
+
 /** Keeps history across runs so a release seen last week is not forgotten. */
 function loadPrevious() {
   if (!existsSync(OUT)) return { releases: [], roundups: [] };
@@ -116,9 +130,11 @@ async function main() {
   const previous = loadPrevious();
   const manual = loadManual();
   if (manual.length) console.log(`  Checked-by-hand entries: ${manual.length}`);
+  const youtubeMovies = loadYoutubeMovies();
+  if (youtubeMovies.length) console.log(`  Free YouTube movies (approved channels): ${youtubeMovies.length}`);
   const wiki = loadWiki();
   if (wiki.length) console.log(`  Wikipedia streaming lines (kn/mr/gu/pa): ${wiki.length}`);
-  const combined = mergeReleases([...(previous.releases ?? []), ...rawRecords, ...manual, ...wiki]);
+  const combined = mergeReleases([...(previous.releases ?? []), ...rawRecords, ...manual, ...youtubeMovies, ...wiki]);
 
   // Dropped rather than kept forever. A dated report more than 60 days past
   // its date has either been confirmed by TMDB/Wikipedia by now (in which
