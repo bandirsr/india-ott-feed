@@ -10,7 +10,7 @@
  * Only channels with "approved": true in data/youtube-movie-channels.json are polled. A channel is
  * approved by a person, because many full-movie uploads on YouTube are not licensed.
  *
- * With YOUTUBE_API_KEY: the uploads playlist (up to 200 videos), keeping any video of 60 minutes or
+ * With YOUTUBE_API_KEY: the uploads playlist (up to 200 videos), keeping any video of 80 minutes or
  * more. That is about 6 quota units per channel. Without a key: the plain feed (latest 15 uploads),
  * keeping titles that say "Full Movie"; no view counts then.
  *
@@ -24,7 +24,7 @@ import { blockReason, childRisk } from './src/safety.js';
 const CHANNELS = 'data/youtube-movie-channels.json';
 const OUT = 'data/youtube-movies.json';
 const KEEP_DAYS = 400;
-const MIN_MINUTES = 60;
+const MIN_MINUTES = 80; // a feature film; trailers, clips and compilations are shorter or far longer
 const NAMES = { te: 'Telugu', hi: 'Hindi', ta: 'Tamil', ml: 'Malayalam', kn: 'Kannada', bn: 'Bengali', mr: 'Marathi', pa: 'Punjabi', gu: 'Gujarati' };
 const UA = { 'user-agent': 'Mozilla/5.0 (OTTwalaYouTubeMovies/1.0)' };
 const KEY = process.env.YOUTUBE_API_KEY;

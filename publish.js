@@ -308,7 +308,13 @@ function main(freshReports) {
   // Straight from the channel: no TMDB match is needed. The card shows the video's own still
   // (`y`, which the app turns into the thumbnail and the play button), the release date is the
   // day it was posted, and `vw` / `lk` let the app sort by views and likes.
-  const YT_PROVIDER = 192;
+  const YT_PROVIDER = 192; // free full movies from approved channels (below)
+  const YT_RENT_PROVIDER = -3; // TMDB's "YouTube" is the paid YouTube Movies store: every title checked was rent/buy only
+  for (const bucket of byLanguage.values()) {
+    for (const entry of bucket) {
+      for (const p of entry.p ?? []) if (p.id === YT_PROVIDER) p.id = YT_RENT_PROVIDER;
+    }
+  }
   const ytMoviesPath = resolve(HERE, 'data', 'youtube-movies.json');
   const LANG_BY_NAME = new Map(LANGUAGES.map((l) => [l.name, l.code]));
   let youtubeAdded = 0;
@@ -340,7 +346,8 @@ function main(freshReports) {
   for (const [name, synth] of Object.entries(SYNTHETIC_PROVIDERS)) {
     providers[synth.id] = { name, color: synth.color };
   }
-  providers[YT_PROVIDER] ??= { name: 'YouTube', color: '#FF0000' };
+  providers[YT_PROVIDER] = { name: 'YouTube', color: '#FF0000' };
+  providers[YT_RENT_PROVIDER] = { name: 'YouTube Movies (rent)', color: '#8E8E93' };
 
   // --- web series, placed by their network -------------------------------
   //
