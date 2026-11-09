@@ -1,5 +1,5 @@
 {
- "date": "2026-11-08",
+ "date": "2026-11-09",
  "languages": [
   {
    "code": "te",
@@ -73,7 +73,7 @@
      "id": 1269325,
      "title": "Drishyam: The Conclusion",
      "released": "2026-10-02",
-     "popularity": 9,
+     "popularity": 8,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -81,7 +81,7 @@
      "id": 1475799,
      "title": "Haiwaan",
      "released": "2026-09-11",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -145,7 +145,7 @@
      "id": 1384512,
      "title": "Tera Yaar Hoon Main",
      "released": "2026-07-24",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -249,7 +249,7 @@
      "id": 1701812,
      "title": "Hum Angrezon Ke Zamane Ke Jailor Hai",
      "released": "2026-06-12",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -257,7 +257,7 @@
      "id": 1765342,
      "title": "Mahaprabhu Jagannath",
      "released": "2026-08-28",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     }
@@ -304,7 +304,7 @@
      "id": 1715800,
      "title": "Dark Giant",
      "released": "2026-06-19",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -383,7 +383,7 @@
      "id": 1588472,
      "title": "L&O - Law and Order",
      "released": "2026-09-18",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -447,7 +447,7 @@
      "id": 1766084,
      "title": "Gandharva",
      "released": "2026-09-12",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -566,7 +566,7 @@
      "id": 1792171,
      "title": "Life Today",
      "released": "2026-08-06",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -663,13 +663,21 @@
   {
    "code": "bn",
    "name": "Bengali",
-   "checked": 18,
+   "checked": 19,
    "missing": [
     {
      "id": 1391798,
      "title": "Winkle Twinkle",
      "released": "2026-09-04",
      "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1736395,
+     "title": "Ei Shohorer Gaan",
+     "released": "2026-10-10",
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -701,7 +709,7 @@
      "id": 1736398,
      "title": "Autobi",
      "released": "2026-09-25",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -788,7 +796,7 @@
      "id": 1774540,
      "title": "MANJAR",
      "released": "2026-09-18",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -796,7 +804,7 @@
      "id": 1780846,
      "title": "Bandkhor",
      "released": "2026-09-24",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -820,7 +828,7 @@
      "id": 1726314,
      "title": "Maharashtra Epstein Files",
      "released": "2026-10-02",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -828,7 +836,7 @@
      "id": 1727155,
      "title": "Drushya Adrushya",
      "released": "2026-06-19",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -899,7 +907,7 @@
      "id": 1518769,
      "title": "Singh vs Kaur 2",
      "released": "2026-09-11",
-     "popularity": 5,
+     "popularity": 4,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -975,7 +983,7 @@
      "id": 1650181,
      "title": "Chaali Din",
      "released": "2026-06-19",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "streaming",
      "tmdbPlatforms": [
       "KableOne"
@@ -1056,7 +1064,7 @@
      "id": 1741858,
      "title": "Hip Hip Hurray",
      "released": "2026-07-30",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     }
