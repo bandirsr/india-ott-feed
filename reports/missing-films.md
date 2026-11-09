@@ -4,7 +4,7 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 
 | Language | Checked | In feed | Missing | TMDB says streaming (our bug) | Rent/buy only | Unknown |
 |---|---:|---:|---:|---:|---:|---:|
-| Telugu | 40 | 33 | 7 | 0 | 0 | 7 |
+| Telugu | 40 | 34 | 6 | 0 | 0 | 6 |
 | Hindi | 39 | 15 | 24 | 0 | 0 | 24 |
 | Tamil | 40 | 28 | 12 | 0 | 0 | 12 |
 | Malayalam | 39 | 25 | 14 | 0 | 0 | 14 |
@@ -18,7 +18,6 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 
 - Kiku Chiranjeevi (2026-08-28, popularity 1, tmdb 1748499) - no platform known anywhere
 - Adhey Neevu Adhey Nenu (2026-07-31, popularity 1, tmdb 1814023) - no platform known anywhere
-- Happy Journey (2026-09-18, popularity 1, tmdb 1772904) - no platform known anywhere
 - Good Time (2026-10-09, popularity 1, tmdb 1794441) - no platform known anywhere
 - Sahaa - Life of Sanju (2026-09-04, popularity 1, tmdb 1516092) - no platform known anywhere
 - Anumana Pakshi (2026-09-25, popularity 1, tmdb 1542674) - no platform known anywhere
