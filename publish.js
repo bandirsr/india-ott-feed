@@ -52,6 +52,13 @@ const SYNTHETIC_PROVIDERS = {
 };
 
 const HERE = dirname(fileURLToPath(import.meta.url));
+
+/** 2057871 -> "2.1M", 14616 -> "14.6K": the short form used in a card's one-line summary. */
+function compactCount(n) {
+  if (n >= 1e6) return `${(n / 1e6).toFixed(n >= 1e7 ? 0 : 1).replace(/\.0$/, '')}M`;
+  if (n >= 1e3) return `${(n / 1e3).toFixed(n >= 1e4 ? 0 : 1).replace(/\.0$/, '')}K`;
+  return String(n);
+}
 const OUT = resolve(HERE, 'public');
 
 /** Brand colours, so the app does not need a table it has to keep in sync. */
@@ -297,6 +304,32 @@ function main(freshReports) {
     reportedAdded += 1;
   }
 
+  // --- free full movies on approved YouTube channels (youtube-movies.mjs) ----------------------
+  // Straight from the channel: no TMDB match is needed. The card shows the video's own still
+  // (`y`, which the app turns into the thumbnail and the play button), the release date is the
+  // day it was posted, and `vw` / `lk` let the app sort by views and likes.
+  const YT_PROVIDER = 192;
+  const ytMoviesPath = resolve(HERE, 'data', 'youtube-movies.json');
+  const LANG_BY_NAME = new Map(LANGUAGES.map((l) => [l.name, l.code]));
+  let youtubeAdded = 0;
+  if (existsSync(ytMoviesPath)) {
+    for (const r of JSON.parse(readFileSync(ytMoviesPath, 'utf8')).releases ?? []) {
+      const bucket = byLanguage.get(LANG_BY_NAME.get(r.language));
+      if (!bucket || byKey.has(r.id)) continue;
+      const entry = {
+        id: r.id, t: r.title, d: r.date, i: null, k: 'movie', y: r.videoId,
+        p: [{ id: YT_PROVIDER, on: r.date }],
+        syn: ['Free on YouTube', r.views != null ? `${compactCount(r.views)} views` : null, r.likes != null ? `${compactCount(r.likes)} likes` : null, r.channel].filter(Boolean).join(' · '),
+        ...(r.minutes ? { run: r.minutes } : {}),
+        ...(r.views != null ? { vw: r.views } : {}),
+        ...(r.likes != null ? { lk: r.likes } : {}),
+      };
+      bucket.push(entry);
+      byKey.set(r.id, entry);
+      youtubeAdded += 1;
+    }
+  }
+
   // Names come from the snapshot that produced this data, never from a
   // constant in this file. A provider that changed id between runs then reads
   // correctly instead of inheriting whatever name once sat at that number.
@@ -307,6 +340,7 @@ function main(freshReports) {
   for (const [name, synth] of Object.entries(SYNTHETIC_PROVIDERS)) {
     providers[synth.id] = { name, color: synth.color };
   }
+  providers[YT_PROVIDER] ??= { name: 'YouTube', color: '#FF0000' };
 
   // --- web series, placed by their network -------------------------------
   //
