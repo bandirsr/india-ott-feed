@@ -17,7 +17,7 @@
   "checkedOn": "2026-11-09",
   "fixedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedAt": "2026-10-25T18:21:11.373Z"
  },
  "2026-10-25T12:21:29.253Z|Movie": {
@@ -37,7 +37,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:04.432Z"
  },
@@ -59,7 +59,7 @@
   "checkedOn": "2026-11-09",
   "fixedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedAt": "2026-10-25T18:21:11.373Z"
  },
  "2026-10-25T09:22:45.581Z|Radbali": {
@@ -79,7 +79,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:14.586Z"
  },
@@ -101,7 +101,7 @@
   "checkedOn": "2026-11-09",
   "fixedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedAt": "2026-10-25T18:21:11.373Z"
  },
  "2026-10-25T02:10:36.229Z|Insidious": {
@@ -121,7 +121,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:04.432Z"
  },
@@ -142,7 +142,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T19:08:57.929Z"
  },
@@ -163,7 +163,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z"
+  "checkedAt": "2026-11-09T23:46:39.405Z"
  },
  "2026-10-23T17:11:34.071Z|2026": {
   "key": "2026-10-23T17:11:34.071Z|2026",
@@ -182,7 +182,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:04.432Z"
  },
@@ -203,7 +203,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:04.432Z"
  },
@@ -224,7 +224,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:04.432Z"
  },
@@ -245,7 +245,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:14.586Z"
  },
@@ -266,7 +266,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T19:09:21.748Z"
  },
@@ -287,7 +287,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z"
+  "checkedAt": "2026-11-09T23:46:39.405Z"
  },
  "2026-10-17T14:00:40.537Z|Testtest": {
   "key": "2026-10-17T14:00:40.537Z|Testtest",
@@ -299,14 +299,14 @@
   "note": "",
   "status": "TEST",
   "verdict": "NEEDS REVIEW",
-  "why": "no exact match; similar: looks like a misspelling of: The Test Case (hi, tv:76793, in the app). Web news: nothing found",
+  "why": "no exact match; similar: looks like a misspelling of: The Test Case (hi, yt:qMFjdI6pZXY, in the app); The Test Case (hi, tv:76793, in the app). Web news: nothing found",
   "tmdb": null,
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z"
+  "checkedAt": "2026-11-09T23:46:39.405Z"
  },
  "2026-10-17T03:32:01.179Z|Browser test film (ignore)": {
   "key": "2026-10-17T03:32:01.179Z|Browser test film (ignore)",
@@ -325,7 +325,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z"
+  "checkedAt": "2026-11-09T23:46:39.405Z"
  },
  "2026-10-17T03:31:31.428Z|Test film (ignore)": {
   "key": "2026-10-17T03:31:31.428Z|Test film (ignore)",
@@ -344,7 +344,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z"
+  "checkedAt": "2026-11-09T23:46:39.405Z"
  },
  "2026-10-27T07:38:25.064Z|Jaialr2": {
   "key": "2026-10-27T07:38:25.064Z|Jaialr2",
@@ -363,7 +363,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-27T08:58:12.086Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -384,7 +384,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-27T08:58:12.086Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -405,7 +405,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-27T15:21:05.543Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z"
+  "checkedAt": "2026-11-09T23:46:39.405Z"
  },
  "2026-10-27T13:06:46.776Z|Mani": {
   "key": "2026-10-27T13:06:46.776Z|Mani",
@@ -424,7 +424,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-27T15:21:05.543Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z"
+  "checkedAt": "2026-11-09T23:46:39.405Z"
  },
  "2026-10-27T12:03:15.248Z|All": {
   "key": "2026-10-27T12:03:15.248Z|All",
@@ -443,7 +443,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-27T15:21:05.543Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -464,7 +464,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-27T15:21:05.543Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -478,14 +478,14 @@
   "note": "",
   "status": "REVIEW",
   "verdict": "NEEDS REVIEW",
-  "why": "no matching Indian-language title on TMDB. Web news: nothing found",
+  "why": "no exact match; similar: looks like a misspelling of: Naagdevi Movie (hi, yt:DFjdSkE0DWM, in the app); Kartha Movie (hi, yt:Bfw24tlY_70, in the app); Raid Movie (hi, yt:gQYXOuncrpE, in the app). Web news: nothing found",
   "tmdb": null,
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-27T15:21:05.543Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z"
+  "checkedAt": "2026-11-09T23:46:39.405Z"
  },
  "2026-10-27T17:41:43.054Z|Mounamelanoyi": {
   "key": "2026-10-27T17:41:43.054Z|Mounamelanoyi",
@@ -504,7 +504,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-28T00:31:51.755Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z"
+  "checkedAt": "2026-11-09T23:46:39.405Z"
  },
  "2026-10-27T17:31:40.057Z|Chenni express": {
   "key": "2026-10-27T17:31:40.057Z|Chenni express",
@@ -523,7 +523,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-28T00:31:51.755Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -544,7 +544,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-28T00:31:51.755Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -565,7 +565,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-28T00:31:51.755Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -586,7 +586,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-28T09:38:40.436Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -600,14 +600,14 @@
   "note": "",
   "status": "REVIEW",
   "verdict": "NEEDS REVIEW",
-  "why": "no exact match; similar: looks like a misspelling of: Premalu (ml, movie:1149791, in the app); Premam (hi, movie:409255, in the app); Prema & Co. (te, movie:1217314, in the app); Premada Oorali (2026, kn, movie:1735270); Premada Kanike (1976, kn, movie:301665). Web news: 'Premada Oorali' OTT release: Makers share update regarding Sriram’s Kannada hit - The Times of India (2026-10-13) | Premada Oorali: This little film has taken the Kannada film industry by storm - The Hindu (2026-10-08) | Kannada cinema's new blockbuster: How Premada Oorali turned 60 shows into Rs 50 crore - India Today (2026-10-14)",
+  "why": "no exact match; similar: looks like a misspelling of: Prem Adda (kn, yt:ZGPSgEwqtCs, in the app); Premalu (ml, movie:1149791, in the app); Premam (hi, movie:409255, in the app); Premada Oorali (2026, kn, movie:1735270); Premada Kanike (1976, kn, movie:301665). Web news: 'Premada Oorali' OTT release: Makers share update regarding Sriram’s Kannada hit - The Times of India (2026-10-13) | Premada Oorali: This little film has taken the Kannada film industry by storm - The Hindu (2026-10-08) | Kannada cinema's new blockbuster: How Premada Oorali turned 60 shows into Rs 50 crore - India Today (2026-10-14)",
   "tmdb": null,
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-28T09:38:40.436Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z"
+  "checkedAt": "2026-11-09T23:46:39.405Z"
  },
  "2026-10-28T17:11:44.780Z|Viswanath and sons": {
   "key": "2026-10-28T17:11:44.780Z|Viswanath and sons",
@@ -626,7 +626,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-28T20:15:47.492Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -647,7 +647,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-28T20:15:47.492Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -668,7 +668,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-28T20:15:47.492Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z"
+  "checkedAt": "2026-11-09T23:46:39.405Z"
  },
  "2026-10-28T16:13:43.460Z|Telugu": {
   "key": "2026-10-28T16:13:43.460Z|Telugu",
@@ -687,7 +687,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-28T20:15:47.492Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -708,7 +708,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-28T20:15:47.492Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -729,7 +729,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-28T20:15:47.492Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z"
+  "checkedAt": "2026-11-09T23:46:39.405Z"
  },
  "2026-10-28T13:51:23.466Z|Na wife missing": {
   "key": "2026-10-28T13:51:23.466Z|Na wife missing",
@@ -741,14 +741,14 @@
   "note": "",
   "status": "REVIEW",
   "verdict": "NEEDS REVIEW",
-  "why": "no matching Indian-language title on TMDB. Web news: Na Wife Missing: Cast, Crew, Movie Review, Release Date, Teaser, Trailer - filmyfocus.com (2026-10-15) | Na Wife Missing Movie Review & Rating! - FilmyFocus (2026-10-22) | Na Wife Missing OTT Release: Watch Varun Sandesh’s Telugu crime-drama online now on ‘This’ platform - NewsroomPost (2026-10-21)",
+  "why": "no matching Indian-language title on TMDB. Web news: Na Wife Missing: Cast, Crew, Movie Review, Release Date, Teaser, Trailer - filmyfocus.com (2026-10-15) | Na Wife Missing Movie Review & Rating! - FilmyFocus (2026-10-22) | Na Wife Missing OTT Release: Watch Varun Sandesh’s promising Telugu crime-drama film online on ‘This’ platform - NewsroomPost (2026-10-21)",
   "tmdb": null,
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-28T20:15:47.492Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z"
+  "checkedAt": "2026-11-09T23:46:39.405Z"
  },
  "2026-10-28T13:28:15.672Z|I'm game": {
   "key": "2026-10-28T13:28:15.672Z|I'm game",
@@ -767,7 +767,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-28T20:15:47.492Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -788,7 +788,7 @@
   "firstSeen": "2026-10-29",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-29T20:17:00.689Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -809,7 +809,7 @@
   "firstSeen": "2026-10-30",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-10-30T19:56:10.720Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-10-30",
   "fixedAt": "2026-10-30T19:56:10.720Z"
  },
@@ -823,14 +823,14 @@
   "note": "",
   "status": "REVIEW",
   "verdict": "NEEDS REVIEW",
-  "why": "no matching Indian-language title on TMDB. Web news: New Telugu OTT Releases This Week (November 2026): Movies & Series Streaming Now | Latest Telugu Movies & Web Series on OTT – November 2026 Streaming Guide | Telugu OTT Premieres This Week: November 2026 Movies on Prime, Netflix, Aha & Z - Filmibeat (2025-12-30) | October 2025 Telugu Movies Release Date, Schedule & Calendar - Filmibeat (2025-12-05)",
+  "why": "no exact match; similar: looks like a misspelling of: Shruti Movies (hi, yt:1p1j5AsZ0ak, in the app). Web news: New Telugu OTT Releases This Week (November 2026): Movies & Series Streaming Now | Latest Telugu Movies & Web Series on OTT – November 2026 Streaming Guide | Telugu OTT Premieres This Week: November 2026 Movies on Prime, Netflix, Aha & Z - Filmibeat (2025-12-30) | October 2025 Telugu Movies Release Date, Schedule & Calendar - Filmibeat (2025-12-05)",
   "tmdb": null,
   "matched": null,
   "cert": null,
   "firstSeen": "2026-11-02",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-11-02T11:02:25.067Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z"
+  "checkedAt": "2026-11-09T23:46:39.405Z"
  },
  "2026-11-08T02:30:41.163Z|Telugu": {
   "key": "2026-11-08T02:30:41.163Z|Telugu",
@@ -849,7 +849,7 @@
   "firstSeen": "2026-11-08",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-11-08T10:19:13.338Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z",
+  "checkedAt": "2026-11-09T23:46:39.405Z",
   "fixedOn": "2026-11-08",
   "fixedAt": "2026-11-08T10:19:13.338Z"
  },
@@ -870,6 +870,6 @@
   "firstSeen": "2026-11-08",
   "checkedOn": "2026-11-09",
   "firstCheckedAt": "2026-11-08T19:40:52.319Z",
-  "checkedAt": "2026-11-09T11:28:43.641Z"
+  "checkedAt": "2026-11-09T23:46:39.405Z"
  }
 }
