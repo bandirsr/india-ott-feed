@@ -78,7 +78,7 @@ async function stats(ids) {
   if (!KEY) return out;
   for (let i = 0; i < ids.length; i += 50) {
     const j = await api('videos', { part: 'contentDetails,statistics', id: ids.slice(i, i + 50).join(',') });
-    for (const v of j.items ?? []) out.set(v.id, { minutes: minutes(v.contentDetails?.duration), views: Number(v.statistics?.viewCount ?? 0), likes: v.statistics?.likeCount == null ? null : Number(v.statistics.likeCount) });
+    for (const v of j.items ?? []) out.set(v.id, { minutes: minutes(v.contentDetails?.duration), views: Number(v.statistics?.viewCount ?? 0), likes: v.statistics?.likeCount == null ? null : Number(v.statistics.likeCount), ageRestricted: v.contentDetails?.contentRating?.ytRating === 'ytAgeRestricted' });
   }
   return out;
 }
@@ -99,6 +99,7 @@ async function movies(ch, list) {
     let why = null;
     if (!name) why = 'no usable title';
     else if (NOT_A_MOVIE.test(v.title)) why = 'clip, song, trailer or platform promo';
+    else if (s?.ageRestricted) why = 'age-restricted on YouTube';
     else if (KEY ? !s || s.minutes < MIN_MINUTES : !/\bfull\s+(movie|film)\b/i.test(v.title)) why = KEY ? `only ${Math.round(s?.minutes ?? 0)} min` : 'title does not say Full Movie';
     else if (childRisk(v.title) || blockReason({ id: '', t: name, syn: '', p: [] }, {}, { certs: {}, manual: {} })) why = 'trips the safety rules';
     out.push({
@@ -143,7 +144,7 @@ try {
   const st = await stats([...kept.keys()]);
   if (KEY) for (const [id, r] of kept) {
     const s = st.get(id);
-    if (!s) { kept.delete(id); continue; }
+    if (!s || s.ageRestricted) { kept.delete(id); continue; }
     r.views = s.views; r.likes = s.likes;
   }
 } catch (e) { console.log(`  counts not refreshed: ${e.message}`); }
