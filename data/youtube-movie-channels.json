@@ -1,6 +1,52 @@
 {
   "_note": "Channels whose full-movie uploads may appear as YouTube availability. Only entries with approved:true are polled. Approve a channel only if it is the film's official owner or a known licensed distributor: many full-movie uploads on YouTube are not licensed. Find channelId with: node youtube-movies.mjs --try UC... hi (language code te/hi/ta/ml/kn/bn/mr/pa/gu) to preview what a channel would add.",
   "channels": [
-    { "name": "Sri Balaji Hindi Movies", "channelId": "UCrOfzpH1sWPu1IqHnVhojKA", "language": "Hindi", "approved": true }
+    {
+      "name": "Sri Balaji Hindi Movies",
+      "channelId": "UCrOfzpH1sWPu1IqHnVhojKA",
+      "language": "Hindi",
+      "approved": true
+    },
+    {
+      "name": "Volga Video",
+      "channelId": "UCIeNlITYK46VkR7yIuTL8GQ",
+      "language": "Telugu",
+      "approved": true,
+      "evidence": "Distributor with 800+ Telugu film rights; ChatGPT: licensed aggregator (high)",
+      "checked": "2026-11-09"
+    },
+    {
+      "name": "Mango Videos",
+      "channelId": "UCgq-x7ZhHEDWuXkRK6lBaIw",
+      "language": "Telugu",
+      "approved": true,
+      "evidence": "Mango Mass Media film distributor; ChatGPT: licensed aggregator (high)",
+      "checked": "2026-11-09"
+    },
+    {
+      "name": "Eros Universe South",
+      "channelId": "UCnS5MV3PRAgTGu2Y2DdGhfQ",
+      "language": "Telugu",
+      "approved": true,
+      "evidence": "Eros film company; ChatGPT: official rights-holder (medium)",
+      "checked": "2026-11-09",
+      "multiLanguage": true
+    },
+    {
+      "name": "AR Entertainments Movies",
+      "channelId": "UCvuFXtieVU8pw1vfodoUx9Q",
+      "language": "Telugu",
+      "approved": true,
+      "evidence": "Copyright line names AR Entertainments; ChatGPT: provisional aggregator",
+      "checked": "2026-11-09"
+    },
+    {
+      "name": "Telugu Junction",
+      "channelId": "UCigwIOn1yCeH9g5C_lmbZ0Q",
+      "language": "Telugu",
+      "approved": true,
+      "evidence": "Copyright line names AR Enterprises; ChatGPT: provisional aggregator",
+      "checked": "2026-11-09"
+    }
   ]
 }

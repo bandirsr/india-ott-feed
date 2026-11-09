@@ -30,6 +30,8 @@ const UA = { 'user-agent': 'Mozilla/5.0 (OTTwalaYouTubeMovies/1.0)' };
 const KEY = process.env.YOUTUBE_API_KEY;
 
 const decode = (s) => s.replace(/&amp;/g, '&').replace(/&#39;|&apos;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
+// Reviews, recaps and story explainers run for an hour or more and say "Full Movie" in the title.
+const REVIEW_WORDS = /(reviews?|explained|explanation|recap|story\s*(?:in|line)|facts|breakdown|ending explained|analysis|reaction)/i;
 const NOT_A_MOVIE = /#shorts?\b|\bshorts?\b|streaming now|\bscenes?\b|\bsongs?\b|\btrailer\b|\bteaser\b|\bpromo\b|\bclip\b|\bcomedy\b.*\bscenes?\b|\b(?:on|in)\s+(?:prime video|netflix|zee5|jiohotstar|sun nxt|aha)\b/i;
 
 /** "Hyderabad Nawabs Hindi Full Movie | Saleem Pheku | Superhit Movies" -> "Hyderabad Nawabs" */
@@ -77,8 +79,8 @@ async function stats(ids) {
   const out = new Map();
   if (!KEY) return out;
   for (let i = 0; i < ids.length; i += 50) {
-    const j = await api('videos', { part: 'contentDetails,statistics', id: ids.slice(i, i + 50).join(',') });
-    for (const v of j.items ?? []) out.set(v.id, { minutes: minutes(v.contentDetails?.duration), views: Number(v.statistics?.viewCount ?? 0), likes: v.statistics?.likeCount == null ? null : Number(v.statistics.likeCount), ageRestricted: v.contentDetails?.contentRating?.ytRating === 'ytAgeRestricted' });
+    const j = await api('videos', { part: 'contentDetails,statistics,snippet', id: ids.slice(i, i + 50).join(',') });
+    for (const v of j.items ?? []) out.set(v.id, { minutes: minutes(v.contentDetails?.duration), views: Number(v.statistics?.viewCount ?? 0), likes: v.statistics?.likeCount == null ? null : Number(v.statistics.likeCount), ageRestricted: v.contentDetails?.contentRating?.ytRating === 'ytAgeRestricted', audio: String(v.snippet?.defaultAudioLanguage ?? v.snippet?.defaultLanguage ?? '').slice(0, 2).toLowerCase() });
   }
   return out;
 }
@@ -99,13 +101,17 @@ async function movies(ch, list) {
     let why = null;
     if (!name) why = 'no usable title';
     else if (NOT_A_MOVIE.test(v.title)) why = 'clip, song, trailer or platform promo';
+    else if (REVIEW_WORDS.test(v.title)) why = 'review, recap or explainer';
     else if (s?.ageRestricted) why = 'age-restricted on YouTube';
     else if (KEY ? !s || s.minutes < MIN_MINUTES : !/\bfull\s+(movie|film)\b/i.test(v.title)) why = KEY ? `only ${Math.round(s?.minutes ?? 0)} min` : 'title does not say Full Movie';
     else if (childRisk(v.title) || blockReason({ id: '', t: name, syn: '', p: [] }, {}, { certs: {}, manual: {} })) why = 'trips the safety rules';
+    // A channel that posts in several languages (Eros South) is only trusted when the video states its own audio language.
+    const stated = NAMES[s?.audio];
+    const lang = ch.multiLanguage ? stated : (ch.language ?? stated);
     out.push({
-      v, name, why,
-      record: why ? null : {
-        id: `yt:${v.videoId}`, videoId: v.videoId, title: name, language: ch.language, date: v.published, channel: ch.name,
+      v, name, why: why ?? (lang ? null : 'language not stated on a multi-language channel'),
+      record: why || !lang ? null : {
+        id: `yt:${v.videoId}`, videoId: v.videoId, title: name, language: lang, date: v.published, channel: ch.name,
         minutes: s ? Math.round(s.minutes) : null, views: s?.views ?? null, likes: s?.likes ?? null, uploadTitle: v.title,
       },
     });
