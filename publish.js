@@ -349,6 +349,37 @@ function main(freshReports) {
   providers[YT_PROVIDER] = { name: 'YouTube', color: '#FF0000' };
   providers[YT_RENT_PROVIDER] = { name: 'YouTube Movies (rent)', color: '#8E8E93' };
 
+  // "Also on ..." for free YouTube movies: when exactly one non-YouTube title in the same
+  // language has the same name, list where that title is, so people with a subscription can
+  // pick an ad-free copy. Two or more same-name titles (remakes) are ambiguous: say nothing.
+  {
+    const RENT = new Set(['Google Play Movies', 'Apple TV Store', 'Amazon Video', 'Bookmyshow', 'YouTube Movies (rent)']);
+    const nk = (s) => String(s ?? '').toLowerCase().normalize('NFKD').replace(/[^\p{L}\p{N}]+/gu, '');
+    for (const bucket of byLanguage.values()) {
+      const byName = new Map();
+      for (const e of bucket) {
+        if (String(e.id).startsWith('yt:') || e.k === 'tv') continue;
+        const k = nk(e.t);
+        if (k) byName.set(k, [...(byName.get(k) ?? []), e]);
+      }
+      for (const e of bucket) {
+        if (!String(e.id).startsWith('yt:')) continue;
+        const m = byName.get(nk(e.t));
+        if (!m || m.length !== 1) continue;
+        const subs = [], rents = [];
+        for (const p of m[0].p ?? []) {
+          const name = providers[p.id]?.name;
+          if (!name || name === 'YouTube' || p.src === 'reported') continue;
+          const label = name === 'Amazon Prime Video' ? 'Prime Video' : name === 'Amazon Video' ? 'Prime Video' : name.replace(/ \(rent\)$/, '');
+          (RENT.has(name) ? rents : subs).push(label);
+        }
+        const seen = new Set(); const parts = subs.filter((x) => !seen.has(x.toLowerCase()) && seen.add(x.toLowerCase()));
+        for (const r of new Set(rents)) if (!parts.includes(r)) parts.push(`${r} (rent/buy)`);
+        if (parts.length) e.al = parts.slice(0, 3).join(', ');
+      }
+    }
+  }
+
   // --- web series, placed by their network -------------------------------
   //
   // Most of these are not in the sweep at all, because the sweep finds titles
