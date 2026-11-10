@@ -158,6 +158,15 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: node youtube-movies.mjs
 
+      # Finds candidate channels for languages with no approved channel yet (search costs 100 units a language).
+      # Report-only: a person (or the vetting session) approves in data/youtube-movie-channels.json.
+      - name: Discover YouTube movie channels for uncovered languages
+        continue-on-error: true
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          DAILY: '1'
+        run: node youtube-discover.mjs
+
       - name: Poll trade-press RSS for same-day releases
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
@@ -245,7 +254,7 @@ jobs:
         run: |
           git config user.name "ott-bot"
           git config user.email "ott-bot@users.noreply.github.com"
-          git add data/upcoming-cache.json data/certifications.json data/blocked-titles.json data/trailer-safety.json data/blocked-trailers.json data/arrivals.json data/trailers.json data/gapfill.json data/dubs.json data/series.json data/details.json data/digital.json data/youtube-trailers.json data/fresh.json data/wikilang.json data/wiki-releases.json data/manual-releases.json data/youtube-movies.json data/gaps.json data/dubs-reported.json reports/language-reports.md data/notified.json
+          git add data/upcoming-cache.json data/certifications.json data/blocked-titles.json data/trailer-safety.json data/blocked-trailers.json data/arrivals.json data/trailers.json data/gapfill.json data/dubs.json data/series.json data/details.json data/digital.json data/youtube-trailers.json data/fresh.json data/wikilang.json data/wiki-releases.json data/manual-releases.json data/youtube-movies.json data/youtube-candidates.json reports/youtube-channel-candidates.md data/gaps.json data/dubs-reported.json reports/language-reports.md data/notified.json
           git diff --staged --quiet || git commit -m "Ledger: $(date -u +%Y-%m-%d)"
           # Rebase before pushing. A plain push failed whenever someone pushed to
           # main while the sweep was running, and the whole day went unpublished.

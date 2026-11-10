@@ -12,6 +12,14 @@ import { existsSync, readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 const KEY = process.env.YOUTUBE_API_KEY;
 if (!KEY) { console.log('No YOUTUBE_API_KEY.'); process.exit(1); }
 const LANGS = [['te', 'Telugu'], ['hi', 'Hindi'], ['ta', 'Tamil'], ['ml', 'Malayalam'], ['kn', 'Kannada'], ['bn', 'Bengali'], ['mr', 'Marathi'], ['pa', 'Punjabi'], ['gu', 'Gujarati']];
+// DAILY=1: only the languages that have no approved channel yet, one rotating query each (about 100 units a language),
+// and candidates accumulate in data/youtube-candidates.json so each day adds to the pile. Never approves anything.
+const DAILY = process.env.DAILY === '1';
+const CAND = 'data/youtube-candidates.json';
+const cands = DAILY && existsSync(CAND) ? JSON.parse(readFileSync(CAND, 'utf8')) : {};
+const today = new Date().toISOString().slice(0, 10);
+if (DAILY && cands._ran === today) { console.log('Already searched today.'); process.exit(0); } // the sweep runs many times a day; search once
+const WORDINGS = ['full movie', 'full length movie', 'superhit full movie', 'blockbuster full movie HD', 'new full movie', 'classic full movie'];
 const NOT_A_MOVIE = /#shorts?\b|\bshorts?\b|streaming now|\bscenes?\b|\bsongs?\b|\btrailer\b|\bteaser\b|\bpromo\b|\bclip\b/i;
 const known = new Set((existsSync('data/youtube-movie-channels.json') ? JSON.parse(readFileSync('data/youtube-movie-channels.json', 'utf8')).channels : []).map((c) => c.channelId));
 
@@ -26,9 +34,12 @@ const mins = (iso) => { const m = /^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/.exec(i
 
 // 1. who posts long "full movie" videos, per language
 const seen = new Map(); // channelId -> { langs:Set, hits }
-for (const [code, name] of LANGS) {
+const approvedLangs = new Set((existsSync('data/youtube-movie-channels.json') ? JSON.parse(readFileSync('data/youtube-movie-channels.json', 'utf8')).channels : []).filter((c) => c.approved).map((c) => c.language));
+const todo = DAILY ? LANGS.filter(([, n]) => !approvedLangs.has(n)) : LANGS;
+const wording = WORDINGS[Math.floor(Date.now() / 864e5) % WORDINGS.length];
+for (const [code, name] of todo) {
   try {
-    const j = await api('search', { part: 'snippet', type: 'video', videoDuration: 'long', q: `${name} full movie`, maxResults: '50', regionCode: 'IN', safeSearch: 'strict' });
+    const j = await api('search', { part: 'snippet', type: 'video', videoDuration: 'long', q: DAILY ? `${name} ${wording}` : `${name} full movie`, maxResults: '50', regionCode: 'IN', safeSearch: 'strict' });
     for (const it of j.items ?? []) {
       const c = seen.get(it.snippet.channelId) ?? { langs: new Map(), hits: 0 };
       c.langs.set(code, (c.langs.get(code) ?? 0) + 1);
@@ -37,7 +48,7 @@ for (const [code, name] of LANGS) {
     }
   } catch (e) { console.log(`${name}: ${e.message}`); }
 }
-const ids = [...seen.keys()].filter((id) => !known.has(id));
+const ids = [...seen.keys()].filter((id) => !known.has(id) && !(DAILY && cands[id]));
 console.log(`${ids.length} channels found`);
 
 // 2. channel facts
@@ -73,6 +84,14 @@ for (const id of ids) {
       langs: [...seen.get(id).langs.keys()].join(','), movies: movies.length, views: movies.reduce((a, m) => a + m.views, 0), sample: movies.sort((a, b) => b.views - a.views).slice(0, 3).map((m) => m.t.split('|')[0].trim().slice(0, 50)),
     });
   } catch (e) { console.log(`  ${id}: ${e.message}`); }
+}
+if (DAILY) {
+  for (const r of rows) cands[r.id] = { ...r, found: new Date().toISOString().slice(0, 10) };
+  cands._ran = today;
+  mkdirSync('data', { recursive: true });
+  writeFileSync(CAND, JSON.stringify(cands, null, 1));
+  rows.length = 0;
+  rows.push(...Object.entries(cands).filter(([k, c]) => k !== '_ran' && !known.has(c.id)).map(([, c]) => c));
 }
 rows.sort((a, b) => b.movies - a.movies);
 const fmt = (n) => (n >= 1e6 ? `${(n / 1e6).toFixed(1)}M` : n >= 1e3 ? `${Math.round(n / 1e3)}K` : String(n));
