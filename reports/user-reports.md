@@ -1,7 +1,8 @@
-# User reports - 2026-11-10
+# User reports - 2026-11-11
 
-46 reports, newest first.
+47 reports, newest first.
 
+- **Ramana** - Missing title (2026-11-11; Telugu, android)
 - **Batta** - Missing title (2026-11-08; Telugu, android)
 - **Telugu** - Missing title (2026-11-08; Telugu, android)
 - **Meesaya Murukku 2** - Also in another language (2026-11-06; web) [audio: ta]

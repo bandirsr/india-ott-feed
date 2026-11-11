@@ -1,5 +1,5 @@
 {
- "date": "2026-11-10",
+ "date": "2026-11-11",
  "languages": [
   {
    "code": "te",
@@ -57,7 +57,7 @@
      "id": 1269325,
      "title": "Drishyam: The Conclusion",
      "released": "2026-10-02",
-     "popularity": 9,
+     "popularity": 10,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -89,7 +89,7 @@
      "id": 1215889,
      "title": "Daayra",
      "released": "2026-09-18",
-     "popularity": 2,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -97,7 +97,7 @@
      "id": 1169537,
      "title": "Batwara 1947",
      "released": "2026-08-13",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -105,7 +105,7 @@
      "id": 1640396,
      "title": "Prem Keetanu",
      "released": "2026-10-02",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -193,7 +193,7 @@
      "id": 1720201,
      "title": "Dulhaniya Le Aaeegi",
      "released": "2026-07-24",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -209,7 +209,7 @@
      "id": 1724719,
      "title": "Rahun Main Tere Rubaru",
      "released": "2026-07-17",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -217,7 +217,7 @@
      "id": 1738850,
      "title": "Indrajaal",
      "released": "2026-07-24",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -225,7 +225,7 @@
      "id": 1713420,
      "title": "Uttar Da Puttar",
      "released": "2026-07-24",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -272,7 +272,7 @@
      "id": 1563192,
      "title": "Lenin Pandiyan",
      "released": "2026-09-25",
-     "popularity": 2,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -280,7 +280,7 @@
      "id": 954445,
      "title": "Yezhu Kadal Yezhu Malai",
      "released": "2026-10-01",
-     "popularity": 2,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -288,7 +288,7 @@
      "id": 1431738,
      "title": "Anbil Avan",
      "released": "2026-10-02",
-     "popularity": 2,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -447,7 +447,7 @@
      "id": 1790417,
      "title": "Dhanushkodiyilekku",
      "released": "2026-10-09",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -463,7 +463,7 @@
      "id": 1731502,
      "title": "Vivaah",
      "released": "2026-08-07",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -471,7 +471,7 @@
      "id": 1766084,
      "title": "Gandharva",
      "released": "2026-09-12",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -510,7 +510,7 @@
      "id": 1213243,
      "title": "Toxic",
      "released": "2026-08-26",
-     "popularity": 15,
+     "popularity": 14,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -566,7 +566,7 @@
      "id": 1093467,
      "title": "Detective Teekshanaa",
      "released": "2026-08-07",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -574,7 +574,7 @@
      "id": 1610874,
      "title": "Heggana Muddu",
      "released": "2026-09-25",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -582,7 +582,7 @@
      "id": 1734726,
      "title": "America America 2",
      "released": "2026-09-11",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -741,7 +741,7 @@
      "id": 1767365,
      "title": "Ghun Gaon",
      "released": "2026-09-11",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -828,7 +828,7 @@
      "id": 1783048,
      "title": "Aali Mothi Shahani",
      "released": "2026-10-02",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -836,7 +836,7 @@
      "id": 1727155,
      "title": "Drushya Adrushya",
      "released": "2026-06-19",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -844,7 +844,7 @@
      "id": 1726314,
      "title": "Maharashtra Epstein Files",
      "released": "2026-10-02",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -923,7 +923,7 @@
      "id": 1657464,
      "title": "The Great Punjab Robbery",
      "released": "2026-08-07",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "streaming",
      "tmdbPlatforms": [
       "KableOne"
@@ -991,7 +991,7 @@
      "id": 1650181,
      "title": "Chaali Din",
      "released": "2026-06-19",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "streaming",
      "tmdbPlatforms": [
       "KableOne"
@@ -1040,7 +1040,7 @@
      "id": 1775289,
      "title": "Asambhauuu",
      "released": "2026-09-04",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
