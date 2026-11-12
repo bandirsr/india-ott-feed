@@ -1,7 +1,11 @@
 # User reports - 2026-11-12
 
-47 reports, newest first.
+51 reports, newest first.
 
+- **Crazy Kalyanam** - Also in another language (2026-11-12; Telugu, web) [audio: te]
+- **Jailer 2** - Also in another language (2026-11-12; web) [audio: te]
+- **Jailer 2** - Also in another language (2026-11-12; web) - Movie [audio: te]
+- **Jailer 2** - Also in another language (2026-11-12; web) [audio: te]
 - **Ramana** - Missing title (2026-11-11; Telugu, android)
 - **Batta** - Missing title (2026-11-08; Telugu, android)
 - **Telugu** - Missing title (2026-11-08; Telugu, android)
