@@ -1,5 +1,5 @@
 {
- "date": "2026-11-11",
+ "date": "2026-11-12",
  "languages": [
   {
    "code": "te",
@@ -57,7 +57,7 @@
      "id": 1269325,
      "title": "Drishyam: The Conclusion",
      "released": "2026-10-02",
-     "popularity": 10,
+     "popularity": 9,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -65,14 +65,6 @@
      "id": 1215889,
      "title": "Daayra",
      "released": "2026-09-18",
-     "popularity": 3,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1475799,
-     "title": "Haiwaan",
-     "released": "2026-09-11",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -89,6 +81,14 @@
      "id": 1285815,
      "title": "Mahakavya: Shri Ramayan Katha",
      "released": "2026-09-25",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1475799,
+     "title": "Haiwaan",
+     "released": "2026-09-11",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -113,7 +113,7 @@
      "id": 1169537,
      "title": "Batwara 1947",
      "released": "2026-08-13",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -185,7 +185,7 @@
      "id": 403514,
      "title": "Dial 1975",
      "released": "2026-07-01",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -201,7 +201,7 @@
      "id": 1720201,
      "title": "Dulhaniya Le Aaeegi",
      "released": "2026-07-24",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -272,7 +272,7 @@
      "id": 954445,
      "title": "Yezhu Kadal Yezhu Malai",
      "released": "2026-10-01",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -280,7 +280,7 @@
      "id": 1431738,
      "title": "Anbil Avan",
      "released": "2026-10-02",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -288,7 +288,7 @@
      "id": 1563192,
      "title": "Lenin Pandiyan",
      "released": "2026-09-25",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -399,7 +399,7 @@
      "id": 1616268,
      "title": "Aroopi",
      "released": "2026-07-03",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -407,7 +407,7 @@
      "id": 1588472,
      "title": "L&O - Law and Order",
      "released": "2026-09-18",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -455,7 +455,7 @@
      "id": 1766084,
      "title": "Gandharva",
      "released": "2026-09-12",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -471,7 +471,7 @@
      "id": 1790417,
      "title": "Dhanushkodiyilekku",
      "released": "2026-10-09",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -558,7 +558,7 @@
      "id": 1757697,
      "title": "Love Seasons",
      "released": "2026-07-03",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -566,7 +566,7 @@
      "id": 1734726,
      "title": "America America 2",
      "released": "2026-09-11",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -574,7 +574,7 @@
      "id": 1702692,
      "title": "Balaramana Dinagalu",
      "released": "2026-06-26",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -582,7 +582,7 @@
      "id": 1792171,
      "title": "Life Today",
      "released": "2026-08-06",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -590,7 +590,7 @@
      "id": 1730231,
      "title": "Rakky",
      "released": "2026-07-10",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -598,7 +598,7 @@
      "id": 1093467,
      "title": "Detective Teekshanaa",
      "released": "2026-08-07",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -630,7 +630,7 @@
      "id": 1726972,
      "title": "Pinaka",
      "released": "2026-10-02",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -725,7 +725,7 @@
      "id": 1641819,
      "title": "Abhhiman",
      "released": "2026-06-19",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -733,7 +733,7 @@
      "id": 1242197,
      "title": "Beporoya",
      "released": "2026-09-17",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -741,7 +741,7 @@
      "id": 1666714,
      "title": "Chobiwala",
      "released": "2026-07-24",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -836,7 +836,7 @@
      "id": 1783048,
      "title": "Aali Mothi Shahani",
      "released": "2026-10-02",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -844,7 +844,7 @@
      "id": 1726314,
      "title": "Maharashtra Epstein Files",
      "released": "2026-10-02",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -852,7 +852,7 @@
      "id": 1747950,
      "title": "Tujhya Aai La",
      "released": "2026-09-25",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -963,7 +963,7 @@
      "id": 1650810,
      "title": "Baggo",
      "released": "2026-08-28",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -1026,7 +1026,7 @@
      "id": 1775289,
      "title": "Asambhauuu",
      "released": "2026-09-04",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
