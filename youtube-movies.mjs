@@ -57,6 +57,14 @@ export function movieName(title) {
       name = next && next.split(/\s+/).length <= 4 && !/[,&]/.test(next) && !DESCRIPTOR.test(segs[1]) ? next : null;
     }
   }
+  // Aggregator titles keep genre words after the name ("Bimbisara Full", "Bhairavam Action", "Hacked Hindi Crime Thriller Movie").
+  // Strip that trailing run; a title that is nothing but such words has no real name, so it is dropped.
+  if (name) {
+    const TAIL = /\s+(?:full|action|comedy|romantic|romance|horror|thriller|crime|drama|suspense|supernatural|love|story|family|mass|masala|new|south|hindi|movie|film|hd|superhit|released|release)$/i;
+    let guard = 0;
+    while (TAIL.test(name) && guard++ < 6) name = name.replace(TAIL, '').trim();
+    if (/^(?:full|action|comedy|romantic|horror|thriller|crime|drama|suspense|supernatural|new|south|hindi|movie|film)$/i.test(name)) name = null;
+  }
   if (name) name = name.replace(/\s*[\(\[][^\)\]]*$/, '').trim(); // an unclosed "(HD" left over from the cut
   // "Night Drive - South Suspense Thriller ..." -> "Night Drive"
   if (name && / [-–] /.test(name)) name = name.split(/ [-–] /)[0].trim();
