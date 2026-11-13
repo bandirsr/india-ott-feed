@@ -296,7 +296,8 @@ function main(freshReports) {
       d: row.date,
       i: row.poster,
       k: row.key.startsWith('tv:') ? 'tv' : 'movie',
-      y: null,
+      // Films that arrive only through a news report still have a trailer on file; without this they showed none.
+      y: trailerFor(row.key, row.language),
       p: [{ id: row.providerId, on: null, src: 'reported', by: row.sourceName, rep: row.reportedOn && row.reportedOn <= new Date().toISOString().slice(0, 10) ? row.reportedOn : null }],
     };
     bucket.push(created);
