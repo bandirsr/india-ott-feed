@@ -1,13 +1,14 @@
 # What people reported - checked 2026-11-13
 
-🟢 Fixed - in the app: **15** &nbsp;·&nbsp; 🔵 Ready to add: **0** &nbsp;·&nbsp; 🟡 Needs a look: **11** &nbsp;·&nbsp; 🟣 Closed - nothing to add: **13** &nbsp;·&nbsp; 🔴 Rejected by safety rules: **1** &nbsp;·&nbsp; ⚪ Test entry: **4**
+🟢 Fixed - in the app: **15** &nbsp;·&nbsp; 🔵 Ready to add: **0** &nbsp;·&nbsp; 🟡 Needs a look: **12** &nbsp;·&nbsp; 🟣 Closed - nothing to add: **13** &nbsp;·&nbsp; 🔴 Rejected by safety rules: **1** &nbsp;·&nbsp; ⚪ Test entry: **4**
 
 Newest first inside each group. "Fixed on" is the first day the checker saw the title in the live app; a report already covered when it arrived shows the report day.
 
-## 🟡 Needs a look (11)
+## 🟡 Needs a look (12)
 
 | Reported | Title | Language | From | Their note | What we found | Fixed on |
 |---|---|---|---|---|---|---|
+| 2026-11-13 | **VINOD** | tallapalli | android | VINOD | no exact match; similar: Agent Vinod (2012, hi, movie:85050); Agent Vinod (1977, hi, movie:303726); Leela Vinodam (2024, te, movie:1396917). Web news: nothing found | - |
 | 2026-11-11 | **Ramana** | Telugu | android | - | no exact match; similar: looks like a misspelling of: RAANA (hi, yt:BObc8nzflyw, in the app); Zamana (hi, movie:604188, in the app); Ramanaa (ta, movie:78955, in the app); Ramana Avatara (2024, kn, movie:1289558); Ramanaa (2002, ta, movie:78955). Web news: Romanchakam | Song - Radha Ramana (Lyrical) - The Times of India (2026-07-23) | Rishi’s Ramana Avatara to release in Telugu as well - OTTPlay (2024-02-16) | Mahesh Babu is honoured with Bapu Ramana Puraskaram - 123telugu.com (2024-04-10) | - |
 | 2026-11-08 | **Batta** | Telugu | android | - | no exact match; similar: looks like a misspelling of: Datta (bn, movie:1024969, in the app); Satta (hi, movie:423694, in the app); Datta (bn, movie:984849, in the app). Web news: nothing found | - |
 | 2026-11-02 | **Telugu movies** | Kannada | android | - | no exact match; similar: looks like a misspelling of: Shruti Movies (hi, yt:1p1j5AsZ0ak, in the app). Web news: New Telugu OTT Releases This Week (November 2026): Movies & Series Streaming Now | Latest Telugu Movies & Web Series on OTT – November 2026 Streaming Guide | Telugu OTT Premieres This Week: November 2026 Movies on Prime, Netflix, Aha & Z - Filmibeat (2025-12-30) | - |
@@ -17,7 +18,7 @@ Newest first inside each group. "Fixed on" is the first day the checker saw the 
 | 2026-10-28 | **Premada** | Kannada | android | - | no exact match; similar: looks like a misspelling of: Prem Adda (kn, yt:ZGPSgEwqtCs, in the app); Premalu (ml, movie:1149791, in the app); Premam (hi, movie:409255, in the app); Premada Oorali (2026, kn, movie:1735270); Premada Kanike (1976, kn, movie:301665). Web news: 'Premada Oorali' OTT release: Makers share update regarding Sriram’s Kannada hit - The Times of India (2026-10-13) | Premada Oorali: This little film has taken the Kannada film industry by storm - The Hindu (2026-10-08) | Kannada cinema's new blockbuster: How Premada Oorali turned 60 shows into Rs 50 crore - India Today (2026-10-14) | - |
 | 2026-10-27 | **Mounamelanoyi** | Telugu | android | - | no matching Indian-language title on TMDB. Web news: nothing found | - |
 | 2026-10-27 | **418 movie** | Telugu | android | - | TMDB has 418 (Telugu, 2026, movie:1606527) but no India streaming platform yet; it will list once TMDB or a roundup names one. | - |
-| 2026-10-27 | **Pardesi movie** | - | android | - | no exact match; similar: looks like a misspelling of: Naagdevi Movie (hi, yt:DFjdSkE0DWM, in the app); Kartha Movie (hi, yt:Bfw24tlY_70, in the app); Raid Movie (hi, yt:gQYXOuncrpE, in the app). Web news: nothing found | - |
+| 2026-10-27 | **Pardesi movie** | - | android | - | no matching Indian-language title on TMDB. Web news: nothing found | - |
 | 2026-10-23 | **Ajay** | Telugu | android · Telugu | - | Unclear which film. TMDB has Ajay (1996 hi, 2006 kn) and Ajay Gadu (2024 te, no streaming platform). Waiting for a clearer report. | - |
 
 ## 🔴 Rejected by safety rules (1)

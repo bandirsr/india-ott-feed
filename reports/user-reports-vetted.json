@@ -1,5 +1,24 @@
 [
  {
+  "key": "2026-11-13T11:48:40.031Z|VINOD",
+  "title": "VINOD",
+  "reportedAt": "2026-11-13T11:48:40.031Z",
+  "language": "tallapalli",
+  "appPlatform": "android",
+  "onPlatform": "",
+  "note": "VINOD",
+  "status": "REVIEW",
+  "verdict": "NEEDS REVIEW",
+  "why": "no exact match; similar: Agent Vinod (2012, hi, movie:85050); Agent Vinod (1977, hi, movie:303726); Leela Vinodam (2024, te, movie:1396917). Web news: nothing found",
+  "tmdb": null,
+  "matched": null,
+  "cert": null,
+  "firstSeen": "2026-11-13",
+  "checkedOn": "2026-11-13",
+  "firstCheckedAt": "2026-11-13T21:25:53.468Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z"
+ },
+ {
   "key": "2026-11-11T02:55:10.952Z|Ramana",
   "title": "Ramana",
   "reportedAt": "2026-11-11T02:55:10.952Z",
@@ -16,7 +35,7 @@
   "firstSeen": "2026-11-11",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-11-11T10:55:26.765Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z"
+  "checkedAt": "2026-11-13T21:25:53.468Z"
  },
  {
   "key": "2026-11-08T12:57:16.988Z|Batta",
@@ -35,7 +54,7 @@
   "firstSeen": "2026-11-08",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-11-08T19:40:52.319Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z"
+  "checkedAt": "2026-11-13T21:25:53.468Z"
  },
  {
   "key": "2026-11-08T02:30:41.163Z|Telugu",
@@ -54,7 +73,7 @@
   "firstSeen": "2026-11-08",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-11-08T10:19:13.338Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-11-08",
   "fixedAt": "2026-11-08T10:19:13.338Z"
  },
@@ -75,7 +94,7 @@
   "firstSeen": "2026-11-02",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-11-02T11:02:25.067Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z"
+  "checkedAt": "2026-11-13T21:25:53.468Z"
  },
  {
   "key": "2026-10-30T18:48:14.682Z|The ghazi attack",
@@ -94,7 +113,7 @@
   "firstSeen": "2026-10-30",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-30T19:56:10.720Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-10-30",
   "fixedAt": "2026-10-30T19:56:10.720Z"
  },
@@ -115,7 +134,7 @@
   "firstSeen": "2026-10-29",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-29T20:17:00.689Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -136,7 +155,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-28T20:15:47.492Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -157,7 +176,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-28T20:15:47.492Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -178,7 +197,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-28T20:15:47.492Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z"
+  "checkedAt": "2026-11-13T21:25:53.468Z"
  },
  {
   "key": "2026-10-28T16:13:43.460Z|Telugu",
@@ -197,7 +216,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-28T20:15:47.492Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -218,7 +237,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-28T20:15:47.492Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -239,7 +258,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-28T20:15:47.492Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z"
+  "checkedAt": "2026-11-13T21:25:53.468Z"
  },
  {
   "key": "2026-10-28T13:51:23.466Z|Na wife missing",
@@ -258,7 +277,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-28T20:15:47.492Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z"
+  "checkedAt": "2026-11-13T21:25:53.468Z"
  },
  {
   "key": "2026-10-28T13:28:15.672Z|I'm game",
@@ -277,7 +296,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-28T20:15:47.492Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -298,7 +317,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-28T09:38:40.436Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -319,7 +338,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-28T09:38:40.436Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z"
+  "checkedAt": "2026-11-13T21:25:53.468Z"
  },
  {
   "key": "2026-10-27T17:41:43.054Z|Mounamelanoyi",
@@ -338,7 +357,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-28T00:31:51.755Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z"
+  "checkedAt": "2026-11-13T21:25:53.468Z"
  },
  {
   "key": "2026-10-27T17:31:40.057Z|Chenni express",
@@ -357,7 +376,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-28T00:31:51.755Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -378,7 +397,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-28T00:31:51.755Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -399,7 +418,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-28T00:31:51.755Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -420,7 +439,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-27T15:21:05.543Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z"
+  "checkedAt": "2026-11-13T21:25:53.468Z"
  },
  {
   "key": "2026-10-27T13:06:46.776Z|Mani",
@@ -439,7 +458,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-27T15:21:05.543Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z"
+  "checkedAt": "2026-11-13T21:25:53.468Z"
  },
  {
   "key": "2026-10-27T12:03:15.248Z|All",
@@ -458,7 +477,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-27T15:21:05.543Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -479,7 +498,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-27T15:21:05.543Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -493,14 +512,14 @@
   "note": "",
   "status": "REVIEW",
   "verdict": "NEEDS REVIEW",
-  "why": "no exact match; similar: looks like a misspelling of: Naagdevi Movie (hi, yt:DFjdSkE0DWM, in the app); Kartha Movie (hi, yt:Bfw24tlY_70, in the app); Raid Movie (hi, yt:gQYXOuncrpE, in the app). Web news: nothing found",
+  "why": "no matching Indian-language title on TMDB. Web news: nothing found",
   "tmdb": null,
   "matched": null,
   "cert": null,
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-27T15:21:05.543Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z"
+  "checkedAt": "2026-11-13T21:25:53.468Z"
  },
  {
   "key": "2026-10-27T07:38:25.064Z|Jaialr2",
@@ -519,7 +538,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-27T08:58:12.086Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -540,7 +559,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-27T08:58:12.086Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -562,7 +581,7 @@
   "checkedOn": "2026-11-13",
   "fixedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedAt": "2026-10-25T18:21:11.373Z"
  },
  {
@@ -582,7 +601,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:04.432Z"
  },
@@ -604,7 +623,7 @@
   "checkedOn": "2026-11-13",
   "fixedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedAt": "2026-10-25T18:21:11.373Z"
  },
  {
@@ -624,7 +643,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:14.586Z"
  },
@@ -646,7 +665,7 @@
   "checkedOn": "2026-11-13",
   "fixedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedAt": "2026-10-25T18:21:11.373Z"
  },
  {
@@ -666,7 +685,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:04.432Z"
  },
@@ -687,7 +706,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T19:08:57.929Z"
  },
@@ -708,7 +727,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z"
+  "checkedAt": "2026-11-13T21:25:53.468Z"
  },
  {
   "key": "2026-10-23T17:11:34.071Z|2026",
@@ -727,7 +746,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:04.432Z"
  },
@@ -748,7 +767,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:04.432Z"
  },
@@ -769,7 +788,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:04.432Z"
  },
@@ -790,7 +809,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:14.586Z"
  },
@@ -811,7 +830,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z",
+  "checkedAt": "2026-11-13T21:25:53.468Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T19:09:21.748Z"
  },
@@ -832,7 +851,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z"
+  "checkedAt": "2026-11-13T21:25:53.468Z"
  },
  {
   "key": "2026-10-17T14:00:40.537Z|Testtest",
@@ -851,7 +870,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z"
+  "checkedAt": "2026-11-13T21:25:53.468Z"
  },
  {
   "key": "2026-10-17T03:32:01.179Z|Browser test film (ignore)",
@@ -870,7 +889,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z"
+  "checkedAt": "2026-11-13T21:25:53.468Z"
  },
  {
   "key": "2026-10-17T03:31:31.428Z|Test film (ignore)",
@@ -889,6 +908,6 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-13",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-13T10:56:50.928Z"
+  "checkedAt": "2026-11-13T21:25:53.468Z"
  }
 ]

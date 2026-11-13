@@ -1,7 +1,8 @@
 # User reports - 2026-11-13
 
-52 reports, newest first.
+53 reports, newest first.
 
+- **VINOD** - Wrong platform/date (2026-11-13; tallapalli, android) - VINOD
 - **Fanaa** - Also in another language (2026-11-13; web) [audio: hi]
 - **Crazy Kalyanam** - Also in another language (2026-11-12; Telugu, web) [audio: te]
 - **Jailer 2** - Also in another language (2026-11-12; web) [audio: te]
