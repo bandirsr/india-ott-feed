@@ -1,9 +1,9 @@
-# Language reports - 2026-11-12
+# Language reports - 2026-11-13
 
 6 "also in another language" reports; 2 agreeing reports add a language.
 
 ## Added this run
-- Jailer 2 (movie:1234139) +te from 3 reports
+- none
 
 ## Waiting for more reports
 - Crazy Kalyanam (movie:1610188) +te: 1/2
