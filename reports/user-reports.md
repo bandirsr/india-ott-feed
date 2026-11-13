@@ -1,7 +1,8 @@
-# User reports - 2026-11-12
+# User reports - 2026-11-13
 
-51 reports, newest first.
+52 reports, newest first.
 
+- **Fanaa** - Also in another language (2026-11-13; web) [audio: hi]
 - **Crazy Kalyanam** - Also in another language (2026-11-12; Telugu, web) [audio: te]
 - **Jailer 2** - Also in another language (2026-11-12; web) [audio: te]
 - **Jailer 2** - Also in another language (2026-11-12; web) - Movie [audio: te]
