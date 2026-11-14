@@ -1,5 +1,5 @@
 {
- "date": "2026-11-13",
+ "date": "2026-11-14",
  "languages": [
   {
    "code": "te",
@@ -10,14 +10,6 @@
      "id": 1814023,
      "title": "Adhey Neevu Adhey Nenu",
      "released": "2026-07-31",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1542674,
-     "title": "Anumana Pakshi",
-     "released": "2026-09-25",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -42,7 +34,7 @@
      "id": 1628882,
      "title": "Shabara",
      "released": "2026-10-02",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     }
@@ -54,18 +46,18 @@
    "checked": 39,
    "missing": [
     {
-     "id": 1269325,
-     "title": "Drishyam: The Conclusion",
-     "released": "2026-10-02",
-     "popularity": 9,
+     "id": 1215889,
+     "title": "Daayra",
+     "released": "2026-09-18",
+     "popularity": 12,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
     {
-     "id": 1215889,
-     "title": "Daayra",
-     "released": "2026-09-18",
-     "popularity": 4,
+     "id": 1269325,
+     "title": "Drishyam: The Conclusion",
+     "released": "2026-10-02",
+     "popularity": 9,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -89,7 +81,7 @@
      "id": 1169537,
      "title": "Batwara 1947",
      "released": "2026-08-13",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -105,7 +97,7 @@
      "id": 1640396,
      "title": "Prem Keetanu",
      "released": "2026-10-02",
-     "popularity": 1,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -193,7 +185,7 @@
      "id": 1798313,
      "title": "Oye Chill Maar",
      "released": "2026-09-25",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -261,17 +253,17 @@
    "checked": 40,
    "missing": [
     {
-     "id": 954445,
-     "title": "Yezhu Kadal Yezhu Malai",
-     "released": "2026-10-01",
+     "id": 1431738,
+     "title": "Anbil Avan",
+     "released": "2026-10-02",
      "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
     {
-     "id": 1431738,
-     "title": "Anbil Avan",
-     "released": "2026-10-02",
+     "id": 954445,
+     "title": "Yezhu Kadal Yezhu Malai",
+     "released": "2026-10-01",
      "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -280,7 +272,7 @@
      "id": 1563192,
      "title": "Lenin Pandiyan",
      "released": "2026-09-25",
-     "popularity": 2,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -352,7 +344,7 @@
      "id": 1715800,
      "title": "Dark Giant",
      "released": "2026-06-19",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -371,14 +363,6 @@
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
-    },
-    {
-     "id": 1732327,
-     "title": "Maaruvesham",
-     "released": "2026-10-01",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
     }
    ]
   },
@@ -391,7 +375,7 @@
      "id": 922673,
      "title": "The Third Murder",
      "released": "2026-10-02",
-     "popularity": 2,
+     "popularity": 7,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -407,7 +391,7 @@
      "id": 1588472,
      "title": "L&O - Law and Order",
      "released": "2026-09-18",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -455,7 +439,7 @@
      "id": 1790417,
      "title": "Dhanushkodiyilekku",
      "released": "2026-10-09",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -566,7 +550,7 @@
      "id": 1792171,
      "title": "Life Today",
      "released": "2026-08-06",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -574,7 +558,7 @@
      "id": 1734726,
      "title": "America America 2",
      "released": "2026-09-11",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -590,7 +574,7 @@
      "id": 1730231,
      "title": "Rakky",
      "released": "2026-07-10",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -598,7 +582,7 @@
      "id": 1702692,
      "title": "Balaramana Dinagalu",
      "released": "2026-06-26",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -655,8 +639,32 @@
   {
    "code": "bn",
    "name": "Bengali",
-   "checked": 18,
+   "checked": 21,
    "missing": [
+    {
+     "id": 1607833,
+     "title": "Bohurupi: The Golden Daku",
+     "released": "2026-10-15",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1591522,
+     "title": "The Eken: Kerala-e Kurukshetra",
+     "released": "2026-10-15",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1538861,
+     "title": "Emperor vs Sarat Chandra",
+     "released": "2026-10-15",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
     {
      "id": 1391798,
      "title": "Winkle Twinkle",
@@ -669,7 +677,7 @@
      "id": 1530591,
      "title": "Pinjar",
      "released": "2026-07-10",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -709,7 +717,7 @@
      "id": 1736398,
      "title": "Autobi",
      "released": "2026-09-25",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -741,7 +749,7 @@
      "id": 1767365,
      "title": "Ghun Gaon",
      "released": "2026-09-11",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -812,7 +820,7 @@
      "id": 1726314,
      "title": "Maharashtra Epstein Files",
      "released": "2026-10-02",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -951,7 +959,7 @@
      "id": 1651316,
      "title": "Eh Din Roz Ni Aune",
      "released": "2026-10-09",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -1016,7 +1024,7 @@
      "id": 1776954,
      "title": "Mitrata",
      "released": "2026-09-25",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -1024,7 +1032,7 @@
      "id": 1739212,
      "title": "Get Set Go",
      "released": "2026-08-07",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -1032,7 +1040,7 @@
      "id": 1766408,
      "title": "Pidha Pachhi...",
      "released": "2026-09-11",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -1040,7 +1048,7 @@
      "id": 1775289,
      "title": "Asambhauuu",
      "released": "2026-09-04",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
