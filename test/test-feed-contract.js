@@ -89,14 +89,14 @@ for (const lang of manifest.languages) {
     // heard of.
     check(
       `${lang.code} id is source-prefixed`,
-      /^(movie|tv):\d+$/.test(title.id) || /^wiki:.+/.test(title.id),
+      /^(movie|tv):\d+$/.test(title.id) || /^wiki:.+/.test(title.id) || /^yt:.+/.test(title.id),
       title.id
     );
     check(`${lang.code} title has a name`, typeof title.t === 'string' && title.t.length > 0);
     check(`${lang.code} kind is movie or tv`, title.k === 'movie' || title.k === 'tv', title.k);
     check(
       `${lang.code} kind agrees with the id prefix`,
-      title.id.startsWith('wiki:') ? title.k === 'movie' : title.id.startsWith(`${title.k}:`)
+      title.id.startsWith('wiki:') || title.id.startsWith('yt:') ? title.k === 'movie' : title.id.startsWith(`${title.k}:`)
     );
     check(`${lang.code} date is an ISO date or null`, title.d === null || /^\d{4}-\d{2}-\d{2}$/.test(title.d), String(title.d));
 
