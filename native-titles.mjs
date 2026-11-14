@@ -54,6 +54,7 @@ const goodFor = (l, s) => !!s && SCRIPT[l].test(s) && !(OTHER.test(s) && [...s].
 const out = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, 'utf8')) : {};
 const manual = fs.existsSync(MANUAL) ? JSON.parse(fs.readFileSync(MANUAL, 'utf8')) : {};
 const reportOnly = process.argv.includes('--report');
+const mergeOnly = process.argv.includes('--merge'); // only fold in the manual file, no lookups
 
 const feeds = {};
 for (const l of Object.keys(SCRIPT)) {
@@ -61,7 +62,7 @@ for (const l of Object.keys(SCRIPT)) {
   feeds[l] = d.titles.filter((t) => /^(movie|tv):\d+$/.test(String(t.id)));
 }
 
-if (!reportOnly) {
+if (!reportOnly && !mergeOnly) {
   const cache = new Map(); // id -> {tr:{lang:title}, orig, ol, imdb}
   const need = new Set();
   for (const l in feeds) for (const t of feeds[l]) if (!out[l]?.[t.id]) need.add(t.id);
