@@ -35,6 +35,7 @@ import { trailerKeyFor } from './src/trailers.js';
 import { mergeTwins } from './src/twins.js';
 import { foldProviders } from './src/providerfold.js';
 import { screenTitles } from './src/safety.js';
+const NATIVE_TITLES = existsSync('data/native-titles.json') ? JSON.parse(readFileSync('data/native-titles.json', 'utf8')) : {};
 
 
 /**
@@ -482,6 +483,10 @@ function main(freshReports) {
       if (ae !== be) return ae < be ? 1 : -1;
       return String(a.t).localeCompare(String(b.t));
     });
+
+    // The name in the language's own script (data/native-titles.json, built by native-titles.mjs).
+    const nt = NATIVE_TITLES[lang.code];
+    if (nt) for (const t of titles) { const n = nt[t.id]?.n; if (n && n !== t.t) t.tn = n; }
 
     const payload = {
       version: latestDate,
