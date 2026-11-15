@@ -3,9 +3,7 @@
 11 "also in another language" reports; 2 agreeing reports add a language.
 
 ## Added this run
-- Ranabaali (movie:1389379) +mr from 2 reports
-- Ranabaali (movie:1389379) +pa from 2 reports
-- Ranabaali (movie:1389379) +te from 2 reports
+- none
 
 ## Waiting for more reports
 - Dilwali Diwali (movie:1810711) +te: 1/2
