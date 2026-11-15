@@ -277,14 +277,6 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1728763,
-     "title": "Drones",
-     "released": "2026-10-16",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1329084,
      "title": "The Grand Master",
      "released": "2026-09-25",
@@ -304,6 +296,14 @@
      "id": 1627516,
      "title": "Sandakari",
      "released": "2026-09-18",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1728763,
+     "title": "Drones",
+     "released": "2026-10-16",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []

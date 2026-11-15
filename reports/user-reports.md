@@ -1,7 +1,11 @@
 # User reports - 2026-11-15
 
-53 reports, newest first.
+57 reports, newest first.
 
+- **Dilwali Diwali** - Also in another language (2026-11-15; ios) [audio: te,pa,bn,ml,ta,gu]
+- **Ranabaali** - Also in another language (2026-11-15; ios) [audio: mr,pa,te,bn]
+- **Ranabaali** - Also in another language (2026-11-15; ios) [audio: ml,pa,te,mr,gu]
+- **The Maharashtra Files** - Also in another language (2026-11-15; Marathi, android) - effzel [audio: pa]
 - **VINOD** - Wrong platform/date (2026-11-13; tallapalli, android) - VINOD
 - **Fanaa** - Also in another language (2026-11-13; web) [audio: hi]
 - **Crazy Kalyanam** - Also in another language (2026-11-12; Telugu, web) [audio: te]

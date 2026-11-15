@@ -54,10 +54,10 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - Yezhu Kadal Yezhu Malai (2026-10-01, popularity 2, tmdb 954445) - no platform known anywhere
 - Once More (2026-08-28, popularity 2, tmdb 1318304) - no platform known anywhere
 - Kitti (2026-10-09, popularity 1, tmdb 1752883) - no platform known anywhere
-- Drones (2026-10-16, popularity 1, tmdb 1728763) - no platform known anywhere
 - The Grand Master (2026-09-25, popularity 1, tmdb 1329084) - no platform known anywhere
 - Rage (2026-09-18, popularity 1, tmdb 1576223) - no platform known anywhere
 - Sandakari (2026-09-18, popularity 1, tmdb 1627516) - no platform known anywhere
+- Drones (2026-10-16, popularity 1, tmdb 1728763) - no platform known anywhere
 - Angikaaram (2026-06-26, popularity 1, tmdb 1485325) - no platform known anywhere
 - Yen Ennai Edho Seidhai (2026-09-04, popularity 1, tmdb 1764201) - no platform known anywhere
 - Ram and Leela (2026-08-21, popularity 1, tmdb 1590380) - no platform known anywhere
