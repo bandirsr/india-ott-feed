@@ -12,7 +12,7 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 | Bengali | 23 | 3 | 20 | 0 | 0 | 20 |
 | Marathi | 16 | 2 | 14 | 0 | 0 | 14 |
 | Punjabi | 19 | 7 | 12 | 3 | 0 | 9 |
-| Gujarati | 9 | 1 | 8 | 0 | 0 | 8 |
+| Gujarati | 9 | 0 | 9 | 0 | 0 | 9 |
 
 ## Telugu
 
@@ -167,5 +167,6 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - Asambhauuu (2026-09-04, popularity 0, tmdb 1775289) - no platform known anywhere
 - Chatni (2026-09-18, popularity 0, tmdb 1808613) - no platform known anywhere
 - Pidha Pachhi... (2026-09-11, popularity 0, tmdb 1766408) - no platform known anywhere
+- Jindagi Once More (2026-06-19, popularity 0, tmdb 1706764) - no platform known anywhere
 - Hip Hip Hurray (2026-07-30, popularity 0, tmdb 1741858) - no platform known anywhere
 - Maaran (2026-07-31, popularity 0, tmdb 1739294) - no platform known anywhere

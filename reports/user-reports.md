@@ -1,7 +1,10 @@
 # User reports - 2026-11-16
 
-57 reports, newest first.
+60 reports, newest first.
 
+- **Jailer 2** - Also in another language (2026-11-16; android) [audio: te]
+- **Vadina** - Other (2026-11-16; Telugu, android)
+- **Nadhina** - Missing title (2026-11-16; Telugu, android)
 - **Dilwali Diwali** - Also in another language (2026-11-15; ios) [audio: te,pa,bn,ml,ta,gu]
 - **Ranabaali** - Also in another language (2026-11-15; ios) [audio: mr,pa,te,bn]
 - **Ranabaali** - Also in another language (2026-11-15; ios) [audio: ml,pa,te,mr,gu]
