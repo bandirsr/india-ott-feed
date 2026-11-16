@@ -1,7 +1,16 @@
 # User reports - 2026-11-16
 
-60 reports, newest first.
+69 reports, newest first.
 
+- **Kiku Chiranjeevi** - Also in another language (2026-11-16; Telugu, android) [audio: te]
+- **Kiku Chiranjeevi** - Also in another language (2026-11-16; android) [audio: te]
+- **Saayavanam** - Also in another language (2026-11-16; android) [audio: te]
+- **Kiku Chiranjeevi** - Also in another language (2026-11-16; Telugu, android) [audio: te]
+- **Ranabaali** - Also in another language (2026-11-16; Telugu, android) [audio: te]
+- **Anakapalli** - Also in another language (2026-11-16; Telugu, android) [audio: te]
+- **new movies** - Missing title (2026-11-16; android)
+- **adult** - Missing title (2026-11-16; ios)
+- **Ranabaali** - Also in another language (2026-11-16; android) [audio: te]
 - **Jailer 2** - Also in another language (2026-11-16; android) [audio: te]
 - **Vadina** - Other (2026-11-16; Telugu, android)
 - **Nadhina** - Missing title (2026-11-16; Telugu, android)
