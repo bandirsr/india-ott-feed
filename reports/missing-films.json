@@ -1,11 +1,19 @@
 {
- "date": "2026-11-15",
+ "date": "2026-11-16",
  "languages": [
   {
    "code": "te",
    "name": "Telugu",
    "checked": 40,
    "missing": [
+    {
+     "id": 1555847,
+     "title": "Garividi Lakshmi",
+     "released": "2026-10-17",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
     {
      "id": 1516092,
      "title": "Sahaa - Life of Sanju",
@@ -26,6 +34,14 @@
      "id": 1794441,
      "title": "Good Time",
      "released": "2026-10-09",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1403738,
+     "title": "VISA - Vintara Saradaga",
+     "released": "2026-10-17",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -81,7 +97,7 @@
      "id": 1081010,
      "title": "Prahaar: The Untold Story of Ujjwal Nikam",
      "released": "2026-10-16",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -161,7 +177,7 @@
      "id": 1720201,
      "title": "Dulhaniya Le Aaeegi",
      "released": "2026-07-24",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -169,7 +185,7 @@
      "id": 1787082,
      "title": "Poniiy",
      "released": "2026-10-16",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -201,7 +217,7 @@
      "id": 1798313,
      "title": "Oye Chill Maar",
      "released": "2026-09-25",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -209,7 +225,7 @@
      "id": 1713420,
      "title": "Uttar Da Puttar",
      "released": "2026-07-24",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -351,7 +367,7 @@
      "id": 922673,
      "title": "The Third Murder",
      "released": "2026-10-02",
-     "popularity": 7,
+     "popularity": 8,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -359,7 +375,7 @@
      "id": 1588472,
      "title": "L&O - Law and Order",
      "released": "2026-09-18",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -450,6 +466,14 @@
      "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
+    },
+    {
+     "id": 1774746,
+     "title": "Daivathaan Kunnu",
+     "released": "2026-09-18",
+     "popularity": 0,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
     }
    ]
   },
@@ -462,7 +486,7 @@
      "id": 1213243,
      "title": "Toxic",
      "released": "2026-08-26",
-     "popularity": 16,
+     "popularity": 15,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -526,7 +550,7 @@
      "id": 1093467,
      "title": "Detective Teekshanaa",
      "released": "2026-08-07",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -534,7 +558,7 @@
      "id": 1730231,
      "title": "Rakky",
      "released": "2026-07-10",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -550,7 +574,7 @@
      "id": 1396778,
      "title": "Ayogya 2",
      "released": "2026-08-07",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -621,7 +645,7 @@
      "id": 1607833,
      "title": "Bohurupi: The Golden Daku",
      "released": "2026-10-15",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -685,7 +709,7 @@
      "id": 1711502,
      "title": "Nevermind",
      "released": "2026-07-03",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -812,7 +836,7 @@
      "id": 1726314,
      "title": "Maharashtra Epstein Files",
      "released": "2026-10-02",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -820,7 +844,7 @@
      "id": 1609047,
      "title": "Sohla",
      "released": "2026-10-16",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -961,7 +985,7 @@
      "id": 1738641,
      "title": "Kankaan De Ohle",
      "released": "2026-07-31",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -969,7 +993,7 @@
      "id": 1651316,
      "title": "Eh Din Roz Ni Aune",
      "released": "2026-10-09",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -1040,7 +1064,7 @@
      "id": 1775289,
      "title": "Asambhauuu",
      "released": "2026-09-04",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
