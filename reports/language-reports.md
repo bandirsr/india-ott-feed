@@ -1,6 +1,6 @@
 # Language reports - 2026-11-16
 
-11 "also in another language" reports; 2 agreeing reports add a language.
+12 "also in another language" reports; 2 agreeing reports add a language.
 
 ## Added this run
 - none
