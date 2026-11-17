@@ -1,7 +1,10 @@
 # User reports - 2026-11-17
 
-70 reports, newest first.
+73 reports, newest first.
 
+- **Premada Oorali** - Also in another language (2026-11-17; Telugu, android) [audio: te]
+- **Jailer 2** - Also in another language (2026-11-17; Telugu, android) [audio: te]
+- **Premada Oorali** - Also in another language (2026-11-17; android) [audio: kn]
 - **Jailer 2** - Also in another language (2026-11-17; Telugu, android) [audio: te]
 - **Kiku Chiranjeevi** - Also in another language (2026-11-16; Telugu, android) [audio: te]
 - **Kiku Chiranjeevi** - Also in another language (2026-11-16; android) [audio: te]
