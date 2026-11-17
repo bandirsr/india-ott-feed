@@ -1,14 +1,16 @@
 # YouTube channels posting free full movies
 
-Checked 2026-11-16. Full movie = 60+ minutes, not a clip, not age-restricted, among the latest 200 uploads. Approve a channel only if it is the official owner or a licensed distributor.
+Checked 2026-11-17. Full movie = 60+ minutes, not a clip, not age-restricted, among the latest 200 uploads. Approve a channel only if it is the official owner or a licensed distributor.
 
 | Channel | Language | Full movies | Total views | Subscribers | Country | Top titles | channelId |
 |---|---|---|---|---|---|---|---|
 | South Ki Cinema @southkicinemaofficial | pa | 200 | 372.0M | 2.7M | IN | Shivam; Love Action Dhamaka; Mahaveer No.1 | UCnpmuRNicBlmYUrCyFN0g2g |
+| PlayMovies @playmovies | pa | 200 | 82.8M | 4.5M | IN | Pardesi Babu (1998) - 90s Blockbuster Comedy Hindi; Koyla (1997) - 90s Blockbuster Hindi Action Movie; Ghajini (2008) - 2000s Ki Jabardast Blockbuster Hi | UCMXMp7LDQXeQnoBnbze_hpA |
 | Marathi Cinema @marathicinema100 | mr | 199 | 18.0M | 76K | IN | डॉक्टर डॉक्टर (Doctor Doctor); KAIREE (कैरी); Yeda (येडा) | UCqSgIDFhxZ3C3-eUXqv7iKw |
 | DRJ Records GenY @drjrecordsgeny | pa | 199 | 31.1M | 3.5M | IN | New Released South HIndi Dubbed Action Blockbuster; न्यू ब्लॉकबस्टर सुपरहिट हिंदी डब एक्शन मूवी; Allu Arjun (HD) - New Released Full Hindi Dubbed M | UCiV_LQDF7MGWWVNNNW3gFBQ |
 | RDC Bollywood Dhamal @rdcbollywooddhamal | mr | 199 | 145.9M | 266K | IN | Spyder (2026) Mahesh Babu New Released Full Hindi ; THE LAST DON (HD) "Jr. NTR" New Superhit Action Bl; JHUND "Amitabh Bachchan" New Released Bollywood Bl | UCSUPv-fH4NELmYTXAZYM92w |
 | 2000s Ki Filmein @2000skifilmein | pa | 199 | 155.0M | 4.6M | IN | Koi... Mil Gaya (2003) Full Movie 4K; Gadar: Ek Prem Katha- Full Movie: India Pakistan L; Vijay’s THUPPAKKI ~ THALAPATHY | UCkVF2PNHACXdkSHO6fLtezg |
+| Film City HD @filmcityhd | pa | 198 | 69.3M | 4.2M | IN | Karan Arjun (1995) Shah Rukh Khan & Salman Khan – ; Kaho Naa.. Pyaar Hai (2000) - Superhit Hindi Movie; Saugandh (1991) Akshay Kumar – Hindi Full Movie | UCmly8yFk82bDeWrPMm2HInA |
 | Dumdar HD Movies @dumdarhdmovies | mr | 193 | 159.9M | 1.6M |  | Superhit Hindi Dubbed Blockbuster Action Romantic ; South Hindi Dubbed Action Romantic Movie Full HD 1; New Movie 2026 Superhit (HD) Blockbuster South Ind | UCjbDr8EBDdGq9cOGXNf9z2Q |
 | South Dub Marathi @southdubmarathi | mr | 187 | 2.0M | 19K |  | जंगलराज (JUNGLERAAJ) : एक भयंकर सत्य; अशी थ्रिलर-सस्पेन्स की तुमची झोप उडेल: एक छोटं दुक; गुप्तहेर : रहस्यमय खुनाचा तपास | UCbWTlW10VIoQj0_HH4wyCGQ |
 | Ultra Talkies @अलटराटॉकीज | mr | 184 | 23.6M | 297K | IN | Mrs. Sarpanch Bai (मिसेस सरपंच बाई); Delivery Boy (डिलिव्हरी बॉय); Better Half Chi Love Story(2025) | UCPM7Xibv2B5RFv7KR-JZ4ag |
@@ -120,6 +122,7 @@ Checked 2026-11-16. Full movie = 60+ minutes, not a clip, not age-restricted, am
 | Smeep Kang @smeepkangofficial | pa | 24 | 43.0M | 395K | IN | Jonde Raho Bhoot Ji (Official Movie); Daddy Samjheya Karo (Full Movie) Jaswinder Bhalla; Master Scheme Singh (Full Movie) Gurpreet Ghuggi | UCLJlxnyAI80uEEXsuJ8vRtg |
 | Pollywood Punjab @pollywoodpunjab | pa | 23 | 8.2M | 8K | IN | Tere Mera Hubby Punjabi Movie; New Punjabi Movie; Mera Dhol Sharabi | UCOcZ0rbxOl_UuVaukVQxJWw |
 | Panth Cinema @panthcinema | pa | 23 | 6.5M | 22K | PL | Bambukat 2 Full Movie 2026; CHAND 2 : Full Punjabi Movie; SCORE 99 Full Movie In Hindi | UCwxLol_RFkjGRIXiT7LFi0w |
+| Real Cinema Hub @realcinemahub63 | pa | 23 | 16.8M | 26K | IN | Saukan Saukane 2(Full Movie)Ammy Virk; Rose Rosy Te Gulab(Full Movie)Gurnam Bhullar; Sufna 2(Full Movie)Ammy Virk | UCv3kiTjSZuk-3NlWc5TMShw |
 | Shemaroo Bengali @shemaroobengali | bn | 22 | 11.0M | 6.0M | IN | দেবীপক্ষ ব্লকবাস্টার; Matir Manush (1997); Bidhatar Khela | UCqwUQ-gb3ucBowxk3867p-A |
 | Marathi MoviePlex @marathimovieplex | mr | 22 | 369K | 792K | IN | राजकारणाचा खरा चेहरा उघड करणारा मराठी चित्रपट; Aata Vel Zaali (आता वेळ झाली); Garbh (गर्भ) | UCZEsPRX84fxOsQu2vbGwhSA |
 | Gold Vintage @goldvintagemovies | pa | 22 | 71K | 3.4M | IN | Chhaila Babu - 1967 - छैला बाबू l Bollywood Vintag; Gustakhi Maaf - 1969 - गुस्ताखी माफ़ l Bollywood V; Sab Ka Ustad - 1965 - सबका उस्ताद l Bollywood Vint | UCxrT8mcDpBM6z_a21fsWHRA |
@@ -279,3 +282,6 @@ Checked 2026-11-16. Full movie = 60+ minutes, not a clip, not age-restricted, am
 | Np Youtube @npyoutube3 | mr | 1 | 313K | 401 | IN | Natasamrat Marathi Movie | UCXEvbkQRDtKdaoe5qbPrIKQ |
 | Kshatriya Digital Patan @kshatriyadigitalpatan9999 | gu | 1 | 3.6M | 13K | IN | #Kon_Parka_Kon_Potana | UCOIeiVZ3HXroRdtOk24h1uw |
 | YouTube Movies  | pa | 1 | 0 | 0 |  | Mukhtiar Chadha | UCElawnbNAVE3ULNfFNkpnyw |
+| Entertainment 2026 @entertainment2026-v6b | bn | 1 | 7.0M | 10K | BD | Super Hit Jamai 420 Full Movie | UCqXtoZ3qX6JxejvT5zrrkrg |
+| HAIRY FAIRY @evil_sambit | bn | 1 | 2.8M | 9K |  | 100 PERCENT LOVE Full HD 1080p | UC78KzLwcAwH7dlGFYbD9kHQ |
+| ARGP Music @argpmusic | pa | 1 | 10.8M | 87K | IN | Chal Bhajj Chaliye | UCppJ9ozzsclp5YzKrZKzp6g |

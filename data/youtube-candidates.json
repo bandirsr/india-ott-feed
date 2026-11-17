@@ -1656,7 +1656,7 @@
   ],
   "found": "2026-11-10"
  },
- "_ran": "2026-11-16",
+ "_ran": "2026-11-17",
  "UCiVpICcqzCJsWMexdMrJhxw": {
   "id": "UCiVpICcqzCJsWMexdMrJhxw",
   "name": "Bengali Movies - Channel B Entertainment",
@@ -4514,5 +4514,95 @@
    "Baap Ni Jamin Hadapva Aayo Dikaro"
   ],
   "found": "2026-11-16"
+ },
+ "UCqXtoZ3qX6JxejvT5zrrkrg": {
+  "id": "UCqXtoZ3qX6JxejvT5zrrkrg",
+  "name": "Entertainment 2026",
+  "handle": "@entertainment2026-v6b",
+  "subs": 10300,
+  "country": "BD",
+  "langs": "bn",
+  "movies": 1,
+  "views": 6980624,
+  "sample": [
+   "Super Hit Jamai 420 Full Movie"
+  ],
+  "found": "2026-11-17"
+ },
+ "UC78KzLwcAwH7dlGFYbD9kHQ": {
+  "id": "UC78KzLwcAwH7dlGFYbD9kHQ",
+  "name": "HAIRY FAIRY",
+  "handle": "@evil_sambit",
+  "subs": 9220,
+  "country": "",
+  "langs": "bn",
+  "movies": 1,
+  "views": 2779202,
+  "sample": [
+   "100 PERCENT LOVE Full HD 1080p"
+  ],
+  "found": "2026-11-17"
+ },
+ "UCmly8yFk82bDeWrPMm2HInA": {
+  "id": "UCmly8yFk82bDeWrPMm2HInA",
+  "name": "Film City HD",
+  "handle": "@filmcityhd",
+  "subs": 4150000,
+  "country": "IN",
+  "langs": "pa",
+  "movies": 198,
+  "views": 69303107,
+  "sample": [
+   "Karan Arjun (1995) Shah Rukh Khan & Salman Khan – ",
+   "Kaho Naa.. Pyaar Hai (2000) - Superhit Hindi Movie",
+   "Saugandh (1991) Akshay Kumar – Hindi Full Movie"
+  ],
+  "found": "2026-11-17"
+ },
+ "UCMXMp7LDQXeQnoBnbze_hpA": {
+  "id": "UCMXMp7LDQXeQnoBnbze_hpA",
+  "name": "PlayMovies",
+  "handle": "@playmovies",
+  "subs": 4530000,
+  "country": "IN",
+  "langs": "pa",
+  "movies": 200,
+  "views": 82777172,
+  "sample": [
+   "Pardesi Babu (1998) - 90s Blockbuster Comedy Hindi",
+   "Koyla (1997) - 90s Blockbuster Hindi Action Movie",
+   "Ghajini (2008) - 2000s Ki Jabardast Blockbuster Hi"
+  ],
+  "found": "2026-11-17"
+ },
+ "UCv3kiTjSZuk-3NlWc5TMShw": {
+  "id": "UCv3kiTjSZuk-3NlWc5TMShw",
+  "name": "Real Cinema Hub",
+  "handle": "@realcinemahub63",
+  "subs": 26400,
+  "country": "IN",
+  "langs": "pa",
+  "movies": 23,
+  "views": 16827396,
+  "sample": [
+   "Saukan Saukane 2(Full Movie)Ammy Virk",
+   "Rose Rosy Te Gulab(Full Movie)Gurnam Bhullar",
+   "Sufna 2(Full Movie)Ammy Virk"
+  ],
+  "found": "2026-11-17"
+ },
+ "UCppJ9ozzsclp5YzKrZKzp6g": {
+  "id": "UCppJ9ozzsclp5YzKrZKzp6g",
+  "name": "ARGP Music",
+  "handle": "@argpmusic",
+  "subs": 87000,
+  "country": "IN",
+  "langs": "pa",
+  "movies": 1,
+  "views": 10761524,
+  "sample": [
+   "Chal Bhajj Chaliye"
+  ],
+  "found": "2026-11-17"
  }
 }

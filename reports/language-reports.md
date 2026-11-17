@@ -1,11 +1,13 @@
-# Language reports - 2026-11-16
+# Language reports - 2026-11-17
 
-12 "also in another language" reports; 2 agreeing reports add a language.
+19 "also in another language" reports; 2 agreeing reports add a language.
 
 ## Added this run
-- none
+- Kiku Chiranjeevi (movie:1748499) +te from 3 reports
 
 ## Waiting for more reports
+- Saayavanam (movie:1310458) +te: 1/2
+- Anakapalli (movie:1690876) +te: 1/2
 - Dilwali Diwali (movie:1810711) +te: 1/2
 - Dilwali Diwali (movie:1810711) +pa: 1/2
 - Dilwali Diwali (movie:1810711) +bn: 1/2
