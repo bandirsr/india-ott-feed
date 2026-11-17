@@ -1,5 +1,17 @@
 [
  {
+  "at": "2026-11-17T04:52:42.439Z",
+  "kind": "language",
+  "title": "Jailer 2",
+  "language": "Telugu",
+  "platform": "",
+  "note": "",
+  "filmId": "movie:1234139",
+  "audio": "te",
+  "source": "android",
+  "appVersion": "1.0.2"
+ },
+ {
   "at": "2026-11-16T18:30:51.289Z",
   "kind": "language",
   "title": "Kiku Chiranjeevi",

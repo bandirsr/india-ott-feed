@@ -1,7 +1,8 @@
-# User reports - 2026-11-16
+# User reports - 2026-11-17
 
-69 reports, newest first.
+70 reports, newest first.
 
+- **Jailer 2** - Also in another language (2026-11-17; Telugu, android) [audio: te]
 - **Kiku Chiranjeevi** - Also in another language (2026-11-16; Telugu, android) [audio: te]
 - **Kiku Chiranjeevi** - Also in another language (2026-11-16; android) [audio: te]
 - **Saayavanam** - Also in another language (2026-11-16; android) [audio: te]
