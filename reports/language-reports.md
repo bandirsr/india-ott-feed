@@ -1,9 +1,9 @@
 # Language reports - 2026-11-17
 
-19 "also in another language" reports; 2 agreeing reports add a language.
+20 "also in another language" reports; 2 agreeing reports add a language.
 
 ## Added this run
-- Kiku Chiranjeevi (movie:1748499) +te from 3 reports
+- none
 
 ## Waiting for more reports
 - Saayavanam (movie:1310458) +te: 1/2
