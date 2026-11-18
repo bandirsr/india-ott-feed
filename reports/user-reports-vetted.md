@@ -1,13 +1,15 @@
 # What people reported - checked 2026-11-18
 
-🟢 Fixed - in the app: **15** &nbsp;·&nbsp; 🔵 Ready to add: **0** &nbsp;·&nbsp; 🟡 Needs a look: **15** &nbsp;·&nbsp; 🟣 Closed - nothing to add: **13** &nbsp;·&nbsp; 🔴 Rejected by safety rules: **1** &nbsp;·&nbsp; ⚪ Test entry: **4**
+🟢 Fixed - in the app: **15** &nbsp;·&nbsp; 🔵 Ready to add: **0** &nbsp;·&nbsp; 🟡 Needs a look: **17** &nbsp;·&nbsp; 🟣 Closed - nothing to add: **13** &nbsp;·&nbsp; 🔴 Rejected by safety rules: **1** &nbsp;·&nbsp; ⚪ Test entry: **4**
 
 Newest first inside each group. "Fixed on" is the first day the checker saw the title in the live app; a report already covered when it arrived shows the report day.
 
-## 🟡 Needs a look (15)
+## 🟡 Needs a look (17)
 
 | Reported | Title | Language | From | Their note | What we found | Fixed on |
 |---|---|---|---|---|---|---|
+| 2026-11-18 | **Premada urali** | Telugu | android | - | no exact match; similar: looks like a misspelling of: Premada Oorali (kn, movie:1735270, in the app); Prema Kavali (te, movie:99354, in the app); Prematho Raa (te, yt:qUh-PR-xJLA, in the app). Web news: nothing found | - |
+| 2026-11-18 | **Premada urali** | Telugu | android | - | no exact match; similar: looks like a misspelling of: Premada Oorali (kn, movie:1735270, in the app); Prema Kavali (te, movie:99354, in the app); Prematho Raa (te, yt:qUh-PR-xJLA, in the app). Web news: nothing found | - |
 | 2026-11-16 | **new movies** | - | android | - | no exact match; similar: looks like a misspelling of: Memories (ta, movie:945106, in the app); Memories (ml, movie:217389, in the app); New Movie 2026 (hi, yt:XJ5hW2dutZg, in the app). Web news: Latest OTT releases (October 26-November 1): 21 new movies and TV shows on Netflix, Prime Video, JioHotstar and more - Vogue India (2026-10-30) | Friday OTT releases (October 30, 2026): 6 new movies and shows on Netflix and more - GQ India (2026-10-28) | New OTT releases to watch this weekend: 9 new movies & shows on Netflix, JioHotstar & more - GQ India (2026-10-30) | - |
 | 2026-11-16 | **adult** | - | ios | - | no exact match; similar: looks like a misspelling of: Arul (ta, movie:63674, in the app); Adalat (hi, movie:107964, in the app); #Cult (te, movie:1637705, in the app, Coming soon). Web news: What to watch: 7 adult romantic movies streaming on ZEE5, Netflix and more - GQ India (2026-02-19) | Saree out on OTT: Where to stream Ram Gopal Varma's adult thriller - OTTPlay (2025-07-11) | Venkat Prabhu’s adult drama ‘Manmatha Leelai’ to premiere on OTT - The Times of India (2022-04-16) | - |
 | 2026-11-16 | **Nadhina** | Telugu | android | - | no exact match; similar: looks like a misspelling of: Naina (hi, movie:15978, in the app); Sadhna (hi, movie:1408635, in the app); Nagina (hi, movie:143889, in the app). Web news: nothing found | - |
