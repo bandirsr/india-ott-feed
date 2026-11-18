@@ -1,5 +1,5 @@
 {
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "languages": [
   {
    "code": "te",
@@ -50,7 +50,7 @@
      "id": 1754873,
      "title": "The Red Bag",
      "released": "2026-08-21",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     }
@@ -201,7 +201,7 @@
      "id": 1713420,
      "title": "Uttar Da Puttar",
      "released": "2026-07-24",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -225,7 +225,7 @@
      "id": 1798313,
      "title": "Oye Chill Maar",
      "released": "2026-09-25",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -288,7 +288,7 @@
      "id": 1627516,
      "title": "Sandakari",
      "released": "2026-09-18",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -383,7 +383,7 @@
      "id": 1588472,
      "title": "L&O - Law and Order",
      "released": "2026-09-18",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -558,7 +558,7 @@
      "id": 1734726,
      "title": "America America 2",
      "released": "2026-09-11",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -590,7 +590,7 @@
      "id": 1732392,
      "title": "Father's Day",
      "released": "2026-07-17",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -598,7 +598,7 @@
      "id": 1702692,
      "title": "Balaramana Dinagalu",
      "released": "2026-06-26",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -606,7 +606,7 @@
      "id": 1747816,
      "title": "Jolly",
      "released": "2026-07-31",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -653,7 +653,7 @@
      "id": 1607833,
      "title": "Bohurupi: The Golden Daku",
      "released": "2026-10-15",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -701,7 +701,7 @@
      "id": 1741127,
      "title": "Amader 7 Kahon",
      "released": "2026-08-07",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -725,7 +725,7 @@
      "id": 1373504,
      "title": "Maya Satya Bhram",
      "released": "2026-08-28",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -844,7 +844,7 @@
      "id": 1747939,
      "title": "Sammarth",
      "released": "2026-08-14",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -852,7 +852,7 @@
      "id": 1609047,
      "title": "Sohla",
      "released": "2026-10-16",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -959,7 +959,7 @@
      "id": 1651316,
      "title": "Eh Din Roz Ni Aune",
      "released": "2026-10-09",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },

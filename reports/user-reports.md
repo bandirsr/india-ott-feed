@@ -1,7 +1,13 @@
-# User reports - 2026-11-17
+# User reports - 2026-11-18
 
-73 reports, newest first.
+79 reports, newest first.
 
+- **Premada Oorali** - Also in another language (2026-11-18; Telugu, android) [audio: te]
+- **Oh..! Sukumari** - Also in another language (2026-11-18; Telugu, android) [audio: te]
+- **Ranabaali** - Also in another language (2026-11-18; Telugu, android) [audio: te]
+- **Premada Oorali** - Also in another language (2026-11-18; Telugu, android) [audio: te]
+- **Premada Oorali** - Also in another language (2026-11-18; android) [audio: kn]
+- **Premada Oorali** - Also in another language (2026-11-18; android) [audio: te]
 - **Premada Oorali** - Also in another language (2026-11-17; Telugu, android) [audio: te]
 - **Jailer 2** - Also in another language (2026-11-17; Telugu, android) [audio: te]
 - **Premada Oorali** - Also in another language (2026-11-17; android) [audio: kn]
