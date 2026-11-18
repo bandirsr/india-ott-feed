@@ -1,13 +1,12 @@
 # Language reports - 2026-11-18
 
-23 "also in another language" reports; 2 agreeing reports add a language.
+29 "also in another language" reports; 2 agreeing reports add a language.
 
 ## Added this run
-- none
+- Premada Oorali (movie:1735270) +kn from 2 reports
 
 ## Waiting for more reports
-- Premada Oorali (movie:1735270) +te: 1/2
-- Premada Oorali (movie:1735270) +kn: 1/2
+- Oh..! Sukumari (movie:1592679) +te: 1/2
 - Saayavanam (movie:1310458) +te: 1/2
 - Anakapalli (movie:1690876) +te: 1/2
 - Dilwali Diwali (movie:1810711) +te: 1/2
