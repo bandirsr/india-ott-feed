@@ -1656,7 +1656,7 @@
   ],
   "found": "2026-11-10"
  },
- "_ran": "2026-11-17",
+ "_ran": "2026-11-18",
  "UCiVpICcqzCJsWMexdMrJhxw": {
   "id": "UCiVpICcqzCJsWMexdMrJhxw",
   "name": "Bengali Movies - Channel B Entertainment",
@@ -4604,5 +4604,191 @@
    "Chal Bhajj Chaliye"
   ],
   "found": "2026-11-17"
+ },
+ "UC-pvx_zw5sKRQTQQKISEwrg": {
+  "id": "UC-pvx_zw5sKRQTQQKISEwrg",
+  "name": "Miniplex Screen",
+  "handle": "@miniplexscreen",
+  "subs": 147000,
+  "country": "IN",
+  "langs": "bn,pa",
+  "movies": 106,
+  "views": 97462777,
+  "sample": [
+   "DON 3 (Hindi Dubbed) Full Movie",
+   "Ravi Teja & Nayanthara Full Action Movie",
+   "RAAKA"
+  ],
+  "found": "2026-11-18"
+ },
+ "UCO7oJs9vrfYIN_rDYjlN7Ig": {
+  "id": "UCO7oJs9vrfYIN_rDYjlN7Ig",
+  "name": "Ultra Cinema",
+  "handle": "@ultracinemaa",
+  "subs": 9440000,
+  "country": "IN",
+  "langs": "bn",
+  "movies": 141,
+  "views": 13379622,
+  "sample": [
+   "Kartikeya की जिंदगी में आया खतरनाक मोड़",
+   "Jagapathi Babu की जिंदगी में आई नन्ही बच्ची, बदल ग",
+   "Surkh (2026)"
+  ],
+  "found": "2026-11-18"
+ },
+ "UCFTtrxmEhd1pu-_ShK8XeIg": {
+  "id": "UCFTtrxmEhd1pu-_ShK8XeIg",
+  "name": "Premium Digiplex Movies",
+  "handle": "@premiumdigiplexmoviesdubbed",
+  "subs": 10000000,
+  "country": "IN",
+  "langs": "bn",
+  "movies": 164,
+  "views": 46446236,
+  "sample": [
+   "Dhurrandhar Girl",
+   "Tamil Nadu CM",
+   "MISSION 118"
+  ],
+  "found": "2026-11-18"
+ },
+ "UCUMYYO-hg6Kf-yISSo1g9DQ": {
+  "id": "UCUMYYO-hg6Kf-yISSo1g9DQ",
+  "name": "B-Town Blockbuster",
+  "handle": "@b-townblockbuster",
+  "subs": 3080000,
+  "country": "IN",
+  "langs": "mr",
+  "movies": 108,
+  "views": 10433123,
+  "sample": [
+   "Maine Pyaar Kyun Kiya (2005) Full Movie",
+   "करवा चौथ स्पेशल🌙 मेरा पति सिर्फ मेरा है (1990)",
+   "Shandaar (1990) Full Movie 4K"
+  ],
+  "found": "2026-11-18"
+ },
+ "UCX_uPA_dGf7wXjuMEaSKLJA": {
+  "id": "UCX_uPA_dGf7wXjuMEaSKLJA",
+  "name": "Aditya Movies",
+  "handle": "@adityamovies",
+  "subs": 38900000,
+  "country": "IN",
+  "langs": "mr,pa",
+  "movies": 2,
+  "views": 4682474,
+  "sample": [
+   "Skylab Hindi Dubbed Movie 2026 Full Movie",
+   "Intelligent Khiladi 2 Hindi Dubbed Movie 2026 Full"
+  ],
+  "found": "2026-11-18"
+ },
+ "UCk8jk6PE4iSWuuikV1R4P2Q": {
+  "id": "UCk8jk6PE4iSWuuikV1R4P2Q",
+  "name": "GOLD MOVIES",
+  "handle": "@goldmovies7712",
+  "subs": 2390,
+  "country": "",
+  "langs": "mr",
+  "movies": 2,
+  "views": 235409,
+  "sample": [
+   "Sairat Full HD Movie In Marathi",
+   "The Evil Dead 1 Full movie In Hindi"
+  ],
+  "found": "2026-11-18"
+ },
+ "UC06UXRnhvgWfYWnnYq2CYVQ": {
+  "id": "UC06UXRnhvgWfYWnnYq2CYVQ",
+  "name": "Sumeet Music",
+  "handle": "@sumeetmusic",
+  "subs": 9600000,
+  "country": "IN",
+  "langs": "mr",
+  "movies": 20,
+  "views": 4234550,
+  "sample": [
+   "Gadhvacha Lagna 8K UHD",
+   "संत सखुसाठी देव सखू झाला 8K UHD",
+   "संत बाळूमामा कथा"
+  ],
+  "found": "2026-11-18"
+ },
+ "UCUJ-X3Sao3BtXXGH9XNDiqA": {
+  "id": "UCUJ-X3Sao3BtXXGH9XNDiqA",
+  "name": "YouTube Movies",
+  "handle": "",
+  "subs": 15,
+  "country": "",
+  "langs": "mr",
+  "movies": 1,
+  "views": 0,
+  "sample": [
+   "Sairat"
+  ],
+  "found": "2026-11-18"
+ },
+ "UCqlnY3DrzKG_Lwrtfim3tAg": {
+  "id": "UCqlnY3DrzKG_Lwrtfim3tAg",
+  "name": "Latest Punjabi Comedy",
+  "handle": "@latestpunjabicomedy",
+  "subs": 390000,
+  "country": "IN",
+  "langs": "pa",
+  "movies": 40,
+  "views": 872900,
+  "sample": [
+   "Dev Kharoud (Full Movie HD)",
+   "Happi Gosal (2026) Punjabi Full Movie",
+   "Latest Punjabi Comedy Movie"
+  ],
+  "found": "2026-11-18"
+ },
+ "UCBHm2cI2ZITgnd54jYDvhlg": {
+  "id": "UCBHm2cI2ZITgnd54jYDvhlg",
+  "name": "Raphor Digital",
+  "handle": "@raphordigital",
+  "subs": 63600,
+  "country": "IN",
+  "langs": "pa",
+  "movies": 8,
+  "views": 3845398,
+  "sample": [
+   "Ni Main Sass Kutni \"Full Movie\"",
+   "Munda Faridkotia Full Movie HD",
+   "New Punjabi Movie 2026"
+  ],
+  "found": "2026-11-18"
+ },
+ "UCctlpz6tlAFwTjduenTdolw": {
+  "id": "UCctlpz6tlAFwTjduenTdolw",
+  "name": "JATT FILM ART ",
+  "handle": "@jattfilmart66",
+  "subs": 19600,
+  "country": "IN",
+  "langs": "pa",
+  "movies": 1,
+  "views": 2574094,
+  "sample": [
+   "Taron Paar (Full Movie)"
+  ],
+  "found": "2026-11-18"
+ },
+ "UCwVT7NKkTd4ii_gxl79k62w": {
+  "id": "UCwVT7NKkTd4ii_gxl79k62w",
+  "name": "Latest One 2026",
+  "handle": "@latestone2026",
+  "subs": 28500,
+  "country": "IN",
+  "langs": "pa",
+  "movies": 50,
+  "views": 3267333,
+  "sample": [
+   "Oye Bhole Oye 2 (Full Movie) Jagjeet Sandhu",
+   "ISHQNAMA (Full Movie) Jai Randhhawa",
+   "CHAALI DIN Full Movie Gurpreet Ghuggi"
+  ],
+  "found": "2026-11-18"
  }
 }
