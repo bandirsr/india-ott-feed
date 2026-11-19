@@ -1,7 +1,10 @@
-# User reports - 2026-11-18
+# User reports - 2026-11-19
 
-81 reports, newest first.
+84 reports, newest first.
 
+- **Ranabaali** - Also in another language (2026-11-19; Telugu, android) [audio: te]
+- **Kiku Chiranjeevi** - Also in another language (2026-11-19; Telugu, android) [audio: te]
+- **Kiku Chiranjeevi** - Also in another language (2026-11-18; android) [audio: te]
 - **Premada urali** - Missing title (2026-11-18; Telugu, android)
 - **Premada urali** - Missing title (2026-11-18; Telugu, android)
 - **Premada Oorali** - Also in another language (2026-11-18; Telugu, android) [audio: te]

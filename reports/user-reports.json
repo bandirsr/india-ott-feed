@@ -1,5 +1,41 @@
 [
  {
+  "at": "2026-11-19T06:19:59.447Z",
+  "kind": "language",
+  "title": "Ranabaali",
+  "language": "Telugu",
+  "platform": "",
+  "note": "",
+  "filmId": "movie:1389379",
+  "audio": "te",
+  "source": "android",
+  "appVersion": "1.0.2"
+ },
+ {
+  "at": "2026-11-19T06:19:35.088Z",
+  "kind": "language",
+  "title": "Kiku Chiranjeevi",
+  "language": "Telugu",
+  "platform": "",
+  "note": "",
+  "filmId": "movie:1748499",
+  "audio": "te",
+  "source": "android",
+  "appVersion": "1.0.2"
+ },
+ {
+  "at": "2026-11-18T23:19:14.288Z",
+  "kind": "language",
+  "title": "Kiku Chiranjeevi",
+  "language": "",
+  "platform": "",
+  "note": "",
+  "filmId": "movie:1748499",
+  "audio": "te",
+  "source": "android",
+  "appVersion": "1.0.2"
+ },
+ {
   "at": "2026-11-18T16:16:00.806Z",
   "kind": "missing",
   "title": "Premada urali",

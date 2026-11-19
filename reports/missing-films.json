@@ -1,5 +1,5 @@
 {
- "date": "2026-11-18",
+ "date": "2026-11-19",
  "languages": [
   {
    "code": "te",
@@ -18,7 +18,7 @@
      "id": 1814023,
      "title": "Adhey Neevu Adhey Nenu",
      "released": "2026-07-31",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -50,7 +50,7 @@
      "id": 1754873,
      "title": "The Red Bag",
      "released": "2026-08-21",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     }
@@ -193,7 +193,7 @@
      "id": 1713420,
      "title": "Uttar Da Puttar",
      "released": "2026-07-24",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -201,7 +201,7 @@
      "id": 1798313,
      "title": "Oye Chill Maar",
      "released": "2026-09-25",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -217,9 +217,11 @@
      "id": 1720201,
      "title": "Dulhaniya Le Aaeegi",
      "released": "2026-07-24",
-     "popularity": 0,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
+     "popularity": 2,
+     "tmdb": "streaming",
+     "tmdbPlatforms": [
+      "JioHotstar"
+     ]
     },
     {
      "id": 1724719,
@@ -264,7 +266,7 @@
      "id": 1563192,
      "title": "Lenin Pandiyan",
      "released": "2026-09-25",
-     "popularity": 3,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -344,7 +346,7 @@
      "id": 1758603,
      "title": "BeeP",
      "released": "2026-09-18",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -361,8 +363,12 @@
      "title": "Dark",
      "released": "2026-07-03",
      "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
+     "tmdb": "streaming",
+     "tmdbPlatforms": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads",
+      " AP International South Cinema Amazon Channel"
+     ]
     }
    ]
   },
@@ -494,7 +500,7 @@
      "id": 1213243,
      "title": "Toxic",
      "released": "2026-08-26",
-     "popularity": 14,
+     "popularity": 13,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -550,7 +556,7 @@
      "id": 1730231,
      "title": "Rakky",
      "released": "2026-07-10",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -566,7 +572,7 @@
      "id": 1747816,
      "title": "Jolly",
      "released": "2026-07-31",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -574,7 +580,7 @@
      "id": 1702692,
      "title": "Balaramana Dinagalu",
      "released": "2026-06-26",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -582,7 +588,7 @@
      "id": 1732392,
      "title": "Father's Day",
      "released": "2026-07-17",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -653,7 +659,7 @@
      "id": 1607833,
      "title": "Bohurupi: The Golden Daku",
      "released": "2026-10-15",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -701,7 +707,7 @@
      "id": 1736395,
      "title": "Ei Shohorer Gaan",
      "released": "2026-10-10",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -709,7 +715,7 @@
      "id": 1373504,
      "title": "Maya Satya Bhram",
      "released": "2026-08-28",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -836,7 +842,7 @@
      "id": 1609047,
      "title": "Sohla",
      "released": "2026-10-16",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -844,7 +850,7 @@
      "id": 1747939,
      "title": "Sammarth",
      "released": "2026-08-14",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -931,7 +937,7 @@
      "id": 1738641,
      "title": "Kankaan De Ohle",
      "released": "2026-07-31",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
