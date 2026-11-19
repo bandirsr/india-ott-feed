@@ -1,9 +1,9 @@
-# Language reports - 2026-11-18
+# Language reports - 2026-11-19
 
 29 "also in another language" reports; 2 agreeing reports add a language.
 
 ## Added this run
-- Premada Oorali (movie:1735270) +kn from 2 reports
+- none
 
 ## Waiting for more reports
 - Oh..! Sukumari (movie:1592679) +te: 1/2
