@@ -1,7 +1,10 @@
 # User reports - 2026-11-20
 
-84 reports, newest first.
+87 reports, newest first.
 
+- **Sigma** - Also in another language (2026-11-20; Telugu, android) [audio: te]
+- **Crazy Kalyanam** - Also in another language (2026-11-20; android) [audio: te]
+- **Crazy Kalyanam** - Also in another language (2026-11-20; android) [audio: te]
 - **Ranabaali** - Also in another language (2026-11-19; Telugu, android) [audio: te]
 - **Kiku Chiranjeevi** - Also in another language (2026-11-19; Telugu, android) [audio: te]
 - **Kiku Chiranjeevi** - Also in another language (2026-11-18; android) [audio: te]
