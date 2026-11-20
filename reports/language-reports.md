@@ -1,4 +1,4 @@
-# Language reports - 2026-11-19
+# Language reports - 2026-11-20
 
 32 "also in another language" reports; 2 agreeing reports add a language.
 

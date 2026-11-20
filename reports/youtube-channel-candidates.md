@@ -1,6 +1,6 @@
 # YouTube channels posting free full movies
 
-Checked 2026-11-19. Full movie = 60+ minutes, not a clip, not age-restricted, among the latest 200 uploads. Approve a channel only if it is the official owner or a licensed distributor.
+Checked 2026-11-20. Full movie = 60+ minutes, not a clip, not age-restricted, among the latest 200 uploads. Approve a channel only if it is the official owner or a licensed distributor.
 
 | Channel | Language | Full movies | Total views | Subscribers | Country | Top titles | channelId |
 |---|---|---|---|---|---|---|---|
@@ -11,6 +11,7 @@ Checked 2026-11-19. Full movie = 60+ minutes, not a clip, not age-restricted, am
 | RDC Bollywood Dhamal @rdcbollywooddhamal | mr | 199 | 145.9M | 266K | IN | Spyder (2026) Mahesh Babu New Released Full Hindi ; THE LAST DON (HD) "Jr. NTR" New Superhit Action Bl; JHUND "Amitabh Bachchan" New Released Bollywood Bl | UCSUPv-fH4NELmYTXAZYM92w |
 | 2000s Ki Filmein @2000skifilmein | pa | 199 | 155.0M | 4.6M | IN | Koi... Mil Gaya (2003) Full Movie 4K; Gadar: Ek Prem Katha- Full Movie: India Pakistan L; Vijay’s THUPPAKKI ~ THALAPATHY | UCkVF2PNHACXdkSHO6fLtezg |
 | Film City HD @filmcityhd | pa | 198 | 69.3M | 4.2M | IN | Karan Arjun (1995) Shah Rukh Khan & Salman Khan – ; Kaho Naa.. Pyaar Hai (2000) - Superhit Hindi Movie; Saugandh (1991) Akshay Kumar – Hindi Full Movie | UCmly8yFk82bDeWrPMm2HInA |
+| Shaandaar Movies @shaandaarmovies | mr | 197 | 18.6M | 963K | IN | ये फिल्म आज भी सबके रोंगटे खड़े कर देती है! ⚡ Meet; 💥 Mithun Chakraborty की सुपरहिट Comedy Movie; 😨 ऐसी डरावनी फिल्म जो नींद उड़ा दे | UCEg02ZyLQ-K0Goz6Lmezgcg |
 | Dumdar HD Movies @dumdarhdmovies | mr | 193 | 159.9M | 1.6M |  | Superhit Hindi Dubbed Blockbuster Action Romantic ; South Hindi Dubbed Action Romantic Movie Full HD 1; New Movie 2026 Superhit (HD) Blockbuster South Ind | UCjbDr8EBDdGq9cOGXNf9z2Q |
 | South Dub Marathi @southdubmarathi | mr | 187 | 2.0M | 19K |  | जंगलराज (JUNGLERAAJ) : एक भयंकर सत्य; अशी थ्रिलर-सस्पेन्स की तुमची झोप उडेल: एक छोटं दुक; गुप्तहेर : रहस्यमय खुनाचा तपास | UCbWTlW10VIoQj0_HH4wyCGQ |
 | Ultra Talkies @अलटराटॉकीज | mr | 184 | 23.6M | 297K | IN | Mrs. Sarpanch Bai (मिसेस सरपंच बाई); Delivery Boy (डिलिव्हरी बॉय); Better Half Chi Love Story(2025) | UCPM7Xibv2B5RFv7KR-JZ4ag |
@@ -82,6 +83,7 @@ Checked 2026-11-19. Full movie = 60+ minutes, not a clip, not age-restricted, am
 | Sankhnath Entertainment @sankhnathentertainment-yf8sh | pa | 52 | 34.6M | 107K | IN | New Punjabi Movie 2021; PANGE; New Punjabi Movie 2021 | UCzO64opxtObtdbTZLVCcMHw |
 | Anupam Movies @anupammovies | bn | 50 | 65.7M | 6.8M | BD | Deadbody; Sukher Ghore Dukher Agun; Jodi Bou Sajogo | UCBkBeEMx8lGmqhTpZgx_a2w |
 | Latest One 2026 @latestone2026 | pa | 50 | 3.3M | 29K | IN | Oye Bhole Oye 2 (Full Movie) Jagjeet Sandhu; ISHQNAMA (Full Movie) Jai Randhhawa; CHAALI DIN Full Movie Gurpreet Ghuggi | UCwVT7NKkTd4ii_gxl79k62w |
+| Outline Media Net Films @outlinemedianetfilms | pa | 50 | 47.9M | 274K | IN | New Punjabi Movies 2023; New Punjabi Movies 2023; New Punjabi Movies 2023 | UCwdkS_zfGLYrgdEVnPNlQDQ |
 | Star Studios Premiere @starstudiospremiere | mr,gu | 47 | 194.0M | 6.1M | IN | Bazaar; Hamari Adhuri Kahani Full Hindi Movie; The Body Full Movie | UCs56ffejFhWlCvlvRIdpb9Q |
 | Yellow Digital @yellow-digital | pa | 46 | 28.7M | 93K | IN | Dev Kharoud; Ni Main Sass Kuttni (Full Movie) 😂; MADHANIYAN | UCSFhkWxhzEZsqLvpGiDbrMw |
 | Pen Movies @penmovies | gu | 46 | 703.6M | 30.1M | IN | Chatrapathi Hindi Movie 2024; Bhai; Akhanda Hindi Dubbed Movie 2024 | UC3ar28GS6o1p0m_wabfk2zw |
@@ -126,6 +128,7 @@ Checked 2026-11-19. Full movie = 60+ minutes, not a clip, not age-restricted, am
 | Eros Universe Big Picture @erosuniversebigpicture | pa | 25 | 3.8M | 1.7M | IN | Banjo (2016) Full Movie in 8K/4K UHD; Tere Naam (तेरे नाम) 8K/4K Movie; Raanjhanaa - (रांझणा) 8K/4K Full Movie | UCCo9xACnSNwW1m6zjJkzSgQ |
 | Bhojpuriya Parivaar @bhojpuriyaparivaarofficial | gu | 25 | 13.3M | 1.1M | IN | TULSI VIVAH I तुलसी विवाह I FULL MOVIE 2026 I SANJ; बहन हो तो ऐसी; PIYARI | UCIaFwo77Ten60Mw8n-IrnkQ |
 | HT Punjabi @htpanjaabi | pa | 25 | 246K | 219K | IN | New Punjabi Movie 2026; 🎬Chalaak Sajaan; New Punjabi Movie 2026 | UCM7r45Fr_w-hGOMoOuwcrAQ |
+| Desi Manoranjan @desimanoranjanmovies | gu | 25 | 1.3M | 244K | IN | घर आँगना Ghar Angana l भोजपुरी सुपरहिट Full Movie ; एक माँ की ममता और आखिरी लड़ाई – सुपरहिट राजस्थानी ; Phoolan Devi As Bandit Queen ( फूलन देवी ऐज़ बैंडि | UCXm7vTj8Rt0kRKCtrX4NMmw |
 | BENGALI SUPERHIT DUB CINEMA @bengalisuperhitdubcinema | bn | 24 | 2.3M | 2.2M |  | Manasa Amar Maa (মনসা আমার মা); Force (ফোর্স); Subhakamona (শুভকামনা) | UC7OWffiMiw-UpmzNkCywU8w |
 | Orion Music @orionmusicofficial1 | pa | 24 | 10.1M | 20K | IN | New Punjabi Comedy Film 2026; Vadda Ghar Full Movie; Dev Kharoud Latest Punjabi Full Movie 2026 | UC4jvVzTfVUNchp3zjkCoKNQ |
 | Marathi Filmy Duniya @marathifilmyduniya1 | mr | 24 | 988K | 81K | IN | Shapit Wada (शापित वाडा); Kairee (कैरी); नवरात्री विशेष 🌺 कुलस्वामिनी | UCfoqFJx6iomG5cF9EwU176A |
@@ -147,13 +150,17 @@ Checked 2026-11-19. Full movie = 60+ minutes, not a clip, not age-restricted, am
 | PALCO VIDEO @palcovideo | pa | 20 | 2.3M | 177K | IN | YAARI JATT Di; Shareeka; Putt Sardaran De | UCs8YmQaE3AKjQeaA-k6BP1Q |
 | Urban Movies @urbanmovies-k1m | pa | 20 | 379K | 1K | IN | Jatt Zameena Wale 🔥 Gippy Grewal & Neeru Bajwa; Zindgi Yaar Di; Meri Yaar Ni Sunda (2026) | UCPmTuIv0l8-S5kp_ZgG5CmQ |
 | Sumeet Music @sumeetmusic | mr | 20 | 4.2M | 9.6M | IN | Gadhvacha Lagna 8K UHD; संत सखुसाठी देव सखू झाला 8K UHD; संत बाळूमामा कथा | UC06UXRnhvgWfYWnnYq2CYVQ |
+| SB Cinema Hall @sbcinemahall | bn | 20 | 12.2M | 6.0M | BD | Biday (বিদায়) Full Movie; Rokto Nishan (রক্ত নিশান) Full Movie; Valobashar Juddho (ভালোবাসার যুদ্ধ) Shabnur | UChFYpBlY-nHelvEtoR42erw |
+| સર્વાત્મા ( Supreme Soul) @supreme-soul-0-1 | gu | 20 | 2.1M | 7K | IN | મારગ બતાવે દાદા મેકરન; હરિશચંદ્ર તારામતી, Gujarati Film; ઓઢા જામ અને હોથલ પદમણી | UCDO5IuN8-BQsJvl_WS649vQ |
 | JeetFilmEntertainment @jeetfilmentertainment | bn | 19 | 1.8M | 3K |  | Bojhena Shey Bojhena (2012) Soham Chakraborty; সোয়েটার: Sweater; মাটি: Maati | UCp7bRaz0L1DiN9ZV4wGceIw |
 | Express Movies @expressmovies97 | mr | 19 | 12.6M | 212K | IN | Zombie Killer (2025) New Released Movie; ODELA 3 Full Movie in Hindi Dubbed; Chamunda | UCBB-xpQTEa8TqHqwFANFXvg |
 | Lokdhun Punjabi @lokdhunpunjabi | pa | 19 | 43.5M | 14.8M | IN | ROSE ROSY TE GULAB (Full Film) Gurnam Bhullar, Maa; PHAPHEY KUTTNIYAN  (Full Movie); TERE LAYI - New Punjabi Movie 2023 II Harish Verma | UCHcDpS0TXITVs0ZrBSIsEsA |
 | Filma Di Pitaari @filmadipitaari | pa | 19 | 2.4M | 9K | IN | Latest Punjabi Action Movie; Jaswinder Bhalla Best Comedy Movie; Latest Punjabi Comedy Movie | UCiYz3qOfrOqoPAKis1cT5zA |
+| Dhaval Hariyani @dhavalhariyani | gu | 19 | 584K | 5K | IN | કુંવરબાઇ નું મામેરું (૧૯૭૪); કંકુ (૧૯૬૯) ગુજરાતી ફિલ્મ; 🔴 Red Dead Redemption 2 | UCIDWLp5f8zkIFPor96YhQdA |
 | Globe Music @globemusic01 | pa | 18 | 3.0M | 5K | IN | New Punjabi Comedy Movie 2026; New Punjabi Comedy Film; KRAZZY TABBAR | UCB4CICtn1ZGYQ3V6zS9zF7w |
 | Preme Films @premefilms-n1n | pa | 18 | 879K | 928 | IN | Chudail Oye - Ammy Virk & Sonam Bajwa; Oye Makhna 2 Full Movie; Manje Bistra 3 | UC0HK5I2DRPfWKZ5HOVwnMTw |
 | Eros Universe Punjabi @erosuniversepunjabi | pa | 17 | 1.5M | 948K | IN | Chaar Sahibzaade 2:  Rise of Banda Singh Bahadur; Shareek Full Punjabi Movie HD; Tera Mera Ki Rishta Full Movie | UCyb987C4Y7UxEkHaHX-GocA |
+| Omjee Punjabi @omjeepunjabi | pa | 17 | 6.0M | 127K | IN | MAIN TERE QURBAAN (Full Movie); Surrender (Official Full Movie); CHOR DIL | UC1yNlmO2gqHweMziybb-dQA |
 | Shemaroo Gujarati Manoranjan @shemaroogujaratimanoranjan1 | gu | 15 | 1.1M | 778K | IN | New Gujarati Movie; પીધા પછી...ભાઈઓ મારા રાજી; Janki Bodiwala New Movie | UC0SZOYynWQVic9HsYt7QO9g |
 | Googly Movies @googlymovies1201 | pa | 15 | 1.8M | 496K | IN | Sajanwa Tohre Khatir; Maut Ki Haveli 2001 मौत की हवेली - Haunted Movie; Vairi | UCbu25WQ71UQt7YFZ-VdzGfw |
 | Punjabi Beat Roll @punjabibeatroll | pa | 15 | 242K | 1K | IN | 🎬 Nawa Viah; Rabb Ton Mangeya; Tahka (2026) | UCiTlSNVVfIaAEMRwUvecBuQ |
@@ -171,6 +178,7 @@ Checked 2026-11-19. Full movie = 60+ minutes, not a clip, not age-restricted, am
 | CamelliaFilms Production @camelliafilmsproduction | bn | 10 | 1.2M | 137K | IN | Kirtaner Por Kirtan I Full Movie I Abhimanyu M I P; Kiriti O Kalo Bhromo I Full Movie I Indraneil Seng; Subho Parinoy (শুভ পরিণয়) I Full Movie | UCW0jQbSacOuH5fWfNTwr4Sg |
 | Just Punjabi Flix @justpunjabi-das | pa | 10 | 378K | 1K | IN | Jattan Da Raule - Gippy Grewal; Manje Bistra 3; Daaru Peela De - Ammy Virk & Sonam Bajwa | UCp62txvcJ3wQOV33dSHafJw |
 | Ultra Punjabi @ultrapunjabi | pa | 10 | 991K | 177K | IN | ਯਾਰੀ, ਪਿਆਰ ਤੇ ਜ਼ਿੰਦਗੀ ਦੇ ਰੰਗਾਂ ਨਾਲ ਸਜੀ ਇੱਕ ਅਨੋਖੀ ਕ; ਰਾਜ ਬੱਬਰ ,ਪ੍ਰੀਤੀ ਸਪਰੂ ਅਤੇ ਕਿਰਨ ਖੇਰ ਦੀ ਜ਼ਬਰਦਸਤ ਪੰਜਾਬ; ਇਸ਼ਕ ਦੀ ਉਹ ਕਹਾਣੀ ਜੋ ਸਦੀਆਂ ਤੱਕ ਯਾਦ ਰਹੇਗੀ❤️Heer Ranj | UCh1dt4diI5nbXYcKwkGbL8Q |
+| Marathi Box Office @marathiboxoffice89 | mr | 10 | 5.4M | 10K |  | Zapatlela 2 marathi Movie ( झपाटलेला २ ) lakxa, Ta; कागर Kagar New Marathi Full Movie HD  Full marathi; Aandhali Koshimbir आंधळी कोशिंबीर | UC4FF907w4ezHk6eYcJmruOg |
 | EverestTalkies @everesttalkies01 | mr | 9 | 6.0M | 320K | IN | Shutter; कायद्याचं बोला (Kaydyacha Bola); Rajwade and Sons | UC6fEAf3vBs1W0gCEFNrDOIg |
 | Me Marathi @marathibanaofficial | mr | 9 | 4.4M | 5K | IN | गावच्या राजकारणाचा फुल्ल तमाशा! 😂; राजकारण की तमाशा?; तूच खरी घरची लक्ष्मी | UCafvhaJpEBJvqi2rVuWTdcg |
 | S.B Fun club @s.bfunclub | mr | 9 | 269K | 223 |  | New Marathi Movie; New Marathi Movie; Takatak 2 (2025) | UCtmIiqsqkpSbwKNcQtNSfDg |
@@ -235,6 +243,7 @@ Checked 2026-11-19. Full movie = 60+ minutes, not a clip, not age-restricted, am
 | HDHUB4U @hdhub4uoficial | bn | 3 | 415K | 2K | IN | Sakal Sandhya Bengali Full Movie /Prasanjit & Rach; Dev 1st Movie "Agnishapath" Bengali Full Movie -De; TOXIC 2026 Action Movie Hindi Dubbed /Yash/Nayanta | UCy6gSf7vmCD_PpIqDKvqKfA |
 | DK Digital @dk_digital_ | gu | 3 | 183K | 408K | IN | Bholi Vahu Upar Sasu No Kop; Garib Ni Majburi; Baap Ni Jamin Hadapva Aayo Dikaro | UCTQWsiW8_7Ob6s7bmvkGgpQ |
 | MRM Studios Limited @mrmstudiosltd | bn | 3 | 1.5M | 102K | IN | Chandrabindoo (চন্দ্রবিন্দু); BIBI PAYRA (বিবি পায়রা); Saralakkho Holmes (সরলাক্ষ হোমস) | UCNmlvV6TE5Pj82sFscvDznw |
+| आपुलकी @आपलकी365 | mr | 3 | 105K | 532 |  | Sinhasan marathi Full movie watch online; उंबरठा १९८२ मराठी movie Umbartha Marathi Movie #ma; Pinjara Full Movie.... | UC7NNGhUtOlQx_RpyJ6XWEXw |
 | Bangla films @banglafilms-s8r | bn | 2 | 427K | 880 |  | Mon Je Kore Uru Uru (2010) Bengali full move Kolka; Prem amar bangla full move (2009) romantic move so | UCP-CpGwYAZiNyieYEYwf1yQ |
 | Habijabi Talkies @habijabitalkies | bn | 2 | 2.9M | 10K |  | Suryatapa (1965) - Bengali Cinema । Story, Context; Mayamriga (মায়ামৃগ) | UCaEXLZuvHdkKoLB8hderftQ |
 | EpicFlicks🎬 @illuminatii22 | mr | 2 | 55K | 46 |  | Ti Sadhya Kay Karte Marathi Full Movie; Chi Va Chi Sau Ka | UCP7Q7PtQUWIVlpjHayKWOrA |
@@ -264,6 +273,9 @@ Checked 2026-11-19. Full movie = 60+ minutes, not a clip, not age-restricted, am
 | FK @thefk | bn | 2 | 859K | 32K | BD | Inspector NottyK Full Bengali Movie; Mitron Full Hindi Movie | UCbV9kMJK4vPIkpra5jsX56g |
 | XYZ Videos @babbumaanliveinbhogiwal | pa | 2 | 627K | 457 |  | Bambukat 2 Full Punjabi Movie; Israel Iran War: Mujtaba Khamenei बने ईरान के सुप् | UCPC_Q3h-m8gGxCMvRTkyPfg |
 | Eros Universe Gujarati @erosuniversegujarati | gu | 2 | 344K | 49K | IN | Latest 2026 Released Gujarati Full Movie: Suryansh; Aavuj Reshe Full Movie | UCzVb5HnLA3PUeXjPy1WNl7A |
+| खटक्यावर बोट जाग्यावर पलटी @खटकयावरबोटजागयावरपलटी-श9ठ | mr | 2 | 69K | 2K | US | Sinhasan (सिंहासन); सामना (1974) – मराठी राजकीय चित्रपट | UC_O5heaYkWsrtNnte333APA |
+| Marathi Movies Endless @marathimovieszone | mr | 2 | 2.6M | 18K | IN | गंमत जम्मत (Gammat Jammat); एक पेक्षा एक (Eka Peksha Ek) | UCnU7wCdQRFI4kXK1aspZegg |
+| Pabitra Entertainment @pabitraaentertainment | pa | 2 | 159K | 2.0M | IN | Jajabara; Priya Mo Asiba Feri | UCsmrdqAylZ8omaPTprtXL3A |
 | Maharashtra Marathi cinema @marathicinema-p5x | mr | 1 | 310K | 180 |  | Ek daav dhobi pachad full Marathi movie in hd | UCIrFcMh9fnFEyxyr6Qca02Q |
 | Bartoon Movies @bartoonmovies9184 | mr | 1 | 3.4M | 7K |  | Bhetli Tu Punha | UC8-mv96Bhyqa60a0f1-Cd7w |
 | Ghuggi Junction @ghuggijunction | pa | 1 | 11.8M | 39K | IN | FURLOW (Full Movie) Gurpreet Ghuggi | UCTtkFUBCoksHlZnIxC555dw |
