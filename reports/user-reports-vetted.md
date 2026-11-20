@@ -1,4 +1,4 @@
-# What people reported - checked 2026-11-19
+# What people reported - checked 2026-11-20
 
 🟢 Fixed - in the app: **15** &nbsp;·&nbsp; 🔵 Ready to add: **0** &nbsp;·&nbsp; 🟡 Needs a look: **17** &nbsp;·&nbsp; 🟣 Closed - nothing to add: **13** &nbsp;·&nbsp; 🔴 Rejected by safety rules: **1** &nbsp;·&nbsp; ⚪ Test entry: **4**
 
