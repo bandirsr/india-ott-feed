@@ -3,7 +3,7 @@
 35 "also in another language" reports; 2 agreeing reports add a language.
 
 ## Added this run
-- Crazy Kalyanam (movie:1610188) +te from 3 reports
+- none
 
 ## Waiting for more reports
 - Sigma (movie:1395215) +te: 1/2
