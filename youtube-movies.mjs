@@ -23,7 +23,7 @@ import { blockReason, childRisk } from './src/safety.js';
 
 const CHANNELS = 'data/youtube-movie-channels.json';
 const OUT = 'data/youtube-movies.json';
-const KEEP_DAYS = 400;
+const KEEP_DAYS = 1095; // 3 years (was 400)
 const MAX_MINUTES = 240; // a longer video is a compilation or a live stream, not one film
 const MIN_MINUTES = 80; // a feature film; trailers, clips and compilations are shorter or far longer
 const NAMES = { te: 'Telugu', hi: 'Hindi', ta: 'Tamil', ml: 'Malayalam', kn: 'Kannada', bn: 'Bengali', mr: 'Marathi', pa: 'Punjabi', gu: 'Gujarati' };
