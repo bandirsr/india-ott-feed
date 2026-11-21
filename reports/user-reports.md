@@ -1,7 +1,8 @@
-# User reports - 2026-11-20
+# User reports - 2026-11-21
 
-87 reports, newest first.
+88 reports, newest first.
 
+- **Love Always** - Also in another language (2026-11-21; Tamil, android) [audio: ta]
 - **Sigma** - Also in another language (2026-11-20; Telugu, android) [audio: te]
 - **Crazy Kalyanam** - Also in another language (2026-11-20; android) [audio: te]
 - **Crazy Kalyanam** - Also in another language (2026-11-20; android) [audio: te]
