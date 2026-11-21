@@ -23,7 +23,7 @@ Newest first inside each group. "Fixed on" is the first day the checker saw the 
 | 2026-10-28 | **Premada** | Kannada | android | - | no exact match; similar: looks like a misspelling of: Prem Adda (kn, yt:ZGPSgEwqtCs, in the app); Premalu (ml, movie:1149791, in the app); Premam (hi, movie:409255, in the app); Premada Oorali (2026, kn, movie:1735270); Premada Kanike (1976, kn, movie:301665). Web news: Premada Oorali OTT release: Kannada blockbuster arrives online after Rs 139 crore run - India Today (2026-11-17) | Premada Oorali OTT release date: When and Where to watch Rangayana Raghu, Shree Raam’s surprise hit film - Moneycontrol.com (2026-11-17) | Premada Oorali gets OTT premiere date - Cinema Express (2026-11-16) | - |
 | 2026-10-27 | **Mounamelanoyi** | Telugu | android | - | no matching Indian-language title on TMDB. Web news: nothing found | - |
 | 2026-10-27 | **418 movie** | Telugu | android | - | TMDB has 418 (Telugu, 2026, movie:1606527) but no India streaming platform yet; it will list once TMDB or a roundup names one. | - |
-| 2026-10-27 | **Pardesi movie** | - | android | - | no matching Indian-language title on TMDB. Web news: nothing found | - |
+| 2026-10-27 | **Pardesi movie** | - | android | - | no matching Indian-language title on TMDB. Web news: Pardesi Movie: Review | Release Date (1957) | Songs | Music | Images | Official Trailers | Videos | Photos | News - Bollywood Hungama (2019-02-02) | - |
 | 2026-10-23 | **Ajay** | Telugu | android · Telugu | - | Unclear which film. TMDB has Ajay (1996 hi, 2006 kn) and Ajay Gadu (2024 te, no streaming platform). Waiting for a clearer report. | - |
 
 ## 🔴 Rejected by safety rules (1)
