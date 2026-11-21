@@ -1,11 +1,12 @@
-# Language reports - 2026-11-20
+# Language reports - 2026-11-21
 
-32 "also in another language" reports; 2 agreeing reports add a language.
+35 "also in another language" reports; 2 agreeing reports add a language.
 
 ## Added this run
-- none
+- Crazy Kalyanam (movie:1610188) +te from 3 reports
 
 ## Waiting for more reports
+- Sigma (movie:1395215) +te: 1/2
 - Oh..! Sukumari (movie:1592679) +te: 1/2
 - Saayavanam (movie:1310458) +te: 1/2
 - Anakapalli (movie:1690876) +te: 1/2
@@ -20,6 +21,5 @@
 - Ranabaali (movie:1389379) +gu: 1/2
 - The Maharashtra Files (movie:1716933) +pa: 1/2
 - Fanaa (movie:8453) +hi: 1/2
-- Crazy Kalyanam (movie:1610188) +te: 1/2
 - Meesaya Murukku 2 (movie:1538457) +ta: 1/2
 - DC (movie:1479832) +te: 1/2
