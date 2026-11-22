@@ -1,5 +1,9 @@
 name: YouTube quota probe
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+    inputs:
+      kind: { description: 'search|playlistItems|videos|channels', default: 'search' }
+      n: { description: 'how many calls', default: '2' }
 permissions:
   contents: read
 jobs:
@@ -12,3 +16,5 @@ jobs:
       - run: node yt-probe.mjs
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          KIND: ${{ github.event.inputs.kind }}
+          N: ${{ github.event.inputs.n }}
