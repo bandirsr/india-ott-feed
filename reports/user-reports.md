@@ -1,7 +1,8 @@
 # User reports - 2026-11-22
 
-88 reports, newest first.
+89 reports, newest first.
 
+- **Srimathi** - Also in another language (2026-11-22; ios) [audio: te]
 - **Love Always** - Also in another language (2026-11-21; Tamil, android) [audio: ta]
 - **Sigma** - Also in another language (2026-11-20; Telugu, android) [audio: te]
 - **Crazy Kalyanam** - Also in another language (2026-11-20; android) [audio: te]
