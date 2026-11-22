@@ -40,7 +40,7 @@ const DRY = process.argv.includes('--dry');
 const budgetArg = process.argv.slice(2).find((a) => /^\d+$/.test(a));
 // Eighty, not a hundred: the rest of the 10,000 units is for the platform-channel
 // and fresh-news passes, which share this key.
-const BUDGET = Number(budgetArg ?? 80);
+const BUDGET = Number(budgetArg ?? 25);
 // Days before a "found nothing" is worth asking about again. Trailers do get
 // uploaded late, but not often enough to spend quota re-asking weekly.
 const RETRY_AFTER_DAYS = 45;

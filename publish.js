@@ -167,8 +167,12 @@ function main(freshReports) {
   // Age-restricted or removed videos (audit-trailers.mjs) are never shown.
   const blockedPath = resolve(HERE, 'data', 'blocked-trailers.json');
   const blockedTrailers = new Set(existsSync(blockedPath) ? JSON.parse(readFileSync(blockedPath, 'utf8')) : []);
+  // Trailers found on YouTube for one title in one language (youtube-dub-trailers.mjs).
+  const ytLangPath = resolve(HERE, 'data', 'youtube-trailers-lang.json');
+  const ytLang = existsSync(ytLangPath) ? JSON.parse(readFileSync(ytLangPath, 'utf8')) : {};
   const trailerFor = (key, code, ol) => {
-    const k = trailerKeyFor(trailers[key], code, ol) ?? youtube[key]?.key ?? null;
+    // The reader's own language wins: TMDB's, then a YouTube find for exactly that language.
+    const k = trailers[key]?.[code] ?? ytLang[`${key}|${code}`]?.key ?? trailerKeyFor(trailers[key], code, ol) ?? youtube[key]?.key ?? null;
     return k && !blockedTrailers.has(k) ? k : null;
   };
 
