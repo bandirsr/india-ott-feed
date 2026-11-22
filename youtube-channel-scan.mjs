@@ -31,6 +31,7 @@ const PAGES_PER_CHANNEL = 12; // 600 videos a channel a run, so one channel cann
 const RESCAN_DAYS = 7;
 const NAMES = { te: 'Telugu', hi: 'Hindi', ta: 'Tamil', ml: 'Malayalam', kn: 'Kannada', bn: 'Bengali', mr: 'Marathi', pa: 'Punjabi', gu: 'Gujarati' };
 const read = (p, d) => (existsSync(p) ? JSON.parse(readFileSync(p, 'utf8').replace(/^﻿/, '')) : d);
+const FOLLOWS = new Set(['official', 'trailer', 'teaser', 'movie', 'film', 'full', 'new', 'final', 'glimpse', 'dubbed', 'hd', 'telugu', 'hindi', 'tamil', 'malayalam', 'kannada', 'bengali', 'marathi', 'punjabi', 'gujarati']);
 const PREFIX = /^((official|new|latest|hd|full|movie|film|trailer|teaser)\s+)+/;
 
 if (!KEY && !DRY) {
@@ -137,16 +138,28 @@ try {
         const lead = norm(title).replace(PREFIX, '');
         const cands = byFirst.get(lead.split(' ')[0]);
         if (!cands) continue;
+        // Stricter than a search result: a channel's whole upload list holds interviews, speeches and
+        // other films whose names merely start the same ("Hero Mouli Speech | ... Teaser Launch").
+        // After the film's title only a trailer-ish word, a language or the year may follow; a title
+        // of one word must also carry the year; and a video that fits two films is skipped.
+        const hits = [];
         for (const p of cands) {
           if (done[p.k]?.key) continue;
           const v = { title, key: id, channel: c.title };
           const verdict = accept({ title: p.title, year: p.year }, v);
           const names = norm(`${title} ${c.title}`).split(' ').includes(norm(NAMES[p.code]));
-          if (verdict.ok && names) {
-            done[p.k] = { key: id, videoTitle: title, channel: c.title, confidence: verdict.confidence, source: 'scan', checkedOn: today };
-            found += 1;
-            console.log(`  + ${p.title.slice(0, 30).padEnd(32)} ${p.code} ${title.slice(0, 60)}  [${c.title}]`);
-          }
+          if (!verdict.ok || !names) continue;
+          const ft = norm(p.title);
+          const next = lead.slice(ft.length).trim().split(' ')[0] ?? '';
+          if (!(next === '' || FOLLOWS.has(next) || /^(19|20)\d{2}$/.test(next))) continue;
+          if (!ft.includes(' ') && !(p.year && lead.includes(String(p.year)))) continue;
+          hits.push({ p, verdict });
+        }
+        if (hits.length === 1) {
+          const { p, verdict } = hits[0];
+          done[p.k] = { key: id, videoTitle: title, channel: c.title, confidence: verdict.confidence, source: 'scan', checkedOn: today };
+          found += 1;
+          console.log(`  + ${p.title.slice(0, 30).padEnd(32)} ${p.code} ${title.slice(0, 60)}  [${c.title}]`);
         }
       }
       c.pages += 1;
