@@ -1,5 +1,5 @@
 {
- "date": "2026-11-21",
+ "date": "2026-11-22",
  "languages": [
   {
    "code": "te",
@@ -65,7 +65,15 @@
      "id": 1269325,
      "title": "Drishyam: The Conclusion",
      "released": "2026-10-02",
-     "popularity": 8,
+     "popularity": 9,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1375156,
+     "title": "Udta Teer",
+     "released": "2026-10-23",
+     "popularity": 5,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -73,6 +81,14 @@
      "id": 1654581,
      "title": "Nayyi Navelli",
      "released": "2026-10-16",
+     "popularity": 3,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1772549,
+     "title": "Pehla Pyaar Doosri Baar",
+     "released": "2026-10-23",
      "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -105,6 +121,14 @@
      "id": 1169537,
      "title": "Batwara 1947",
      "released": "2026-08-13",
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1785611,
+     "title": "Tu Hai Meri Kiran",
+     "released": "2026-10-23",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -158,6 +182,14 @@
      "tmdbPlatforms": []
     },
     {
+     "id": 1806232,
+     "title": "Tum Mere Ho",
+     "released": "2026-10-23",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
      "id": 1021634,
      "title": "Max, Min and Meowzaki",
      "released": "2026-07-24",
@@ -177,6 +209,14 @@
      "id": 1740946,
      "title": "The Bose Files: Sach Ya Sazish",
      "released": "2026-07-30",
+     "popularity": 0,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1799668,
+     "title": "Dhood (Sandstorm)",
+     "released": "2026-10-23",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -198,49 +238,9 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 403514,
-     "title": "Dial 1975",
-     "released": "2026-07-01",
-     "popularity": 0,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1738850,
-     "title": "Indrajaal",
-     "released": "2026-07-24",
-     "popularity": 0,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1724719,
-     "title": "Rahun Main Tere Rubaru",
-     "released": "2026-07-17",
-     "popularity": 0,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1721640,
-     "title": "Navya Chakra - Psycon World",
-     "released": "2026-06-26",
-     "popularity": 0,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1798313,
-     "title": "Oye Chill Maar",
-     "released": "2026-09-25",
-     "popularity": 0,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1769098,
-     "title": "Parched",
-     "released": "2026-09-07",
+     "id": 1416312,
+     "title": "Little Thomas",
+     "released": "2026-10-23",
      "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -356,6 +356,14 @@
      "tmdbPlatforms": []
     },
     {
+     "id": 1244547,
+     "title": "Udumbanchola Vision",
+     "released": "2026-10-23",
+     "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
      "id": 1616268,
      "title": "Aroopi",
      "released": "2026-07-03",
@@ -388,10 +396,18 @@
      "tmdbPlatforms": []
     },
     {
+     "id": 1740967,
+     "title": "Orijinal",
+     "released": "2026-10-23",
+     "popularity": 0,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
      "id": 1722975,
      "title": "Kla Kla Klee Klee Nazriya Thirinjunookki",
      "released": "2026-07-03",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -407,6 +423,14 @@
      "id": 1731502,
      "title": "Vivaah",
      "released": "2026-08-07",
+     "popularity": 0,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1788020,
+     "title": "Crime 302",
+     "released": "2026-10-23",
      "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -442,35 +466,19 @@
      "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
-    },
-    {
-     "id": 1774746,
-     "title": "Daivathaan Kunnu",
-     "released": "2026-09-18",
-     "popularity": 0,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1805385,
-     "title": "Aaru Aanugal",
-     "released": "2026-09-25",
-     "popularity": 0,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
     }
    ]
   },
   {
    "code": "kn",
    "name": "Kannada",
-   "checked": 26,
+   "checked": 27,
    "missing": [
     {
      "id": 1213243,
      "title": "Toxic",
      "released": "2026-08-26",
-     "popularity": 12,
+     "popularity": 13,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -494,7 +502,7 @@
      "id": 1396778,
      "title": "Ayogya 2",
      "released": "2026-08-07",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -510,7 +518,7 @@
      "id": 1754121,
      "title": "Spark",
      "released": "2026-09-25",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -566,6 +574,14 @@
      "id": 1702692,
      "title": "Balaramana Dinagalu",
      "released": "2026-06-26",
+     "popularity": 0,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1770836,
+     "title": "Border Diaries",
+     "released": "2026-10-23",
      "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -733,7 +749,7 @@
      "id": 1530591,
      "title": "Pinjar",
      "released": "2026-07-10",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -774,7 +790,7 @@
   {
    "code": "mr",
    "name": "Marathi",
-   "checked": 15,
+   "checked": 16,
    "missing": [
     {
      "id": 1774540,
@@ -825,6 +841,14 @@
      "tmdbPlatforms": []
     },
     {
+     "id": 1728425,
+     "title": "Magazine",
+     "released": "2026-10-23",
+     "popularity": 0,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
      "id": 1783048,
      "title": "Aali Mothi Shahani",
      "released": "2026-10-02",
@@ -844,7 +868,7 @@
      "id": 1831372,
      "title": "Paach Futaacha Bachchan",
      "released": "2026-10-09",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -883,7 +907,7 @@
      "id": 1518769,
      "title": "Singh vs Kaur 2",
      "released": "2026-09-11",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
