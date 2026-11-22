@@ -141,7 +141,7 @@ try {
         // Stricter than a search result: a channel's whole upload list holds interviews, speeches and
         // other films whose names merely start the same ("Hero Mouli Speech | ... Teaser Launch").
         // After the film's title only a trailer-ish word, a language or the year may follow; a title
-        // of one word must also carry the year; and a video that fits two films is skipped.
+        // of one word must also carry the year or be followed by the viewer's language name; and a video that fits two films is skipped.
         const hits = [];
         for (const p of cands) {
           if (done[p.k]?.key) continue;
@@ -152,7 +152,7 @@ try {
           const ft = norm(p.title);
           const next = lead.slice(ft.length).trim().split(' ')[0] ?? '';
           if (!(next === '' || FOLLOWS.has(next) || /^(19|20)\d{2}$/.test(next))) continue;
-          if (!ft.includes(' ') && !(p.year && lead.includes(String(p.year)))) continue;
+          if (!ft.includes(' ') && !(next === norm(NAMES[p.code]) || (p.year && lead.includes(String(p.year))))) continue; // one-word title: year, or the viewer's language right after it
           hits.push({ p, verdict });
         }
         if (hits.length === 1) {
