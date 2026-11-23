@@ -1,0 +1,13 @@
+name: TMDB peek
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  peek:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          curl -s "https://api.themoviedb.org/3/movie/1555215/watch/providers?api_key=$K" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{const r=JSON.parse(d).results?.IN;console.log('IN',JSON.stringify(r))})"
+          for t in flatrate rent; do echo "discover $t:"; curl -s "https://api.themoviedb.org/3/discover/movie?api_key=$K&watch_region=IN&with_watch_providers=119&with_original_language=te&with_watch_monetization_types=$t&sort_by=primary_release_date.desc&page=1" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{const j=JSON.parse(d);console.log(j.total_results, (j.results||[]).slice(0,8).map(x=>x.title).join(' | '))})"; done
+        env:
+          K: ${{ secrets.TMDB_API_KEY }}
