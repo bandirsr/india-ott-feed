@@ -1,7 +1,8 @@
 # User reports - 2026-11-23
 
-89 reports, newest first.
+90 reports, newest first.
 
+- **418** - Also in another language (2026-11-23; android) [audio: te]
 - **Srimathi** - Also in another language (2026-11-22; ios) [audio: te]
 - **Love Always** - Also in another language (2026-11-21; Tamil, android) [audio: ta]
 - **Sigma** - Also in another language (2026-11-20; Telugu, android) [audio: te]
