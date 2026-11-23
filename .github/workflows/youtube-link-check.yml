@@ -1,10 +1,10 @@
-# Weekly re-check that every trailer link is still alive (deleted, private, age-restricted, not embeddable,
+# Daily slice of a rolling weekly re-check: every trailer link is looked at again every 7 days, so about a seventh of the links each day (first run: all of them, ~215 units; after that ~30 a day) (deleted, private, age-restricted, not embeddable,
 # blocked in India). 50 links per quota unit, about 120 units for all of them. Blocked links are never published.
 name: YouTube link check
 
 on:
   schedule:
-    - cron: '30 9 * * 0'
+    - cron: '30 9 * * *'
   workflow_dispatch:
     inputs:
       dry:
@@ -34,7 +34,7 @@ jobs:
         run: |
           git config user.name "ott-bot"
           git config user.email "ott-bot@users.noreply.github.com"
-          git add data/trailer-safety.json data/trailer-links.json data/blocked-trailers.json
+          git add -A data
           git diff --staged --quiet || git commit -m "YouTube link check: $(date -u +%Y-%m-%d)"
           git pull --rebase
           git push
