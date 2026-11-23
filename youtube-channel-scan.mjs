@@ -18,6 +18,7 @@
  */
 import { readFileSync, writeFileSync, renameSync, existsSync } from 'node:fs';
 import { accept, decode, norm } from './src/youtube-match.js';
+import { MIN_HITS, loadTrusted } from './src/trusted-channels.js';
 
 const KEY = process.env.YOUTUBE_API_KEY;
 const FEED = process.env.FEED_BASE || 'https://bandirsr.github.io/india-ott-feed';
@@ -82,11 +83,9 @@ try {
   }
   console.log(`youtube-channel-scan: ${pairs.length} dubbed pairs without a trailer; budget ${BUDGET} units`);
 
-  // Video ids of trailers we already use, to learn their channels.
+  // Video ids of TMDB's own curated trailers (never our own matches), to learn which channels are official.
   const seedIds = new Set();
   for (const v of Object.values(tr)) for (const [c, k] of Object.entries(v ?? {})) if (c !== '_' && typeof k === 'string') seedIds.add(k);
-  for (const v of Object.values(yt)) if (v?.key) seedIds.add(v.key);
-  for (const v of Object.values(done)) if (v?.key) seedIds.add(v.key);
   const unseen = [...seedIds].filter((id) => !(id in st.seen));
   console.log(`  ${seedIds.size} known trailer videos, ${unseen.length} not yet traced to a channel, ${Object.keys(st.channels).length} channels known`);
   if (DRY) process.exit(0);
@@ -114,8 +113,10 @@ try {
     for (const id of batch) if (!got.has(id)) st.seen[id] = null; // deleted video
   }
 
-  // 2. Scan channels with the most trailers first.
+  // 2. Scan the trusted channels (official platforms, labels, studios) with the most trailers first.
+  const trusted = loadTrusted();
   const order = Object.entries(st.channels)
+    .filter(([, c]) => c.hits >= MIN_HITS || trusted.has(c.title))
     .filter(([, c]) => !c.done || (Date.parse(today) - Date.parse(c.lastScan ?? '2000-01-01')) / 86_400_000 >= RESCAN_DAYS)
     .sort((a, b) => b[1].hits - a[1].hits);
   console.log(`  ${order.length} channels to scan`);

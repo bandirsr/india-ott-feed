@@ -18,6 +18,7 @@
  */
 import { readFileSync, writeFileSync, renameSync, existsSync } from 'node:fs';
 import { accept, decode, norm } from './src/youtube-match.js';
+import { loadTrusted } from './src/trusted-channels.js';
 
 const KEY = process.env.YOUTUBE_API_KEY;
 const FEED = process.env.FEED_BASE || 'https://bandirsr.github.io/india-ott-feed';
@@ -55,6 +56,7 @@ try {
   const tr = read(TR, {});
   const done = read(OUT, {});
   const today = new Date().toISOString().slice(0, 10);
+  const trusted = loadTrusted();
   const stale = (e) => e && !e.key && (Date.parse(today) - Date.parse(e.checkedOn)) / 86_400_000 >= RETRY_AFTER_DAYS;
 
   const todo = [];
@@ -91,7 +93,7 @@ try {
       for (const v of items) {
         const verdict = accept({ title: p.title, year: p.year }, v);
         const names = norm(`${decode(v.title)} ${v.channel}`).split(' ').includes(norm(NAMES[p.code]));
-        if (verdict.ok && names) {
+        if (verdict.ok && names && trusted.has(v.channel)) {
           hit = { key: v.key, videoTitle: decode(v.title), channel: v.channel, confidence: verdict.confidence };
           break;
         }

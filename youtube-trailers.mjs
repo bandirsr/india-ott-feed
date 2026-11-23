@@ -32,6 +32,7 @@ import { readFileSync, writeFileSync, renameSync, existsSync } from 'node:fs';
 import { accept, decode } from './src/youtube-match.js';
 import { planOrder } from './src/trailer-plan.js';
 
+import { loadTrusted } from './src/trusted-channels.js';
 const KEY = process.env.YOUTUBE_API_KEY || readEnv('YOUTUBE_API_KEY');
 const FEED = 'https://bandirsr.github.io/india-ott-feed';
 const TMDB_CACHE = 'data/trailers.json';
@@ -124,6 +125,7 @@ if (DRY) {
   process.exit(0);
 }
 
+const trusted = loadTrusted();
 let spent = 0;
 let found = 0;
 const save = () => {
@@ -139,7 +141,7 @@ for (const film of order) {
     let hit = null;
     for (const v of items) {
       const verdict = accept(film, v);
-      if (verdict.ok) {
+      if (verdict.ok && trusted.has(v.channel)) {
         hit = { key: v.key, videoTitle: decode(v.title), channel: v.channel, confidence: verdict.confidence };
         break;
       }
