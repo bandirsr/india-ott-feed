@@ -1,0 +1,40 @@
+# Weekly re-check that every trailer link is still alive (deleted, private, age-restricted, not embeddable,
+# blocked in India). 50 links per quota unit, about 120 units for all of them. Blocked links are never published.
+name: YouTube link check
+
+on:
+  schedule:
+    - cron: '30 9 * * 0'
+  workflow_dispatch:
+    inputs:
+      dry:
+        description: 'Dry run: print counts only (true/false)'
+        default: 'false'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-sweep
+  cancel-in-progress: false
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Re-check every trailer link
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node youtube-link-check.mjs ${{ github.event.inputs.dry == 'true' && '--dry' || '' }}
+      - name: Commit the results
+        run: |
+          git config user.name "ott-bot"
+          git config user.email "ott-bot@users.noreply.github.com"
+          git add data/trailer-safety.json data/trailer-links.json data/blocked-trailers.json
+          git diff --staged --quiet || git commit -m "YouTube link check: $(date -u +%Y-%m-%d)"
+          git pull --rebase
+          git push

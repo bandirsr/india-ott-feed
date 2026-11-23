@@ -1,0 +1,37 @@
+# The daily look at what official channels uploaded most recently: page one (50 videos, 1 quota unit) of
+# every trusted channel, matched against the dubbed titles and the films that still have no trailer. A trailer
+# published today is linked within a day, without waiting for the deep scan to reach it.
+name: YouTube trailer watch
+
+on:
+  schedule:
+    - cron: '10 9 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-sweep
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Look at every trusted channel's newest uploads
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node youtube-channel-scan.mjs --newest 600
+      - name: Commit
+        run: |
+          git config user.name "ott-bot"
+          git config user.email "ott-bot@users.noreply.github.com"
+          git add data/youtube-trailers-lang.json data/youtube-trailers.json data/youtube-channel-scan.json
+          git diff --staged --quiet || git commit -m "YouTube trailer watch: $(date -u +%Y-%m-%d)"
+          git pull --rebase
+          git push

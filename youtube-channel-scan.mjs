@@ -27,8 +27,11 @@ const YT = 'data/youtube-trailers.json';
 const OUT = 'data/youtube-trailers-lang.json';
 const STATE = 'data/youtube-channel-scan.json';
 const DRY = process.argv.includes('--dry');
+// --newest: the daily look. Only the latest upload page of every trusted channel (1 unit each), so a
+// trailer published today is linked within a day; it also fills films that have no trailer at all.
+const NEWEST = process.argv.includes('--newest');
 const BUDGET = Number(process.argv.slice(2).find((a) => /^\d+$/.test(a)) ?? 7000);
-const PAGES_PER_CHANNEL = 60; // 3,000 videos a channel a run at most, resuming where the last run stopped
+const PAGES_PER_CHANNEL = NEWEST ? 1 : 60; // 3,000 videos a channel a run at most, resuming where the last run stopped
 const RESCAN_DAYS = 7;
 const NAMES = { te: 'Telugu', hi: 'Hindi', ta: 'Tamil', ml: 'Malayalam', kn: 'Kannada', bn: 'Bengali', mr: 'Marathi', pa: 'Punjabi', gu: 'Gujarati' };
 const read = (p, d) => (existsSync(p) ? JSON.parse(readFileSync(p, 'utf8').replace(/^﻿/, '')) : d);
@@ -58,6 +61,7 @@ try {
   const tr = read(TR, {});
   const yt = read(YT, {});
   const done = read(OUT, {});
+  const ytFile = read(YT, {});
   const st = read(STATE, { channels: {}, seen: {} });
   const today = new Date().toISOString().slice(0, 10);
 
@@ -72,6 +76,19 @@ try {
       const k = `${e.id}|${code}`;
       if (done[k]?.key) continue;
       pairs.push({ k, code, title: e.t, year: e.d ? Number(e.d.slice(0, 4)) : null });
+    }
+  }
+  if (NEWEST) {
+    // Films listed with no trailer at all (original-language ones): the film's own trailer from an official channel.
+    const seenFilm = new Set();
+    for (const code of Object.keys(NAMES)) {
+      const res = await fetch(`${FEED}/v1/${code}.json?t=${Date.now()}`);
+      if (!res.ok) continue;
+      for (const e of (await res.json()).titles ?? []) {
+        if (e.k !== 'movie' || e.ol || e.y || seenFilm.has(e.id) || ytFile[e.id]?.key) continue;
+        seenFilm.add(e.id);
+        pairs.push({ k: `o:${e.id}`, kind: 'orig', id: e.id, code, title: e.t, year: e.d ? Number(e.d.slice(0, 4)) : null });
+      }
     }
   }
   const byFirst = new Map(); // first word of the normalized title -> pairs
@@ -95,6 +112,10 @@ try {
     renameSync(`${STATE}.tmp`, STATE);
     writeFileSync(`${OUT}.tmp`, JSON.stringify(done));
     renameSync(`${OUT}.tmp`, OUT);
+    if (NEWEST) {
+      writeFileSync(`${YT}.tmp`, JSON.stringify(ytFile));
+      renameSync(`${YT}.tmp`, YT);
+    }
   };
   globalThis.__save = save;
 
@@ -117,7 +138,7 @@ try {
   const trusted = loadTrusted();
   const order = Object.entries(st.channels)
     .filter(([, c]) => c.hits >= MIN_HITS || trusted.has(c.title))
-    .filter(([, c]) => !c.done || (Date.parse(today) - Date.parse(c.lastScan ?? '2000-01-01')) / 86_400_000 >= RESCAN_DAYS)
+    .filter(([, c]) => NEWEST || !c.done || (Date.parse(today) - Date.parse(c.lastScan ?? '2000-01-01')) / 86_400_000 >= RESCAN_DAYS)
     .sort((a, b) => b[1].hits - a[1].hits);
   console.log(`  ${order.length} channels to scan`);
   let found = 0;
@@ -125,13 +146,13 @@ try {
   let chScanned = 0;
   for (const [cid, c] of order) {
     if (spent >= BUDGET - 1) break;
-    if (c.done) { c.done = false; c.token = null; c.pages = 0; } // weekly rescan starts at the newest
+    if (!NEWEST && c.done) { c.done = false; c.token = null; c.pages = 0; } // weekly rescan starts at the newest
     chScanned += 1;
     for (let pg = 0; pg < PAGES_PER_CHANNEL && spent < BUDGET - 1; pg++) {
       const j = await api('playlistItems', {
-        part: 'snippet', maxResults: '50', playlistId: `UU${cid.slice(2)}`, ...(c.token ? { pageToken: c.token } : {}),
+        part: 'snippet', maxResults: '50', playlistId: `UU${cid.slice(2)}`, ...(!NEWEST && c.token ? { pageToken: c.token } : {}),
       });
-      if (j.notFound) { c.done = true; c.lastScan = today; break; }
+      if (j.notFound) { if (!NEWEST) { c.done = true; c.lastScan = today; } break; }
       for (const it of j.items ?? []) {
         videos += 1;
         const title = decode(it.snippet.title);
@@ -145,24 +166,27 @@ try {
         // of one word must also carry the year or be followed by the viewer's language name; and a video that fits two films is skipped.
         const hits = [];
         for (const p of cands) {
-          if (done[p.k]?.key) continue;
+          if (p.kind === 'orig' ? ytFile[p.id]?.key : done[p.k]?.key) continue;
           const v = { title, key: id, channel: c.title };
           const verdict = accept({ title: p.title, year: p.year }, v);
-          const names = norm(`${title} ${c.title}`).split(' ').includes(norm(NAMES[p.code]));
+          const names = p.kind === 'orig' || norm(`${title} ${c.title}`).split(' ').includes(norm(NAMES[p.code]));
           if (!verdict.ok || !names) continue;
           const ft = norm(p.title);
           const next = lead.slice(ft.length).trim().split(' ')[0] ?? '';
           if (!(next === '' || FOLLOWS.has(next) || /^(19|20)\d{2}$/.test(next))) continue;
-          if (!ft.includes(' ') && !(next === norm(NAMES[p.code]) || (p.year && lead.includes(String(p.year))))) continue; // one-word title: year, or the viewer's language right after it
+          if (!ft.includes(' ') && !((p.kind !== 'orig' && next === norm(NAMES[p.code])) || (p.year && lead.includes(String(p.year))))) continue; // one-word title: year, or the viewer's language right after it
           hits.push({ p, verdict });
         }
         if (hits.length === 1) {
           const { p, verdict } = hits[0];
-          done[p.k] = { key: id, videoTitle: title, channel: c.title, confidence: verdict.confidence, source: 'scan', checkedOn: today };
+          const rec = { key: id, videoTitle: title, channel: c.title, confidence: verdict.confidence, source: NEWEST ? 'newest' : 'scan', checkedOn: today };
+          if (p.kind === 'orig') ytFile[p.id] = { ...rec, query: 'official channel upload' };
+          else done[p.k] = rec;
           found += 1;
           console.log(`  + ${p.title.slice(0, 30).padEnd(32)} ${p.code} ${title.slice(0, 60)}  [${c.title}]`);
         }
       }
+      if (NEWEST) break; // one page: the latest 50 uploads
       c.pages += 1;
       c.token = j.nextPageToken ?? null;
       if (!c.token) { c.done = true; c.lastScan = today; break; }

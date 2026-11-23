@@ -172,8 +172,10 @@ function main(freshReports) {
   const ytLang = existsSync(ytLangPath) ? JSON.parse(readFileSync(ytLangPath, 'utf8')) : {};
   const trailerFor = (key, code, ol) => {
     // The reader's own language wins: TMDB's, then a YouTube find for exactly that language.
-    const k = trailers[key]?.[code] ?? ytLang[`${key}|${code}`]?.key ?? trailerKeyFor(trailers[key], code, ol) ?? youtube[key]?.key ?? null;
-    return k && !blockedTrailers.has(k) ? k : null;
+    // First candidate that is not blocked: a dead or restricted link falls through to the next trailer
+    // for that film rather than to nothing.
+    const candidates = [trailers[key]?.[code], ytLang[`${key}|${code}`]?.key, trailerKeyFor(trailers[key], code, ol), youtube[key]?.key];
+    return candidates.find((k) => k && !blockedTrailers.has(k)) ?? null;
   };
 
   mkdirSync(join(OUT, 'v1'), { recursive: true });
