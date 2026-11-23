@@ -28,7 +28,7 @@ const OUT = 'data/youtube-trailers-lang.json';
 const STATE = 'data/youtube-channel-scan.json';
 const DRY = process.argv.includes('--dry');
 const BUDGET = Number(process.argv.slice(2).find((a) => /^\d+$/.test(a)) ?? 7000);
-const PAGES_PER_CHANNEL = 12; // 600 videos a channel a run, so one channel cannot eat the day
+const PAGES_PER_CHANNEL = 60; // 3,000 videos a channel a run at most, resuming where the last run stopped
 const RESCAN_DAYS = 7;
 const NAMES = { te: 'Telugu', hi: 'Hindi', ta: 'Tamil', ml: 'Malayalam', kn: 'Kannada', bn: 'Bengali', mr: 'Marathi', pa: 'Punjabi', gu: 'Gujarati' };
 const read = (p, d) => (existsSync(p) ? JSON.parse(readFileSync(p, 'utf8').replace(/^﻿/, '')) : d);
