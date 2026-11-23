@@ -1656,7 +1656,7 @@
   ],
   "found": "2026-11-10"
  },
- "_ran": "2026-11-22",
+ "_ran": "2026-11-23",
  "UCiVpICcqzCJsWMexdMrJhxw": {
   "id": "UCiVpICcqzCJsWMexdMrJhxw",
   "name": "Bengali Movies - Channel B Entertainment",
@@ -5463,5 +5463,81 @@
    "Have Malisu Aavte Bhav l હવે મળશુ આવતે ભવ l Gujara"
   ],
   "found": "2026-11-21"
+ },
+ "UCPOlT1ovGVz8YtRM9ds68aQ": {
+  "id": "UCPOlT1ovGVz8YtRM9ds68aQ",
+  "name": "Shrawani Studio",
+  "handle": "@rushisindhup",
+  "subs": 4380,
+  "country": "IN",
+  "langs": "mr",
+  "movies": 4,
+  "views": 771193,
+  "sample": [
+   "ती रात्र (Ti Ratr)",
+   "गिऱ्हाण (Girhan) Superhit Marathi Movie",
+   "Chhayamrug ( छायामृग ) New Marathi Full Movie"
+  ],
+  "found": "2026-11-23"
+ },
+ "UCbzEyoxaICR1yskQ_mOc2gw": {
+  "id": "UCbzEyoxaICR1yskQ_mOc2gw",
+  "name": "SS PRODUCTIONS ",
+  "handle": "@ssproductionsmovies",
+  "subs": 8990,
+  "country": "IN",
+  "langs": "pa",
+  "movies": 1,
+  "views": 445654,
+  "sample": [
+   "LEKH MERE NE BANJAR DHARTI ( FULL MOVIE ) HS BHAJA"
+  ],
+  "found": "2026-11-23"
+ },
+ "UCNEUGwzmwTsmjLrbN9J8s4w": {
+  "id": "UCNEUGwzmwTsmjLrbN9J8s4w",
+  "name": "Saanvi Records",
+  "handle": "@saanvirecordsin",
+  "subs": 44800,
+  "country": "DE",
+  "langs": "pa",
+  "movies": 79,
+  "views": 32876575,
+  "sample": [
+   "SNAPPER Full Movie",
+   "Khosla Ka Ghosla (2006)",
+   "यशवंत"
+  ],
+  "found": "2026-11-23"
+ },
+ "UCj-9wBnkLV5gGkKv3yDhHBQ": {
+  "id": "UCj-9wBnkLV5gGkKv3yDhHBQ",
+  "name": "Rkc ad Media",
+  "handle": "@rkcadmedia",
+  "subs": 422000,
+  "country": "IN",
+  "langs": "gu",
+  "movies": 127,
+  "views": 4219144,
+  "sample": [
+   "વિક્રમ ઠાકોર મમતા સોની",
+   "ગામનો ગબ્બર 🔥",
+   "વિક્રમ ઠાકોર જીતુ પંડયા  મમતા સોની ન્યુ ગુજરાતી મૂ"
+  ],
+  "found": "2026-11-23"
+ },
+ "UCjEXVxz85__ljhVt477jtLw": {
+  "id": "UCjEXVxz85__ljhVt477jtLw",
+  "name": "Rohit Thakor Official",
+  "handle": "@rohitthakorofficial",
+  "subs": 745000,
+  "country": "IN",
+  "langs": "gu",
+  "movies": 1,
+  "views": 845027,
+  "sample": [
+   "Parchadhari Ranuja No Rom - Full Movie"
+  ],
+  "found": "2026-11-23"
  }
 }

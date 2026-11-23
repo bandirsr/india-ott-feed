@@ -1,6 +1,6 @@
 # YouTube channels posting free full movies
 
-Checked 2026-11-22. Full movie = 60+ minutes, not a clip, not age-restricted, among the latest 200 uploads. Approve a channel only if it is the official owner or a licensed distributor.
+Checked 2026-11-23. Full movie = 60+ minutes, not a clip, not age-restricted, among the latest 200 uploads. Approve a channel only if it is the official owner or a licensed distributor.
 
 | Channel | Language | Full movies | Total views | Subscribers | Country | Top titles | channelId |
 |---|---|---|---|---|---|---|---|
@@ -33,6 +33,7 @@ Checked 2026-11-22. Full movie = 60+ minutes, not a clip, not age-restricted, am
 | Housefull Movie Clips @housefullmovieclips | gu | 133 | 72.9M | 643K | IN | सुनील शेट्टी जहाँ कानून की आवाज़ दब जाती है वहां मस; अजय देवगन दुनिया को वफ़ा का पाठ पढ़ाती है खुद मुंह; अजय देवगन बेवफा सनम तेरा नाम मिटा देंगे जो दिल तोड | UClBpHw1g30aTGU0eIKZAHvg |
 | Bhojpuri Superhits @b4ubhojpurisuperhits | gu | 131 | 354.9M | 5.9M | IN | ANATH BETI I अनाथ बेटी - FULL MOVIE; KOHBAR KE RAAJ I कोहबर के राज  I SANJANA PANDEY I ; GUJARAT WALI DULAHIN I गुजरात वाली दुलहिन I KAJAL  | UCFYQ9CBAkWM8sBA3J45nItQ |
 | Dhakad Movie World @dhakadmovieworld27 | pa | 128 | 2.7M | 3K | IN | Full Punjabi Movie; Mitti Ki Saugandh Full HD Movie Dilip Kuma, Vyjaya; Sarpanch Punjabi Full Movie 2026 | UCE7_vSCvIytQizoaStihXbQ |
+| Rkc ad Media @rkcadmedia | gu | 127 | 4.2M | 422K | IN | વિક્રમ ઠાકોર મમતા સોની; ગામનો ગબ્બર 🔥; વિક્રમ ઠાકોર જીતુ પંડયા  મમતા સોની ન્યુ ગુજરાતી મૂ | UCj-9wBnkLV5gGkKv3yDhHBQ |
 | Bengali Movies - Channel B Entertainment @channelbdigital | bn | 126 | 557.7M | 3.9M | IN | মিত্তির বাড়ির ছোট বৌ; জোর; মা আমার মা | UCiVpICcqzCJsWMexdMrJhxw |
 | Idiotic Movies Bangla @idioticmoviesbangla | bn | 121 | 9.1M | 18K | IN | জামাই এলো ঘরে; Abar Kanchanjangha (আবারও কাঞ্চনজঙ্ঘা) Full Movie; Onek Diner Pore | UC1ftOhuxNELYk7s6ZQ8UQ9g |
 | Superhit Movie Junction @superhitmoviejunction1 | gu | 119 | 64.5M | 304K | IN | AMEERO KA DAHEJ; बहन हो तो ऐसी; गरीब बेटी के अमीर ससुराल I FULL MOVIE | UC4itvOWjLHBN7qFBE7BmNCA |
@@ -57,6 +58,7 @@ Checked 2026-11-22. Full movie = 60+ minutes, not a clip, not age-restricted, am
 | SUPER FILMS @superfilmshd | bn | 83 | 9.2M | 12K | IN | Identity Full Movie Malayalam; Pranaya Vilasam Malayalam Full Length HD Movie; Forensic Malayalam Full Length HD Movie | UCliFkRxHlF30zCvMYvDwMwQ |
 | Paramount Gujarati @paramountgujarati | gu | 83 | 85.2M | 608K | IN | Toran Bandhavo Ho Raj; Bhagat Narsih Mahta; Pardeshi Maniyaro | UClk7Q80nDmztS_6RhHUlG4Q |
 | Video Palace Movies @videopalace.movies | mr | 79 | 140.2M | 371K | IN | तांबव्याचा विष्णूबाळा; जत्रा; Pahili Sher Doosri Savaasher Navra Paavsher | UCOdc5HHjiPOT5CnRLWG4F2A |
+| Saanvi Records @saanvirecordsin | pa | 79 | 32.9M | 45K | DE | SNAPPER Full Movie; Khosla Ka Ghosla (2006); यशवंत | UCNEUGwzmwTsmjLrbN9J8s4w |
 | Mahindra Cinema World @mahindracinemaworld | pa | 78 | 11.2M | 227K | IN | Hit Punjabi Movie - Non Stop Comedy Movie 2026 - N; New Punjabi Movie; Rule Extra Ordinary Man Hindi Dubbed Full Movie 20 | UCPrSX4dgBwO27RY9jO7hZ3A |
 | RAMESH G DANKHARA  @rameshdankhara3193 | gu | 76 | 6.9M | 26K | IN | Uajali meraman ઉજળી મેરામણ Full Gujarati HD નરેશ ક; Telai Garashani Full Gujarati Movie તેજલ ગરાસણી નર; Vir Mangdavalo વિર માંગડાળો Full Gujarati Movie HD | UCrkR97xlDTGw81N0qpAUufw |
 | NH Marathi @nhmarathi | mr | 75 | 7.2M | 1.1M | IN | राजकारणाचा डाव प्रेमाचा घाव -Thriller Marathi Movi; बोर्डिंग स्कूलमधून पळालेल्या अशोकची गावाकडे ओढ; मुलगी नसलेल्या गावात अली सुंदर मुलगी, काय होणार आत | UC0_YOGkM_A_muGaur_EXbTw |
@@ -232,6 +234,7 @@ Checked 2026-11-22. Full movie = 60+ minutes, not a clip, not age-restricted, am
 | JOJO @jojoparjojo | gu | 4 | 2.7M | 72K | IN | Bhai Ni Beni Ladki; 3 Ekka Full Movie; Prem No Power Full Movie HD Gujarati Drama | UC8k4-igSOZ5Q2NPvgwKIfCw |
 | ScreenX @movielover9-c7i | bn | 4 | 588K | 1K |  | Asur (2020) Bengali Full Movie; আমি সুভাষ বলছি; Dui prithibi Full movie in bengali 🔥 | UCIsYfsQfryJ9X-0Hi1KfcCA |
 | Just Punjabi @justpunjabi | pa | 4 | 1.6M | 658K | IN | New Punjabi Full Movie 2026; Carry On Jatta 2 G Full Movie; ਗੁਰੂ ਦਿਆਂ ਲਾਲਾਂ  l Guru Deyan Lalan l Char Sahibza | UCNSmgU-V9kMcfPMpsMacOvA |
+| Shrawani Studio @rushisindhup | mr | 4 | 771K | 4K | IN | ती रात्र (Ti Ratr); गिऱ्हाण (Girhan) Superhit Marathi Movie; Chhayamrug ( छायामृग ) New Marathi Full Movie | UCPOlT1ovGVz8YtRM9ds68aQ |
 | Grey Matter. @nobody6377 | bn | 3 | 243K | 191 | IN | Meghnadbodh Rohoshyo (2017) 720p HDRip Full movie; Byomkesh Bakshi - Kohen Kobi Kalidas (Full Movie); Kapurush 1965 Movie of Satyajit Ray   কাপুরুষ ১৯৬৫ | UCE64nTPTHOwCH5yO7Kd8zOg |
 | Faijan Cinema Zone @faijan_payak | gu | 3 | 74K | 182 | IN | Locha Lapsi; SAHEB Gujarati Best Movie; JAAT ~ Sunny Deol New Released Action Hindi Movies | UCYWZMtU_iMawMvJJwjsvvXA |
 | Zio Recaps @ziorecaps | bn | 3 | 4.8M | 8K | BD | তিন বন্ধু প্রেম করতে গিয়ে জড়িয়ে পড়ল বিয়ের মহা; Born in a Magical World With No Magic? His Story W; Rimuru vs Eastern Empire! The Biggest War in Tensu | UC5CniiDQEWWCWU36wp8zrTQ |
@@ -340,3 +343,5 @@ Checked 2026-11-22. Full movie = 60+ minutes, not a clip, not age-restricted, am
 | S Dramaz @sdramazeditzzz9 | pa | 1 | 471K | 1K | PK | Nigah Marda Ayi Ve Punjabi Movie | UCrl9GlUD7KOToUN5J70bSXQ |
 | Raja Chamunda official @rajachamundaofficial2490 | gu | 1 | 152K | 13K | IN | હાલ ભેરુ ગામડે | UCQrhBMpCsetFpyXwwfc2y-g |
 | Mr HP Films @mrhpfilms8173 | gu | 1 | 104K | 122K | IN | Have Malisu Aavte Bhav l હવે મળશુ આવતે ભવ l Gujara | UCCZlQJleeiGzTB2Ntxqf7Cg |
+| SS PRODUCTIONS  @ssproductionsmovies | pa | 1 | 446K | 9K | IN | LEKH MERE NE BANJAR DHARTI ( FULL MOVIE ) HS BHAJA | UCbzEyoxaICR1yskQ_mOc2gw |
+| Rohit Thakor Official @rohitthakorofficial | gu | 1 | 845K | 745K | IN | Parchadhari Ranuja No Rom - Full Movie | UCjEXVxz85__ljhVt477jtLw |
