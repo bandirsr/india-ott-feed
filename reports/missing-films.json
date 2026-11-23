@@ -1,5 +1,5 @@
 {
- "date": "2026-11-22",
+ "date": "2026-11-23",
  "languages": [
   {
    "code": "te",
@@ -10,7 +10,7 @@
      "id": 1620668,
      "title": "Mayookha",
      "released": "2026-10-09",
-     "popularity": 2,
+     "popularity": 4,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -18,7 +18,7 @@
      "id": 1814023,
      "title": "Adhey Neevu Adhey Nenu",
      "released": "2026-07-31",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -73,7 +73,7 @@
      "id": 1654581,
      "title": "Nayyi Navelli",
      "released": "2026-10-16",
-     "popularity": 3,
+     "popularity": 4,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -81,7 +81,7 @@
      "id": 1772549,
      "title": "Pehla Pyaar Doosri Baar",
      "released": "2026-10-23",
-     "popularity": 3,
+     "popularity": 4,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -113,7 +113,7 @@
      "id": 1285815,
      "title": "Mahakavya: Shri Ramayan Katha",
      "released": "2026-09-25",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -121,7 +121,7 @@
      "id": 1714993,
      "title": "Aryabhatt Ka Zero",
      "released": "2026-08-07",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -201,7 +201,7 @@
      "id": 1713420,
      "title": "Uttar Da Puttar",
      "released": "2026-07-24",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -209,7 +209,7 @@
      "id": 1787082,
      "title": "Poniiy",
      "released": "2026-10-16",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -264,7 +264,7 @@
      "id": 954445,
      "title": "Yezhu Kadal Yezhu Malai",
      "released": "2026-10-01",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -335,7 +335,7 @@
      "id": 922673,
      "title": "The Third Murder",
      "released": "2026-10-02",
-     "popularity": 5,
+     "popularity": 4,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -391,7 +391,7 @@
      "id": 1740967,
      "title": "Orijinal",
      "released": "2026-10-23",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -450,6 +450,14 @@
      "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
+    },
+    {
+     "id": 1774746,
+     "title": "Daivathaan Kunnu",
+     "released": "2026-09-18",
+     "popularity": 0,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
     }
    ]
   },
@@ -462,7 +470,7 @@
      "id": 1213243,
      "title": "Toxic",
      "released": "2026-08-26",
-     "popularity": 13,
+     "popularity": 11,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -502,7 +510,7 @@
      "id": 1754121,
      "title": "Spark",
      "released": "2026-09-25",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -510,7 +518,7 @@
      "id": 1792171,
      "title": "Life Today",
      "released": "2026-08-06",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -518,7 +526,7 @@
      "id": 1730231,
      "title": "Rakky",
      "released": "2026-07-10",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -661,7 +669,7 @@
      "id": 1530591,
      "title": "Pinjar",
      "released": "2026-07-10",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -669,7 +677,7 @@
      "id": 1711502,
      "title": "Nevermind",
      "released": "2026-07-03",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -828,7 +836,7 @@
      "id": 1747479,
      "title": "Jayanti 2",
      "released": "2026-09-11",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -978,7 +986,7 @@
      "id": 1793713,
      "title": "Andhkar",
      "released": "2026-10-16",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
