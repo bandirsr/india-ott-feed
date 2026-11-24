@@ -1,5 +1,24 @@
 [
  {
+  "key": "2026-11-24T15:03:47.639Z|Telugu move new",
+  "title": "Telugu move new",
+  "reportedAt": "2026-11-24T15:03:47.639Z",
+  "language": "",
+  "appPlatform": "android",
+  "onPlatform": "",
+  "note": "",
+  "status": "REVIEW",
+  "verdict": "NEEDS REVIEW",
+  "why": "no matching Indian-language title on TMDB. Web news: nothing found",
+  "tmdb": null,
+  "matched": null,
+  "cert": null,
+  "firstSeen": "2026-11-24",
+  "checkedOn": "2026-11-24",
+  "firstCheckedAt": "2026-11-24T23:53:36.317Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z"
+ },
+ {
   "key": "2026-11-18T16:16:00.806Z|Premada urali",
   "title": "Premada urali",
   "reportedAt": "2026-11-18T16:16:00.806Z",
@@ -16,7 +35,7 @@
   "firstSeen": "2026-11-18",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-11-18T22:36:24.643Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z"
+  "checkedAt": "2026-11-24T23:53:36.317Z"
  },
  {
   "key": "2026-11-18T16:15:11.711Z|Premada urali",
@@ -35,7 +54,7 @@
   "firstSeen": "2026-11-18",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-11-18T22:36:24.643Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z"
+  "checkedAt": "2026-11-24T23:53:36.317Z"
  },
  {
   "key": "2026-11-16T13:59:45.471Z|new movies",
@@ -54,7 +73,7 @@
   "firstSeen": "2026-11-16",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-11-16T23:44:56.215Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z"
+  "checkedAt": "2026-11-24T23:53:36.317Z"
  },
  {
   "key": "2026-11-16T13:51:50.989Z|adult",
@@ -66,14 +85,14 @@
   "note": "",
   "status": "REVIEW",
   "verdict": "NEEDS REVIEW",
-  "why": "no exact match; similar: looks like a misspelling of: #Cult (te, movie:1637705, in the app); Arul (ta, movie:63674, in the app); Adalat (hi, movie:107964, in the app). Web news: What to watch: 7 adult romantic movies streaming on ZEE5, Netflix and more - GQ India (2026-02-19) | India Assigns Adult Rating to 'The Devil Wears Prada 2'; Here Is Why - Deccan Chronicle (2026-05-07) | Alia Bhatt Working On Her First ‘Young Adult’ Film; To Join Forces With This OTT Platform - MensXP (2025-08-13)",
+  "why": "no exact match; similar: looks like a misspelling of: #Cult (te, movie:1637705, in the app); Arul (ta, movie:63674, in the app); Adalat (hi, movie:107964, in the app). Web news: What to watch: 7 adult romantic movies streaming on ZEE5, Netflix and more - GQ India (2026-02-19) | Saree out on OTT: Where to stream Ram Gopal Varma's adult thriller - OTTPlay (2025-07-11) | Venkat Prabhu’s adult drama ‘Manmatha Leelai’ to premiere on OTT - The Times of India (2022-04-16)",
   "tmdb": null,
   "matched": null,
   "cert": null,
   "firstSeen": "2026-11-16",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-11-16T23:44:56.215Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z"
+  "checkedAt": "2026-11-24T23:53:36.317Z"
  },
  {
   "key": "2026-11-16T09:17:23.140Z|Nadhina",
@@ -92,7 +111,7 @@
   "firstSeen": "2026-11-16",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-11-16T11:14:25.902Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z"
+  "checkedAt": "2026-11-24T23:53:36.317Z"
  },
  {
   "key": "2026-11-13T11:48:40.031Z|VINOD",
@@ -111,7 +130,7 @@
   "firstSeen": "2026-11-13",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-11-13T21:25:53.468Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z"
+  "checkedAt": "2026-11-24T23:53:36.317Z"
  },
  {
   "key": "2026-11-11T02:55:10.952Z|Ramana",
@@ -123,14 +142,14 @@
   "note": "",
   "status": "REVIEW",
   "verdict": "NEEDS REVIEW",
-  "why": "no exact match; similar: looks like a misspelling of: RAANA (hi, yt:BObc8nzflyw, in the app); Zamana (hi, movie:604188, in the app); Ramanaa (ta, movie:78955, in the app); Ramana Avatara (2024, kn, movie:1289558); Ramanaa (2002, ta, movie:78955). Web news: Romanchakam | Song - Radha Ramana (Lyrical) - The Times of India (2026-07-23) | Romanchakam | Song - Radha Ramana - The Times of India (2026-09-19) | Rishi’s Ramana Avatara to release in Telugu as well - OTTPlay (2024-02-16)",
+  "why": "no exact match; similar: looks like a misspelling of: RAANA (hi, yt:BObc8nzflyw, in the app); Zamana (hi, movie:604188, in the app); Ramanaa (ta, movie:78955, in the app); Ramana Avatara (2024, kn, movie:1289558); Ramanaa (2002, ta, movie:78955). Web news: Romanchakam | Song - Radha Ramana (Lyrical) - The Times of India (2026-07-23) | Rishi’s Ramana Avatara to release in Telugu as well - OTTPlay (2024-02-16) | Mahesh Babu is honoured with Bapu Ramana Puraskaram - 123telugu.com (2024-04-10)",
   "tmdb": null,
   "matched": null,
   "cert": null,
   "firstSeen": "2026-11-11",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-11-11T10:55:26.765Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z"
+  "checkedAt": "2026-11-24T23:53:36.317Z"
  },
  {
   "key": "2026-11-08T12:57:16.988Z|Batta",
@@ -149,7 +168,7 @@
   "firstSeen": "2026-11-08",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-11-08T19:40:52.319Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z"
+  "checkedAt": "2026-11-24T23:53:36.317Z"
  },
  {
   "key": "2026-11-08T02:30:41.163Z|Telugu",
@@ -168,7 +187,7 @@
   "firstSeen": "2026-11-08",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-11-08T10:19:13.338Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-11-08",
   "fixedAt": "2026-11-08T10:19:13.338Z"
  },
@@ -182,14 +201,14 @@
   "note": "",
   "status": "REVIEW",
   "verdict": "NEEDS REVIEW",
-  "why": "no exact match; similar: looks like a misspelling of: Shruti Movies (hi, yt:1p1j5AsZ0ak, in the app); TAMIL MOVIES (ta, yt:UGLPdrglOjc, in the app). Web news: New Telugu OTT Releases This Week (November 2026): Movies & Series Streaming Now | Latest Telugu Movies & Web Series on OTT – November 2026 Streaming Guide | Telugu OTT Premieres This Week: November 2026 Movies on Prime, Netflix, Aha & Z - Filmibeat (2025-12-30) | August 2026 Telugu Movies Release Date, Schedule & Calendar - Filmibeat (2026-01-01)",
+  "why": "no exact match; similar: looks like a misspelling of: Shruti Movies (hi, yt:1p1j5AsZ0ak, in the app); TAMIL MOVIES (ta, yt:UGLPdrglOjc, in the app). Web news: New Telugu OTT Releases This Week (November 2026): Movies & Series Streaming Now | Latest Telugu Movies & Web Series on OTT – November 2026 Streaming Guide | Telugu OTT Premieres This Week: November 2026 Movies on Prime, Netflix, Aha & Z - Filmibeat (2025-12-30) | Netflix Pandaga 2026: From Ustaad Bhagat Singh to Peddi – Netflix Bags OTT Rights of Big Telugu Movies - Filmibeat (2026-01-16) | Rewind 2022: Top 10 Best Telugu Movies To Watch on Amazon Prime - FilmyFocus (2022-12-29)",
   "tmdb": null,
   "matched": null,
   "cert": null,
   "firstSeen": "2026-11-02",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-11-02T11:02:25.067Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z"
+  "checkedAt": "2026-11-24T23:53:36.317Z"
  },
  {
   "key": "2026-10-30T18:48:14.682Z|The ghazi attack",
@@ -208,7 +227,7 @@
   "firstSeen": "2026-10-30",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-30T19:56:10.720Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-10-30",
   "fixedAt": "2026-10-30T19:56:10.720Z"
  },
@@ -229,7 +248,7 @@
   "firstSeen": "2026-10-29",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-29T20:17:00.689Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -250,7 +269,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-28T20:15:47.492Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -271,7 +290,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-28T20:15:47.492Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -292,7 +311,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-28T20:15:47.492Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z"
+  "checkedAt": "2026-11-24T23:53:36.317Z"
  },
  {
   "key": "2026-10-28T16:13:43.460Z|Telugu",
@@ -311,7 +330,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-28T20:15:47.492Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -332,7 +351,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-28T20:15:47.492Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -353,7 +372,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-28T20:15:47.492Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z"
+  "checkedAt": "2026-11-24T23:53:36.317Z"
  },
  {
   "key": "2026-10-28T13:51:23.466Z|Na wife missing",
@@ -372,7 +391,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-28T20:15:47.492Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z"
+  "checkedAt": "2026-11-24T23:53:36.317Z"
  },
  {
   "key": "2026-10-28T13:28:15.672Z|I'm game",
@@ -391,7 +410,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-28T20:15:47.492Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -412,7 +431,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-28T09:38:40.436Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -433,7 +452,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-28T09:38:40.436Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z"
+  "checkedAt": "2026-11-24T23:53:36.317Z"
  },
  {
   "key": "2026-10-27T17:41:43.054Z|Mounamelanoyi",
@@ -452,7 +471,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-28T00:31:51.755Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z"
+  "checkedAt": "2026-11-24T23:53:36.317Z"
  },
  {
   "key": "2026-10-27T17:31:40.057Z|Chenni express",
@@ -471,7 +490,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-28T00:31:51.755Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -492,7 +511,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-28T00:31:51.755Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -513,7 +532,7 @@
   "firstSeen": "2026-10-28",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-28T00:31:51.755Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -534,7 +553,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-27T15:21:05.543Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z"
+  "checkedAt": "2026-11-24T23:53:36.317Z"
  },
  {
   "key": "2026-10-27T13:06:46.776Z|Mani",
@@ -553,7 +572,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-27T15:21:05.543Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z"
+  "checkedAt": "2026-11-24T23:53:36.317Z"
  },
  {
   "key": "2026-10-27T12:03:15.248Z|All",
@@ -572,7 +591,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-27T15:21:05.543Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -593,7 +612,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-27T15:21:05.543Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -614,7 +633,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-27T15:21:05.543Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z"
+  "checkedAt": "2026-11-24T23:53:36.317Z"
  },
  {
   "key": "2026-10-27T07:38:25.064Z|Jaialr2",
@@ -633,7 +652,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-27T08:58:12.086Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -654,7 +673,7 @@
   "firstSeen": "2026-10-27",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-27T08:58:12.086Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-11-01",
   "fixedAt": "2026-11-01T10:26:16.437Z"
  },
@@ -676,7 +695,7 @@
   "checkedOn": "2026-11-24",
   "fixedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedAt": "2026-10-25T18:21:11.373Z"
  },
  {
@@ -696,7 +715,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:04.432Z"
  },
@@ -718,7 +737,7 @@
   "checkedOn": "2026-11-24",
   "fixedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedAt": "2026-10-25T18:21:11.373Z"
  },
  {
@@ -738,7 +757,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:14.586Z"
  },
@@ -760,7 +779,7 @@
   "checkedOn": "2026-11-24",
   "fixedOn": "2026-10-25",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedAt": "2026-10-25T18:21:11.373Z"
  },
  {
@@ -780,7 +799,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:04.432Z"
  },
@@ -801,7 +820,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T19:08:57.929Z"
  },
@@ -822,7 +841,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z"
+  "checkedAt": "2026-11-24T23:53:36.317Z"
  },
  {
   "key": "2026-10-23T17:11:34.071Z|2026",
@@ -841,7 +860,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:04.432Z"
  },
@@ -862,7 +881,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:04.432Z"
  },
@@ -883,7 +902,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:04.432Z"
  },
@@ -904,7 +923,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T18:46:14.586Z"
  },
@@ -925,7 +944,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z",
+  "checkedAt": "2026-11-24T23:53:36.317Z",
   "fixedOn": "2026-10-25",
   "fixedAt": "2026-10-25T19:09:21.748Z"
  },
@@ -946,7 +965,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z"
+  "checkedAt": "2026-11-24T23:53:36.317Z"
  },
  {
   "key": "2026-10-17T14:00:40.537Z|Testtest",
@@ -965,7 +984,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z"
+  "checkedAt": "2026-11-24T23:53:36.317Z"
  },
  {
   "key": "2026-10-17T03:32:01.179Z|Browser test film (ignore)",
@@ -984,7 +1003,7 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z"
+  "checkedAt": "2026-11-24T23:53:36.317Z"
  },
  {
   "key": "2026-10-17T03:31:31.428Z|Test film (ignore)",
@@ -1003,6 +1022,6 @@
   "firstSeen": "2026-10-25",
   "checkedOn": "2026-11-24",
   "firstCheckedAt": "2026-10-25T18:21:11.373Z",
-  "checkedAt": "2026-11-24T13:40:56.259Z"
+  "checkedAt": "2026-11-24T23:53:36.317Z"
  }
 ]
