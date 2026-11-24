@@ -1,11 +1,12 @@
-# Language reports - 2026-11-23
+# Language reports - 2026-11-24
 
-37 "also in another language" reports; 2 agreeing reports add a language.
+38 "also in another language" reports; 2 agreeing reports add a language.
 
 ## Added this run
 - none
 
 ## Waiting for more reports
+- 418 (movie:1606527) +te: 1/2
 - Srimathi (movie:1737773) +te: 1/2
 - Love Always (tv:337054) +ta: 1/2
 - Sigma (movie:1395215) +te: 1/2
