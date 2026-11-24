@@ -1,7 +1,9 @@
-# User reports - 2026-11-23
+# User reports - 2026-11-24
 
-90 reports, newest first.
+92 reports, newest first.
 
+- **Anumana Pakshi** - Also in another language (2026-11-23; Telugu, android) [audio: te]
+- **Crazy Kalyanam** - Also in another language (2026-11-23; Telugu, android) [audio: te]
 - **418** - Also in another language (2026-11-23; android) [audio: te]
 - **Srimathi** - Also in another language (2026-11-22; ios) [audio: te]
 - **Love Always** - Also in another language (2026-11-21; Tamil, android) [audio: ta]
