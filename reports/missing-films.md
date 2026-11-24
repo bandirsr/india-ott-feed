@@ -5,11 +5,11 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 | Language | Checked | In feed | Missing | TMDB says streaming (our bug) | Rent/buy only | Unknown |
 |---|---:|---:|---:|---:|---:|---:|
 | Telugu | 40 | 33 | 7 | 0 | 0 | 7 |
-| Hindi | 39 | 15 | 24 | 0 | 0 | 24 |
+| Hindi | 39 | 16 | 23 | 0 | 0 | 23 |
 | Tamil | 40 | 29 | 11 | 0 | 0 | 11 |
 | Malayalam | 38 | 22 | 16 | 0 | 0 | 16 |
 | Kannada | 25 | 7 | 18 | 0 | 0 | 18 |
-| Bengali | 21 | 3 | 18 | 0 | 0 | 18 |
+| Bengali | 20 | 3 | 17 | 0 | 0 | 17 |
 | Marathi | 16 | 3 | 13 | 0 | 0 | 13 |
 | Punjabi | 17 | 9 | 8 | 0 | 0 | 8 |
 | Gujarati | 8 | 0 | 8 | 0 | 0 | 8 |
@@ -26,7 +26,6 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 
 ## Hindi
 
-- Drishyam: The Conclusion (2026-10-02, popularity 8, tmdb 1269325) - no platform known anywhere
 - Udta Teer (2026-10-23, popularity 5, tmdb 1375156) - no platform known anywhere
 - Nayyi Navelli (2026-10-16, popularity 4, tmdb 1654581) - no platform known anywhere
 - Pehla Pyaar Doosri Baar (2026-10-23, popularity 3, tmdb 1772549) - no platform known anywhere
@@ -115,7 +114,6 @@ Films that opened in Indian cinemas 30-150 days ago (top 40 by popularity per or
 - Nevermind (2026-07-03, popularity 1, tmdb 1711502) - no platform known anywhere
 - Maya Satya Bhram (2026-08-28, popularity 1, tmdb 1373504) - no platform known anywhere
 - Bhootu Aaya Bhago (2026-10-02, popularity 0, tmdb 1728829) - no platform known anywhere
-- Ei Shohorer Gaan (2026-10-10, popularity 0, tmdb 1736395) - no platform known anywhere
 - Beporoya (2026-09-17, popularity 0, tmdb 1242197) - no platform known anywhere
 - Pinjar (2026-07-10, popularity 0, tmdb 1530591) - no platform known anywhere
 - Amader 7 Kahon (2026-08-07, popularity 0, tmdb 1741127) - no platform known anywhere

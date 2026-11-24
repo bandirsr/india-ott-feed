@@ -70,14 +70,6 @@
    "checked": 39,
    "missing": [
     {
-     "id": 1269325,
-     "title": "Drishyam: The Conclusion",
-     "released": "2026-10-02",
-     "popularity": 8,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1375156,
      "title": "Udta Teer",
      "released": "2026-10-23",
@@ -647,7 +639,7 @@
   {
    "code": "bn",
    "name": "Bengali",
-   "checked": 21,
+   "checked": 20,
    "missing": [
     {
      "id": 1607833,
@@ -709,14 +701,6 @@
      "id": 1728829,
      "title": "Bhootu Aaya Bhago",
      "released": "2026-10-02",
-     "popularity": 0,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1736395,
-     "title": "Ei Shohorer Gaan",
-     "released": "2026-10-10",
      "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
