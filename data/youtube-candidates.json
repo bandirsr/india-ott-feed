@@ -1656,7 +1656,7 @@
   ],
   "found": "2026-11-10"
  },
- "_ran": "2026-11-24",
+ "_ran": "2026-11-25",
  "UCiVpICcqzCJsWMexdMrJhxw": {
   "id": "UCiVpICcqzCJsWMexdMrJhxw",
   "name": "Bengali Movies - Channel B Entertainment",
@@ -5723,5 +5723,108 @@
    "Sunny Deol's Bollywood Blockbuster Movie"
   ],
   "found": "2026-11-24"
+ },
+ "UCpmioA_ujH2-gI-8et21qmg": {
+  "id": "UCpmioA_ujH2-gI-8et21qmg",
+  "name": "MOHIN   MOVIE",
+  "handle": "@mohin.movie7",
+  "subs": 684,
+  "country": "",
+  "langs": "bn",
+  "movies": 7,
+  "views": 568000,
+  "sample": [
+   "SHATRU",
+   "BINDASS",
+   "SEDIN DEKHA HOYECHILO (2010)"
+  ],
+  "found": "2026-11-25"
+ },
+ "UCmoyrpu_Ug09lebVEvqBs1w": {
+  "id": "UCmoyrpu_Ug09lebVEvqBs1w",
+  "name": "Unknown Info",
+  "handle": "@unknowninfo-26",
+  "subs": 1460,
+  "country": "BD",
+  "langs": "bn",
+  "movies": 1,
+  "views": 702526,
+  "sample": [
+   "Tomar Jonno Mon"
+  ],
+  "found": "2026-11-25"
+ },
+ "UCrbKrILYH5toYblD1kbiU2g": {
+  "id": "UCrbKrILYH5toYblD1kbiU2g",
+  "name": "SS VIRAL TUBE",
+  "handle": "@ssviraltube",
+  "subs": 2470,
+  "country": "IN",
+  "langs": "bn",
+  "movies": 1,
+  "views": 238876,
+  "sample": [
+   "Bachchan (বচ্চন) Bengali full movie 2025"
+  ],
+  "found": "2026-11-25"
+ },
+ "UCNvJLy9Abz-skj5L0Y7aAfA": {
+  "id": "UCNvJLy9Abz-skj5L0Y7aAfA",
+  "name": "Stellar Studios",
+  "handle": "@stellarstudios01",
+  "subs": 14500,
+  "country": "IN",
+  "langs": "pa",
+  "movies": 2,
+  "views": 61968,
+  "sample": [
+   "HOSTELLERS",
+   "Boo Main Dargi (Full Movie)"
+  ],
+  "found": "2026-11-25"
+ },
+ "UCSc-iXXQkg9PMiuUZcEwMew": {
+  "id": "UCSc-iXXQkg9PMiuUZcEwMew",
+  "name": "ROHIT RATAN Entertainment",
+  "handle": "@rohitratanentertainment6253",
+  "subs": 544000,
+  "country": "IN",
+  "langs": "pa",
+  "movies": 172,
+  "views": 18822216,
+  "sample": [
+   "Sonam Bajwa Comedy",
+   "Punjabi Movies 2026",
+   "Latest Punjabi Movie"
+  ],
+  "found": "2026-11-25"
+ },
+ "UCdvQ2QEG6KVDyANk2btgTiQ": {
+  "id": "UCdvQ2QEG6KVDyANk2btgTiQ",
+  "name": "J S Motion Pictures ltd",
+  "handle": "@jsmotionpictures",
+  "subs": 38300,
+  "country": "GB",
+  "langs": "pa",
+  "movies": 5,
+  "views": 2463298,
+  "sample": [
+   "New Punjabi Movies 2026",
+   "New Punjabi Movies 2026",
+   "New Punjabi Movies 2026"
+  ],
+  "found": "2026-11-25"
+ },
+ "UCC2gfsGbzJyFdiM46PgHb5g": {
+  "id": "UCC2gfsGbzJyFdiM46PgHb5g",
+  "name": "Alfaaz One",
+  "handle": "@alfaazone",
+  "subs": 5870,
+  "country": "IN",
+  "langs": "pa",
+  "movies": 0,
+  "views": 0,
+  "sample": [],
+  "found": "2026-11-25"
  }
 }

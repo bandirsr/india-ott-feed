@@ -1,11 +1,12 @@
-# Language reports - 2026-11-24
+# Language reports - 2026-11-25
 
-40 "also in another language" reports; 2 agreeing reports add a language.
+41 "also in another language" reports; 2 agreeing reports add a language.
 
 ## Added this run
 - none
 
 ## Waiting for more reports
+- Drones (movie:1728763) +te: 1/2
 - Anumana Pakshi (movie:1542674) +te: 1/2
 - 418 (movie:1606527) +te: 1/2
 - Srimathi (movie:1737773) +te: 1/2
