@@ -1,7 +1,15 @@
 # User reports - 2026-11-25
 
-95 reports, newest first.
+103 reports, newest first.
 
+- **Chef Mantra Project USA** - Also in another language (2026-11-25; Telugu, android) [audio: te]
+- **Garividi Lakshmi** - Also in another language (2026-11-25; android) [audio: te]
+- **Garividi Lakshmi** - Also in another language (2026-11-25; Telugu, android) [audio: te]
+- **Kla Kla Klee Klee Nazriya Thirinjunookki** - Also in another language (2026-11-25; android) [audio: te]
+- **Garividi Lakshmi** - Also in another language (2026-11-25; android) [audio: te]
+- **Garividi Lakshmi** - Also in another language (2026-11-25; android) [audio: te]
+- **Garividi Lakshmi** - Also in another language (2026-11-25; android) [audio: te]
+- **Garividi Lakshmi** - Also in another language (2026-11-25; android) [audio: te]
 - **T mallikharjunarao** - Missing title (2026-11-25; Telugu, android)
 - **Telugu move new** - Missing title (2026-11-24; android)
 - **Drones** - Also in another language (2026-11-24; Telugu, android) [audio: te]
