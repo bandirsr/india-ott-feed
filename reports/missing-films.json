@@ -1,5 +1,5 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-25",
  "languages": [
   {
    "code": "te",
@@ -10,7 +10,7 @@
      "id": 1620668,
      "title": "Mayookha",
      "released": "2026-10-09",
-     "popularity": 5,
+     "popularity": 6,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -26,14 +26,6 @@
      "id": 1814023,
      "title": "Adhey Neevu Adhey Nenu",
      "released": "2026-07-31",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1555847,
-     "title": "Garividi Lakshmi",
-     "released": "2026-10-17",
      "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -97,7 +89,7 @@
      "id": 1475799,
      "title": "Haiwaan",
      "released": "2026-09-11",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -289,8 +281,10 @@
      "title": "4 Idiots",
      "released": "2026-09-04",
      "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
+     "tmdb": "streaming",
+     "tmdbPlatforms": [
+      " AP International South Cinema Amazon Channel"
+     ]
     },
     {
      "id": 1590380,
@@ -383,7 +377,7 @@
      "id": 1585736,
      "title": "Kalari Kid – She Hits Back",
      "released": "2026-09-01",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -391,7 +385,7 @@
      "id": 1731502,
      "title": "Vivaah",
      "released": "2026-08-07",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -510,7 +504,7 @@
      "id": 1754121,
      "title": "Spark",
      "released": "2026-09-25",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -621,7 +615,7 @@
      "id": 1607833,
      "title": "Bohurupi: The Golden Daku",
      "released": "2026-10-15",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -764,7 +758,7 @@
      "id": 1609047,
      "title": "Sohla",
      "released": "2026-10-16",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -796,7 +790,7 @@
      "id": 1728425,
      "title": "Magazine",
      "released": "2026-10-23",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -869,7 +863,7 @@
   {
    "code": "pa",
    "name": "Punjabi",
-   "checked": 17,
+   "checked": 16,
    "missing": [
     {
      "id": 1771989,

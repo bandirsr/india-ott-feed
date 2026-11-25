@@ -1,7 +1,8 @@
-# User reports - 2026-11-24
+# User reports - 2026-11-25
 
-94 reports, newest first.
+95 reports, newest first.
 
+- **T mallikharjunarao** - Missing title (2026-11-25; Telugu, android)
 - **Telugu move new** - Missing title (2026-11-24; android)
 - **Drones** - Also in another language (2026-11-24; Telugu, android) [audio: te]
 - **Anumana Pakshi** - Also in another language (2026-11-23; Telugu, android) [audio: te]
