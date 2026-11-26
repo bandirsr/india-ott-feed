@@ -1,11 +1,13 @@
-# Language reports - 2026-11-25
+# Language reports - 2026-11-26
 
-41 "also in another language" reports; 2 agreeing reports add a language.
+49 "also in another language" reports; 2 agreeing reports add a language.
 
 ## Added this run
-- none
+- Garividi Lakshmi (movie:1555847) +te from 6 reports
 
 ## Waiting for more reports
+- Chef Mantra Project USA (tv:334527) +te: 1/2
+- Kla Kla Klee Klee Nazriya Thirinjunookki (movie:1722975) +te: 1/2
 - Drones (movie:1728763) +te: 1/2
 - Anumana Pakshi (movie:1542674) +te: 1/2
 - 418 (movie:1606527) +te: 1/2

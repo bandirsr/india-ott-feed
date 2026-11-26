@@ -1,6 +1,6 @@
 # YouTube channels posting free full movies
 
-Checked 2026-11-25. Full movie = 60+ minutes, not a clip, not age-restricted, among the latest 200 uploads. Approve a channel only if it is the official owner or a licensed distributor.
+Checked 2026-11-26. Full movie = 60+ minutes, not a clip, not age-restricted, among the latest 200 uploads. Approve a channel only if it is the official owner or a licensed distributor.
 
 | Channel | Language | Full movies | Total views | Subscribers | Country | Top titles | channelId |
 |---|---|---|---|---|---|---|---|
@@ -183,6 +183,7 @@ Checked 2026-11-25. Full movie = 60+ minutes, not a clip, not age-restricted, am
 | Dhamaal Marathi @dhamaalmarathi1765 | mr | 13 | 834K | 925K | IN | किशोरी शहाणे अभिजीत केळकर चेतन दळवीचा सुपरहिट मराठ; मकरंद अनासपुरे मिताली जगताप ह्यांचा जबरदस्त मराठी ; आईच्या ममतेची जाणीव करून देणारा जबरदस्त मराठी मूवी | UCWSrv-TZ05YSiKpwlhCtgAA |
 | Eros Universe Marathi  @erosuniversemarathi | mr | 13 | 1.6M | 212K |  | Baban; Asehi Ekada Vhave Full Movie; Gotya - गोट्या (2018) HD | UCh-MzsQuhPe6cxNPlBhXAvw |
 | Matinee Now HD @matineenowhd | pa | 13 | 4.4M | 70K | IN | New Malayalam Movie; Spadikam Full Movie; Mohanlal Comedy Full Movie | UCKH7E8Jr7_pFraJ9QEF5wdg |
+| GoldminesMarathi @goldminesmarathi | mr | 13 | 1.5M | 48K |  | Jai Mohta Devi; Kulswami Tulja Bhavani - Superhit Marathi Full Mov; Antarpat | UCzVI7GpUT4KEr6_brhFebig |
 | Geet MP3 Movies @geetmp3movie | pa | 12 | 204.1M | 570K | IN | Shooter Full Movie; MEDAL (Full Movie) - Jayy Randhawa - Baani Sandhu ; LOVER (Full Movie) Guri - Ronak Joshi | UC2GKdedu534s9hfPlnegldA |
 | Uttar Kumar Official @uttarkumarofficial4897 | pa | 12 | 16.0M | 2.3M | IN | Love Case; Bajhin; Dhakad Ka Faisla | UCJvms0hYjQPuL_ctQypFBrg |
 | Shemaroo MarathiBana @shemaroomarathibana | mr | 12 | 1.6M | 2.3M | IN | एक गाडी बाकी अनाडी - लक्ष्मीकांत बेर्डे अशोक सराफ ; बकुळा नामदेव घोटाळे - सुपरहिट मराठी कॉमेडी मूवी - ; गौराचा नवरा - लक्ष्मीकांत बेर्डे उषा चव्हाण कुलदीप | UCBETHYM36RTO6CaMZFw4OWg |
@@ -206,6 +207,7 @@ Checked 2026-11-25. Full movie = 60+ minutes, not a clip, not age-restricted, am
 | Rajshri Marathi @rajshrimarathi | mr | 8 | 416K | 5.3M | IN | रेस्टॉरंटमध्ये जॉब ते बॉलीवुडचा मराठी आवाज; Vaidehi Parshurami On कथातीत, Social Media Pressur; सेटवर अपमान ते अम्मा म्हणून जगभरात ओळख | UC7NszqtDGyVuQuxUEAN_n2Q |
 | Raphor Digital @raphordigital | pa | 8 | 3.8M | 64K | IN | Ni Main Sass Kutni "Full Movie"; Munda Faridkotia Full Movie HD; New Punjabi Movie 2026 | UCBHm2cI2ZITgnd54jYDvhlg |
 | Ohri Productions @ohriproductions9935 | pa | 8 | 178K | 749K | IN | Lambran Da Laana; New Punjabi Movie 2026; Raula Basement Da 🎬 New Punjabi Full Movie | UCXGfEe1B2fXzHeKt_w4HUvg |
+| Parnit Kang @parnitkang | pa | 8 | 1.4M | 12K |  | Latest Punjabi Comedy Movie; New Punjabi Comedy Movie; Punjabi Comedy Movie 2026 | UC3wv9MSujPUPri7EqvSDiJw |
 | RoyalFrame Cinema   @royalframecinema | pa | 7 | 1.0M | 929 | IN | Shubh Full Punjabi Movie; South Indian Full Hindi Dubbed Action Movie; Mahesh Babu, Shruti Haasan | UCZ_F4yBzOF9dUgE3rGdRqdA |
 | Worldwide Records Gujarati @wwrgujarati | gu | 7 | 70.3M | 727K | IN | Maiyar Ma Mandu Nathi Lagtu; Maiyar Ma Mandu Nathi Lagtu Part - 2; Mein To Palavade Bandhi Preet | UC3rHdnHlSdEDX7M67hxwCew |
 | IVY Meshwa Films @ivymeshwafilms | gu | 7 | 9.3M | 5.7M | IN | Krushna Bhajan Sangarh; Shree Nathji Ni Zankhi; Ramdevpir Bhajan Sangarh | UCW8BWcgpCtPRG3nLSGLAK2g |
@@ -303,6 +305,7 @@ Checked 2026-11-25. Full movie = 60+ minutes, not a clip, not age-restricted, am
 | Lakhveer jhinjer @lakhveerjhinjer9016 | pa | 2 | 148K | 92 |  | Babe Bhangra Paunde Ne; Honsla Rakh | UCSLrriz-WMVMAok3B5tvnPg |
 | sidhu moosewala @kidscartoontv00857 | pa | 2 | 1.3M | 2K | IN | OYE BHOLE OYE 2 ( FULL MOVIE ) JAGJEET SANDHU; sidhu moosewala subscribers count #sidhumoosewala | UCyCF0i79ML8eBKFXTdxRf6A |
 | Stellar Studios @stellarstudios01 | pa | 2 | 62K | 15K | IN | HOSTELLERS; Boo Main Dargi (Full Movie) | UCNvJLy9Abz-skj5L0Y7aAfA |
+| Music Waves @musicwavesproductions | pa | 2 | 21.9M | 1.3M | CA | Mitti Wajaan Maardi I Full Punjabi Movie; Jag Jeondeyan De Mele | UCDxaC1zOQyWkXCIPlD8XoOw |
 | Maharashtra Marathi cinema @marathicinema-p5x | mr | 1 | 310K | 180 |  | Ek daav dhobi pachad full Marathi movie in hd | UCIrFcMh9fnFEyxyr6Qca02Q |
 | Bartoon Movies @bartoonmovies9184 | mr | 1 | 3.4M | 7K |  | Bhetli Tu Punha | UC8-mv96Bhyqa60a0f1-Cd7w |
 | Ghuggi Junction @ghuggijunction | pa | 1 | 11.8M | 39K | IN | FURLOW (Full Movie) Gurpreet Ghuggi | UCTtkFUBCoksHlZnIxC555dw |

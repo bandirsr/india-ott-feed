@@ -1656,7 +1656,7 @@
   ],
   "found": "2026-11-10"
  },
- "_ran": "2026-11-25",
+ "_ran": "2026-11-26",
  "UCiVpICcqzCJsWMexdMrJhxw": {
   "id": "UCiVpICcqzCJsWMexdMrJhxw",
   "name": "Bengali Movies - Channel B Entertainment",
@@ -5826,5 +5826,52 @@
   "views": 0,
   "sample": [],
   "found": "2026-11-25"
+ },
+ "UCzVI7GpUT4KEr6_brhFebig": {
+  "id": "UCzVI7GpUT4KEr6_brhFebig",
+  "name": "GoldminesMarathi",
+  "handle": "@goldminesmarathi",
+  "subs": 47900,
+  "country": "",
+  "langs": "mr",
+  "movies": 13,
+  "views": 1533832,
+  "sample": [
+   "Jai Mohta Devi",
+   "Kulswami Tulja Bhavani - Superhit Marathi Full Mov",
+   "Antarpat"
+  ],
+  "found": "2026-11-26"
+ },
+ "UC3wv9MSujPUPri7EqvSDiJw": {
+  "id": "UC3wv9MSujPUPri7EqvSDiJw",
+  "name": "Parnit Kang",
+  "handle": "@parnitkang",
+  "subs": 12000,
+  "country": "",
+  "langs": "pa",
+  "movies": 8,
+  "views": 1383282,
+  "sample": [
+   "Latest Punjabi Comedy Movie",
+   "New Punjabi Comedy Movie",
+   "Punjabi Comedy Movie 2026"
+  ],
+  "found": "2026-11-26"
+ },
+ "UCDxaC1zOQyWkXCIPlD8XoOw": {
+  "id": "UCDxaC1zOQyWkXCIPlD8XoOw",
+  "name": "Music Waves",
+  "handle": "@musicwavesproductions",
+  "subs": 1250000,
+  "country": "CA",
+  "langs": "pa",
+  "movies": 2,
+  "views": 21879622,
+  "sample": [
+   "Mitti Wajaan Maardi I Full Punjabi Movie",
+   "Jag Jeondeyan De Mele"
+  ],
+  "found": "2026-11-26"
  }
 }
