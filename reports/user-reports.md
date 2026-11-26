@@ -1,7 +1,8 @@
 # User reports - 2026-11-26
 
-103 reports, newest first.
+104 reports, newest first.
 
+- **Garividi Lakshmi** - Also in another language (2026-11-26; Telugu, android) [audio: te]
 - **Chef Mantra Project USA** - Also in another language (2026-11-25; Telugu, android) [audio: te]
 - **Garividi Lakshmi** - Also in another language (2026-11-25; android) [audio: te]
 - **Garividi Lakshmi** - Also in another language (2026-11-25; Telugu, android) [audio: te]
