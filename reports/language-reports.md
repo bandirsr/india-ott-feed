@@ -3,7 +3,7 @@
 49 "also in another language" reports; 2 agreeing reports add a language.
 
 ## Added this run
-- Garividi Lakshmi (movie:1555847) +te from 6 reports
+- none
 
 ## Waiting for more reports
 - Chef Mantra Project USA (tv:334527) +te: 1/2
