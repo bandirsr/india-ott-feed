@@ -1656,7 +1656,7 @@
   ],
   "found": "2026-11-10"
  },
- "_ran": "2026-11-26",
+ "_ran": "2026-11-27",
  "UCiVpICcqzCJsWMexdMrJhxw": {
   "id": "UCiVpICcqzCJsWMexdMrJhxw",
   "name": "Bengali Movies - Channel B Entertainment",
@@ -5873,5 +5873,101 @@
    "Jag Jeondeyan De Mele"
   ],
   "found": "2026-11-26"
+ },
+ "UCubhc2TDvcI3FfJ5fXJ8AyQ": {
+  "id": "UCubhc2TDvcI3FfJ5fXJ8AyQ",
+  "name": "Dr. Sanjib Malik",
+  "handle": "@sanjibmalik",
+  "subs": 66200,
+  "country": "IN",
+  "langs": "bn",
+  "movies": 3,
+  "views": 510475,
+  "sample": [
+   "Open Tee Bioscope (2015)  ''ওপেন টি বায়োস্কোপ'' Be",
+   "Ek Doctor Ki Maut (1990) by Tapan Sinha [ Full Mov",
+   "Sister Nivedita (ভগিনী নিবেদিতা) - an Inspiration"
+  ],
+  "found": "2026-11-27"
+ },
+ "UCUsYSxpqLQULcIGQBR3C9Vg": {
+  "id": "UCUsYSxpqLQULcIGQBR3C9Vg",
+  "name": "Cineshrushti Pictures",
+  "handle": "@cineshrustipictures1234",
+  "subs": 2770,
+  "country": "IN",
+  "langs": "mr",
+  "movies": 15,
+  "views": 1204154,
+  "sample": [
+   "Gatta Kusthi 2 - Movie In Hindi 2026",
+   "Toxic Movie Hindi",
+   "Thukra Ke Mera Pyaar 2 Movie"
+  ],
+  "found": "2026-11-27"
+ },
+ "UC0PKLLmL8pIJLjOI1gBH_pA": {
+  "id": "UC0PKLLmL8pIJLjOI1gBH_pA",
+  "name": "Shemaroo Comedy",
+  "handle": "@shemaroobollywoodcomedy",
+  "subs": 22600000,
+  "country": "IN",
+  "langs": "mr",
+  "movies": 8,
+  "views": 25688949,
+  "sample": [
+   "Kamaal Dhamaal Malamaal Full Movie",
+   "WELCOME BACK MOVIE - भगवान का दिया हुआ सब कुछ है",
+   "Double Dhamaal Full Movie - ऐ भोजपुरी पिक्चर के ओम"
+  ],
+  "found": "2026-11-27"
+ },
+ "UCeAw6cAKz3Kyyt_6mHrTOOg": {
+  "id": "UCeAw6cAKz3Kyyt_6mHrTOOg",
+  "name": "Anand Music",
+  "handle": "@anandmusic",
+  "subs": 2060000,
+  "country": "IN",
+  "langs": "pa",
+  "movies": 7,
+  "views": 5624481,
+  "sample": [
+   "Meri Pyari Dadi l New Punjabi Full Movie 2026",
+   "Teda Meda Chal Canada l New Punjabi Full Movie 202",
+   "ਮਹਿਲ ਸਿੱਖੀ ਦਾ"
+  ],
+  "found": "2026-11-27"
+ },
+ "UCog9Wf6qnqc-wO-rZ_DhXFw": {
+  "id": "UCog9Wf6qnqc-wO-rZ_DhXFw",
+  "name": "Aradhana Film",
+  "handle": "@aradhanafilm",
+  "subs": 987000,
+  "country": "IN",
+  "langs": "gu",
+  "movies": 8,
+  "views": 3290019,
+  "sample": [
+   "મર્યાદા મૂકવી પડી..!! ફૂલ મૂવી",
+   "સમય કોઈનો સગો નથી...!!",
+   "સાસુમાં ની સેવા..!! ફૂલ મૂવી"
+  ],
+  "found": "2026-11-27"
+ },
+ "UCZ978rvMgC9BwNJRk5gPDvg": {
+  "id": "UCZ978rvMgC9BwNJRk5gPDvg",
+  "name": "સાધના ફિલ્મ્સ",
+  "handle": "@સાધનાફિલમસ",
+  "subs": 108000,
+  "country": "IN",
+  "langs": "gu",
+  "movies": 14,
+  "views": 1022791,
+  "sample": [
+   "ગરીબી માં એક રોટલી ની કિંમત..! ફૂલ મૂવી",
+   "નાની વહુ ને નોકરી નો પડારો",
+   "Mavtar Thi Moti Koi Milkat Nathi Full Movie"
+  ],
+  "found": "2026-11-27"
  }
 }
