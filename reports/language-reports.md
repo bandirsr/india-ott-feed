@@ -1,11 +1,13 @@
 # Language reports - 2026-11-27
 
-50 "also in another language" reports; 2 agreeing reports add a language.
+52 "also in another language" reports; 2 agreeing reports add a language.
 
 ## Added this run
 - none
 
 ## Waiting for more reports
+- Kla Kla Klee Klee Nazriya Thirinjunookki (movie:1722975) +kn: 1/2
+- Salliyargal (movie:1398084) +te: 1/2
 - Chef Mantra Project USA (tv:334527) +te: 1/2
 - Kla Kla Klee Klee Nazriya Thirinjunookki (movie:1722975) +te: 1/2
 - Drones (movie:1728763) +te: 1/2
