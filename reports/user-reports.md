@@ -1,7 +1,8 @@
 # User reports - 2026-11-27
 
-106 reports, newest first.
+107 reports, newest first.
 
+- **Hanuman Ansh** - Also in another language (2026-11-27; android) [audio: te]
 - **Kla Kla Klee Klee Nazriya Thirinjunookki** - Also in another language (2026-11-27; android) - a [audio: kn]
 - **Salliyargal** - Also in another language (2026-11-27; Telugu, android) [audio: te]
 - **Garividi Lakshmi** - Also in another language (2026-11-26; Telugu, android) [audio: te]
