@@ -1,7 +1,9 @@
-# User reports - 2026-11-26
+# User reports - 2026-11-27
 
-104 reports, newest first.
+106 reports, newest first.
 
+- **Kla Kla Klee Klee Nazriya Thirinjunookki** - Also in another language (2026-11-27; android) - a [audio: kn]
+- **Salliyargal** - Also in another language (2026-11-27; Telugu, android) [audio: te]
 - **Garividi Lakshmi** - Also in another language (2026-11-26; Telugu, android) [audio: te]
 - **Chef Mantra Project USA** - Also in another language (2026-11-25; Telugu, android) [audio: te]
 - **Garividi Lakshmi** - Also in another language (2026-11-25; android) [audio: te]

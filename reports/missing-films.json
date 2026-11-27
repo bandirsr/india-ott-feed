@@ -1,5 +1,5 @@
 {
- "date": "2026-11-26",
+ "date": "2026-11-27",
  "languages": [
   {
    "code": "te",
@@ -49,7 +49,7 @@
      "id": 1375156,
      "title": "Udta Teer",
      "released": "2026-10-23",
-     "popularity": 5,
+     "popularity": 4,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -73,7 +73,7 @@
      "id": 1081010,
      "title": "Prahaar: The Untold Story of Ujjwal Nikam",
      "released": "2026-10-16",
-     "popularity": 2,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -81,7 +81,7 @@
      "id": 1714993,
      "title": "Aryabhatt Ka Zero",
      "released": "2026-08-07",
-     "popularity": 2,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -158,14 +158,6 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1389153,
-     "title": "Jeevan Bheema Yojana",
-     "released": "2026-09-04",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
      "id": 1453317,
      "title": "Hari Ka Om",
      "released": "2026-09-18",
@@ -185,7 +177,7 @@
      "id": 1416312,
      "title": "Little Thomas",
      "released": "2026-10-23",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -202,6 +194,14 @@
      "title": "Almari",
      "released": "2026-10-07",
      "popularity": 1,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1389153,
+     "title": "Jeevan Ya Bheema Con?",
+     "released": "2026-09-04",
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -462,7 +462,7 @@
      "id": 1213243,
      "title": "Toxic",
      "released": "2026-08-26",
-     "popularity": 13,
+     "popularity": 11,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -478,14 +478,6 @@
      "id": 1093467,
      "title": "Detective Teekshanaa",
      "released": "2026-08-07",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 691267,
-     "title": "Graamaayana",
-     "released": "2026-07-03",
      "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -494,6 +486,14 @@
      "id": 1734726,
      "title": "America America 2",
      "released": "2026-09-11",
+     "popularity": 0,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 691267,
+     "title": "Graamaayana",
+     "released": "2026-07-03",
      "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -772,7 +772,7 @@
      "id": 1726314,
      "title": "Maharashtra Epstein Files",
      "released": "2026-10-02",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -869,7 +869,7 @@
      "id": 1518769,
      "title": "Singh vs Kaur 2",
      "released": "2026-09-11",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
