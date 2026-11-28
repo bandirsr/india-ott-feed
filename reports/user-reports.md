@@ -1,7 +1,8 @@
-# User reports - 2026-11-27
+# User reports - 2026-11-28
 
-107 reports, newest first.
+108 reports, newest first.
 
+- **Thella Kaagitham** - Also in another language (2026-11-28; Telugu, android) [audio: te]
 - **Hanuman Ansh** - Also in another language (2026-11-27; android) [audio: te]
 - **Kla Kla Klee Klee Nazriya Thirinjunookki** - Also in another language (2026-11-27; android) - a [audio: kn]
 - **Salliyargal** - Also in another language (2026-11-27; Telugu, android) [audio: te]

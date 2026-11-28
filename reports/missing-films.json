@@ -1,5 +1,5 @@
 {
- "date": "2026-11-27",
+ "date": "2026-11-28",
  "languages": [
   {
    "code": "te",
@@ -34,7 +34,7 @@
      "id": 1628882,
      "title": "Shabara",
      "released": "2026-10-02",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     }
@@ -49,7 +49,7 @@
      "id": 1375156,
      "title": "Udta Teer",
      "released": "2026-10-23",
-     "popularity": 4,
+     "popularity": 5,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -73,7 +73,15 @@
      "id": 1772549,
      "title": "Pehla Pyaar Doosri Baar",
      "released": "2026-10-23",
-     "popularity": 3,
+     "popularity": 2,
+     "tmdb": "nothing",
+     "tmdbPlatforms": []
+    },
+    {
+     "id": 1389153,
+     "title": "Jeevan Ya Bheema Con?",
+     "released": "2026-09-04",
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -89,7 +97,7 @@
      "id": 1714993,
      "title": "Aryabhatt Ka Zero",
      "released": "2026-08-07",
-     "popularity": 1,
+     "popularity": 2,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -169,7 +177,7 @@
      "id": 1453317,
      "title": "Hari Ka Om",
      "released": "2026-09-18",
-     "popularity": 1,
+     "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -185,14 +193,6 @@
      "id": 1794929,
      "title": "Doosra",
      "released": "2026-10-23",
-     "popularity": 1,
-     "tmdb": "nothing",
-     "tmdbPlatforms": []
-    },
-    {
-     "id": 1389153,
-     "title": "Jeevan Ya Bheema Con?",
-     "released": "2026-09-04",
      "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -222,9 +222,9 @@
      "tmdbPlatforms": []
     },
     {
-     "id": 1799668,
-     "title": "Dhood (Sandstorm)",
-     "released": "2026-10-23",
+     "id": 1803293,
+     "title": "Udgam: The Origin of Life",
+     "released": "2026-10-29",
      "popularity": 0,
      "tmdb": "nothing",
      "tmdbPlatforms": []
@@ -240,7 +240,7 @@
      "id": 1563192,
      "title": "Lenin Pandiyan",
      "released": "2026-09-25",
-     "popularity": 2,
+     "popularity": 3,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -470,7 +470,7 @@
      "id": 1213243,
      "title": "Toxic",
      "released": "2026-08-26",
-     "popularity": 11,
+     "popularity": 12,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
@@ -895,7 +895,7 @@
      "id": 1649791,
      "title": "Ishqnama",
      "released": "2026-07-24",
-     "popularity": 0,
+     "popularity": 1,
      "tmdb": "nothing",
      "tmdbPlatforms": []
     },
