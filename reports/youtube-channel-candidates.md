@@ -1,6 +1,6 @@
 # YouTube channels posting free full movies
 
-Checked 2026-11-27. Full movie = 60+ minutes, not a clip, not age-restricted, among the latest 200 uploads. Approve a channel only if it is the official owner or a licensed distributor.
+Checked 2026-11-28. Full movie = 60+ minutes, not a clip, not age-restricted, among the latest 200 uploads. Approve a channel only if it is the official owner or a licensed distributor.
 
 | Channel | Language | Full movies | Total views | Subscribers | Country | Top titles | channelId |
 |---|---|---|---|---|---|---|---|
@@ -106,6 +106,7 @@ Checked 2026-11-27. Full movie = 60+ minutes, not a clip, not age-restricted, am
 | Latest Punjabi Comedy @latestpunjabicomedy | pa | 40 | 873K | 390K | IN | Dev Kharoud (Full Movie HD); Happi Gosal (2026) Punjabi Full Movie; Latest Punjabi Comedy Movie | UCqlnY3DrzKG_Lwrtfim3tAg |
 | Eros Universe Bengali @erosuniversebengali | bn | 39 | 32.7M | 118K |  | ডাবল ফেলুদা - Double Feluda; অমর প্রেম; Monchora (মঞ্চৰ ) | UCSxpVg6DduXoWCk7gb7Q5BQ |
 | Maharashtracha Crorepati @kbcmarathihd | mr | 39 | 2.9M | 38K | IN | ❤️ माहेरचा आहेर Full Movie; नाना पाटेकरांच्या शब्दांनी सचिन खेडेकर झाले भावूक!; 😱 स्वतःच्या अंत्यविधीसाठी नानांनी आधीच लाकडं काढू | UCwlh857K6-IaC-Xub1U_mmg |
+| Sony WAH @sonywah | mr | 38 | 12.1M | 7.3M | IN | Toby; Pravinkoodu Shappu; Varshangalkku Shesham | UCfNPmyLCMkTOFoHzjB_YeJg |
 | Eagle Punjabi Express @eaglepunjabiexpress | pa | 37 | 30.5M | 162K | IN | ਬਲਬੀਰੋ ਭਾਬੀ Punjabi Full Movie; SHO Sher SIngh (Thana Sadar) Jaswinder Bhalla, Bal; ਮੈਮੋਠੱਗਣੀਆਂ Punjabi Movie | UC7Vdv6PgqgslpjEJnqKO1tw |
 | Dhamaal Entertainment @dhamaalentertainment-o1ua | pa | 37 | 5.1M | 9K | US | श्मनों का दुश्मन; Lootera Full HD Movie; Welcome To Jungle Bhoot Uncle | UCZzWRK5M5Yjh6j67t8U27Ig |
 | Ultra Chitranagari @अलटराचितरनगरी | mr | 36 | 890K | 255K | IN | कडक बायको (Kadak Bayko); Kiran Kulkarni Vs Kiran Kulkarni; दरवर्षी नवरात्री आली कि तुला नऊ रंगाच्या साड्या ला | UCxQy6x2kS7pkYRV-UmXzlkw |
