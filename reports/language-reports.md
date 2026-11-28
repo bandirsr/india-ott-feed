@@ -1,11 +1,12 @@
 # Language reports - 2026-11-28
 
-53 "also in another language" reports; 2 agreeing reports add a language.
+54 "also in another language" reports; 2 agreeing reports add a language.
 
 ## Added this run
 - none
 
 ## Waiting for more reports
+- Thella Kaagitham (movie:1456196) +te: 1/2
 - Hanuman Ansh (movie:1709391) +te: 1/2
 - Kla Kla Klee Klee Nazriya Thirinjunookki (movie:1722975) +kn: 1/2
 - Salliyargal (movie:1398084) +te: 1/2
